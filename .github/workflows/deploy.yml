@@ -1,18 +1,15 @@
 name: Deploy site
 
+# CI calls this after its checks and CodeQL pass on main, handing over the site it built and checked. Run it by hand
+# (Actions → Deploy site → Run workflow) to rebuild and redeploy without a push.
 on:
-  push:
-    branches: [main]
+  workflow_call:
   workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
   build:
@@ -28,10 +25,17 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run build
-      - name: Generate thumbnails, full-page shots and OG banners
+      - name: Use the site CI built and checked (thumbnails and OG banners included)
+        if: github.event_name != 'workflow_dispatch'
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: site
+          path: apps/web/out
+      - run: npx playwright@1.54.1 install --with-deps chromium
+      - name: Build the site, thumbnails and OG banners (manual runs)
+        if: github.event_name == 'workflow_dispatch'
         run: |
-          npx playwright@1.54.1 install --with-deps chromium
+          npm run build
           npm run screenshots
       - name: Record the looping card previews
         run: npm run previews
@@ -44,6 +48,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
