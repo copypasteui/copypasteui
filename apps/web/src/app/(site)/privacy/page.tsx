@@ -43,9 +43,9 @@ export default function PrivacyPage() {
       <section>
         <h2>What is collected, and why</h2>
         <p>
-          <b>Server logs.</b> When you visit, our hosting provider (currently GitHub Pages) receives the usual technical details: IP
-          address, browser and device type, the page requested and the time. They&apos;re used to deliver the site, prevent abuse and fix
-          problems, and are kept only as long as the host&apos;s own policy allows. We don&apos;t combine them with anything else.
+          <b>Server logs.</b> When you visit, our hosting provider (currently Cloudflare) receives the usual technical details: IP address,
+          browser and device type, the page requested and the time. They&apos;re used to deliver the site, prevent abuse and fix problems,
+          and are kept only as long as the host&apos;s own policy allows. We don&apos;t combine them with anything else.
         </p>
         <p>
           <b>Visit statistics.</b> When you open a page on copypasteui.dev, a small Cloudflare Web Analytics script reports the page
@@ -83,7 +83,8 @@ export default function PrivacyPage() {
             <a href="https://developers.google.com/fonts/faq/privacy">Google Fonts privacy FAQ</a>.
           </li>
           <li>
-            <b>Cloudflare Web Analytics</b> (static.cloudflareinsights.com, cloudflareinsights.com) counts visits as described above.{" "}
+            <b>Cloudflare</b> hosts the site (so it handles the server logs above), and Cloudflare Web Analytics
+            (static.cloudflareinsights.com, cloudflareinsights.com) counts visits as described above.{" "}
             <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare privacy policy</a>.
           </li>
           <li>

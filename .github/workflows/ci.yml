@@ -121,7 +121,6 @@ jobs:
     needs: [check, codeql]
     if: github.event_name == 'push'
     uses: ./.github/workflows/deploy.yml
+    secrets: inherit
     permissions:
       contents: read
-      pages: write
-      id-token: write

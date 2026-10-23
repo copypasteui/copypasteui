@@ -1,0 +1,16 @@
+// Cloudflare Workers static assets: serves the static export in apps/web/out at copypasteui.dev. There is no Worker
+// script, only files. Deployed by .github/workflows/deploy.yml after CI and CodeQL pass; `wrangler deploy` creates the
+// Worker and the custom domain's DNS record and certificate the first time.
+{
+  "name": "copypasteui",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./apps/web/out",
+    // /about serves about.html; unknown paths get the site's own 404 page with a 404 status.
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+  },
+  "routes": [{ "pattern": "copypasteui.dev", "custom_domain": true }],
+  "workers_dev": false,
+  "preview_urls": false,
+}

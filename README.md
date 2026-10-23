@@ -105,7 +105,9 @@ All optional — see [apps/web/.env.example](apps/web/.env.example).
 
 ## Deploy
 
-`.github/workflows/deploy.yml` publishes `apps/web/out` to GitHub Pages on every push to `main`. Any static host works (Cloudflare Pages, Netlify): build command `npm run build`, output `apps/web/out`.
+Every push to `main` runs CI, then CodeQL, then `.github/workflows/deploy.yml`, which publishes the site CI built and checked to Cloudflare (Workers static assets, configured in [wrangler.jsonc](wrangler.jsonc)) at copypasteui.dev. It needs two repository secrets: `CLOUDFLARE_API_TOKEN` (the "Edit Cloudflare Workers" token template) and `CLOUDFLARE_ACCOUNT_ID`. You can also run Deploy site by hand from the Actions tab; it then builds the site itself.
+
+Any static host works (Netlify, GitHub Pages): build command `npm run build`, output `apps/web/out`. Keep the `_headers` rule or its equivalent, because the sandboxed previews load the site's fonts cross-origin.
 
 `.github/workflows/release.yml` publishes the `copypasteui` npm package when you push a tag like `mcp-v0.1.0` (needs an `NPM_TOKEN` secret).
 

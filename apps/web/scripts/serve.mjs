@@ -30,7 +30,7 @@ export function serveStatic(rootDir, port) {
       res.writeHead(404, { "content-type": "text/html" });
       return fs.createReadStream(path.join(root, "404.html")).pipe(res);
     }
-    // Like GitHub Pages: any origin may load files, which sandboxed previews need for the self-hosted fonts.
+    // Like the live site (public/_headers): any origin may load files, which sandboxed previews need for the fonts.
     res.writeHead(200, { "content-type": types[path.extname(file)] ?? "application/octet-stream", "access-control-allow-origin": "*" });
     fs.createReadStream(file).pipe(res);
   });

@@ -10,7 +10,7 @@ export const config = {
 export const legal = {
   operator: "Nidhin Radh P V, trading as CopyPasteUI",
   email: "privacy@copypasteui.dev",
-  updated: "2026-10-22",
+  updated: "2026-10-23",
 };
 
 export const githubUrl = `https://github.com/${config.githubRepo}`;
