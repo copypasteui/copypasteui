@@ -9,11 +9,29 @@ on:
 
 permissions:
   contents: read
-  security-events: write
 
 jobs:
-  analyze:
+  # Code scanning on a private repository needs GitHub Code Security (a paid add-on), so the scan only runs once
+  # the repository is public. Asked of the API rather than read from the event, because scheduled runs don't carry it.
+  visibility:
     runs-on: ubuntu-latest
+    outputs:
+      public: ${{ steps.check.outputs.public }}
+    steps:
+      - id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "public=$(gh api "repos/${{ github.repository }}" --jq '(.private | not)')" >> "$GITHUB_OUTPUT"
+
+  analyze:
+    needs: visibility
+    if: needs.visibility.outputs.public == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      # The CodeQL action reads its own workflow run.
+      actions: read
+      security-events: write
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
       - uses: github/codeql-action/init@4bfa242aa49c5f7c6770b98670d354a7dfac05f8 # v3.39.1
