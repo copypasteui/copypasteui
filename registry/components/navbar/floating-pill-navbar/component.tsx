@@ -37,7 +37,7 @@ export default function FloatingPillNavbar() {
           <span className="font-display text-lg font-semibold tracking-tight text-foreground">Northwind</span>
         </a>
 
-        <ul className="hidden items-center gap-1 md:flex">
+        <ul className="hidden items-center gap-1 lg:flex">
           {links.map((l) => (
             <li key={l.label}>
               <a
@@ -50,7 +50,7 @@ export default function FloatingPillNavbar() {
           ))}
         </ul>
 
-        <div className="hidden items-center gap-2 md:flex">
+        <div className="hidden items-center gap-2 lg:flex">
           <a href="#" className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground">
             Sign in
           </a>
@@ -67,7 +67,7 @@ export default function FloatingPillNavbar() {
           type="button"
           aria-label={open ? "Close menu" : "Open menu"}
           onClick={() => setOpen((v) => !v)}
-          className="grid size-10 place-items-center rounded-full text-foreground hover:bg-muted md:hidden"
+          className="grid size-10 place-items-center rounded-full text-foreground hover:bg-muted lg:hidden"
         >
           {open ? <X className="size-5" /> : <Menu className="size-5" />}
         </button>
@@ -80,7 +80,7 @@ export default function FloatingPillNavbar() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -8, scale: 0.98 }}
             transition={{ duration: 0.2 }}
-            className="mx-auto mt-2 max-w-5xl rounded-3xl border border-border bg-card p-3 shadow-xl md:hidden"
+            className="mx-auto mt-2 max-w-5xl rounded-3xl border border-border bg-card p-3 shadow-xl lg:hidden"
           >
             {links.map((l) => (
               <a

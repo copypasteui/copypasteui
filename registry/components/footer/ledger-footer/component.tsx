@@ -13,7 +13,7 @@ export default function LedgerFooter() {
   return (
     <footer className="bg-secondary font-sans text-secondary-foreground">
       <div className="mx-auto max-w-7xl px-6 py-16">
-        <div className="grid gap-10 md:grid-cols-[1.6fr_repeat(3,1fr)]">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.6fr_repeat(3,1fr)]">
           <div>
             <p className="flex items-center gap-2 font-display text-2xl font-bold">
               <span className="grid size-9 place-items-center rounded-[var(--radius)] bg-primary text-primary-foreground">L</span> ledger

@@ -59,18 +59,20 @@ export default function HollowCreekBox() {
 
           <div className="rounded-[var(--radius)] border-2 border-foreground bg-card p-6 text-card-foreground md:p-8">
             <p className="text-sm font-bold tracking-wider text-muted-foreground uppercase">1 · Box size</p>
-            <div className="mt-3 grid grid-cols-3 gap-3">
+            <div className="mt-3 grid gap-3 sm:grid-cols-3">
               {boxes.map((x) => (
                 <button
                   key={x.id}
                   type="button"
                   onClick={() => setBox(x.id)}
                   aria-pressed={box === x.id}
-                  className={`rounded-[var(--radius)] border-2 p-4 text-left transition ${box === x.id ? "border-primary bg-primary text-primary-foreground" : "border-border hover:border-foreground"}`}
+                  className={`flex items-center justify-between gap-4 rounded-[var(--radius)] border-2 p-4 text-left transition sm:block ${box === x.id ? "border-primary bg-primary text-primary-foreground" : "border-border hover:border-foreground"}`}
                 >
-                  <span className="block font-display text-xl font-bold">{x.name}</span>
-                  <span className="block text-xs opacity-90">{x.serves}</span>
-                  <span className="mt-2 block font-semibold">£{x.price}</span>
+                  <span>
+                    <span className="block font-display text-xl font-bold">{x.name}</span>
+                    <span className="block text-xs opacity-90">{x.serves}</span>
+                  </span>
+                  <span className="block font-semibold sm:mt-2">£{x.price}</span>
                 </button>
               ))}
             </div>

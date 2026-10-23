@@ -12,7 +12,7 @@ export default function OleaFooter() {
   return (
     <footer className="overflow-hidden bg-primary font-sans text-primary-foreground">
       <div className="mx-auto max-w-7xl px-6 pt-20">
-        <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
+        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           <div>
             <p className="font-display text-3xl leading-tight">Supper club on the first Friday of every month.</p>
             <form

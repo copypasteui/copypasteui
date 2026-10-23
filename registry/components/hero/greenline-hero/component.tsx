@@ -15,22 +15,24 @@ export default function GreenlineHero() {
         <a href="#" className="flex items-center gap-2 font-display text-2xl font-bold">
           <Leaf className="size-6 text-primary" /> Greenline
         </a>
-        <nav className="hidden gap-8 text-sm font-medium md:flex">
+        <nav className="hidden gap-8 text-sm font-medium lg:flex">
           {["Design", "Landscaping", "Maintenance", "Tree care", "Our gardens"].map((l) => (
             <a key={l} href="#" className="hover:text-primary">
               {l}
             </a>
           ))}
         </nav>
-        <a
-          href="#quote"
-          className="hidden rounded-[var(--radius)] bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
-        >
-          Free consultation
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a
+            href="#quote"
+            className="hidden rounded-[var(--radius)] bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
+          >
+            Free consultation
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="mx-auto max-w-7xl px-6 pt-8 pb-6">

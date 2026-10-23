@@ -36,7 +36,8 @@
     "check:matrix": "npm run check:matrix -w apps/web --",
     "check:render": "npm run check:render -w apps/web",
     "check:images": "node scripts/check-images.mjs",
-    "images:upload": "node scripts/upload-images.mjs"
+    "images:upload": "node scripts/upload-images.mjs",
+    "check:layout": "npm run check:layout -w apps/web --"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",

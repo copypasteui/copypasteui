@@ -52,7 +52,7 @@ export default function LedgerPlans() {
                 type="button"
                 onClick={() => setT(i)}
                 aria-pressed={t === i}
-                className={`relative rounded-full px-5 py-2.5 text-sm font-semibold ${t === i ? "text-primary-foreground" : "text-muted-foreground"}`}
+                className={`relative rounded-full px-4 py-2.5 text-xs font-semibold whitespace-nowrap sm:px-5 sm:text-sm ${t === i ? "text-primary-foreground" : "text-muted-foreground"}`}
               >
                 {t === i && <motion.span layoutId="ledger-type" className="absolute inset-0 rounded-full bg-primary" />}
                 <span className="relative">{x.label}</span>

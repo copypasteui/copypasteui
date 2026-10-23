@@ -20,19 +20,21 @@ export default function CommonGroundHero() {
           </span>{" "}
           Common Ground
         </a>
-        <nav className="hidden gap-7 font-medium md:flex">
+        <nav className="hidden gap-7 font-medium lg:flex">
           {["What we do", "Get help", "Volunteer", "Our impact", "About"].map((l) => (
             <a key={l} href="#" className="hover:text-primary">
               {l}
             </a>
           ))}
         </nav>
-        <a href="#donate" className="rounded-[var(--radius)] bg-accent px-5 py-2.5 font-bold text-accent-foreground">
-          Donate
-        </a>
-        <button type="button" aria-label="Open menu" className="ml-3 md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-3">
+          <a href="#donate" className="rounded-[var(--radius)] bg-accent px-5 py-2.5 font-bold text-accent-foreground">
+            Donate
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="mx-auto grid max-w-7xl gap-12 px-6 pt-8 pb-20 lg:grid-cols-[1.1fr_1fr] lg:items-center">

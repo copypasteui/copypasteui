@@ -59,22 +59,24 @@ export default function SpruceHero() {
         <a href="#" className="flex items-center gap-2 font-display text-3xl font-semibold text-primary">
           <SprayCan className="size-7" /> spruce
         </a>
-        <nav className="hidden gap-8 text-sm font-medium md:flex">
+        <nav className="hidden gap-8 text-sm font-medium lg:flex">
           {["Regular cleans", "Deep cleans", "End of tenancy", "Offices", "Reviews"].map((l) => (
             <a key={l} href="#" className="hover:text-primary">
               {l}
             </a>
           ))}
         </nav>
-        <a
-          href="#prices"
-          className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
-        >
-          Get a price
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a
+            href="#prices"
+            className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
+          >
+            Get a price
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="mx-auto grid max-w-7xl gap-12 px-6 pt-8 pb-20 lg:grid-cols-2 lg:items-center">

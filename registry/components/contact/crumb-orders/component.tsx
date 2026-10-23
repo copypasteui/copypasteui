@@ -94,11 +94,11 @@ export default function CrumbOrders() {
                         type="button"
                         aria-pressed={size === x.id}
                         onClick={() => setSize(x.id)}
-                        className={`rounded-[var(--radius)] border-2 p-3 text-left transition ${size === x.id ? "border-primary bg-secondary" : "border-border hover:border-foreground"}`}
+                        className={`rounded-[var(--radius)] border-2 p-2.5 text-left transition sm:p-3 ${size === x.id ? "border-primary bg-secondary" : "border-border hover:border-foreground"}`}
                       >
                         <span className="block font-display text-2xl">{x.label}</span>
-                        <span className="block text-xs text-muted-foreground">{x.serves}</span>
-                        <span className="mt-1 block text-sm font-semibold">from £{x.price}</span>
+                        <span className="block text-[11px] whitespace-nowrap text-muted-foreground sm:text-xs">{x.serves}</span>
+                        <span className="mt-1 block text-sm font-semibold whitespace-nowrap">from £{x.price}</span>
                       </button>
                     ))}
                   </div>

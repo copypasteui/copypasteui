@@ -9,7 +9,7 @@ export default function MinimalFooter() {
   return (
     <footer className="bg-background px-6 font-sans text-foreground">
       <div className="mx-auto max-w-6xl border-t border-border py-14">
-        <div className="flex flex-col justify-between gap-10 md:flex-row">
+        <div className="flex flex-col justify-between gap-10 lg:flex-row">
           <div>
             <p className="font-display text-3xl font-bold tracking-tight md:text-5xl">Have an idea?</p>
             <a

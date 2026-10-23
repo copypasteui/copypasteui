@@ -56,14 +56,14 @@ export default function VerelleServices() {
         </div>
 
         <div className="mt-14 grid gap-10 md:grid-cols-[200px_1fr]">
-          <div role="tablist" className="flex gap-2 md:flex-col">
+          <div role="tablist" className="flex flex-wrap gap-x-6 gap-y-2 md:flex-col">
             {Object.keys(menu).map((k) => (
               <button
                 key={k}
                 role="tab"
                 aria-selected={tab === k}
                 onClick={() => setTab(k)}
-                className={`text-left font-display text-3xl decoration-primary decoration-2 underline-offset-8 ${tab === k ? "underline" : "hover:underline"}`}
+                className={`text-left font-display text-2xl whitespace-nowrap decoration-primary decoration-2 underline-offset-8 md:text-3xl ${tab === k ? "underline" : "hover:underline"}`}
               >
                 {k}
               </button>

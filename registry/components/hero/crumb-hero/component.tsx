@@ -14,7 +14,7 @@ export default function CrumbHero() {
         <a href="#" className="font-display text-3xl">
           crumb<span className="text-primary">.</span>
         </a>
-        <nav className="hidden gap-7 text-sm font-medium md:flex">
+        <nav className="hidden gap-7 text-sm font-medium lg:flex">
           {["Today’s bake", "Celebration cakes", "Wholesale", "Classes", "Visit"].map((l) => (
             <a key={l} href="#" className="hover:text-primary">
               {l}
@@ -32,7 +32,7 @@ export default function CrumbHero() {
           >
             <ShoppingBasket className="size-4" aria-hidden /> <span className="hidden sm:inline">Order for pickup</span>
           </a>
-          <button type="button" aria-label="Open menu" className="md:hidden">
+          <button type="button" aria-label="Open menu" className="lg:hidden">
             <Menu className="size-6" />
           </button>
         </div>

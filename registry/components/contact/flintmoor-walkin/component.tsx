@@ -35,7 +35,7 @@ export default function FlintmoorWalkin() {
                 className={`relative rounded-[var(--radius)] py-3 text-sm font-bold tracking-wider uppercase ${mode === m ? "text-primary-foreground" : "text-muted-foreground"}`}
               >
                 {mode === m && <motion.span layoutId="iron-mode" className="absolute inset-0 rounded-[var(--radius)] bg-primary" />}
-                <span className="relative">{m === "book" ? "Book a time" : "Join walk-in queue"}</span>
+                <span className="relative">{m === "book" ? "Book a time" : "Join the queue"}</span>
               </button>
             ))}
           </div>

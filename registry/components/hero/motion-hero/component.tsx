@@ -21,22 +21,24 @@ export default function MotionHero() {
           </span>{" "}
           MOTION
         </a>
-        <nav className="hidden gap-8 text-sm font-semibold md:flex">
+        <nav className="hidden gap-8 text-sm font-semibold lg:flex">
           {["Conditions", "Treatments", "Sports", "Our physios", "Prices"].map((l) => (
             <a key={l} href="#" className="hover:text-primary">
               {l}
             </a>
           ))}
         </nav>
-        <a
-          href="#book"
-          className="hidden rounded-[var(--radius)] bg-primary px-5 py-2.5 text-sm font-bold text-primary-foreground sm:inline-block"
-        >
-          Book assessment
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a
+            href="#book"
+            className="hidden rounded-[var(--radius)] bg-primary px-5 py-2.5 text-sm font-bold text-primary-foreground sm:inline-block"
+          >
+            Book assessment
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="mx-auto max-w-7xl px-6 pt-6 pb-16">

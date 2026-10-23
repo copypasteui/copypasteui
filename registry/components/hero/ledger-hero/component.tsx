@@ -15,22 +15,24 @@ export default function LedgerHero() {
           </span>{" "}
           ledger
         </a>
-        <nav className="hidden gap-8 text-sm font-medium md:flex">
+        <nav className="hidden gap-8 text-sm font-medium lg:flex">
           {["Sole traders", "Limited companies", "Landlords", "Pricing", "About"].map((l) => (
             <a key={l} href="#" className="hover:text-primary">
               {l}
             </a>
           ))}
         </nav>
-        <a
-          href="#call"
-          className="hidden rounded-[var(--radius)] bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
-        >
-          Book a free call
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a
+            href="#call"
+            className="hidden rounded-[var(--radius)] bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
+          >
+            Book a free call
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="mx-auto grid max-w-7xl gap-14 px-6 pt-10 pb-20 lg:grid-cols-[1.1fr_1fr] lg:items-center">

@@ -46,22 +46,24 @@ export default function MossbrookHero() {
           </span>{" "}
           Mossbrook
         </a>
-        <nav className="hidden gap-7 text-sm font-semibold md:flex">
+        <nav className="hidden gap-7 text-sm font-semibold lg:flex">
           {["Vet care", "Grooming", "Health plans", "Our team", "Emergencies"].map((l) => (
             <a key={l} href="#" className="hover:text-primary">
               {l}
             </a>
           ))}
         </nav>
-        <a
-          href="#book"
-          className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
-        >
-          Book online
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a
+            href="#book"
+            className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
+          >
+            Book online
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="mx-auto grid max-w-7xl gap-12 px-6 pt-8 pb-20 lg:grid-cols-2 lg:items-center">

@@ -383,7 +383,9 @@ const PANELS = `:is([class~="bg-card"], [class~="bg-primary"], [class~="bg-accen
 // so every section moves without any code of its own. It leaves alone anything a section animates itself
 // (Framer Motion writes inline styles) or positions with translate classes, applies only until the element has
 // arrived (fill: backwards), and does nothing for reduced motion or in browsers without scroll timelines.
-const SKIP = `:not([style]):not([class*="translate-"]):not(nav *):not(header *)`;
+// Nor anything inside an element running its own CSS animation (a marquee): its view timeline would track the
+// clipped track instead of the page, and the content would stay at the start of the rise, invisible.
+const SKIP = `:not([style]):not([class*="translate-"]):not(nav *):not(header *):not([class*="animate-"] *)`;
 function motionRules(level) {
   const lively = level === "lively";
   const rise = lively ? "2.5rem" : "1rem";
@@ -402,7 +404,7 @@ function motionRules(level) {
       }
     }
     section :is(h1, h2)${SKIP},
-    ${PANELS.replace(/\n\s*/g, " ")}${SKIP} {
+    ${PANELS.replace(/\n\s*/g, " ")}:not(a, button)${SKIP} {
       animation: cpui-rise linear backwards;
       animation-timeline: view();
       animation-range: entry 0% cover 22%;

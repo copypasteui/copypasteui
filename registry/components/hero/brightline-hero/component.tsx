@@ -23,22 +23,24 @@ export default function BrightlineHero() {
           <span className="grid size-9 place-items-center rounded-[calc(var(--radius)*0.6)] bg-accent text-accent-foreground">✦</span>{" "}
           Brightline
         </a>
-        <nav className="hidden gap-8 text-sm font-medium md:flex">
+        <nav className="hidden gap-8 text-sm font-medium lg:flex">
           {["Treatments", "Our team", "Prices", "Nervous patients", "Contact"].map((l) => (
             <a key={l} href="#" className="hover:text-primary">
               {l}
             </a>
           ))}
         </nav>
-        <a
-          href="#book"
-          className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
-        >
-          Book online
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a
+            href="#book"
+            className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
+          >
+            Book online
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="mx-auto grid max-w-7xl gap-12 px-6 pt-8 pb-20 lg:grid-cols-2 lg:items-center">

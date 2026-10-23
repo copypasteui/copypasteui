@@ -12,22 +12,24 @@ export default function VerelleHero() {
         <a href="#" className="font-display text-3xl tracking-[0.12em]">
           Maison Verelle
         </a>
-        <nav className="hidden gap-8 text-sm font-medium md:flex">
+        <nav className="hidden gap-8 text-sm font-medium lg:flex">
           {["Services", "Stylists", "Our work", "Products", "Gift cards"].map((l) => (
             <a key={l} href="#" className="hover:opacity-60">
               {l}
             </a>
           ))}
         </nav>
-        <a
-          href="#book"
-          className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
-        >
-          Book now
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a
+            href="#book"
+            className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground sm:inline-block"
+          >
+            Book now
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="relative mx-auto max-w-7xl px-6 pt-4 pb-16">
@@ -59,7 +61,7 @@ export default function VerelleHero() {
             </div>
             <a
               href="#book"
-              className="group inline-flex w-fit items-center gap-2 rounded-full bg-primary px-7 py-4 font-semibold text-primary-foreground"
+              className="group inline-flex w-fit items-center gap-2 rounded-full bg-primary px-7 py-4 font-semibold whitespace-nowrap text-primary-foreground"
             >
               Book an appointment <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>

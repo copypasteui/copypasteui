@@ -1,0 +1,24 @@
+[
+  {
+    "kind": "wraps",
+    "what": "\"I’m already registered\"",
+    "reason": "brightline-booking: a two-line toggle on phones, balanced with its neighbour"
+  },
+  { "kind": "wraps", "what": "\"Common Ground\"", "reason": "common-ground-hero: the logo stacks on phones by design" },
+  { "kind": "wraps", "what": "\"Bathroom fitting\"", "reason": "fixwell-services: card titles in a two-column grid" },
+  { "kind": "wraps", "what": "\"Blocked drains\"", "reason": "fixwell-services: card titles in a two-column grid" },
+  { "kind": "wraps", "what": "\"Showers & taps\"", "reason": "fixwell-services: card titles in a two-column grid" },
+  { "kind": "wraps", "what": "\"Toilets & cisterns\"", "reason": "fixwell-services: card titles in a two-column grid" },
+  { "kind": "wraps", "what": "\"Water pressure\"", "reason": "fixwell-services: card titles in a two-column grid" },
+  { "kind": "wraps", "what": "\"02Loft conversions\"", "reason": "ironbark-services: large display headings in a list" },
+  {
+    "kind": "wraps",
+    "what": "\"Shiny in places\"",
+    "reason": "florea-skin-quiz: a quiz answer; options are pills that can take two lines"
+  },
+  {
+    "kind": "overlaps",
+    "what": "over <input> \"Compare plan and finished gard",
+    "reason": "greenline-plan-to-garden: labels on a before/after slider"
+  }
+]

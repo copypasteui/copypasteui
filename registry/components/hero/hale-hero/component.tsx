@@ -18,19 +18,21 @@ export default function HaleHero() {
               Hale <span className="text-accent italic">&amp;</span> Partners
             </span>
           </a>
-          <nav className="hidden gap-8 text-sm md:flex">
+          <nav className="hidden gap-8 text-sm lg:flex">
             {["For individuals", "For business", "Our people", "Fees", "Insights"].map((l) => (
               <a key={l} href="#" className="hover:text-accent">
                 {l}
               </a>
             ))}
           </nav>
-          <a href="#consult" className="hidden bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground sm:inline-block">
-            Free initial call
-          </a>
-          <button type="button" aria-label="Open menu" className="md:hidden">
-            <Menu className="size-6" />
-          </button>
+          <div className="flex items-center gap-4">
+            <a href="#consult" className="hidden bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground sm:inline-block">
+              Free initial call
+            </a>
+            <button type="button" aria-label="Open menu" className="lg:hidden">
+              <Menu className="size-6" />
+            </button>
+          </div>
         </div>
       </header>
 

@@ -22,22 +22,24 @@ export default function QuavermoorHero() {
         <a href="#" className="flex items-center gap-2 font-display text-2xl">
           <Music className="size-6 text-accent" /> Quavermoor
         </a>
-        <nav className="hidden gap-8 text-sm md:flex">
+        <nav className="hidden gap-8 text-sm lg:flex">
           {["Lessons", "Instruments", "Concerts", "Teachers", "Fees"].map((l) => (
             <a key={l} href="#" className="opacity-90 hover:opacity-100">
               {l}
             </a>
           ))}
         </nav>
-        <a
-          href="#trial"
-          className="hidden rounded-[var(--radius)] bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground sm:inline-block"
-        >
-          Free trial lesson
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a
+            href="#trial"
+            className="hidden rounded-[var(--radius)] bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground sm:inline-block"
+          >
+            Free trial lesson
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="mx-auto max-w-7xl px-6 pt-16 pb-24 lg:pt-24">

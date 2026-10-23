@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { Check, ChevronDown, Clock, Lock, MapPin, Phone } from "lucide-react";
 
 const areas = ["Family & divorce", "Property", "Wills & probate", "Employment", "Business", "Not sure"];
-const times = ["Morning", "Afternoon", "Evening (after 5)"];
+const times = ["Morning", "Afternoon", "After 5pm"];
 
 export default function HaleConsultation() {
   const [time, setTime] = useState(times[0]!);

@@ -15,7 +15,8 @@
     "check:mobile": "node scripts/check-mobile.mjs",
     "previews": "node scripts/previews.mjs",
     "check:matrix": "node scripts/check-matrix.mjs",
-    "check:render": "node scripts/screenshots.mjs --check"
+    "check:render": "node scripts/screenshots.mjs --check",
+    "check:layout": "node scripts/check-layout.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.50.0",

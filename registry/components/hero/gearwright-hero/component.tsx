@@ -19,22 +19,24 @@ export default function GearwrightHero() {
           </span>{" "}
           Gearwright
         </a>
-        <nav className="hidden gap-8 text-sm font-semibold tracking-wider uppercase md:flex">
+        <nav className="hidden gap-8 text-sm font-semibold tracking-wider uppercase lg:flex">
           {["MOT", "Servicing", "Repairs", "Tyres", "Prices"].map((l) => (
             <a key={l} href="#" className="hover:text-primary">
               {l}
             </a>
           ))}
         </nav>
-        <a
-          href="#book"
-          className="hidden bg-primary px-5 py-2.5 text-sm font-bold tracking-wider text-primary-foreground uppercase sm:inline-block"
-        >
-          Book online
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a
+            href="#book"
+            className="hidden bg-primary px-5 py-2.5 text-sm font-bold tracking-wider text-primary-foreground uppercase sm:inline-block"
+          >
+            Book online
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="relative overflow-hidden">

@@ -12,11 +12,11 @@ export default function LarderLaneHero() {
   return (
     <section className="overflow-hidden bg-background px-6 font-sans text-foreground">
       <header className="mx-auto flex max-w-6xl items-center justify-between py-6">
-        <a href="#" className="font-display text-3xl">
+        <a href="#" className="font-display text-2xl whitespace-nowrap sm:text-3xl">
           Larder Lane
         </a>
-        <a href="#" className="rounded-full bg-primary px-5 py-2.5 font-semibold text-primary-foreground">
-          Pre-order for Saturday
+        <a href="#" className="rounded-full bg-primary px-4 py-2.5 font-semibold whitespace-nowrap text-primary-foreground sm:px-5">
+          Pre-order<span className="hidden sm:inline"> for Saturday</span>
         </a>
       </header>
 

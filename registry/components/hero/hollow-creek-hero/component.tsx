@@ -32,14 +32,14 @@ export default function HollowCreekHero() {
           </span>
           Hollow Creek Farm
         </a>
-        <nav className="hidden gap-7 text-sm font-semibold md:flex">
+        <nav className="hidden gap-7 text-sm font-semibold lg:flex">
           {["Farm shop", "Veg boxes", "Pick your own", "Events", "Our farm"].map((l) => (
             <a key={l} href="#" className="opacity-90 hover:opacity-100">
               {l}
             </a>
           ))}
         </nav>
-        <button type="button" aria-label="Open menu" className="md:hidden">
+        <button type="button" aria-label="Open menu" className="lg:hidden">
           <Menu className="size-6" />
         </button>
       </header>

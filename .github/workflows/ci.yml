@@ -111,6 +111,25 @@ jobs:
             if [ -f "registry/themes/$t.json" ]; then npm run check:matrix -- --theme "$t"; fi
           done
 
+  # Every template and section at phone, tablet and desktop width: content that never appears, short labels that
+  # wrap, controls covered by other controls. About half an hour, so it runs alongside the section checks.
+  layout:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build registry, MCP package and static site
+        run: npm run build
+      - run: npx playwright@1.54.1 install --with-deps chromium
+      - name: Nothing hidden, wrapped or overlapping at 375, 768 and 1280px
+        run: npm run check:layout
+
   codeql:
     if: github.event_name == 'push' || github.event_name == 'pull_request'
     uses: ./.github/workflows/codeql.yml

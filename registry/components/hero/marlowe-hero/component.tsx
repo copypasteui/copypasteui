@@ -12,14 +12,14 @@ export default function MarloweHero() {
         Free alterations on everything · Collect in store, Hove
       </p>
       <header className="mx-auto grid max-w-[90rem] grid-cols-[1fr_auto_1fr] items-center px-6 py-5">
-        <nav className="hidden gap-6 text-sm md:flex">
+        <nav className="hidden gap-6 text-sm lg:flex">
           {["New in", "Women", "Men", "Edit", "Stories"].map((l) => (
             <a key={l} href="#" className="underline-offset-4 hover:underline">
               {l}
             </a>
           ))}
         </nav>
-        <button type="button" aria-label="Open menu" className="md:hidden">
+        <button type="button" aria-label="Open menu" className="lg:hidden">
           <Menu className="size-6" />
         </button>
         <a href="#" className="font-display text-3xl font-bold tracking-[0.18em]">

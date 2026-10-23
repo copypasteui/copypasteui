@@ -31,22 +31,24 @@ export default function FoxgloveHero() {
           </span>
           Foxglove
         </a>
-        <nav className="hidden gap-8 text-sm font-semibold tracking-wider uppercase md:flex">
+        <nav className="hidden gap-8 text-sm font-semibold tracking-wider uppercase lg:flex">
           {["On tap", "Taproom", "Events", "Tours", "Shop"].map((l) => (
             <a key={l} href="#" className="hover:text-accent">
               {l}
             </a>
           ))}
         </nav>
-        <a
-          href="#visit"
-          className="hidden rounded-[var(--radius)] bg-accent px-5 py-2.5 text-sm font-bold tracking-wider text-accent-foreground uppercase sm:inline-block"
-        >
-          Book a tour
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a
+            href="#visit"
+            className="hidden rounded-[var(--radius)] bg-accent px-5 py-2.5 text-sm font-bold tracking-wider text-accent-foreground uppercase sm:inline-block"
+          >
+            Book a tour
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="mx-auto max-w-7xl px-6 pt-16 pb-10 md:pt-28">
@@ -77,7 +79,7 @@ export default function FoxgloveHero() {
           </p>
           <a
             href="#taps"
-            className="group inline-flex items-center gap-3 self-start rounded-[var(--radius)] bg-primary px-7 py-4 font-bold tracking-wider text-primary-foreground uppercase md:self-auto"
+            className="group inline-flex items-center gap-3 self-start rounded-[var(--radius)] bg-primary px-7 py-4 font-bold tracking-wider whitespace-nowrap text-primary-foreground uppercase md:self-auto"
           >
             See what’s pouring <ArrowDownRight className="size-5 transition-transform group-hover:rotate-[-45deg]" />
           </a>
