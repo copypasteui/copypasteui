@@ -1,0 +1,16 @@
+{
+  "slug": "glaze-days-how",
+  "name": "Glaze Days Flip-Card Steps",
+  "description": "Four steps from picking a piece to collecting it, as cards that flip over when clicked or tapped to show the detail.",
+  "category": "how-it-works",
+  "tags": ["pottery", "steps", "flip-card", "3d"],
+  "collection": "glaze-days-pottery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

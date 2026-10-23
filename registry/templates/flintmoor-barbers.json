@@ -1,0 +1,12 @@
+{
+  "slug": "flintmoor-barbers",
+  "name": "Flintmoor — Barbershop",
+  "description": "A neighbourhood barbershop: barber-pole hero with live queue, price board, barber cards with availability, review marquees, book-or-walk-in and footer.",
+  "brief": "a barbershop, men’s grooming studio or tattoo parlour",
+  "theme": "flintmoor",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["flintmoor-hero", "flintmoor-prices", "flintmoor-barbers", "flintmoor-reviews", "flintmoor-walkin", "flintmoor-footer"]
+}

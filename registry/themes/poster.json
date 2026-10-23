@@ -1,0 +1,54 @@
+{
+  "slug": "poster",
+  "name": "Poster",
+  "description": "Neo-brutalist: cream paper, black 2px outlines, hard offset shadows, cobalt and marigold, Archivo Black headings and a little grain.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0rem",
+  "style": {
+    "label": "Neo-brutalist",
+    "shadow": "hard",
+    "border": "2px",
+    "texture": "grain",
+    "motion": "lively"
+  },
+  "fonts": {
+    "sans": "'Space Grotesk', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Archivo Black', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Space+Grotesk:wght@400;500;600;700", "Archivo+Black"]
+  },
+  "light": {
+    "background": "#fff4d6",
+    "foreground": "#111111",
+    "card": "#ffffff",
+    "card-foreground": "#111111",
+    "primary": "#2337e0",
+    "primary-foreground": "#ffffff",
+    "secondary": "#ffe08a",
+    "secondary-foreground": "#111111",
+    "muted": "#f6e8bf",
+    "muted-foreground": "#4a4535",
+    "accent": "#ffc629",
+    "accent-foreground": "#111111",
+    "border": "#111111",
+    "ring": "#111111"
+  },
+  "dark": {
+    "background": "#141310",
+    "foreground": "#fff4d6",
+    "card": "#1e1c17",
+    "card-foreground": "#fff4d6",
+    "primary": "#ffc629",
+    "primary-foreground": "#111111",
+    "secondary": "#2b2820",
+    "secondary-foreground": "#fff4d6",
+    "muted": "#24221c",
+    "muted-foreground": "#c2b99f",
+    "accent": "#ff7a59",
+    "accent-foreground": "#111111",
+    "border": "#fff4d6",
+    "ring": "#ffc629"
+  }
+}

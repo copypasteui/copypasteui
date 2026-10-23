@@ -1,0 +1,16 @@
+{
+  "slug": "brinebank-menu",
+  "name": "Brinebank Chalkboard Menu",
+  "description": "Today's menu in editorial columns with dotted price leaders; dishes that have sold out get a line drawn through them as they scroll into view.",
+  "category": "menu",
+  "tags": ["restaurant", "seafood", "menu", "editorial", "strike-through"],
+  "collection": "brinebank-kitchen",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

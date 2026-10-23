@@ -1,0 +1,14 @@
+{
+  "slug": "dot-field-background",
+  "name": "Dot Field Background",
+  "description": "Canvas dot field that ripples away from the cursor and follows theme colours.",
+  "category": "background",
+  "tags": ["canvas", "interactive", "dots", "cursor"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-21",
+  "theme": "sunset"
+}

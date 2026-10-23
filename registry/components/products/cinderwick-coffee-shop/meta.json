@@ -1,0 +1,17 @@
+{
+  "slug": "cinderwick-coffee-shop",
+  "name": "Cinderwick Coffee Shop",
+  "description": "Coffee product cards with CSS-drawn bags, roast dots, tasting notes, grind picker and subscribe toggle.",
+  "category": "products",
+  "tags": ["coffee", "ecommerce", "products", "subscription"],
+  "collection": "cinderwick-coffee",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

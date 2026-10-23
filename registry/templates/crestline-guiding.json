@@ -1,0 +1,12 @@
+{
+  "slug": "crestline-guiding",
+  "name": "Crestline — Mountain Walking Guides",
+  "description": "A Swiss-style walking holiday: slow pan-and-zoom photo hero, a self-drawing elevation route, filterable departure dates, counting trip numbers, a draggable photo strip and a grid footer.",
+  "brief": "a walking or trekking company, mountain guide, cycling tour, outdoor school or adventure travel agency",
+  "theme": "grid",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["crestline-hero", "crestline-route", "crestline-dates", "crestline-numbers", "crestline-photos", "crestline-footer"]
+}

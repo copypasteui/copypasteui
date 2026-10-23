@@ -1,0 +1,18 @@
+{
+  "slug": "mossbrook-team",
+  "name": "Mossbrook Team & Pets",
+  "description": "3D flip cards that turn each vet\u2019s portrait around to reveal their own pet.",
+  "category": "team",
+  "tags": ["vet", "team", "flip", "interactive"],
+  "collection": "mossbrook-vets",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

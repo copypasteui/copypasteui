@@ -1,0 +1,18 @@
+{
+  "slug": "petal-subscription",
+  "name": "Petal & Stem Subscription",
+  "description": "Flower subscription with frequency toggle, price medallion, photo pair and four how-it-works steps.",
+  "category": "how-it-works",
+  "tags": ["florist", "subscription", "how-it-works", "pricing"],
+  "collection": "petal-florist",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "verelle-salon",
+  "name": "Maison Verelle — Hair Salon",
+  "description": "A boutique hair salon: editorial hero with next slots, price list by stylist level, stylist cards, work gallery with lightbox, three-step booking and wordmark footer.",
+  "brief": "a hair salon, colourist, beauty salon, nail or brow studio",
+  "theme": "verelle",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["verelle-hero", "verelle-services", "verelle-stylists", "verelle-work", "verelle-booking", "verelle-footer"]
+}

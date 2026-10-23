@@ -1,0 +1,17 @@
+{
+  "slug": "foxglove-visit",
+  "name": "Foxglove Visit & Tours",
+  "description": "Visit block with hours, transport, a brewery-tour booking card with ticket stepper, private hire and trade cards.",
+  "category": "contact",
+  "tags": ["brewery", "contact", "booking", "hours"],
+  "collection": "foxglove-brewery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

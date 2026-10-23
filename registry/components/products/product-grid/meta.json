@@ -1,0 +1,17 @@
+{
+  "slug": "product-grid",
+  "name": "Product Grid",
+  "description": "Shop grid with product photos, ratings with review counts, save buttons, quick add and an animated bag counter.",
+  "category": "products",
+  "tags": ["ecommerce", "shop", "cart", "grid"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "foxglove-brewery",
+  "name": "Foxglove — Brewery & Taproom",
+  "description": "An independent brewery: dark brewhouse hero with tap ticker, tap list with flight builder, taproom bento, weekly events with RSVPs, tours and visit info, wordmark footer.",
+  "brief": "a brewery, taproom, pub, cocktail bar or distillery",
+  "theme": "foxglove",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["foxglove-hero", "foxglove-taplist", "foxglove-taproom", "foxglove-events", "foxglove-visit", "foxglove-footer"]
+}

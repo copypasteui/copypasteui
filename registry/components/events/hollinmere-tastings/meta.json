@@ -1,0 +1,17 @@
+{
+  "slug": "hollinmere-tastings",
+  "name": "Hollinmere Estate Tastings",
+  "description": "Selectable tasting experiences with a date, guest and price booking bar.",
+  "category": "events",
+  "tags": ["winery", "events", "booking", "tasting"],
+  "collection": "hollinmere-winery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

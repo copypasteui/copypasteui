@@ -1,0 +1,18 @@
+{
+  "slug": "greenline-plan-to-garden",
+  "name": "Greenline Plan to Garden Slider",
+  "description": "Drag slider comparing a drawn site plan with the finished garden, plus project stats.",
+  "category": "gallery",
+  "tags": ["landscaping", "comparison", "slider", "interactive"],
+  "collection": "greenline-landscaping",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

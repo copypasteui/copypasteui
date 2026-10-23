@@ -1,0 +1,17 @@
+{
+  "slug": "not-found-page",
+  "name": "Not Found Page",
+  "description": "A friendly 404 page with the business's most-visited pages, a way home and a tap-to-call button.",
+  "category": "pages",
+  "tags": ["404", "not-found", "error", "page"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "usage": "Use it as the site's 404 page: in Next.js App Router render <NotFoundPage /> from app/not-found.tsx; in Vite or React Router render it on the \"*\" route. Fill in the business details and the four most useful links.",
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "minimal-footer",
+  "name": "Minimal Footer",
+  "description": "Big email CTA, two tidy link columns and a quiet bottom line. Perfect for portfolios.",
+  "category": "footer",
+  "tags": ["footer", "minimal", "portfolio", "email"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-21"
+}

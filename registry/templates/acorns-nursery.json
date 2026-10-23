@@ -1,0 +1,12 @@
+{
+  "slug": "acorns-nursery",
+  "name": "Little Acorns — Nursery & Preschool",
+  "description": "A nature-loving nursery: playful hero with photo blobs, scrolling daily rhythm, fee calculator with funded hours, room tabs, parent FAQ with show-round booking and wavy footer.",
+  "brief": "a nursery, preschool, childminder, kids’ club or tutoring centre",
+  "theme": "acorns",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["acorns-hero", "acorns-day", "acorns-fees", "acorns-spaces", "acorns-parents", "acorns-footer"]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "juniper-footer",
+  "name": "Juniper Footer",
+  "description": "Photographer footer with italic name, contact and a greyscale Instagram strip.",
+  "category": "footer",
+  "tags": ["photography", "footer", "instagram"],
+  "collection": "juniper-photography",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

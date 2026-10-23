@@ -1,0 +1,16 @@
+{
+  "slug": "crestline-dates",
+  "name": "Crestline Departure Dates",
+  "description": "2027 departures in a Swiss-style table with month filters, a price per person and a bar showing how many of the eight places are left.",
+  "category": "events",
+  "tags": ["walking", "travel", "dates", "table", "filter"],
+  "collection": "crestline-guiding",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

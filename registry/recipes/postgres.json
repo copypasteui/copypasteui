@@ -1,0 +1,14 @@
+{
+  "slug": "postgres",
+  "name": "Postgres + Better Auth or Clerk",
+  "summary": "Your own stack: any Postgres (Neon, Vercel Postgres, Railway, your own) with Drizzle, and Better Auth or Clerk for sign-in. Access is checked in server code.",
+  "audience": ["developers"],
+  "bestFor": "Developers who want to own the database and choose each piece, or who already run Next.js with Neon.",
+  "cost": "Neon has a free tier; Better Auth is free and open source; Clerk is free for small user counts.",
+  "rank": 5,
+  "docs": [
+    { "label": "Drizzle with Neon", "href": "https://orm.drizzle.team/docs/get-started/neon-new" },
+    { "label": "Better Auth", "href": "https://www.better-auth.com/docs" },
+    { "label": "Clerk middleware", "href": "https://clerk.com/docs/references/nextjs/clerk-middleware" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "quavermoor-instruments",
+  "name": "Quavermoor Instrument Picker",
+  "description": "Instrument tabs with sliding underline showing photo, ages, price and teacher count.",
+  "category": "features",
+  "tags": ["music", "tabs", "features", "education"],
+  "collection": "quavermoor-music",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

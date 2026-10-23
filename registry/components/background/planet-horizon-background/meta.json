@@ -1,0 +1,17 @@
+{
+  "slug": "planet-horizon-background",
+  "name": "Planet Horizon Background",
+  "description": "A planet rising from the bottom edge with a theme-lit atmospheric rim, travelling light sweep and twinkling stars.",
+  "category": "background",
+  "tags": ["space", "planet", "glow", "dark", "canvas"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true,
+  "theme": "midnight"
+}

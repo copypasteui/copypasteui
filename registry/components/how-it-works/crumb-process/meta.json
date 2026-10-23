@@ -1,0 +1,16 @@
+{
+  "slug": "crumb-process",
+  "name": "Crumb 36-Hour Process",
+  "description": "Four-step sourdough timeline with times of day, numbered markers and tilting photos.",
+  "category": "how-it-works",
+  "tags": ["bakery", "process", "timeline", "story"],
+  "collection": "crumb-bakery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

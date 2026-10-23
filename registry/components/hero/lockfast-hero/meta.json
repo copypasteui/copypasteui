@@ -1,0 +1,17 @@
+{
+  "slug": "lockfast-hero",
+  "name": "Lockfast Taproom Hero",
+  "description": "Neo-brutalist brewery hero: navbar, oversized headline, a slowly spinning \"on tap\" sticker and a tilted bar photo on a hard offset shadow.",
+  "category": "hero",
+  "tags": ["brewery", "bar", "neo-brutalist", "sticker", "hero"],
+  "collection": "lockfast-brewery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

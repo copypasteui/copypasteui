@@ -1,0 +1,50 @@
+{
+  "slug": "ocean",
+  "name": "Ocean",
+  "description": "Clear blues and sea-glass teal on airy white. Trustworthy and fresh — fintech, travel, health.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.875rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Manrope', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Sora', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Manrope:wght@400;500;600;700", "Sora:wght@600;700"]
+  },
+  "light": {
+    "background": "#f5f9fc",
+    "foreground": "#0b2236",
+    "card": "#ffffff",
+    "card-foreground": "#0b2236",
+    "primary": "#0b6bcb",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e3eff8",
+    "secondary-foreground": "#0b2236",
+    "muted": "#eaf2f8",
+    "muted-foreground": "#4f6a80",
+    "accent": "#c9f1ea",
+    "accent-foreground": "#08463d",
+    "border": "#d5e3ee",
+    "ring": "#0b6bcb"
+  },
+  "dark": {
+    "background": "#06131f",
+    "foreground": "#e4f0fa",
+    "card": "#0b1d2e",
+    "card-foreground": "#e4f0fa",
+    "primary": "#4aa3ff",
+    "primary-foreground": "#04121f",
+    "secondary": "#11283d",
+    "secondary-foreground": "#e4f0fa",
+    "muted": "#0f2336",
+    "muted-foreground": "#8aa5bb",
+    "accent": "#0f3d38",
+    "accent-foreground": "#9ff0e1",
+    "border": "#1b3349",
+    "ring": "#4aa3ff"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "spruce-footer",
+  "name": "Spruce Footer",
+  "description": "Cleaning footer with rising bubble animation, services and contact.",
+  "category": "footer",
+  "tags": ["cleaning", "footer", "animated"],
+  "collection": "spruce-cleaning",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

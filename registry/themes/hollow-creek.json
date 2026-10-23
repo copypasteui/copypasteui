@@ -1,0 +1,50 @@
+{
+  "slug": "hollow-creek",
+  "name": "Hollow Creek",
+  "description": "Barn red, straw and pasture green with Arvo and Public Sans. Farms, farm shops, orchards, CSAs.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Public Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Arvo', ui-serif, Georgia, serif",
+    "googleFonts": ["Public+Sans:wght@400;500;600;700", "Arvo:wght@400;700"]
+  },
+  "light": {
+    "background": "#f7f2e6",
+    "foreground": "#1f2a1c",
+    "card": "#fffcf4",
+    "card-foreground": "#1f2a1c",
+    "primary": "#9b2d20",
+    "primary-foreground": "#fff7ee",
+    "secondary": "#ece2c6",
+    "secondary-foreground": "#1f2a1c",
+    "muted": "#efe7d3",
+    "muted-foreground": "#5b5e4c",
+    "accent": "#e9b949",
+    "accent-foreground": "#1f2a1c",
+    "border": "#ddd1b2",
+    "ring": "#9b2d20"
+  },
+  "dark": {
+    "background": "#131711",
+    "foreground": "#f1ecdf",
+    "card": "#1b2018",
+    "card-foreground": "#f1ecdf",
+    "primary": "#e6765f",
+    "primary-foreground": "#2a0a05",
+    "secondary": "#2a2f22",
+    "secondary-foreground": "#f1ecdf",
+    "muted": "#20251b",
+    "muted-foreground": "#a9ab98",
+    "accent": "#e9b949",
+    "accent-foreground": "#1f2a1c",
+    "border": "#333828",
+    "ring": "#e6765f"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "wax-cellar-gigs",
+  "name": "Wax Cellar In-Store Gigs",
+  "description": "In-store gigs as date-stamped rows that slide out of register on hover, with ticket prices and capacity.",
+  "category": "events",
+  "tags": ["records", "music", "events", "riso", "hover"],
+  "collection": "wax-cellar-records",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

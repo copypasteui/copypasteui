@@ -1,0 +1,18 @@
+{
+  "slug": "hollow-creek-box",
+  "name": "Hollow Creek Veg Box Builder",
+  "description": "Veg-box builder with box sizes, farm-shop add-ons, delivery day and an animated weekly total.",
+  "category": "products",
+  "tags": ["farm", "products", "subscription", "builder"],
+  "collection": "hollow-creek-farm",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

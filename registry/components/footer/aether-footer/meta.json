@@ -1,0 +1,16 @@
+{
+  "slug": "aether-footer",
+  "name": "Aether Footer",
+  "description": "Dark footer with a rotating eclipse corona rising from the bottom edge.",
+  "category": "footer",
+  "tags": ["ai", "footer", "eclipse", "dark"],
+  "collection": "aether-ai",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

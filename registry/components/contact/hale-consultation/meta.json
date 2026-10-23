@@ -1,0 +1,17 @@
+{
+  "slug": "hale-consultation",
+  "name": "Hale Free Consultation",
+  "description": "Callback request with area of law, situation summary, call-time choice and confidentiality note.",
+  "category": "contact",
+  "tags": ["law", "contact", "form"],
+  "collection": "hale-law",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

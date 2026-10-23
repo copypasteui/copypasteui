@@ -1,0 +1,17 @@
+{
+  "slug": "florea-ritual",
+  "name": "Florea Ritual",
+  "description": "Morning/evening routine switch with arched product photos and numbered steps.",
+  "category": "how-it-works",
+  "tags": ["skincare", "routine", "steps", "toggle"],
+  "collection": "florea-skincare",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

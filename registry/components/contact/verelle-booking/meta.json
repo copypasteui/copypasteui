@@ -1,0 +1,18 @@
+{
+  "slug": "verelle-booking",
+  "name": "Maison Verelle 3-Step Booking",
+  "description": "Three-step appointment flow \u2014 service, stylist, time \u2014 with a progress bar and confirmation.",
+  "category": "contact",
+  "tags": ["salon", "booking", "wizard", "appointment"],
+  "collection": "verelle-salon",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

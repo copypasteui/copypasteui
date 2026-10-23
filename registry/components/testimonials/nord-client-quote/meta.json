@@ -1,0 +1,16 @@
+{
+  "slug": "nord-client-quote",
+  "name": "Nord Client Quote",
+  "description": "Inverted client testimonial with project photo, large quote, portrait and energy-rating stat.",
+  "category": "testimonials",
+  "tags": ["architecture", "testimonial", "quote", "photography"],
+  "collection": "nord-architecture",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

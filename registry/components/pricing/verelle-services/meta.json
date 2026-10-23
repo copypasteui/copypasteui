@@ -1,0 +1,18 @@
+{
+  "slug": "verelle-services",
+  "name": "Maison Verelle Price List",
+  "description": "Salon service menu with category tabs and a stylist-level switch that reprices every service.",
+  "category": "pricing",
+  "tags": ["salon", "pricing", "menu", "tabs"],
+  "collection": "verelle-salon",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

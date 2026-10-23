@@ -1,0 +1,14 @@
+{
+  "slug": "constellation-background",
+  "name": "Constellation Background",
+  "description": "Drifting particle network that links nearby nodes and gathers around the cursor. Light or dark.",
+  "category": "background",
+  "tags": ["particles", "network", "canvas", "interactive", "wrapper"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-21",
+  "theme": "ocean"
+}

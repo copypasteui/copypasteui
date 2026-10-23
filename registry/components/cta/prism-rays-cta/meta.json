@@ -1,0 +1,17 @@
+{
+  "slug": "prism-rays-cta",
+  "name": "Prism Rays CTA",
+  "description": "Big-statement CTA under soft volumetric light rays in primary and accent.",
+  "category": "cta",
+  "tags": ["cta", "rays", "soft", "gradient"],
+  "collection": "prism-design",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

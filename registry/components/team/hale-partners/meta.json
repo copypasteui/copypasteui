@@ -1,0 +1,17 @@
+{
+  "slug": "hale-partners",
+  "name": "Hale Partners",
+  "description": "Lawyer cards with desaturated portraits that colour on hover and reveal email and call buttons.",
+  "category": "team",
+  "tags": ["law", "team", "professional"],
+  "collection": "hale-law",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "ledger-accountants",
+  "name": "Ledger — Accountants & Bookkeepers",
+  "description": "A small-business accountancy: dashboard hero, plans repriced by business type, tax-deadline timeline, client stories, free-call booking and footer.",
+  "brief": "an accountant, bookkeeper, tax adviser, payroll or insurance broker",
+  "theme": "ledger",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["ledger-hero", "ledger-plans", "ledger-deadlines", "ledger-clients", "ledger-call", "ledger-footer"]
+}

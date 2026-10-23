@@ -1,0 +1,12 @@
+{
+  "slug": "lockfast-brewery",
+  "name": "Lockfast — Brewery Taproom",
+  "description": "A neo-brutalist brewery taproom: spinning sticker hero, filterable tap list, events with cursor-follow photos, a self-drawing brewing pipeline, a scroll-speed marquee and a bold footer.",
+  "brief": "a brewery, taproom, craft beer bar, distillery, cider maker or bottle shop",
+  "theme": "poster",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["lockfast-hero", "lockfast-beers", "lockfast-events", "lockfast-brewing", "lockfast-cta", "lockfast-footer"]
+}

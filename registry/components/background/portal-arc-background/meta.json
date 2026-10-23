@@ -1,0 +1,15 @@
+{
+  "slug": "portal-arc-background",
+  "name": "Portal Arc Background",
+  "description": "A ring of light rising from the horizon with thousands of particles drawn into it, bending towards the cursor. Drawn live on canvas.",
+  "category": "background",
+  "tags": ["portal", "particles", "canvas", "dark", "space"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "ocean"
+}

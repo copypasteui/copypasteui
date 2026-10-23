@@ -1,0 +1,16 @@
+{
+  "slug": "crestline-route",
+  "name": "Crestline Elevation Route",
+  "description": "Seven-day route as an elevation profile that draws itself as you scroll; pick a day to see its distance, ascent and where you sleep.",
+  "category": "how-it-works",
+  "tags": ["walking", "travel", "route", "svg", "line-drawing", "swiss"],
+  "collection": "crestline-guiding",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

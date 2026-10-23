@@ -1,0 +1,17 @@
+{
+  "slug": "mossbrook-footer",
+  "name": "Mossbrook Footer",
+  "description": "Navy footer with scattered paw pattern, emergency button and links.",
+  "category": "footer",
+  "tags": ["vet", "footer"],
+  "collection": "mossbrook-vets",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

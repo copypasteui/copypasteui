@@ -1,0 +1,15 @@
+{
+  "slug": "city-bokeh-background",
+  "name": "City Bokeh Background",
+  "description": "Night city lights out of focus, with glowing bokeh circles in your theme colours rising and blending on canvas.",
+  "category": "background",
+  "tags": ["photo", "night", "bokeh", "canvas", "dark"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "neon"
+}

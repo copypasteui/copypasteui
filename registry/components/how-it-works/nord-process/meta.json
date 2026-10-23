@@ -1,0 +1,16 @@
+{
+  "slug": "nord-process",
+  "name": "Nord Process",
+  "description": "Scroll-driven process: phases highlight as you scroll while a sticky photo crossfades per phase.",
+  "category": "how-it-works",
+  "tags": ["architecture", "process", "sticky", "scroll"],
+  "collection": "nord-architecture",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

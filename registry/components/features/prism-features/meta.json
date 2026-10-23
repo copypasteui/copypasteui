@@ -1,0 +1,17 @@
+{
+  "slug": "prism-features",
+  "name": "Prism Features",
+  "description": "Three feature cards with mini product UIs floating over flowing SVG ribbons.",
+  "category": "features",
+  "tags": ["features", "ribbons", "svg", "saas"],
+  "collection": "prism-design",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

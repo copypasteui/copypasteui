@@ -1,0 +1,17 @@
+{
+  "slug": "poggio-lento-hero",
+  "name": "Poggio Lento Scroll-Open Hero",
+  "description": "Hero where a framed vineyard photo opens out to full screen as you scroll, the headline lifts away and a booking card settles on the photo.",
+  "category": "hero",
+  "tags": ["hotel", "vineyard", "scroll", "mask-reveal", "photography", "motion"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "collection": "poggio-lento-agriturismo"
+}

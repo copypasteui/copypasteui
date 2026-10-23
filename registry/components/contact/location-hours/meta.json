@@ -1,0 +1,16 @@
+{
+  "slug": "location-hours",
+  "name": "Location & Hours",
+  "description": "Stylised map with a dropping pin, directions button and an opening-hours list that highlights today.",
+  "category": "contact",
+  "tags": ["location", "hours", "map", "local-business"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

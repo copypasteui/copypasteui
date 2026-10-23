@@ -1,0 +1,16 @@
+{
+  "slug": "wrenhollow-spaces",
+  "name": "Wrenhollow Spaces List",
+  "description": "Hover list of venue spaces that swaps an arched photo and reveals capacity and description.",
+  "category": "gallery",
+  "tags": ["wedding", "venue", "gallery", "hover"],
+  "collection": "wrenhollow-weddings",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

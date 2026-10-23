@@ -1,0 +1,16 @@
+{
+  "slug": "comparison-table-pricing",
+  "name": "Comparison Table Pricing",
+  "description": "Full plan comparison table with grouped rows, ticks and a highlighted popular column.",
+  "category": "pricing",
+  "tags": ["pricing", "table", "comparison", "saas"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

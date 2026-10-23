@@ -1,0 +1,17 @@
+{
+  "slug": "larder-lane-hero",
+  "name": "Larder Lane Sunburst Hero",
+  "description": "70s-style bakery hero: a slowly turning sunburst behind a round loaf, a headline with a wavy underline that draws itself and opening times.",
+  "category": "hero",
+  "tags": ["bakery", "retro", "70s", "sunburst", "svg"],
+  "collection": "larder-lane-bakery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

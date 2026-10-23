@@ -1,0 +1,17 @@
+{
+  "slug": "crestline-photos",
+  "name": "Crestline Drag Photo Strip",
+  "description": "A strip of route photos you can drag sideways, with numbered captions and keyboard-friendly previous and next buttons.",
+  "category": "gallery",
+  "tags": ["walking", "travel", "gallery", "drag", "carousel"],
+  "collection": "crestline-guiding",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

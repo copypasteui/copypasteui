@@ -1,0 +1,18 @@
+{
+  "slug": "fixwell-prices",
+  "name": "Fixwell Transparent Prices",
+  "description": "Hourly rates with a working-hours / out-of-hours switch and a fixed-price job list.",
+  "category": "pricing",
+  "tags": ["trades", "pricing", "toggle"],
+  "collection": "fixwell-trades",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "farstep",
+  "name": "Farstep",
+  "description": "Glacier blue, sunflower and chalk with Chivo and Figtree. Tour operators, travel agencies, outdoor guides.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Figtree', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Chivo', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Figtree:wght@400;500;600;700", "Chivo:wght@700;800;900"]
+  },
+  "light": {
+    "background": "#f6f5f0",
+    "foreground": "#0f1c29",
+    "card": "#ffffff",
+    "card-foreground": "#0f1c29",
+    "primary": "#0b5a8a",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e3edf3",
+    "secondary-foreground": "#0f1c29",
+    "muted": "#eceae3",
+    "muted-foreground": "#55606a",
+    "accent": "#f5c242",
+    "accent-foreground": "#0f1c29",
+    "border": "#dcdad1",
+    "ring": "#0b5a8a"
+  },
+  "dark": {
+    "background": "#0a131c",
+    "foreground": "#eef2f5",
+    "card": "#111d29",
+    "card-foreground": "#eef2f5",
+    "primary": "#6cc0f0",
+    "primary-foreground": "#04223a",
+    "secondary": "#1a2a38",
+    "secondary-foreground": "#eef2f5",
+    "muted": "#15222f",
+    "muted-foreground": "#9fb0bf",
+    "accent": "#f5c242",
+    "accent-foreground": "#0f1c29",
+    "border": "#22323f",
+    "ring": "#6cc0f0"
+  }
+}

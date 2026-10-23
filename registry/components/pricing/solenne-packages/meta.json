@@ -1,0 +1,17 @@
+{
+  "slug": "solenne-packages",
+  "name": "Solenne Stay Packages",
+  "description": "Photo-topped stay packages with an animated high/shoulder season switch and per-stay pricing.",
+  "category": "pricing",
+  "tags": ["hotel", "pricing", "packages", "seasonal"],
+  "collection": "solenne-hotel",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

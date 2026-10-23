@@ -1,0 +1,2 @@
+# Mass reformat with Prettier: hide from git blame (git config blame.ignoreRevsFile .git-blame-ignore-revs)
+bc6bcfb8403522803fb7a08a83d15fa7c91cae30

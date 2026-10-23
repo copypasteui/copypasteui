@@ -1,0 +1,16 @@
+{
+  "slug": "glaze-days-footer",
+  "name": "Glaze Days Footer",
+  "description": "Rounded clay footer with opening hours, the late Thursday, address and social links.",
+  "category": "footer",
+  "tags": ["pottery", "cafe", "footer", "clay"],
+  "collection": "glaze-days-pottery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-22"
+}

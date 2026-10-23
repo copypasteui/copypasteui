@@ -1,0 +1,13 @@
+{
+  "slug": "convex",
+  "name": "Convex",
+  "summary": "A TypeScript-first backend with live queries: tables, server functions and auth in one place, with every check written in code.",
+  "audience": ["developers"],
+  "bestFor": "All-TypeScript projects that want screens to update live (orders and bookings appearing without refresh).",
+  "cost": "Free tier for small projects; paid plans per team.",
+  "rank": 4,
+  "docs": [
+    { "label": "Convex Auth", "href": "https://labs.convex.dev/auth" },
+    { "label": "Authorization in Convex", "href": "https://docs.convex.dev/auth/functions-auth" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "olea-hero",
+  "name": "Olea Restaurant Hero",
+  "description": "Full-bleed dining-room hero with centred wordmark nav, giant serif headline, hours and address strip and a floating press quote.",
+  "category": "hero",
+  "tags": ["restaurant", "food", "hospitality", "photography", "serif"],
+  "collection": "olea-restaurant",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

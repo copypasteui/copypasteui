@@ -1,0 +1,17 @@
+{
+  "slug": "admin-menu-editor",
+  "name": "Back Office Menu Editor",
+  "description": "Edit the menu in place: sections as tabs, drag to reorder, inline names and prices, dietary tags, sold-out switches, add and delete, and one Publish button.",
+  "category": "admin",
+  "tags": ["admin", "menu", "editor", "products"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "usage": "Give it the /admin/menu route. Load sections from the same table your public menu reads, and save the whole list in onSave so the website updates when the owner presses Publish. Works for product or service lists too — rename the labels. Security: put every back-office screen behind sign-in (for example Supabase Auth or Clerk), let only the owner's account read or write this data (in Supabase, with row-level security on every table), and keep admin pages out of the public navigation and sitemap.",
+  "createdAt": "2026-10-21"
+}

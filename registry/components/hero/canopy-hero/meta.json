@@ -1,0 +1,18 @@
+{
+  "slug": "canopy-hero",
+  "name": "Canopy Resort Hero",
+  "description": "Full-screen aerial villa hero with slow zoom, centred serif headline and an availability search bar.",
+  "category": "hero",
+  "tags": ["resort", "hotel", "travel", "booking", "photography"],
+  "collection": "canopy-resort",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "flintmoor",
+  "name": "Flintmoor",
+  "description": "Charcoal, oxblood and brass with Alfa Slab One and Barlow. Barbershops, tattoo studios, menswear.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.25rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Barlow', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Alfa Slab One', ui-serif, Georgia, serif",
+    "googleFonts": ["Barlow:wght@400;500;600;700", "Alfa+Slab+One"]
+  },
+  "light": {
+    "background": "#ece6dc",
+    "foreground": "#1a1816",
+    "card": "#f6f2ea",
+    "card-foreground": "#1a1816",
+    "primary": "#6e1f1f",
+    "primary-foreground": "#f6ede4",
+    "secondary": "#dcd3c4",
+    "secondary-foreground": "#1a1816",
+    "muted": "#e3dccf",
+    "muted-foreground": "#58524a",
+    "accent": "#c4954a",
+    "accent-foreground": "#1a1816",
+    "border": "#cbc1b0",
+    "ring": "#6e1f1f"
+  },
+  "dark": {
+    "background": "#141311",
+    "foreground": "#ece6dc",
+    "card": "#1d1b18",
+    "card-foreground": "#ece6dc",
+    "primary": "#d98a6a",
+    "primary-foreground": "#2a0b05",
+    "secondary": "#2b2824",
+    "secondary-foreground": "#ece6dc",
+    "muted": "#221f1c",
+    "muted-foreground": "#a8a196",
+    "accent": "#c4954a",
+    "accent-foreground": "#1a1816",
+    "border": "#35312c",
+    "ring": "#d98a6a"
+  }
+}

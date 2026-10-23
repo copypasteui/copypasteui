@@ -1,0 +1,18 @@
+{
+  "slug": "mossbrook-hero",
+  "name": "Mossbrook Vet Hero",
+  "description": "Vet and grooming hero with pet-type switcher that swaps photo and copy, walking paw-print trail and emergency bar.",
+  "category": "hero",
+  "tags": ["vet", "pets", "clinic", "photography", "playful"],
+  "collection": "mossbrook-vets",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

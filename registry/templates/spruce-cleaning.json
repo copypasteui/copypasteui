@@ -1,0 +1,12 @@
+{
+  "slug": "spruce-cleaning",
+  "name": "Spruce — Cleaning Service",
+  "description": "A home cleaning company: instant-price hero, frequency pricing, room-by-room checklist, reviews and promises, FAQ with guarantee and bubbly footer.",
+  "brief": "a cleaning company, laundrette, window cleaner or home-care service",
+  "theme": "spruce",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["spruce-hero", "spruce-quote", "spruce-checklist", "spruce-reviews", "spruce-faq", "spruce-footer"]
+}

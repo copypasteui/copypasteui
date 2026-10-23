@@ -1,0 +1,17 @@
+{
+  "slug": "brightline-booking",
+  "name": "Brightline Appointment Request",
+  "description": "Appointment request with new or existing patient, reason chips, emergency hint and best time.",
+  "category": "contact",
+  "tags": ["dental", "booking", "form", "hours"],
+  "collection": "brightline-dental",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

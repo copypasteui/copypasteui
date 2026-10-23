@@ -1,0 +1,17 @@
+{
+  "slug": "still-treatments",
+  "name": "Still Treatment Menu",
+  "description": "Treatment list with a 60/90-minute switch that reprices and a sticky photo that follows hover.",
+  "category": "menu",
+  "tags": ["spa", "menu", "pricing", "hover"],
+  "collection": "still-spa",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

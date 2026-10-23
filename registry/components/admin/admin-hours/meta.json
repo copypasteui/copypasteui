@@ -1,0 +1,16 @@
+{
+  "slug": "admin-hours",
+  "name": "Back Office Hours & Closures",
+  "description": "Set the usual week (open or closed, from and to) and add holiday closures with the message for the website's notice banner.",
+  "category": "admin",
+  "tags": ["admin", "opening-hours", "closures", "holidays"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "usage": "Give it the /admin/hours route. Save week and closures in onSave to one place that the public footer, contact section and closed-notice banner all read, so they never disagree. Security: put every back-office screen behind sign-in (for example Supabase Auth or Clerk), let only the owner's account read or write this data (in Supabase, with row-level security on every table), and keep admin pages out of the public navigation and sitemap.",
+  "createdAt": "2026-10-21"
+}

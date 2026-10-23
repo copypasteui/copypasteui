@@ -1,0 +1,12 @@
+{
+  "slug": "still-spa",
+  "name": "Still — Day Spa",
+  "description": "A calm day spa: breathing-guide hero, treatment menu with duration pricing, thermal-suite bento, visit options, gift-voucher builder and minimal footer.",
+  "brief": "a spa, massage therapist, float centre, sauna or wellness studio",
+  "theme": "still",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["still-hero", "still-treatments", "still-facilities", "still-memberships", "still-booking", "still-footer"]
+}

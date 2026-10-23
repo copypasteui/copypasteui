@@ -1,0 +1,52 @@
+{
+  "slug": "frost",
+  "name": "Frost",
+  "description": "Glass: frosted cards over a soft sea-blue and aqua wash, white edges, Manrope. Apps, studios, wellness, anything that wants light and depth.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.25rem",
+  "style": {
+    "label": "Glass",
+    "surface": "glass",
+    "motion": "lively"
+  },
+  "fonts": {
+    "sans": "'Manrope', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Manrope', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Manrope:wght@400;500;600;700;800"]
+  },
+  "light": {
+    "background": "#eef1f8",
+    "foreground": "#0e1525",
+    "card": "#ffffff",
+    "card-foreground": "#0e1525",
+    "primary": "#0b5d8a",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e0e6f6",
+    "secondary-foreground": "#0e1525",
+    "muted": "#e5e9f4",
+    "muted-foreground": "#465068",
+    "accent": "#a5f3fc",
+    "accent-foreground": "#0e1525",
+    "border": "#ffffffb3",
+    "ring": "#0b5d8a"
+  },
+  "dark": {
+    "background": "#0b1020",
+    "foreground": "#e8ecf8",
+    "card": "#1a2238",
+    "card-foreground": "#e8ecf8",
+    "primary": "#7dd3fc",
+    "primary-foreground": "#0b1020",
+    "secondary": "#1a2240",
+    "secondary-foreground": "#e8ecf8",
+    "muted": "#151c32",
+    "muted-foreground": "#bfc8df",
+    "accent": "#67e8f9",
+    "accent-foreground": "#0b1020",
+    "border": "#ffffff26",
+    "ring": "#7dd3fc"
+  }
+}

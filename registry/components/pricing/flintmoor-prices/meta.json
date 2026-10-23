@@ -1,0 +1,16 @@
+{
+  "slug": "flintmoor-prices",
+  "name": "Flintmoor Price Board",
+  "description": "Dark price board with dotted leaders grouped into hair, beard and combos beside a shave photo.",
+  "category": "pricing",
+  "tags": ["barber", "pricing", "menu"],
+  "collection": "flintmoor-barbers",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

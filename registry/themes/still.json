@@ -1,0 +1,50 @@
+{
+  "slug": "still",
+  "name": "Still",
+  "description": "Stone, sage and warm sand with Bellefair and Nunito Sans. Spas, massage, wellness and float centres.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "2rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Nunito Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Bellefair', ui-serif, Georgia, serif",
+    "googleFonts": ["Nunito+Sans:wght@300;400;600;700", "Bellefair"]
+  },
+  "light": {
+    "background": "#f2efe9",
+    "foreground": "#2b2e2a",
+    "card": "#faf8f4",
+    "card-foreground": "#2b2e2a",
+    "primary": "#525e50",
+    "primary-foreground": "#f6f4ee",
+    "secondary": "#e4e2d8",
+    "secondary-foreground": "#2b2e2a",
+    "muted": "#e9e6de",
+    "muted-foreground": "#62665f",
+    "accent": "#c9b79c",
+    "accent-foreground": "#2b2e2a",
+    "border": "#d9d5ca",
+    "ring": "#525e50"
+  },
+  "dark": {
+    "background": "#141614",
+    "foreground": "#ebe8e1",
+    "card": "#1c1f1c",
+    "card-foreground": "#ebe8e1",
+    "primary": "#b5c4b0",
+    "primary-foreground": "#1a2418",
+    "secondary": "#272b26",
+    "secondary-foreground": "#ebe8e1",
+    "muted": "#1f231f",
+    "muted-foreground": "#a3a89f",
+    "accent": "#c9b79c",
+    "accent-foreground": "#2b2e2a",
+    "border": "#2f342e",
+    "ring": "#b5c4b0"
+  }
+}

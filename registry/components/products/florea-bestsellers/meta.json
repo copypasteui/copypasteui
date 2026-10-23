@@ -1,0 +1,18 @@
+{
+  "slug": "florea-bestsellers",
+  "name": "Florea Bestsellers",
+  "description": "Product grid with hover photo swap, size chips that change price, wishlist and slide-up add to bag.",
+  "category": "products",
+  "tags": ["skincare", "ecommerce", "products", "photography"],
+  "collection": "florea-skincare",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

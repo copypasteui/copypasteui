@@ -1,0 +1,18 @@
+{
+  "slug": "ledger-plans",
+  "name": "Ledger Monthly Plans",
+  "description": "Business-type switch that reprices three monthly accounting plans.",
+  "category": "pricing",
+  "tags": ["accountant", "pricing", "toggle"],
+  "collection": "ledger-accountants",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "split-accordion-faq",
+  "name": "Split Accordion FAQ",
+  "description": "Sticky heading on the left, smooth height-animated accordion on the right.",
+  "category": "faq",
+  "tags": ["accordion", "faq", "sticky"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-20"
+}

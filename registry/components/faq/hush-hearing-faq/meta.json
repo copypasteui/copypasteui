@@ -1,0 +1,17 @@
+{
+  "slug": "hush-hearing-faq",
+  "name": "Hush Hearing FAQ",
+  "description": "Questions people ask before a first hearing test, in soft raised panels that open with a smooth height animation.",
+  "category": "faq",
+  "tags": ["hearing", "clinic", "faq", "accordion", "neumorphic"],
+  "collection": "hush-hearing",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

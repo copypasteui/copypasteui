@@ -1,0 +1,17 @@
+{
+  "slug": "gearwright-footer",
+  "name": "Gearwright Footer",
+  "description": "Dark garage footer with skewed logo, services and a streaking light line.",
+  "category": "footer",
+  "tags": ["garage", "footer"],
+  "collection": "gearwright-garage",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

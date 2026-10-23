@@ -1,0 +1,17 @@
+{
+  "slug": "lockfast-events",
+  "name": "Lockfast Weekly Events",
+  "description": "Weekly taproom events as big rows; hovering a row shows its photo following the cursor.",
+  "category": "events",
+  "tags": ["brewery", "events", "cursor-follow", "hover", "list"],
+  "collection": "lockfast-brewery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

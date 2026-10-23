@@ -1,0 +1,17 @@
+{
+  "slug": "verelle-footer",
+  "name": "Maison Verelle Footer",
+  "description": "Salon footer with address, link grid, gift-card and Instagram pills and a rising wordmark.",
+  "category": "footer",
+  "tags": ["salon", "footer", "wordmark"],
+  "collection": "verelle-salon",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "motion-footer",
+  "name": "Motion Footer",
+  "description": "Dark footer with link columns and a looping italic \u2018keep moving\u2019 marquee.",
+  "category": "footer",
+  "tags": ["physio", "footer", "marquee"],
+  "collection": "motion-physio",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

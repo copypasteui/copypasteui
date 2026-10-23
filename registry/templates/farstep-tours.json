@@ -1,0 +1,12 @@
+{
+  "slug": "farstep-tours",
+  "name": "Farstep — Tour Operator",
+  "description": "A small-group tour operator: trip search hero with fanned photos, filterable trip cards, elevation-profile itinerary, rating breakdown and reviews, FAQ with a trip-planner card and brochure footer.",
+  "brief": "a tour operator, travel agency, outdoor guide or activity company",
+  "theme": "farstep",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["farstep-hero", "farstep-tours", "farstep-itinerary", "farstep-reviews", "farstep-faq", "farstep-footer"]
+}

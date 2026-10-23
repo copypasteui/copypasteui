@@ -1,0 +1,14 @@
+{
+  "slug": "legal-page",
+  "name": "Privacy & Terms Page",
+  "description": "Privacy policy and booking terms in plain English for a small business, with tabs, a contents list and every detail in one place at the top.",
+  "category": "pages",
+  "tags": ["privacy", "terms", "legal", "page"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "usage": "Give <LegalPage /> its own page (for example /privacy) and link it from the footer. Replace every value in the business object, rewrite the sections to match what the business really collects, who it shares data with and its real booking rules, and delete what doesn't apply. It's a starting point, not legal advice: have it checked if the business takes payments or sensitive information.",
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "property-cards",
+  "name": "Property Cards",
+  "description": "Listing cards with real home photos, status badges, a save button and bed, bath and size details.",
+  "category": "cards",
+  "tags": ["real-estate", "listings", "cards", "save"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-21"
+}

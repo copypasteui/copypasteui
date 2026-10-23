@@ -1,0 +1,16 @@
+{
+  "slug": "florea-footer",
+  "name": "Florea Footer",
+  "description": "Beauty footer with brand promises, signup, links and a large italic serif wordmark.",
+  "category": "footer",
+  "tags": ["skincare", "footer", "newsletter", "wordmark"],
+  "collection": "florea-skincare",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-21"
+}

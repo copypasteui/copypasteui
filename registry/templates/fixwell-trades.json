@@ -1,0 +1,12 @@
+{
+  "slug": "fixwell-trades",
+  "name": "Fixwell — Plumber & Electrician",
+  "description": "An emergency trades business: live-availability hero with postcode ETA, trade service tabs, transparent day/night pricing, reviews, call-out request and emergency footer.",
+  "brief": "a plumber, electrician, heating engineer, locksmith or handyman",
+  "theme": "fixwell",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["fixwell-hero", "fixwell-services", "fixwell-prices", "fixwell-reviews", "fixwell-callout", "fixwell-footer"]
+}

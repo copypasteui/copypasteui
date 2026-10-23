@@ -1,0 +1,16 @@
+{
+  "slug": "announcement-navbar",
+  "name": "Announcement Navbar",
+  "description": "Dismissible announcement bar above a navbar with an animated product mega-menu.",
+  "category": "navbar",
+  "tags": ["saas", "dropdown", "banner", "mega-menu"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

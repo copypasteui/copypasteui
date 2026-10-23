@@ -1,0 +1,17 @@
+{
+  "slug": "wrenhollow-day",
+  "name": "Wrenhollow Wedding Day Timeline",
+  "description": "Hour-by-hour wedding-day timeline with a scroll-drawn line and alternating photos.",
+  "category": "how-it-works",
+  "tags": ["wedding", "timeline", "scroll", "events"],
+  "collection": "wrenhollow-weddings",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

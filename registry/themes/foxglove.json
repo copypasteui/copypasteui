@@ -1,0 +1,50 @@
+{
+  "slug": "foxglove",
+  "name": "Foxglove",
+  "description": "Kraft paper, ink black and hop orange with Bebas Neue and Space Grotesk. Breweries, taprooms, bars.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.25rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Space Grotesk', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Bebas Neue', Impact, ui-sans-serif, sans-serif",
+    "googleFonts": ["Space+Grotesk:wght@400;500;600;700", "Bebas+Neue"]
+  },
+  "light": {
+    "background": "#efe8da",
+    "foreground": "#16140f",
+    "card": "#f7f2e7",
+    "card-foreground": "#16140f",
+    "primary": "#ac360c",
+    "primary-foreground": "#fff7ed",
+    "secondary": "#e2d8c4",
+    "secondary-foreground": "#16140f",
+    "muted": "#e6decd",
+    "muted-foreground": "#5a5446",
+    "accent": "#f2b33d",
+    "accent-foreground": "#16140f",
+    "border": "#cfc4ad",
+    "ring": "#ac360c"
+  },
+  "dark": {
+    "background": "#12110e",
+    "foreground": "#f1ebdd",
+    "card": "#1b1a15",
+    "card-foreground": "#f1ebdd",
+    "primary": "#f97a3d",
+    "primary-foreground": "#1f0a02",
+    "secondary": "#26241d",
+    "secondary-foreground": "#f1ebdd",
+    "muted": "#1f1d17",
+    "muted-foreground": "#aaa391",
+    "accent": "#f2b33d",
+    "accent-foreground": "#16140f",
+    "border": "#33302a",
+    "ring": "#f97a3d"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "greenline",
+  "name": "Greenline",
+  "description": "Box-hedge green, stone and fresh lime with Spectral and Inter Tight. Landscapers, gardeners, tree surgeons.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Inter Tight', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Spectral', ui-serif, Georgia, serif",
+    "googleFonts": ["Inter+Tight:wght@400;500;600;700", "Spectral:ital,wght@0,500;0,700;1,500"]
+  },
+  "light": {
+    "background": "#f4f3ee",
+    "foreground": "#16241a",
+    "card": "#fbfaf6",
+    "card-foreground": "#16241a",
+    "primary": "#24502f",
+    "primary-foreground": "#f4f3ee",
+    "secondary": "#e2e6d8",
+    "secondary-foreground": "#16241a",
+    "muted": "#e9e9e1",
+    "muted-foreground": "#535c51",
+    "accent": "#b7d96a",
+    "accent-foreground": "#16241a",
+    "border": "#d6d8cb",
+    "ring": "#24502f"
+  },
+  "dark": {
+    "background": "#0f1611",
+    "foreground": "#ebede5",
+    "card": "#162019",
+    "card-foreground": "#ebede5",
+    "primary": "#a8d08a",
+    "primary-foreground": "#12260f",
+    "secondary": "#232f25",
+    "secondary-foreground": "#ebede5",
+    "muted": "#1a241c",
+    "muted-foreground": "#a2aa9f",
+    "accent": "#b7d96a",
+    "accent-foreground": "#16241a",
+    "border": "#2b372d",
+    "ring": "#a8d08a"
+  }
+}

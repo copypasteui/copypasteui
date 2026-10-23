@@ -1,0 +1,17 @@
+{
+  "slug": "ledger-footer",
+  "name": "Ledger Footer",
+  "description": "Accountancy footer with tax-tip signup and link columns.",
+  "category": "footer",
+  "tags": ["accountant", "footer", "newsletter"],
+  "collection": "ledger-accountants",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

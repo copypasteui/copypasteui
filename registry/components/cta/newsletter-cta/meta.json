@@ -1,0 +1,16 @@
+{
+  "slug": "newsletter-cta",
+  "name": "Newsletter CTA",
+  "description": "Bold newsletter panel with email validation and an animated success state.",
+  "category": "cta",
+  "tags": ["newsletter", "email", "form", "signup"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

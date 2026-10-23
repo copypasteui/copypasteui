@@ -1,0 +1,17 @@
+{
+  "slug": "orbit-glow-hero",
+  "name": "Orbit Rings Hero",
+  "description": "Developer-tool hero with slow dashed orbit rings, a plain-spoken headline, an install command and a live job list.",
+  "category": "hero",
+  "tags": ["saas", "developer-tools", "ai", "glow", "animated"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-20",
+  "featured": true
+}

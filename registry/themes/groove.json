@@ -1,0 +1,54 @@
+{
+  "slug": "groove",
+  "name": "Groove",
+  "description": "70s retro: sunflower cream, burnt orange and brown, fat rounded Shrikhand headlines, chunky outlines with orange offset shadows on a dot pattern.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "2rem",
+  "style": {
+    "label": "Retro",
+    "shadow": "hard",
+    "border": "2px",
+    "texture": "dots",
+    "motion": "lively"
+  },
+  "fonts": {
+    "sans": "'DM Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Shrikhand', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["DM+Sans:wght@400;500;600;700", "Shrikhand"]
+  },
+  "light": {
+    "background": "#fbe9cf",
+    "foreground": "#3b2314",
+    "card": "#fff4e3",
+    "card-foreground": "#3b2314",
+    "primary": "#953617",
+    "primary-foreground": "#ffffff",
+    "secondary": "#f6d39a",
+    "secondary-foreground": "#3b2314",
+    "muted": "#f3dcb8",
+    "muted-foreground": "#6a4630",
+    "accent": "#e8a33d",
+    "accent-foreground": "#3b2314",
+    "border": "#3b2314",
+    "ring": "#c2541f"
+  },
+  "dark": {
+    "background": "#2a1a10",
+    "foreground": "#fbe9cf",
+    "card": "#352216",
+    "card-foreground": "#fbe9cf",
+    "primary": "#f4a259",
+    "primary-foreground": "#2a1a10",
+    "secondary": "#43291a",
+    "secondary-foreground": "#fbe9cf",
+    "muted": "#3a2416",
+    "muted-foreground": "#d9b994",
+    "accent": "#e8a33d",
+    "accent-foreground": "#2a1a10",
+    "border": "#fbe9cf",
+    "ring": "#f4a259"
+  }
+}

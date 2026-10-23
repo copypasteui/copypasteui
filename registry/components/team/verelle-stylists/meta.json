@@ -1,0 +1,17 @@
+{
+  "slug": "verelle-stylists",
+  "name": "Maison Verelle Stylists",
+  "description": "Staggered stylist cards with arched portraits that colour on hover and reveal a book-with button.",
+  "category": "team",
+  "tags": ["salon", "team", "hover"],
+  "collection": "verelle-salon",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

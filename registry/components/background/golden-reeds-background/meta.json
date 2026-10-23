@@ -1,0 +1,17 @@
+{
+  "slug": "golden-reeds-background",
+  "name": "Golden Reeds Background",
+  "description": "Backlit reeds at sunset with a pulsing sun flare, slow light rays and dust motes floating up through the glow.",
+  "category": "background",
+  "tags": ["photo", "nature", "sunset", "rays", "glow"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "citrus"
+}

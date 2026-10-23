@@ -1,0 +1,18 @@
+{
+  "slug": "acorns-hero",
+  "name": "Little Acorns Nursery Hero",
+  "description": "Playful nursery hero with bouncy photo blobs, drawn underline, inspection badge, lunch card and floating emoji.",
+  "category": "hero",
+  "tags": ["nursery", "childcare", "kids", "playful", "photography"],
+  "collection": "acorns-nursery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

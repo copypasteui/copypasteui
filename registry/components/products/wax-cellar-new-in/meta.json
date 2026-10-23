@@ -1,0 +1,17 @@
+{
+  "slug": "wax-cellar-new-in",
+  "name": "Wax Cellar Crate Dig",
+  "description": "New arrivals as a stack of record sleeves; flick or click to send the top one to the back of the crate, with price, genre and condition.",
+  "category": "products",
+  "tags": ["records", "music", "shop", "cards", "drag", "stack"],
+  "collection": "wax-cellar-records",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

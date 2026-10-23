@@ -1,0 +1,17 @@
+{
+  "slug": "ironbark-services",
+  "name": "Ironbark Services List",
+  "description": "Dark hover list of building services that swaps photo, description, typical budget and time on site.",
+  "category": "features",
+  "tags": ["builder", "services", "hover", "features"],
+  "collection": "ironbark-builders",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

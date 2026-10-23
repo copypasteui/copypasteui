@@ -1,0 +1,15 @@
+{
+  "slug": "spotlight-hover-cards",
+  "name": "Spotlight Hover Cards",
+  "description": "Feature cards sharing one cursor spotlight that lights up borders and fills.",
+  "category": "cards",
+  "tags": ["spotlight", "cursor", "glow", "features"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-21"
+}

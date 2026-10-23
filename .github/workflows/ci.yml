@@ -1,0 +1,86 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: No known vulnerabilities in what we ship (high or worse)
+        run: npm audit --omit=dev --audit-level=high
+      - name: Formatting (Prettier)
+        run: npm run format:check
+      - name: Lint (ESLint, no warnings)
+        run: npm run lint
+      - name: Validate registry (component rules, themes, templates, image alt text)
+        run: npm run registry:validate
+      - name: Check every Unsplash photo still exists
+        run: npm run check:photos
+      - name: Build registry, MCP package and static site (type-checks every component)
+        run: npm run build
+      - name: Type-check the MCP and the site with the strict settings
+        run: npm run typecheck
+      - name: Every section compiles on its own (strict TypeScript, React 18 and 19)
+        run: npm run check:components
+      - name: No near-duplicate sections
+        run: npm run check:duplicates
+      - name: MCP tests with a coverage floor
+        run: npm run test:coverage -w packages/mcp
+      - name: Prompt contract, search ranking and registry validator tests
+        run: npm run test:prompts
+      - name: Render every component, template and theme (fails on runtime errors)
+        run: |
+          npx playwright@1.54.1 install --with-deps chromium
+          npm run screenshots
+      - name: Smoke tests of the main flows in a real browser
+        run: npm run test:smoke
+      - name: No sideways scrolling on a 360px phone (every template and component)
+        run: npm run check:mobile
+      - name: Size budgets (page JavaScript and HTML, MCP package)
+        run: npm run check:size
+
+  # Every section in the browser: three themes × light/dark with axe, and every interactive control exercised.
+  # Its own job so the main checks don't wait for it.
+  sections:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build registry, MCP package and static site
+        run: npm run build
+      - run: npx playwright@1.54.1 install --with-deps chromium
+      - name: Click, type and submit everything in every stateful section
+        run: npm run check:interactions
+      - name: Render every section in 3 themes × light/dark and run axe (contrast baseline can only go down)
+        run: npm run check:a11y
+      - name: Theme-style matrix, pairwise (every pair of style settings × section traits, phone to desktop)
+        run: npm run check:matrix
+      - name: Pairwise matrix for each section and theme this pull request changes
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          git fetch --depth=1 origin "$BASE_REF"
+          for s in $(git diff --name-only FETCH_HEAD -- registry/components | cut -d/ -f4 | sort -u); do
+            if ls -d registry/components/*/"$s" >/dev/null 2>&1; then npm run check:matrix -- --section "$s"; fi
+          done
+          for t in $(git diff --name-only FETCH_HEAD -- registry/themes | xargs -r -n1 basename | sed 's/\.json$//' | sort -u); do
+            if [ -f "registry/themes/$t.json" ]; then npm run check:matrix -- --theme "$t"; fi
+          done

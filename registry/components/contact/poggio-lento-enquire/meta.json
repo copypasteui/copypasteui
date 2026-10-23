@@ -1,0 +1,17 @@
+{
+  "slug": "poggio-lento-enquire",
+  "name": "Poggio Lento Enquiry",
+  "description": "Stay enquiry with arrival and departure dates, rooms and a note, in fine underlined fields, with a calm confirmation.",
+  "category": "contact",
+  "tags": ["hotel", "booking", "enquiry", "form", "luxury"],
+  "collection": "poggio-lento-agriturismo",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

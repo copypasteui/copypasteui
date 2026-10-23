@@ -1,0 +1,17 @@
+{
+  "slug": "solenne-footer",
+  "name": "Solenne Footer",
+  "description": "Coloured footer with newsletter line, link columns, drifting staggered photo strip and full-width serif wordmark.",
+  "category": "footer",
+  "tags": ["hotel", "footer", "marquee", "wordmark"],
+  "collection": "solenne-hotel",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

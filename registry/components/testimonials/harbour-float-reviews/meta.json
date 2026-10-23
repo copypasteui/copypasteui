@@ -1,0 +1,16 @@
+{
+  "slug": "harbour-float-reviews",
+  "name": "Harbour Float Review Columns",
+  "description": "Reviews in two columns drifting up and down in opposite directions, with a pause button and a still layout for reduced motion.",
+  "category": "testimonials",
+  "tags": ["spa", "wellness", "reviews", "marquee", "glass"],
+  "collection": "harbour-float-spa",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-22"
+}

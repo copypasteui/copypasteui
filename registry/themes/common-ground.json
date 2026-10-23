@@ -1,0 +1,50 @@
+{
+  "slug": "common-ground",
+  "name": "Common Ground",
+  "description": "Warm white, deep harbour blue and coral with Literata and Atkinson Hyperlegible. Charities, nonprofits, community groups, churches.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.75rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Atkinson Hyperlegible', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Literata', ui-serif, Georgia, serif",
+    "googleFonts": ["Atkinson+Hyperlegible:wght@400;700", "Literata:opsz,wght@7..72,600;7..72,800"]
+  },
+  "light": {
+    "background": "#fbf8f3",
+    "foreground": "#14213a",
+    "card": "#ffffff",
+    "card-foreground": "#14213a",
+    "primary": "#173f73",
+    "primary-foreground": "#ffffff",
+    "secondary": "#ffe1d6",
+    "secondary-foreground": "#14213a",
+    "muted": "#f2eee6",
+    "muted-foreground": "#545d6e",
+    "accent": "#c2412a",
+    "accent-foreground": "#ffffff",
+    "border": "#e3ddd2",
+    "ring": "#173f73"
+  },
+  "dark": {
+    "background": "#0c1424",
+    "foreground": "#f2efe9",
+    "card": "#131d31",
+    "card-foreground": "#f2efe9",
+    "primary": "#8fb6ff",
+    "primary-foreground": "#0a1f45",
+    "secondary": "#3a2524",
+    "secondary-foreground": "#f2efe9",
+    "muted": "#18233a",
+    "muted-foreground": "#a6adbd",
+    "accent": "#ff8a70",
+    "accent-foreground": "#2a0b04",
+    "border": "#24304a",
+    "ring": "#8fb6ff"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "bento-feature-grid",
+  "name": "Bento Feature Grid",
+  "description": "Asymmetric bento grid of feature tiles with scroll-reveal, hover lift and an animated bar chart.",
+  "category": "features",
+  "tags": ["bento", "grid", "saas", "scroll-reveal"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-20",
+  "featured": true
+}

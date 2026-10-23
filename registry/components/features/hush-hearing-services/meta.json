@@ -1,0 +1,17 @@
+{
+  "slug": "hush-hearing-services",
+  "name": "Hush Hearing Press-In Services",
+  "description": "Clinic services as soft raised tiles that press into the page on hover or focus, each with a duration and price.",
+  "category": "features",
+  "tags": ["hearing", "clinic", "services", "neumorphic", "hover"],
+  "collection": "hush-hearing",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

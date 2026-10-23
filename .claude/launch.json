@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "web-static",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["apps/web/scripts/serve.mjs", "apps/web/out"],
+      "port": 4173
+    }
+  ]
+}

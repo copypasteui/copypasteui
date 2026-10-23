@@ -1,0 +1,17 @@
+{
+  "slug": "quavermoor-concerts",
+  "name": "Quavermoor Concerts",
+  "description": "Event cards with date blocks, venues, free or ticketed chips and RSVP links.",
+  "category": "events",
+  "tags": ["music", "events", "calendar"],
+  "collection": "quavermoor-music",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

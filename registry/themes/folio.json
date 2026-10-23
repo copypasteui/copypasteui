@@ -1,0 +1,53 @@
+{
+  "slug": "folio",
+  "name": "Folio",
+  "description": "Editorial: newsprint cream, ink black, oxblood, Instrument Serif headlines, hairline rules and paper grain. Magazines, writers, restaurants, bookshops.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.125rem",
+  "style": {
+    "label": "Editorial",
+    "shadow": "none",
+    "texture": "grain",
+    "motion": "lively"
+  },
+  "fonts": {
+    "sans": "'Libre Franklin', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Instrument Serif', ui-serif, Georgia, serif",
+    "googleFonts": ["Libre+Franklin:wght@400;500;600;700", "Instrument+Serif"]
+  },
+  "light": {
+    "background": "#f7f3ea",
+    "foreground": "#1b1a17",
+    "card": "#fbf8f1",
+    "card-foreground": "#1b1a17",
+    "primary": "#8a1c1c",
+    "primary-foreground": "#ffffff",
+    "secondary": "#ede6d6",
+    "secondary-foreground": "#1b1a17",
+    "muted": "#efe9dc",
+    "muted-foreground": "#58534a",
+    "accent": "#e9d8b4",
+    "accent-foreground": "#1b1a17",
+    "border": "#1b1a17",
+    "ring": "#8a1c1c"
+  },
+  "dark": {
+    "background": "#151412",
+    "foreground": "#efe9dc",
+    "card": "#1c1b18",
+    "card-foreground": "#efe9dc",
+    "primary": "#e8a0a0",
+    "primary-foreground": "#1b0a0a",
+    "secondary": "#24221e",
+    "secondary-foreground": "#efe9dc",
+    "muted": "#1f1d1a",
+    "muted-foreground": "#a8a192",
+    "accent": "#4a3f2a",
+    "accent-foreground": "#efe9dc",
+    "border": "#efe9dc",
+    "ring": "#e8a0a0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "greenline-reviews",
+  "name": "Greenline Client Stories",
+  "description": "Client story slider with crossfading garden photos and italic quotes.",
+  "category": "testimonials",
+  "tags": ["landscaping", "reviews", "slider"],
+  "collection": "greenline-landscaping",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

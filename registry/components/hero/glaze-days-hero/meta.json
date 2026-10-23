@@ -1,0 +1,17 @@
+{
+  "slug": "glaze-days-hero",
+  "name": "Glaze Days Draggable Pieces Hero",
+  "description": "Clay-style caf\u00e9 hero with puffy price tags you can drag around and let go of, which spring back into place, beside a rounded photo of a painted bowl.",
+  "category": "hero",
+  "tags": ["pottery", "cafe", "kids", "clay", "drag", "spring"],
+  "collection": "glaze-days-pottery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

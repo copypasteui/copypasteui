@@ -1,0 +1,16 @@
+{
+  "slug": "flintmoor-barbers",
+  "name": "Flintmoor Barbers",
+  "description": "Barber cards that swap portrait for their work on hover, with live availability and book buttons.",
+  "category": "team",
+  "tags": ["barber", "team", "availability", "hover"],
+  "collection": "flintmoor-barbers",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

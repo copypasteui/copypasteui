@@ -1,0 +1,16 @@
+{
+  "slug": "hollinmere-estate",
+  "name": "Hollinmere Estate Year in the Vineyard",
+  "description": "Alternating season chapters with big numerals and hover-zoom photos.",
+  "category": "gallery",
+  "tags": ["winery", "story", "gallery", "seasons"],
+  "collection": "hollinmere-winery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

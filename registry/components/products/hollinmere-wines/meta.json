@@ -1,0 +1,18 @@
+{
+  "slug": "hollinmere-wines",
+  "name": "Hollinmere Estate Wine List",
+  "description": "Wine selector with filling glass markers, tasting-profile bars, food pairings and case-discount bottle stepper.",
+  "category": "products",
+  "tags": ["winery", "products", "ecommerce", "interactive"],
+  "collection": "hollinmere-winery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

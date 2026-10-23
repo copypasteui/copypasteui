@@ -1,0 +1,17 @@
+{
+  "slug": "ledger-clients",
+  "name": "Ledger Client Stories",
+  "description": "Client cards led by a headline saving or stat, quote and portrait.",
+  "category": "testimonials",
+  "tags": ["accountant", "testimonials", "results"],
+  "collection": "ledger-accountants",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

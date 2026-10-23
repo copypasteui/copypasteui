@@ -1,0 +1,16 @@
+{
+  "slug": "animated-border-buttons",
+  "name": "Animated Border Buttons",
+  "description": "Rotating conic-gradient border, pulsing glow ring and a marching-ants dashed outline.",
+  "category": "buttons",
+  "tags": ["border", "glow", "conic", "animated"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

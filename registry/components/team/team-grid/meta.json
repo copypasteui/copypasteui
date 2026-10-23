@@ -1,0 +1,15 @@
+{
+  "slug": "team-grid",
+  "name": "Team Grid",
+  "description": "Four-up team with real portraits, each person's patch and direct call and email links.",
+  "category": "team",
+  "tags": ["team", "agents", "people", "about"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-21"
+}

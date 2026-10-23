@@ -1,0 +1,18 @@
+{
+  "slug": "keystone-hero",
+  "name": "Keystone Property Search Hero",
+  "description": "Full-screen property hero with buy/rent tabs and a location, price and bedrooms search bar.",
+  "category": "hero",
+  "tags": ["real-estate", "property", "search", "photography"],
+  "collection": "keystone-estate-agents",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "canopy-villas",
+  "name": "Canopy Villa Selector",
+  "description": "Villa list that swaps a large photo and detail panel with size, sleeps, beds, pool and nightly rate.",
+  "category": "gallery",
+  "tags": ["resort", "rooms", "hotel", "gallery"],
+  "collection": "canopy-resort",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

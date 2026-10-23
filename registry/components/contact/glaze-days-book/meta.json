@@ -1,0 +1,17 @@
+{
+  "slug": "glaze-days-book",
+  "name": "Glaze Days Table Booking",
+  "description": "Book a painting table: pick a day, a time and how many painters, and a summary springs in with the total.",
+  "category": "contact",
+  "tags": ["pottery", "booking", "form", "stepper"],
+  "collection": "glaze-days-pottery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

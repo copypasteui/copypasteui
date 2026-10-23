@@ -1,0 +1,18 @@
+{
+  "slug": "quavermoor-hero",
+  "name": "Quavermoor Music School Hero",
+  "description": "Plum music-school hero with a breathing sound-wave of bars and a lesson photo fade.",
+  "category": "hero",
+  "tags": ["music", "school", "education", "animated"],
+  "collection": "quavermoor-music",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

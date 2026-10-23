@@ -1,0 +1,17 @@
+{
+  "slug": "cinderwick-subscribe-cta",
+  "name": "Cinderwick Subscribe CTA",
+  "description": "Subscription CTA with cadence switch, live price, perks and a pour-over photo panel.",
+  "category": "cta",
+  "tags": ["coffee", "subscription", "cta", "pricing"],
+  "collection": "cinderwick-coffee",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

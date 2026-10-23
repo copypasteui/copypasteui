@@ -1,0 +1,16 @@
+{
+  "slug": "neon-rings-background",
+  "name": "Neon Rings Background",
+  "description": "Concentric neon rings pulsing outward from a glowing horizon line. CSS and motion only.",
+  "category": "background",
+  "tags": ["neon", "rings", "glow", "dark", "css"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "theme": "lumen"
+}

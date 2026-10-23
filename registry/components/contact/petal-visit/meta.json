@@ -1,0 +1,17 @@
+{
+  "slug": "petal-visit",
+  "name": "Petal & Stem Visit & Delivery",
+  "description": "Shop photo with address and hours, delivery zones table and a custom-order enquiry form.",
+  "category": "contact",
+  "tags": ["florist", "contact", "delivery", "hours"],
+  "collection": "petal-florist",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

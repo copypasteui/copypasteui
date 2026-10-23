@@ -1,0 +1,13 @@
+{
+  "slug": "pocketbase",
+  "name": "PocketBase",
+  "summary": "One small open-source file that is the database, sign-in and admin API. Self-host it on a cheap server and keep everything in one place.",
+  "audience": ["developers"],
+  "bestFor": "Low running costs and full control: one business, one small server, simple backups.",
+  "cost": "Free and open source; a small VPS from a few pounds a month.",
+  "rank": 6,
+  "docs": [
+    { "label": "PocketBase API rules", "href": "https://pocketbase.io/docs/api-rules-and-filters/" },
+    { "label": "Authentication", "href": "https://pocketbase.io/docs/authentication/" }
+  ]
+}

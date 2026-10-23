@@ -1,0 +1,20 @@
+{
+  "slug": "firebase",
+  "name": "Firebase",
+  "summary": "Google's hosted Firestore database and Firebase Authentication, protected with Firestore security rules.",
+  "audience": ["builders", "developers"],
+  "bestFor": "Teams already on Google Cloud, or sites that also have a mobile app.",
+  "cost": "Free Spark plan for small sites; pay as you go on Blaze.",
+  "rank": 3,
+  "docs": [
+    {
+      "label": "Firebase Authentication",
+      "href": "https://firebase.google.com/docs/auth"
+    },
+    {
+      "label": "Firestore security rules",
+      "href": "https://firebase.google.com/docs/firestore/security/get-started"
+    }
+  ],
+  "tested": "Tested 21 October 2026 in the Firebase emulators: 63 security-rule checks across every role, plus the sign-in and bookings screens end to end. Server-side session cookies aren't covered by the test yet."
+}

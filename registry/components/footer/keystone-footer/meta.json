@@ -1,0 +1,16 @@
+{
+  "slug": "keystone-footer",
+  "name": "Keystone Footer",
+  "description": "Charcoal footer with large wordmark, valuation CTA and link columns.",
+  "category": "footer",
+  "tags": ["real-estate", "footer"],
+  "collection": "keystone-estate-agents",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

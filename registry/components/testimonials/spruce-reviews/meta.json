@@ -1,0 +1,17 @@
+{
+  "slug": "spruce-reviews",
+  "name": "Spruce Reviews & Promises",
+  "description": "Tilted review cards that straighten on hover plus three service promises.",
+  "category": "testimonials",
+  "tags": ["cleaning", "reviews", "trust"],
+  "collection": "spruce-cleaning",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

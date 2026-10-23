@@ -1,0 +1,17 @@
+{
+  "slug": "flintmoor-footer",
+  "name": "Flintmoor Footer",
+  "description": "Oxblood footer with big slab wordmark, snipping scissors badge and links.",
+  "category": "footer",
+  "tags": ["barber", "footer", "wordmark"],
+  "collection": "flintmoor-barbers",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}
