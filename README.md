@@ -110,7 +110,7 @@ All optional; see [apps/web/.env.example](apps/web/.env.example).
 | --- | --- |
 | `COPYPASTEUI_SITE_URL` | The site address used in prompts and registry links |
 | `NEXT_PUBLIC_GITHUB_REPO` | `owner/name` for GitHub links |
-| `NEXT_PUBLIC_CF_BEACON_TOKEN` | Cloudflare Web Analytics site token; empty means no analytics. The deploy reads it from the `CF_BEACON_TOKEN` repository variable |
+| `NEXT_PUBLIC_CF_BEACON_TOKEN` | Cloudflare Web Analytics site token, for hosts where Cloudflare doesn't add the script itself. Leave it empty on copypasteui.dev: Cloudflare's automatic setup adds it there (but not to `/preview/*`, see `_headers`), and a token would count visits twice. The deploy reads it from the `CF_BEACON_TOKEN` repository variable |
 
 ## Deploy
 

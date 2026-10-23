@@ -4,3 +4,9 @@
 # scripts/serve.mjs does the same locally, so the tests run against what the live site sends.
 /*
   Access-Control-Allow-Origin: *
+
+# Previews (inside cards and the template and section pages) aren't visits. Cloudflare's automatic Web Analytics
+# setup doesn't add its script to responses marked no-transform, so only real pages are counted. The rest is
+# Cloudflare's default for static files.
+/preview/*
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
