@@ -1,5 +1,8 @@
 name: Release MCP package
 
+# Publishes the copypasteui.dev npm package when a tag like mcp-v0.1.1 is pushed. npm trusted publishing: GitHub proves
+# to npm that this workflow is publishing, so there is no token to store or leak. npm stages the version; a maintainer
+# approves it on npmjs.com with two-factor authentication before it goes live.
 on:
   push:
     tags: ["mcp-v*"]
@@ -17,12 +20,11 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          registry-url: https://registry.npmjs.org
+      - name: npm with trusted publishing (11.5.1 or later)
+        run: npm install -g npm@11.21.0
       - run: npm ci
       - name: Check the tag matches packages/mcp/package.json
         run: test "mcp-v$(node -p "require('./packages/mcp/package.json').version")" = "${GITHUB_REF_NAME}"
       - run: npm run registry:build
       - run: npm test
       - run: npm publish -w packages/mcp --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

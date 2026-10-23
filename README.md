@@ -118,7 +118,7 @@ A push to `main` runs CI, then CodeQL, then `.github/workflows/deploy.yml`, whic
 
 Other static hosts work too (build with `npm run build`, publish `apps/web/out`). Keep the rule in `_headers` that lets any origin load the files, or the sandboxed previews can't load the site's fonts.
 
-`.github/workflows/release.yml` publishes the `copypasteui.dev` npm package when you push a tag such as `mcp-v0.1.0`. It needs an `NPM_TOKEN` secret.
+`.github/workflows/release.yml` publishes the `copypasteui.dev` npm package when you push a tag such as `mcp-v0.1.1` that matches the version in `packages/mcp/package.json`. It uses npm trusted publishing, so there's no token to store, and npm holds each version until a maintainer approves it on npmjs.com.
 
 ## Community code
 
