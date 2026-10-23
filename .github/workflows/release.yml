@@ -27,4 +27,5 @@ jobs:
         run: test "mcp-v$(node -p "require('./packages/mcp/package.json').version")" = "${GITHUB_REF_NAME}"
       - run: npm run registry:build
       - run: npm test
-      - run: npm publish -w packages/mcp --provenance --access public
+      # Staged, not published: npm only lets this workflow stage a version, which goes live once approved on npmjs.com.
+      - run: npm stage publish -w packages/mcp --provenance --access public
