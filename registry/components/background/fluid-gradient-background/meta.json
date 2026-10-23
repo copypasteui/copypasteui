@@ -11,5 +11,9 @@
   "dependencies": {},
   "createdAt": "2026-10-21",
   "featured": true,
-  "theme": "sunset"
+  "theme": "sunset",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/fluid-gradient-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/fluid-gradient-background.webm#t=1.1"
+  }
 }

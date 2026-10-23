@@ -13,5 +13,10 @@
     "solenne-packages",
     "solenne-sunset-cta",
     "solenne-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/solenne-hotel.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/solenne-hotel-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/solenne-hotel.webm#t=1"
+  }
 }

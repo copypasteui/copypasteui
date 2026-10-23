@@ -46,5 +46,8 @@
     "accent-foreground": "#f3dfa4",
     "border": "#26362c",
     "ring": "#7cc49a"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/forest.jpg"
   }
 }

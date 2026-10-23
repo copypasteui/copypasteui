@@ -46,5 +46,8 @@
     "accent-foreground": "#1a0f06",
     "border": "#382a20",
     "ring": "#e0a66b"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/cinderwick.jpg"
   }
 }

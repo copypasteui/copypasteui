@@ -13,5 +13,9 @@
     "motion": ">=12.0.0"
   },
   "createdAt": "2026-10-20",
-  "featured": true
+  "featured": true,
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/bento-feature-grid.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/bento-feature-grid.webm#t=0.9"
+  }
 }

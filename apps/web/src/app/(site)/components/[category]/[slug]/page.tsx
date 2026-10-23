@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             0,
             300,
           ),
-        openGraph: { images: [{ url: `/og/components/${c.slug}.jpg`, width: 1200, height: 630 }] },
-        twitter: { card: "summary_large_image" as const, images: [`/og/components/${c.slug}.jpg`] },
+        openGraph: { images: [{ url: c.thumbnailUrl, width: 1280, height: 800 }] },
+        twitter: { card: "summary_large_image" as const, images: [c.thumbnailUrl] },
       }
     : {};
 }
@@ -55,7 +55,7 @@ export default async function ComponentPage({ params }: { params: Promise<{ cate
             name: c.name,
             description: c.description,
             url: abs(`/components/${category}/${slug}`),
-            image: abs(`/thumbs/components/${slug}.jpg`),
+            image: c.thumbnailUrl,
             programmingLanguage: "TypeScript (React, Tailwind CSS)",
             codeRepository: source,
             keywords: [cat.name, ...c.tags].join(", "),

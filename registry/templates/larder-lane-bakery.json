@@ -15,5 +15,10 @@
     "larder-lane-orders",
     "larder-lane-reviews",
     "larder-lane-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/larder-lane-bakery.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/larder-lane-bakery-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/larder-lane-bakery.webm#t=1"
+  }
 }

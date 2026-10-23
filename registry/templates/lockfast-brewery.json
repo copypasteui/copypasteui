@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["lockfast-hero", "lockfast-beers", "lockfast-events", "lockfast-brewing", "lockfast-cta", "lockfast-footer"]
+  "sections": ["lockfast-hero", "lockfast-beers", "lockfast-events", "lockfast-brewing", "lockfast-cta", "lockfast-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/lockfast-brewery.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/lockfast-brewery-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/lockfast-brewery.webm#t=1"
+  }
 }

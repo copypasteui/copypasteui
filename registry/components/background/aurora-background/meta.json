@@ -12,5 +12,9 @@
     "motion": ">=12.0.0"
   },
   "createdAt": "2026-10-20",
-  "theme": "sunset"
+  "theme": "sunset",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/aurora-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/aurora-background.webm#t=0.9"
+  }
 }

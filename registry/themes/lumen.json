@@ -46,5 +46,8 @@
     "accent-foreground": "#e2f7b0",
     "border": "#22224a",
     "ring": "#7fd8a8"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/lumen.jpg"
   }
 }

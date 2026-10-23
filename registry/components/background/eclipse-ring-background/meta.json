@@ -12,5 +12,9 @@
     "motion": ">=12.0.0"
   },
   "createdAt": "2026-10-21",
-  "theme": "midnight"
+  "theme": "midnight",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/eclipse-ring-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/eclipse-ring-background.webm#t=0.9"
+  }
 }

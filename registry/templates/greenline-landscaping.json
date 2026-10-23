@@ -15,5 +15,10 @@
     "greenline-reviews",
     "greenline-quote",
     "greenline-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/greenline-landscaping.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/greenline-landscaping-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/greenline-landscaping.webm#t=1.1"
+  }
 }

@@ -49,5 +49,8 @@
     "accent-foreground": "#0a0a0a",
     "border": "#f5f5f5",
     "ring": "#f5f5f5"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/grid.jpg"
   }
 }

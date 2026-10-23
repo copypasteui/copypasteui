@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["keystone-hero", "keystone-listings", "keystone-valuation", "keystone-reviews", "keystone-contact", "keystone-footer"]
+  "sections": ["keystone-hero", "keystone-listings", "keystone-valuation", "keystone-reviews", "keystone-contact", "keystone-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/keystone-estate-agents.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/keystone-estate-agents-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/keystone-estate-agents.webm#t=1"
+  }
 }

@@ -46,5 +46,8 @@
     "accent-foreground": "#16213a",
     "border": "#26304d",
     "ring": "#9fb4ff"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/mossbrook.jpg"
   }
 }

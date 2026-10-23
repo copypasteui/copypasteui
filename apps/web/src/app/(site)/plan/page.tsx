@@ -25,6 +25,7 @@ export default function PlanPage() {
     components: components.filter((c) => used.has(c.slug)).map(({ slug, category }) => ({ slug, category })),
     recipes: recipes.map(({ slug, name, covers }) => ({ slug, name, covers })),
     themes: themes.map(({ slug, name }) => ({ slug, name })),
+    thumbnails: Object.fromEntries(templates.map((t) => [t.slug, t.thumbnailUrl])),
   };
   return (
     <main className="mx-auto max-w-3xl px-4 py-14 sm:px-6">

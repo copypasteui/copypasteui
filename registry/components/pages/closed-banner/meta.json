@@ -13,5 +13,9 @@
     "motion": ">=12.0.0"
   },
   "usage": "Render <ClosedBanner /> at the very top of the layout, above the navigation, so it shows on every page. Edit the notice text and link for each closure, and remove it when you reopen.",
-  "createdAt": "2026-10-21"
+  "createdAt": "2026-10-21",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/closed-banner.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/closed-banner.webm#t=0.9"
+  }
 }

@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["hollinmere-hero", "hollinmere-wines", "hollinmere-estate", "hollinmere-tastings", "hollinmere-club", "hollinmere-footer"]
+  "sections": ["hollinmere-hero", "hollinmere-wines", "hollinmere-estate", "hollinmere-tastings", "hollinmere-club", "hollinmere-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/hollinmere-winery.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/hollinmere-winery-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/hollinmere-winery.webm#t=1.1"
+  }
 }

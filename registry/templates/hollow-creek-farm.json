@@ -15,5 +15,10 @@
     "hollow-creek-seasons",
     "hollow-creek-visit",
     "hollow-creek-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/hollow-creek-farm.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/hollow-creek-farm-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/hollow-creek-farm.webm#t=0.9"
+  }
 }

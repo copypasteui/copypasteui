@@ -16,5 +16,10 @@
     "florea-reviews",
     "florea-skin-quiz",
     "florea-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/florea-skincare.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/florea-skincare-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/florea-skincare.webm#t=0.9"
+  }
 }

@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["crestline-hero", "crestline-route", "crestline-dates", "crestline-numbers", "crestline-photos", "crestline-footer"]
+  "sections": ["crestline-hero", "crestline-route", "crestline-dates", "crestline-numbers", "crestline-photos", "crestline-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/crestline-guiding.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/crestline-guiding-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/crestline-guiding.webm#t=1"
+  }
 }

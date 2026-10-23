@@ -46,5 +46,8 @@
     "accent-foreground": "#2a1500",
     "border": "#2a2645",
     "ring": "#ff7a5c"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/prism.jpg"
   }
 }

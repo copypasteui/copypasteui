@@ -88,6 +88,11 @@ export default function PrivacyPage() {
             <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare privacy policy</a>.
           </li>
           <li>
+            <b>Preview images</b> on cards (screenshots and short videos of each template, section and theme) load from cdn.copypasteui.dev,
+            which Cloudflare serves for us. Some community items link to an image host chosen by the person who made them, which then
+            receives your IP address and browser details when the card shows.
+          </li>
+          <li>
             <b>Unsplash</b> (images.unsplash.com) serves the photos in previews and templates.{" "}
             <a href="https://unsplash.com/privacy">Unsplash privacy policy</a>.
           </li>

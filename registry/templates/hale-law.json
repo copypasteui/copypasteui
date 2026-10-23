@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["hale-hero", "hale-practice-areas", "hale-results", "hale-partners", "hale-consultation", "hale-footer"]
+  "sections": ["hale-hero", "hale-practice-areas", "hale-results", "hale-partners", "hale-consultation", "hale-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/hale-law.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/hale-law-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/hale-law.webm#t=1"
+  }
 }

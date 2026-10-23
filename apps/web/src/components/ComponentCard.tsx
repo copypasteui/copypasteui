@@ -10,7 +10,8 @@ export default function ComponentCard({ c, theme }: { c: ComponentSummary; theme
     >
       <div className="relative aspect-[16/10] overflow-hidden border-b border-border bg-muted">
         <Thumb
-          src={`/thumbs/components/${c.slug}.jpg`}
+          src={c.thumbnailUrl}
+          video={c.previewVideoUrl}
           previewSrc={`/preview/${c.slug}?theme=${c.collection ? c.theme : theme}&frame=thumb`}
           alt={`${c.name} preview`}
         />

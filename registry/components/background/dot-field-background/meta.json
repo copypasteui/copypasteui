@@ -10,5 +10,9 @@
   },
   "dependencies": {},
   "createdAt": "2026-10-21",
-  "theme": "sunset"
+  "theme": "sunset",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/dot-field-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/dot-field-background.webm#t=0.9"
+  }
 }

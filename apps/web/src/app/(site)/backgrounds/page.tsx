@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Thumb from "@/components/Thumb";
-import { components, getTheme, summarize, templates } from "@/lib/registry";
+import { components, getComponent, getTheme, summarize, templates } from "@/lib/registry";
 import { canonical } from "@/lib/seo";
 
 export const metadata = {
@@ -8,7 +8,7 @@ export const metadata = {
   title: "Backgrounds",
   description:
     "Free animated backgrounds: live WebGL, canvas and CSS effects, and free photos brought to life with parallax, light and particles. No video files to host.",
-  openGraph: { images: ["/og/components/silk-waves-background.jpg"] },
+  openGraph: { images: [getComponent("silk-waves-background")?.thumbnailUrl ?? ""].filter(Boolean) },
 };
 
 const technique = (tags: string[]) =>
@@ -53,7 +53,8 @@ export default function BackgroundsPage() {
           >
             <div className="relative aspect-[16/9] overflow-hidden bg-muted">
               <Thumb
-                src={`/thumbs/components/${c.slug}.jpg`}
+                src={c.thumbnailUrl}
+                video={c.previewVideoUrl}
                 previewSrc={`/preview/${c.slug}?theme=${c.theme}&frame=thumb`}
                 alt={`${c.name} preview`}
               />
@@ -85,7 +86,12 @@ export default function BackgroundsPage() {
               className="group overflow-hidden rounded-2xl border border-border bg-card hover:shadow-xl hover:shadow-foreground/5"
             >
               <div className="relative aspect-[16/10] overflow-hidden bg-muted">
-                <Thumb src={`/thumbs/templates/${t.slug}.jpg`} previewSrc={`/preview/template/${t.slug}`} alt={`${t.name} preview`} />
+                <Thumb
+                  src={t.thumbnailUrl}
+                  video={t.previewVideoUrl}
+                  previewSrc={`/preview/template/${t.slug}`}
+                  alt={`${t.name} preview`}
+                />
               </div>
               <p className="p-5 font-semibold group-hover:text-primary">{t.name}</p>
             </Link>

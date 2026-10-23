@@ -15,5 +15,10 @@
     "gearwright-reviews",
     "gearwright-booking",
     "gearwright-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/gearwright-garage.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/gearwright-garage-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/gearwright-garage.webm#t=1"
+  }
 }

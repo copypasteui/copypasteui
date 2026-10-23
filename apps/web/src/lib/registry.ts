@@ -37,6 +37,9 @@ export type ComponentItem = {
   installPath: string;
   installCommand: string | null;
   shadcnUrl: string;
+  /** Preview images are links (cdn.copypasteui.dev or the contributor's own host), never files in the repo. */
+  thumbnailUrl: string;
+  previewVideoUrl: string | null;
   code: string;
   prompt: string;
 };
@@ -68,6 +71,7 @@ export type ThemeItem = {
   tailwindV3: string;
   promptBlock: string;
   shadcnUrl: string;
+  thumbnailUrl: string;
 };
 export type TemplateItem = {
   slug: string;
@@ -78,6 +82,9 @@ export type TemplateItem = {
   sections: string[];
   author: Author;
   isCollection: boolean;
+  thumbnailUrl: string;
+  fullPageImageUrl: string;
+  previewVideoUrl: string | null;
   prompt: string;
 };
 export type Category = { slug: string; name: string; count: number };

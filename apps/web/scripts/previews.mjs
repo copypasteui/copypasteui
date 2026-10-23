@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 // Records the short looping videos that play on template and section cards, so the grids show motion
-// the way the pages do. Run after `next build` and `npm run screenshots` (each recording opens on its
-// card thumbnail). Videos are WebM (VP8), written to out/ (for deploy) and public/ (for `next dev`) next to the
-// thumbnails. The recorder can't trim, so thumbs/previews.json records where each page had painted: cards
-// start and loop from there, never from the blank frames before it.
+// the way the pages do. A maintainer's tool: CI never runs it. Run after `next build` and
+// `npm run screenshots` (each recording opens on its card thumbnail). Videos are WebM (VP8), written to
+// apps/web/public/thumbs/ (gitignored) next to the thumbnails, ready to upload to cdn.copypasteui.dev and link
+// from the item's "images.preview". The recorder can't trim, so the link ends in #t=<seconds> where the page had
+// painted (also kept in thumbs/previews.json): cards start and loop from there, never from the blank frames.
 //
 //   node scripts/previews.mjs                  everything
 //   node scripts/previews.mjs --missing        only videos that don't exist yet
@@ -118,11 +119,9 @@ async function record(browser, job, tmp) {
     const video = page.video();
     await context.close();
     const src = await video.path();
-    for (const root of [OUT, PUBLIC]) {
-      const file = path.join(root, job.file);
-      fs.mkdirSync(path.dirname(file), { recursive: true });
-      fs.copyFileSync(src, file);
-    }
+    const file = path.join(PUBLIC, job.file);
+    fs.mkdirSync(path.dirname(file), { recursive: true });
+    fs.copyFileSync(src, file);
     starts[job.file.replace(/^thumbs\//, "").replace(/\.webm$/, "")] = start;
     return null;
   } catch (err) {
@@ -142,7 +141,7 @@ const readManifest = (root) => {
   }
 };
 /** "templates/olea-restaurant" → seconds into the video where the page has painted. */
-const starts = { ...readManifest(PUBLIC), ...readManifest(OUT) };
+const starts = readManifest(PUBLIC);
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "cpui-previews-"));
 const server = await serveStatic(OUT, PORT);
@@ -163,15 +162,14 @@ try {
     }),
   );
   if (jobs.length && process.stdout.isTTY) process.stdout.write("\n");
-  for (const root of [OUT, PUBLIC]) {
-    fs.mkdirSync(path.join(root, "thumbs"), { recursive: true });
-    fs.writeFileSync(path.join(root, MANIFEST), JSON.stringify(starts, null, 1));
-  }
+  fs.mkdirSync(path.join(PUBLIC, "thumbs"), { recursive: true });
+  fs.writeFileSync(path.join(PUBLIC, MANIFEST), JSON.stringify(starts, null, 1));
   if (failures.length) {
     console.error(`\n${failures.length} preview(s) failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log(`Wrote ${jobs.length} preview videos to out/ and public/`);
+    console.log(`Wrote ${jobs.length} preview videos to apps/web/public/thumbs. Upload them, then link each one with its start:`);
+    for (const job of jobs) console.log(`  ${job.file}#t=${starts[job.file.replace(/^thumbs\//, "").replace(/\.webm$/, "")]}`);
   }
 } finally {
   await browser.close();

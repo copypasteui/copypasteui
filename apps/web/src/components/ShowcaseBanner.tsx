@@ -22,7 +22,7 @@ export default function ShowcaseBanner({ items }: { items: ComponentSummary[] })
               className="relative block aspect-[16/10] w-72 shrink-0 overflow-hidden rounded-lg border border-border bg-muted shadow-sm transition hover:-translate-y-1 hover:shadow-lg sm:w-80"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={`/thumbs/components/${c.slug}.jpg`} alt={c.name} loading="lazy" className="size-full object-cover object-top" />
+              <img src={c.thumbnailUrl} alt={c.name} loading="lazy" className="size-full object-cover object-top" />
               <span className="absolute bottom-2 left-2 rounded-md bg-background/90 px-2 py-1 text-xs font-semibold">{c.name}</span>
             </Link>
           ))}

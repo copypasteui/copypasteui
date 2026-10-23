@@ -13,6 +13,9 @@ export const legal = {
   updated: "2026-10-23",
 };
 
+/** The site's own share image (link previews), uploaded from brand/social/og-default-1200x630.png. */
+export const siteImage = "https://cdn.copypasteui.dev/og/site.png";
+
 export const githubUrl = `https://github.com/${config.githubRepo}`;
 
 /** The default licence (see LICENSE). Contributors may mark their own items MIT, Apache-2.0 or CC0-1.0 instead. */

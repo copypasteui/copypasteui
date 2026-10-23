@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["verelle-hero", "verelle-services", "verelle-stylists", "verelle-work", "verelle-booking", "verelle-footer"]
+  "sections": ["verelle-hero", "verelle-services", "verelle-stylists", "verelle-work", "verelle-booking", "verelle-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/verelle-salon.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/verelle-salon-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/verelle-salon.webm#t=1"
+  }
 }

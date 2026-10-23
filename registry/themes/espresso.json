@@ -46,5 +46,8 @@
     "accent-foreground": "#f2d4ad",
     "border": "#3d2c20",
     "ring": "#d9824f"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/espresso.jpg"
   }
 }

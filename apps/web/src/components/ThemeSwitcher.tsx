@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-export type SwitcherTheme = { slug: string; name: string; primary: string; background: string; accent: string };
+export type SwitcherTheme = { slug: string; name: string; primary: string; background: string; accent: string; thumbnail: string };
 
 /** One template shown in every theme; the swatches swap the screenshot. */
 export default function ThemeSwitcher({ themes, template }: { themes: SwitcherTheme[]; template: string }) {
@@ -16,7 +16,7 @@ export default function ThemeSwitcher({ themes, template }: { themes: SwitcherTh
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           key={current.slug}
-          src={`/thumbs/themes/${current.slug}.jpg`}
+          src={current.thumbnail}
           alt={`${template} in the ${current.name} theme`}
           className="absolute inset-0 size-full object-cover object-top"
         />

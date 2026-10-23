@@ -12,5 +12,9 @@
     "motion": ">=12.0.0"
   },
   "createdAt": "2026-10-21",
-  "theme": "citrus"
+  "theme": "citrus",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/light-rays-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/light-rays-background.webm#t=0.9"
+  }
 }

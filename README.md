@@ -36,12 +36,15 @@ Photos are free Unsplash images hotlinked from `images.unsplash.com` (Unsplash L
 
 ## Images
 
-`apps/web/scripts/screenshots.mjs` renders every card thumbnail, full-page template screenshot, theme preview and 1200×630 OG/social banner from the built site with Playwright. It also fails on any runtime error, so CI uses it as a render test. Images are generated on deploy and not committed.
+Card thumbnails, full-page template shots, theme previews and preview videos are links in each item's `images` (see [CONTRIBUTING.md](CONTRIBUTING.md#preview-images)). No image is committed and CI never makes or uploads one: the maintainers upload theirs to `cdn.copypasteui.dev` (Cloudflare R2) by hand, and contributors may link their own host. CI checks every link with `npm run check:images` (it works, and it's the right type, size and shape) and renders every page with `npm run check:render` to catch runtime errors. Link previews use the item's thumbnail; the site's own share image is `brand/social/og-default-1200x630.png`, uploaded as `cdn.copypasteui.dev/og/site.png`.
+
+To make images to upload (they go to `apps/web/public/thumbs/`, ignored by git, at the same paths as on the CDN):
 
 ```bash
 npm run build
 npx playwright@1.54.1 install chromium
 npm run screenshots              # or: --missing, --only <slug>
+npm run previews                 # videos; prints each one's #t= start for its link
 ```
 
 ## Use it

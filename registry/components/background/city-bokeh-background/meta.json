@@ -11,5 +11,9 @@
   "dependencies": {},
   "createdAt": "2026-10-22",
   "featured": true,
-  "theme": "neon"
+  "theme": "neon",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/city-bokeh-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/city-bokeh-background.webm#t=1.3"
+  }
 }

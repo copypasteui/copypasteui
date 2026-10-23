@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["acorns-hero", "acorns-day", "acorns-fees", "acorns-spaces", "acorns-parents", "acorns-footer"]
+  "sections": ["acorns-hero", "acorns-day", "acorns-fees", "acorns-spaces", "acorns-parents", "acorns-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/acorns-nursery.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/acorns-nursery-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/acorns-nursery.webm#t=1"
+  }
 }

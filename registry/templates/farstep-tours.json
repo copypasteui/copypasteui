@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["farstep-hero", "farstep-tours", "farstep-itinerary", "farstep-reviews", "farstep-faq", "farstep-footer"]
+  "sections": ["farstep-hero", "farstep-tours", "farstep-itinerary", "farstep-reviews", "farstep-faq", "farstep-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/farstep-tours.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/farstep-tours-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/farstep-tours.webm#t=1"
+  }
 }

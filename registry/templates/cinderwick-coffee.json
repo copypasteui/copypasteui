@@ -16,5 +16,10 @@
     "cinderwick-polaroid-reviews",
     "cinderwick-subscribe-cta",
     "cinderwick-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/cinderwick-coffee.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/cinderwick-coffee-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/cinderwick-coffee.webm#t=1"
+  }
 }

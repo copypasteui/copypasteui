@@ -1,5 +1,5 @@
 import ThemesExplorer from "@/components/ThemesExplorer";
-import { defaultTheme, templates, themes } from "@/lib/registry";
+import { defaultTheme, getTheme, templates, themes } from "@/lib/registry";
 import { canonical } from "@/lib/seo";
 
 export const metadata = {
@@ -7,7 +7,7 @@ export const metadata = {
   title: "Themes",
   description:
     "Colours, corners and fonts that restyle every CopyPasteUI template and section at once, in light and dark. Works with shadcn/ui projects too.",
-  openGraph: { images: ["/og/themes/midnight.jpg"] },
+  openGraph: { images: [getTheme("midnight")?.thumbnailUrl ?? ""].filter(Boolean) },
 };
 
 // The template the theme thumbnails are shot on; a neutral page that shows colours and type well.

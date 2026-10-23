@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["motion-hero", "motion-conditions", "motion-recovery", "motion-results", "motion-booking", "motion-footer"]
+  "sections": ["motion-hero", "motion-conditions", "motion-recovery", "motion-results", "motion-booking", "motion-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/motion-physio.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/motion-physio-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/motion-physio.webm#t=1"
+  }
 }

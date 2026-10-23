@@ -46,5 +46,8 @@
     "accent-foreground": "#221c18",
     "border": "#322b27",
     "ring": "#efe9e1"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/juniper.jpg"
   }
 }

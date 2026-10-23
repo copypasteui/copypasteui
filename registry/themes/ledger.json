@@ -46,5 +46,8 @@
     "accent-foreground": "#0f1f17",
     "border": "#1f3328",
     "ring": "#6fdba0"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/ledger.jpg"
   }
 }

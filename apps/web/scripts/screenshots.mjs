@@ -1,12 +1,14 @@
 #!/usr/bin/env node
-// Renders card thumbnails, full-page template shots and OG/social banners from the built site.
-// Run after `next build`. Images are written to out/ (for deploy) and public/ (for `next dev`).
+// Renders card thumbnails and full-page template shots from the built site. A maintainer's tool: the images go to
+// apps/web/public/thumbs/ (gitignored, and out/ so scripts/previews.mjs can open on them), to upload to
+// cdn.copypasteui.dev and link from each item's "images". Nothing here is committed or deployed.
 //
 //   node scripts/screenshots.mjs                  everything
 //   node scripts/screenshots.mjs --missing        only images that don't exist yet
 //   node scripts/screenshots.mjs --only hero      only slugs containing "hero"
+//   node scripts/screenshots.mjs --check          render every section, template and theme without saving
 //
-// Fails if any page throws while rendering, so CI uses it as a render test for every component.
+// Fails if any page throws while rendering; CI runs --check as a quick render test for everything.
 //
 // Uses Playwright's Chromium (npx playwright install chromium) or CHROME_PATH.
 
@@ -25,6 +27,7 @@ const CONCURRENCY = Number(process.env.SCREENSHOT_CONCURRENCY ?? 4);
 const args = process.argv.slice(2);
 const missingOnly = args.includes("--missing");
 const only = args.includes("--only") ? args[args.indexOf("--only") + 1] : null;
+const checkOnly = args.includes("--check");
 
 if (!fs.existsSync(path.join(OUT, "r", "index.json"))) {
   console.error("apps/web/out is missing — run `npm run build` first.");
@@ -38,6 +41,7 @@ const jobs = [];
 const add = (job) => {
   if (only && !job.file.includes(only)) return;
   if (missingOnly && fs.existsSync(path.join(PUBLIC, job.file))) return;
+  if (checkOnly && job.full) return;
   jobs.push(job);
 };
 
@@ -76,18 +80,6 @@ for (const t of index.themes) {
     scale: 0.75,
   });
 }
-// OG banners render pages that embed the thumbnails above, so they run in a second pass.
-const ogJobs = [];
-const addOg = (file, url) => {
-  if (only && !file.includes(only)) return;
-  if (missingOnly && fs.existsSync(path.join(PUBLIC, file))) return;
-  ogJobs.push({ file, url, width: 1200, height: 630, wait: 600 });
-};
-addOg("og/site.jpg", "/og/site");
-for (const c of index.components) addOg(`og/components/${c.slug}.jpg`, `/og/component/${c.slug}`);
-for (const t of index.templates) addOg(`og/templates/${t.slug}.jpg`, `/og/template/${t.slug}`);
-for (const t of index.themes) addOg(`og/themes/${t.slug}.jpg`, `/og/theme/${t.slug}`);
-
 async function waitForImages(page) {
   await page.waitForFunction(() => [...document.images].every((i) => i.complete), null, { timeout: 20_000 }).catch(() => {});
 }
@@ -103,7 +95,7 @@ async function shoot(browser, job) {
   const errors = [];
   page.on("pageerror", (e) => errors.push(e.message));
   try {
-    await page.goto(BASE + job.url, { waitUntil: "networkidle", timeout: 60_000 });
+    await page.goto(BASE + job.url, { waitUntil: checkOnly ? "load" : "networkidle", timeout: 60_000 });
     await page.evaluate(() => document.fonts.ready);
     if (job.full) {
       // Scroll through like a visitor so lazy images load and whileInView reveals fire,
@@ -116,6 +108,11 @@ async function shoot(browser, job) {
         }
         window.scrollTo(0, 0);
       });
+    }
+    if (checkOnly) {
+      await page.waitForTimeout(400);
+      if (errors.length) throw new Error(`runtime error: ${errors[0]}`);
+      return null;
     }
     await waitForImages(page);
     await page.waitForTimeout(job.wait ?? 2600);
@@ -156,12 +153,14 @@ async function run(browser, list, label) {
 const server = await serveStatic(OUT, PORT);
 const browser = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {});
 try {
-  const failures = [...(await run(browser, jobs, "thumbnails")), ...(await run(browser, ogJobs, "og banners"))];
+  const failures = await run(browser, jobs, checkOnly ? "rendered" : "thumbnails");
   if (failures.length) {
-    console.error(`\n${failures.length} screenshot(s) failed:\n- ${failures.join("\n- ")}`);
+    console.error(`\n${failures.length} page(s) failed:\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
+  } else if (checkOnly) {
+    console.log(`Rendered ${jobs.length} pages without errors`);
   } else {
-    console.log(`Wrote ${jobs.length + ogJobs.length} images to out/ and public/`);
+    console.log(`Wrote ${jobs.length} images to apps/web/public/thumbs. Upload them to cdn.copypasteui.dev at the same paths.`);
   }
 } finally {
   await browser.close();

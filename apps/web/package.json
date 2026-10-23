@@ -12,10 +12,10 @@
     "check:interactions": "node scripts/check-interactions.mjs",
     "start": "node scripts/serve.mjs out",
     "screenshots": "node scripts/screenshots.mjs",
-    "prune": "node scripts/prune-deploy.mjs",
     "check:mobile": "node scripts/check-mobile.mjs",
     "previews": "node scripts/previews.mjs",
-    "check:matrix": "node scripts/check-matrix.mjs"
+    "check:matrix": "node scripts/check-matrix.mjs",
+    "check:render": "node scripts/screenshots.mjs --check"
   },
   "dependencies": {
     "lucide-react": "^1.50.0",

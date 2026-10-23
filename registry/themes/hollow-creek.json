@@ -46,5 +46,8 @@
     "accent-foreground": "#1f2a1c",
     "border": "#333828",
     "ring": "#e6765f"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/hollow-creek.jpg"
   }
 }

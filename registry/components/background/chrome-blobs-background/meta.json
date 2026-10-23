@@ -11,5 +11,9 @@
   "dependencies": {},
   "createdAt": "2026-10-22",
   "featured": true,
-  "theme": "midnight"
+  "theme": "midnight",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/chrome-blobs-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/chrome-blobs-background.webm#t=2.1"
+  }
 }

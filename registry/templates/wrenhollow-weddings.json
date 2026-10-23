@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["wrenhollow-hero", "wrenhollow-spaces", "wrenhollow-day", "wrenhollow-couples", "wrenhollow-pricing", "wrenhollow-footer"]
+  "sections": ["wrenhollow-hero", "wrenhollow-spaces", "wrenhollow-day", "wrenhollow-couples", "wrenhollow-pricing", "wrenhollow-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/wrenhollow-weddings.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/wrenhollow-weddings-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/wrenhollow-weddings.webm#t=1"
+  }
 }

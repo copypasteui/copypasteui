@@ -15,5 +15,10 @@
     "harbour-float-prices",
     "harbour-float-reviews",
     "harbour-float-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/harbour-float-spa.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/harbour-float-spa-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/harbour-float-spa.webm#t=0.9"
+  }
 }

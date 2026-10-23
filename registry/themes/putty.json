@@ -48,5 +48,8 @@
     "accent-foreground": "#0f2a1f",
     "border": "#3a302a",
     "ring": "#fdba74"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/putty.jpg"
   }
 }

@@ -5,5 +5,10 @@
   "brief": "a restaurant, bistro, trattoria or wine bar",
   "theme": "olea",
   "author": { "name": "CopyPasteUI", "github": "copypasteui" },
-  "sections": ["olea-hero", "olea-menu", "olea-story", "olea-reviews", "olea-reservations", "olea-footer"]
+  "sections": ["olea-hero", "olea-menu", "olea-story", "olea-reviews", "olea-reservations", "olea-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/olea-restaurant.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/olea-restaurant-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/olea-restaurant.webm#t=0.9"
+  }
 }

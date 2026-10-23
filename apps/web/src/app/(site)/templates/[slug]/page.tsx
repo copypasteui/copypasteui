@@ -28,8 +28,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         0,
         300,
       ),
-    openGraph: { images: [{ url: `/og/templates/${t.slug}.jpg`, width: 1200, height: 630 }] },
-    twitter: { card: "summary_large_image" as const, images: [`/og/templates/${t.slug}.jpg`] },
+    openGraph: { images: [{ url: t.thumbnailUrl, width: 1080, height: 675 }] },
+    twitter: { card: "summary_large_image" as const, images: [t.thumbnailUrl] },
   };
 }
 
@@ -84,7 +84,7 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
             name: `${brand} — free ${kind.toLowerCase()} website template`,
             description: t.description,
             url: abs(`/templates/${t.slug}`),
-            image: abs(`/og/templates/${t.slug}.jpg`),
+            image: t.thumbnailUrl,
             genre: "Website template",
             keywords: [kind, ...(t.brief ? [t.brief] : []), "website template", "small business"].join(", "),
             hasPart: sections.map((c) => ({
@@ -128,6 +128,7 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
         <TemplateDetail
           slug={t.slug}
           name={brand}
+          fullPageImage={t.fullPageImageUrl}
           sections={t.sections}
           dependencies={dependencies}
           themeOptions={themeOptions}
@@ -147,7 +148,8 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
               >
                 <span className="relative block aspect-[16/10] overflow-hidden border-b border-border bg-muted">
                   <Thumb
-                    src={`/thumbs/components/${c.slug}.jpg`}
+                    src={c.thumbnailUrl}
+                    video={c.previewVideoUrl}
                     previewSrc={`/preview/${c.slug}?theme=${t.theme}&frame=thumb`}
                     alt={`${c.name} preview`}
                   />
@@ -250,7 +252,12 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
             {similar.map((s) => (
               <Link key={s.slug} href={`/templates/${s.slug}`} className="group block min-w-0">
                 <span className="relative block aspect-[16/10] overflow-hidden rounded border border-border bg-muted">
-                  <Thumb src={`/thumbs/templates/${s.slug}.jpg`} previewSrc={`/preview/template/${s.slug}`} alt={`${s.name} preview`} />
+                  <Thumb
+                    src={s.thumbnailUrl}
+                    video={s.previewVideoUrl}
+                    previewSrc={`/preview/template/${s.slug}`}
+                    alt={`${s.name} preview`}
+                  />
                 </span>
                 <span className="mt-2 block truncate font-semibold">{split(s).brand}</span>
                 <span className="block truncate text-sm text-muted-foreground">{split(s).kind}</span>

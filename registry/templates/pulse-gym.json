@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["pulse-hero", "pulse-classes", "pulse-timetable", "pulse-coaches", "pulse-membership", "pulse-results", "pulse-footer"]
+  "sections": ["pulse-hero", "pulse-classes", "pulse-timetable", "pulse-coaches", "pulse-membership", "pulse-results", "pulse-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/pulse-gym.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/pulse-gym-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/pulse-gym.webm#t=1"
+  }
 }

@@ -46,5 +46,8 @@
     "accent-foreground": "#132a0c",
     "border": "#3d3024",
     "ring": "#ff8a6b"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/acorns.jpg"
   }
 }

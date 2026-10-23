@@ -46,5 +46,8 @@
     "accent-foreground": "#15192a",
     "border": "#2a3146",
     "ring": "#d6b97a"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/hale.jpg"
   }
 }

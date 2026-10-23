@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["juniper-hero", "juniper-portfolio", "juniper-sessions", "juniper-kind-words", "juniper-enquiry", "juniper-footer"]
+  "sections": ["juniper-hero", "juniper-portfolio", "juniper-sessions", "juniper-kind-words", "juniper-enquiry", "juniper-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/juniper-photography.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/juniper-photography-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/juniper-photography.webm#t=0.9"
+  }
 }

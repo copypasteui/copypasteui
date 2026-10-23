@@ -5,5 +5,10 @@
   "brief": "a design, creative or collaboration tool",
   "theme": "prism",
   "author": { "name": "CopyPasteUI", "github": "copypasteui" },
-  "sections": ["prism-hero", "prism-features", "prism-poster-gallery", "prism-love-wall", "prism-rays-cta", "prism-footer"]
+  "sections": ["prism-hero", "prism-features", "prism-poster-gallery", "prism-love-wall", "prism-rays-cta", "prism-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/prism-design.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/prism-design-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/prism-design.webm#t=1.1"
+  }
 }

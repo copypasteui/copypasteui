@@ -49,5 +49,8 @@
     "accent-foreground": "#16152b",
     "border": "#f6f1e7",
     "ring": "#ff6fbf"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/riso.jpg"
   }
 }

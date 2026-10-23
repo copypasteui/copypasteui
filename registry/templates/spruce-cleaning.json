@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["spruce-hero", "spruce-quote", "spruce-checklist", "spruce-reviews", "spruce-faq", "spruce-footer"]
+  "sections": ["spruce-hero", "spruce-quote", "spruce-checklist", "spruce-reviews", "spruce-faq", "spruce-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/spruce-cleaning.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/spruce-cleaning-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/spruce-cleaning.webm#t=1"
+  }
 }

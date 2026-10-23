@@ -10,5 +10,8 @@
     "github": "copypasteui"
   },
   "dependencies": {},
-  "createdAt": "2026-10-21"
+  "createdAt": "2026-10-21",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/prism-footer.jpg"
+  }
 }

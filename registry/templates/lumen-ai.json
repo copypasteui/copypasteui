@@ -16,5 +16,10 @@
     "lumen-customer-stories",
     "lumen-command-cta",
     "lumen-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/lumen-ai.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/lumen-ai-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/lumen-ai.webm#t=0.9"
+  }
 }

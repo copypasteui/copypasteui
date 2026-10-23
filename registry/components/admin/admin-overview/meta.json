@@ -12,5 +12,8 @@
     "lucide-react": ">=0.400.0"
   },
   "usage": "Use it as the /admin home and as the layout for the other back-office screens (move the sidebar into your admin layout). Replace the sample numbers, bookings and to-dos with queries for today. Security: put every back-office screen behind sign-in (for example Supabase Auth or Clerk), let only the owner's account read or write this data (in Supabase, with row-level security on every table), and keep admin pages out of the public navigation and sitemap.",
-  "createdAt": "2026-10-21"
+  "createdAt": "2026-10-21",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/admin-overview.jpg"
+  }
 }

@@ -44,6 +44,8 @@ jobs:
         run: npm run registry:validate
       - name: Check every Unsplash photo still exists
         run: npm run check:photos
+      - name: Every preview image and video link works and is the right type, size and shape
+        run: npm run check:images
       - name: Build registry, MCP package and static site (type-checks every component)
         run: npm run build
       - name: Type-check the MCP and the site with the strict settings
@@ -56,10 +58,10 @@ jobs:
         run: npm run test:coverage -w packages/mcp
       - name: Prompt contract, search ranking and registry validator tests
         run: npm run test:prompts
-      - name: Render every component, template and theme (fails on runtime errors)
+      - name: Render every section, template and theme (fails on runtime errors)
         run: |
           npx playwright@1.54.1 install --with-deps chromium
-          npm run screenshots
+          npm run check:render
       - name: Smoke tests of the main flows in a real browser
         run: npm run test:smoke
       - name: No sideways scrolling on a 360px phone (every template and component)

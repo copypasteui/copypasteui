@@ -8,5 +8,17 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["brightline-hero", "brightline-treatments", "brightline-team", "brightline-plans", "brightline-booking", "brightline-footer"]
+  "sections": [
+    "brightline-hero",
+    "brightline-treatments",
+    "brightline-team",
+    "brightline-plans",
+    "brightline-booking",
+    "brightline-footer"
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/brightline-dental.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/brightline-dental-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/brightline-dental.webm#t=1"
+  }
 }

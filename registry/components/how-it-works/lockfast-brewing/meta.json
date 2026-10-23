@@ -12,5 +12,9 @@
   "dependencies": {
     "motion": ">=12.0.0"
   },
-  "createdAt": "2026-10-22"
+  "createdAt": "2026-10-22",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/lockfast-brewing.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/lockfast-brewing.webm#t=0.9"
+  }
 }

@@ -13,5 +13,9 @@
     "motion": ">=12.0.0"
   },
   "usage": "Give <ThankYouPage /> its own page (for example /thank-you) and send people there after the booking or contact form succeeds. Rewrite the three steps to match what really happens next, and pass a real reference number if your form provides one.",
-  "createdAt": "2026-10-21"
+  "createdAt": "2026-10-21",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/thank-you-page.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/thank-you-page.webm#t=0.9"
+  }
 }

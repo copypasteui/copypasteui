@@ -46,5 +46,8 @@
     "accent-foreground": "#1a1d0c",
     "border": "#382a2f",
     "ring": "#e08ba0"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/hollinmere.jpg"
   }
 }

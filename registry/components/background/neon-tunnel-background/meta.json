@@ -11,5 +11,9 @@
   "dependencies": {},
   "createdAt": "2026-10-22",
   "featured": true,
-  "theme": "terminal"
+  "theme": "terminal",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/neon-tunnel-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/neon-tunnel-background.webm#t=1.8"
+  }
 }

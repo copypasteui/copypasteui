@@ -30,8 +30,8 @@ export const metadata = { ...canonical("/") };
 
 export default function Home() {
   const sites: DemoSite[] = demo
-    .map((d) => ({ ...d, brand: getTemplate(d.slug)?.name.split(" — ")[0] ?? d.slug }))
-    .filter((d) => getTemplate(d.slug));
+    .filter((d) => getTemplate(d.slug))
+    .map((d) => ({ ...d, brand: getTemplate(d.slug)!.name.split(" — ")[0] ?? d.slug, fullPage: getTemplate(d.slug)!.fullPageImageUrl }));
   const groups = industries.map((g) => ({ ...g, items: g.slugs.map((s) => getTemplate(s)).filter((t): t is TemplateItem => !!t) }));
 
   // The real prompt for one template, cut where the component code starts.
@@ -40,9 +40,14 @@ export default function Home() {
   const promptHead = samplePrompt.slice(0, samplePrompt.indexOf("Create each file below")).trim();
   const promptLines = samplePrompt.split("\n").length;
 
-  const switcherThemes = themes
-    .slice(0, 24)
-    .map((t) => ({ slug: t.slug, name: t.name, primary: t.light.primary, background: t.light.background, accent: t.light.accent }));
+  const switcherThemes = themes.slice(0, 24).map((t) => ({
+    slug: t.slug,
+    name: t.name,
+    primary: t.light.primary,
+    background: t.light.background,
+    accent: t.light.accent,
+    thumbnail: t.thumbnailUrl,
+  }));
 
   return (
     <main>
@@ -169,7 +174,8 @@ export default function Home() {
               <div className="relative mt-5 aspect-[16/10] overflow-hidden rounded border border-border bg-muted">
                 {g.items[0] && (
                   <Thumb
-                    src={`/thumbs/templates/${g.items[0].slug}.jpg`}
+                    src={g.items[0].thumbnailUrl}
+                    video={g.items[0].previewVideoUrl}
                     previewSrc={`/preview/template/${g.items[0].slug}`}
                     alt={`${g.items[0].name} preview`}
                   />

@@ -46,5 +46,8 @@
     "accent-foreground": "#25302a",
     "border": "#2d332d",
     "ring": "#b9cbb7"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/wrenhollow.jpg"
   }
 }

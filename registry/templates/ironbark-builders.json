@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["ironbark-hero", "ironbark-services", "ironbark-projects", "ironbark-process", "ironbark-quote", "ironbark-footer"]
+  "sections": ["ironbark-hero", "ironbark-services", "ironbark-projects", "ironbark-process", "ironbark-quote", "ironbark-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/ironbark-builders.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/ironbark-builders-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/ironbark-builders.webm#t=0.9"
+  }
 }

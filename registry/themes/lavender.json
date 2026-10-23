@@ -46,5 +46,8 @@
     "accent-foreground": "#ffc6e3",
     "border": "#2f2650",
     "ring": "#bca8e6"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/lavender.jpg"
   }
 }

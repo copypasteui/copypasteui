@@ -15,5 +15,10 @@
     "pinehollow-guestbook",
     "pinehollow-booking",
     "pinehollow-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/pinehollow-cabins.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/pinehollow-cabins-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/pinehollow-cabins.webm#t=1"
+  }
 }

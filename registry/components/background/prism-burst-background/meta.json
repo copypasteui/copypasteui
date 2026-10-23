@@ -11,5 +11,9 @@
   "dependencies": {},
   "createdAt": "2026-10-22",
   "featured": true,
-  "theme": "prism"
+  "theme": "prism",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/prism-burst-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/prism-burst-background.webm#t=1.1"
+  }
 }

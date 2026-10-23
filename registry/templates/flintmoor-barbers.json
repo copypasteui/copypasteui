@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["flintmoor-hero", "flintmoor-prices", "flintmoor-barbers", "flintmoor-reviews", "flintmoor-walkin", "flintmoor-footer"]
+  "sections": ["flintmoor-hero", "flintmoor-prices", "flintmoor-barbers", "flintmoor-reviews", "flintmoor-walkin", "flintmoor-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/flintmoor-barbers.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/flintmoor-barbers-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/flintmoor-barbers.webm#t=1"
+  }
 }

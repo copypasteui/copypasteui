@@ -46,5 +46,8 @@
     "accent-foreground": "#2a1d17",
     "border": "#3b2c23",
     "ring": "#f08a62"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/sola.jpg"
   }
 }

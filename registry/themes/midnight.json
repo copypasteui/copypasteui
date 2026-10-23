@@ -46,5 +46,8 @@
     "accent-foreground": "#f4dfae",
     "border": "#222a4a",
     "ring": "#e3b65b"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/midnight.jpg"
   }
 }

@@ -29,7 +29,11 @@ Thanks for helping keep great UI free. Everything lives in `registry/`; the webs
      "tags": ["glass", "toggle"],
      "author": { "name": "Your Name", "github": "your-github" },
      "dependencies": { "motion": ">=12.0.0" },
-     "createdAt": "2026-10-21"
+     "createdAt": "2026-10-21",
+     "images": {
+       "thumbnail": "https://your-host.example/copypasteui/glass-pricing.jpg",
+       "preview": "https://your-host.example/copypasteui/glass-pricing.webm#t=1"
+     }
    }
    ```
 
@@ -40,7 +44,19 @@ Thanks for helping keep great UI free. Everything lives in `registry/`; the webs
    - `npm run check:interactions -- --only <slug>` — clicks, types and submits everything, and fails on errors
    - `npm run check:matrix -- --section <slug>` — renders your section under about 25 combinations of theme style, palette, light/dark and phone to desktop, chosen so every pair of settings meets at least once (pairwise testing, the idea behind Microsoft's PICT). Each case must not scroll sideways, must not throw, and must pass axe. Add `--plan` to see the cases, `--seed 2` for a different set
    - `npm run check:duplicates` — makes sure it isn't a near-copy of an existing section
-5. You don't need to add images. CI renders a thumbnail, OG banner and render test for every component after your PR builds. To see them locally: `npm run build && npx playwright@1.54.1 install chromium && npm run screenshots`.
+5. Add a preview image. Images are never committed: upload yours to a host you control and put the link in `images` (see below). CI still renders every section to catch runtime errors.
+
+### Preview images
+
+Every component, template and theme links to its card image in `images`. The site, the MCP and link previews all use it.
+
+| Field | What it is | Rules (CI checks them with `npm run check:images -- <slug>`) |
+| --- | --- | --- |
+| `thumbnail` (required) | The card picture | https link to a JPEG, PNG or WebP, 16:10 and at least 1000 pixels wide (1280×800 for sections, 1080×675 for templates and themes), up to 400 KB |
+| `preview` (optional, components and templates) | A short muted loop that plays on the card | https link to a WebM or MP4, up to 3 MB. End the link with `#t=<seconds>` to skip blank frames at the start |
+| `fullPage` (templates) | The whole page, top to bottom | at least 800 pixels wide and taller than it is wide, up to 1.5 MB |
+
+To make them the way the site's own are: `npm run build && npx playwright@1.54.1 install chromium && npm run screenshots -- --only <slug>`, then `npm run previews -- --only <slug>` for a video. They land in `apps/web/public/thumbs/` (ignored by git), and the preview script prints each video's `#t=` start. Keep your links working: if one breaks, CI fails and the card falls back to a live preview. We may later copy community images to our own host and update the link.
 
 No photos? Use typography, real-looking data (a timetable, a price list, a job log) or a simple drawn shape in theme tokens. Don't fake photos with gradients or initials in coloured boxes — people read those as placeholders.
 
@@ -72,7 +88,7 @@ Footers end their copyright line with an optional credit: ` · Built with <a hre
 
 ## Add a theme
 
-Add `registry/themes/<slug>.json` (copy an existing one). Every token needs a light and a dark value (hex, `oklch()`, `hsl()` or `rgb()`), plus `radius` and `fonts.sans` / `fonts.display` (with `googleFonts` families if they are Google Fonts). Do not set `"default": true`.
+Add `registry/themes/<slug>.json` (copy an existing one). Every token needs a light and a dark value (hex, `oklch()`, `hsl()` or `rgb()`), plus `radius` and `fonts.sans` / `fonts.display` (with `googleFonts` families if they are Google Fonts). Do not set `"default": true`. Add `images.thumbnail`: a 1080×675 screenshot of the Ledger template in your theme (`npm run screenshots -- --only themes/<slug>` makes it; see [Preview images](#preview-images)).
 
 A theme can also set a `style`, which changes every section without touching it (see `poster.json` and `frost.json`):
 
@@ -89,7 +105,7 @@ The validator checks WCAG contrast for hex colours in both modes (4.5:1 for text
 
 ## Add a template
 
-Add `registry/templates/<slug>.json` with `name` (`"Brand — Kind of business"`), `description`, `brief`, `theme`, `author` and `sections` — existing component slugs in page order. `brief` names the businesses the template suits (for example "a florist, flower farm, plant shop or gift shop"). It's shown on the site and used in the build prompt. Add the slug to an industry group in `apps/web/src/lib/industries.ts`.
+Add `registry/templates/<slug>.json` with `name` (`"Brand — Kind of business"`), `description`, `brief`, `theme`, `author` and `sections` — existing component slugs in page order. `brief` names the businesses the template suits (for example "a florist, flower farm, plant shop or gift shop"). It's shown on the site and used in the build prompt. Add the slug to an industry group in `apps/web/src/lib/industries.ts`, and `images` with a `thumbnail`, a `fullPage` screenshot and, if you like, a `preview` video (see [Preview images](#preview-images)).
 
 ## Backend recipes
 
@@ -111,7 +127,7 @@ Keep the site static (no server routes) and the MCP local (no hosted services).
 
 CopyPasteUI is licensed under the [PolyForm Shield License 1.0.0](LICENSE). By opening a pull request you confirm that:
 
-1. The contribution is your own original work, or you have the right to submit it, and it contains no third-party material that would conflict with the licence (Unsplash photos are hotlinked, not copied).
+1. The contribution is your own original work, or you have the right to submit it, and it contains no third-party material that would conflict with the licence (Unsplash photos are hotlinked, not copied). The same goes for the images you link in `images`: screenshots of your own work are fine.
 2. You license your contribution to the project under the same licence as the rest of the repository.
 3. You grant the licensor (Nidhin Radh P V, and anyone who later owns or runs CopyPasteUI) a perpetual, worldwide, royalty-free, non-exclusive, transferable right to use, modify, sublicense and relicense your contribution as part of CopyPasteUI, including under other licences and on commercial terms.
 

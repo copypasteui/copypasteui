@@ -12,5 +12,9 @@
     "motion": ">=12.0.0"
   },
   "createdAt": "2026-10-21",
-  "theme": "lumen"
+  "theme": "lumen",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/neon-rings-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/neon-rings-background.webm#t=0.9"
+  }
 }

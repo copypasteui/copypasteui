@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["wax-cellar-hero", "wax-cellar-new-in", "wax-cellar-gigs", "wax-cellar-sell", "wax-cellar-visit", "wax-cellar-footer"]
+  "sections": ["wax-cellar-hero", "wax-cellar-new-in", "wax-cellar-gigs", "wax-cellar-sell", "wax-cellar-visit", "wax-cellar-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/wax-cellar-records.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/wax-cellar-records-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/wax-cellar-records.webm#t=0.9"
+  }
 }

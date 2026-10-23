@@ -46,5 +46,8 @@
     "accent-foreground": "#f6dcc2",
     "border": "#2a3a42",
     "ring": "#8fc3d1"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/solenne.jpg"
   }
 }

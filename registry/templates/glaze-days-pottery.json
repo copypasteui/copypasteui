@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["glaze-days-hero", "glaze-days-pieces", "glaze-days-how", "glaze-days-parties", "glaze-days-book", "glaze-days-footer"]
+  "sections": ["glaze-days-hero", "glaze-days-pieces", "glaze-days-how", "glaze-days-parties", "glaze-days-book", "glaze-days-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/glaze-days-pottery.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/glaze-days-pottery-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/glaze-days-pottery.webm#t=1"
+  }
 }

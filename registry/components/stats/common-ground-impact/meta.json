@@ -12,5 +12,9 @@
   "dependencies": {
     "motion": ">=12.0.0"
   },
-  "createdAt": "2026-10-21"
+  "createdAt": "2026-10-21",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/common-ground-impact.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/common-ground-impact.webm#t=2.1"
+  }
 }

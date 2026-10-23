@@ -11,5 +11,9 @@
   "dependencies": {},
   "createdAt": "2026-10-21",
   "featured": true,
-  "theme": "ocean"
+  "theme": "ocean",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/light-beam-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/light-beam-background.webm#t=0.9"
+  }
 }

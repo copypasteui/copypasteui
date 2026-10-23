@@ -46,5 +46,8 @@
     "accent-foreground": "#241628",
     "border": "#36283b",
     "ring": "#d8a8e0"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/quavermoor.jpg"
   }
 }

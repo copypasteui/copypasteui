@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["foxglove-hero", "foxglove-taplist", "foxglove-taproom", "foxglove-events", "foxglove-visit", "foxglove-footer"]
+  "sections": ["foxglove-hero", "foxglove-taplist", "foxglove-taproom", "foxglove-events", "foxglove-visit", "foxglove-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/foxglove-brewery.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/foxglove-brewery-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/foxglove-brewery.webm#t=1"
+  }
 }

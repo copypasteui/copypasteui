@@ -46,5 +46,8 @@
     "accent-foreground": "#111111",
     "border": "#2c2a27",
     "ring": "#eeeae3"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/marlowe.jpg"
   }
 }

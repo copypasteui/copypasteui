@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Thumb from "@/components/Thumb";
-import { requestTradeUrl } from "@/lib/config";
+import { requestTradeUrl, siteImage } from "@/lib/config";
 import { industries } from "@/lib/industries";
 import { getTheme, templates, type TemplateItem } from "@/lib/registry";
 import { canonical } from "@/lib/seo";
@@ -10,7 +10,7 @@ export const metadata = {
   title: "Templates",
   description:
     "Free website templates for small businesses: cafés, restaurants, salons, trades, clinics, farms and more, each with its own theme, photography and sections.",
-  openGraph: { images: ["/og/site.jpg"] },
+  openGraph: { images: [siteImage] },
 };
 
 function TemplateCard({ t }: { t: TemplateItem }) {
@@ -21,7 +21,7 @@ function TemplateCard({ t }: { t: TemplateItem }) {
       className="group flex flex-col overflow-hidden rounded-lg border border-border bg-card transition hover:-translate-y-0.5 hover:border-foreground hover:shadow-[4px_4px_0_var(--foreground)]"
     >
       <div className="relative aspect-[16/10] overflow-hidden border-b border-border bg-muted">
-        <Thumb src={`/thumbs/templates/${t.slug}.jpg`} previewSrc={`/preview/template/${t.slug}`} alt={`${t.name} preview`} />
+        <Thumb src={t.thumbnailUrl} video={t.previewVideoUrl} previewSrc={`/preview/template/${t.slug}`} alt={`${t.name} preview`} />
       </div>
       <div className="flex flex-1 flex-col p-5">
         <p className="text-xs font-medium tracking-[0.14em] text-muted-foreground uppercase">{kind ?? "Template"}</p>

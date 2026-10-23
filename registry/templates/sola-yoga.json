@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["sola-hero", "sola-timetable", "sola-classes", "sola-passes", "sola-community", "sola-footer"]
+  "sections": ["sola-hero", "sola-timetable", "sola-classes", "sola-passes", "sola-community", "sola-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/sola-yoga.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/sola-yoga-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/sola-yoga.webm#t=1"
+  }
 }

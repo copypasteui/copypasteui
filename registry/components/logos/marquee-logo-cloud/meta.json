@@ -11,5 +11,8 @@
   "dependencies": {
     "motion": ">=12.0.0"
   },
-  "createdAt": "2026-10-20"
+  "createdAt": "2026-10-20",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/marquee-logo-cloud.jpg"
+  }
 }

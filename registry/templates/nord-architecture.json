@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["nord-hero", "nord-project-index", "nord-studio", "nord-process", "nord-client-quote", "nord-contact", "nord-footer"]
+  "sections": ["nord-hero", "nord-project-index", "nord-studio", "nord-process", "nord-client-quote", "nord-contact", "nord-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/nord-architecture.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/nord-architecture-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/nord-architecture.webm#t=4"
+  }
 }

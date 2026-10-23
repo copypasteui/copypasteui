@@ -10,9 +10,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
       // Preview pages are iframe-only and the og/* HTML pages exist just to render share images.
-      // The generated images themselves (/og/components/*.jpg etc.) stay crawlable for link previews.
-      // "/og/site$" (not "/og/site") so the site share image /og/site.jpg stays crawlable.
-      disallow: ["/preview/", "/og/site$", "/og/site.html", "/og/site/", "/og/component/", "/og/template/", "/og/theme/"],
+      disallow: ["/preview/"],
     },
     sitemap: `${config.siteUrl}/sitemap.xml`,
   };

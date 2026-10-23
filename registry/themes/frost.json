@@ -48,5 +48,8 @@
     "accent-foreground": "#0b1020",
     "border": "#ffffff26",
     "ring": "#7dd3fc"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/frost.jpg"
   }
 }

@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["fixwell-hero", "fixwell-services", "fixwell-prices", "fixwell-reviews", "fixwell-callout", "fixwell-footer"]
+  "sections": ["fixwell-hero", "fixwell-services", "fixwell-prices", "fixwell-reviews", "fixwell-callout", "fixwell-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/fixwell-trades.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/fixwell-trades-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/fixwell-trades.webm#t=0.9"
+  }
 }

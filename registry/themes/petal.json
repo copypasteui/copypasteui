@@ -46,5 +46,8 @@
     "accent-foreground": "#14200e",
     "border": "#3a2a30",
     "ring": "#f08aa8"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/petal.jpg"
   }
 }

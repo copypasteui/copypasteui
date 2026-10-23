@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["canopy-hero", "canopy-villas", "canopy-experiences", "canopy-impact", "canopy-packages", "canopy-footer"]
+  "sections": ["canopy-hero", "canopy-villas", "canopy-experiences", "canopy-impact", "canopy-packages", "canopy-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/canopy-resort.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/canopy-resort-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/canopy-resort.webm#t=1.2"
+  }
 }

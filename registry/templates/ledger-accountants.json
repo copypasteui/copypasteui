@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["ledger-hero", "ledger-plans", "ledger-deadlines", "ledger-clients", "ledger-call", "ledger-footer"]
+  "sections": ["ledger-hero", "ledger-plans", "ledger-deadlines", "ledger-clients", "ledger-call", "ledger-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/ledger-accountants.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/ledger-accountants-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/ledger-accountants.webm#t=0.9"
+  }
 }

@@ -46,5 +46,8 @@
     "accent-foreground": "#9ff0e1",
     "border": "#1b3349",
     "ring": "#4aa3ff"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/ocean.jpg"
   }
 }

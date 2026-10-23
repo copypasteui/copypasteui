@@ -31,7 +31,10 @@ async function open(urlPath, { clipboard = false, colorScheme = "light" } = {}) 
   if (clipboard) await context.grantPermissions(["clipboard-read", "clipboard-write"], { origin: BASE });
   const page = await context.newPage();
   const errors = [];
-  page.on("console", (m) => m.type() === "error" && errors.push(m.text()));
+  // Preview images are links to other hosts (cdn.copypasteui.dev, contributors' own); check-images tests those, so a
+  // picture that fails to load from elsewhere isn't a site error here.
+  const offsite = (m) => m.text().startsWith("Failed to load resource") && !m.location().url.startsWith(BASE);
+  page.on("console", (m) => m.type() === "error" && !offsite(m) && errors.push(m.text()));
   page.on("pageerror", (e) => errors.push(e.message));
   // Next.js cancels some background prefetches (net::ERR_ABORTED); only real failures count.
   page.on(

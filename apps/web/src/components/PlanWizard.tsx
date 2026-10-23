@@ -27,7 +27,7 @@ import {
  * same copypasteui.config.json, so a plan made here can be built in Claude Code and vice versa.
  * Answers stay in this browser.
  */
-export type PlanData = PlanIndex & { recipes: PlanRecipe[]; themes: { slug: string; name: string }[] };
+export type PlanData = PlanIndex & { recipes: PlanRecipe[]; themes: { slug: string; name: string }[]; thumbnails: Record<string, string> };
 type Mode = "quick" | "full";
 type Saved = { mode: Mode; answers: Answers; step: number };
 
@@ -179,6 +179,7 @@ export default function PlanWizard({ data }: { data: PlanData }) {
                 value={answers[f.key]}
                 onChange={(v) => set(f.key, v)}
                 required={round.id === "basics" && (f.key === "name" || f.key === "trade")}
+                thumbnails={data.thumbnails}
               />
             ))}
           </div>
@@ -264,11 +265,13 @@ function Question({
   value,
   onChange,
   required,
+  thumbnails,
 }: {
   field: Field;
   value: string | string[] | undefined;
   onChange: (v: string | string[] | undefined) => void;
   required: boolean;
+  thumbnails: Record<string, string>;
 }) {
   const id = `q-${f.key}`;
   if (f.kind === "text") {
@@ -328,7 +331,7 @@ function Question({
                 <span className="min-w-0">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={`/thumbs/templates/${o.value}.jpg`}
+                    src={thumbnails[o.value]}
                     alt=""
                     loading="lazy"
                     className="mb-2 aspect-[16/10] w-full rounded border border-border object-cover object-top"

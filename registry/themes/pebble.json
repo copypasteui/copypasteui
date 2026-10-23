@@ -49,5 +49,8 @@
     "accent-foreground": "#1a1408",
     "border": "#323844",
     "ring": "#8cb8e8"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/pebble.jpg"
   }
 }

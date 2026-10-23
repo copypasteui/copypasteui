@@ -46,5 +46,8 @@
     "accent-foreground": "#e7f3e1",
     "border": "#3d302d",
     "ring": "#e3a99c"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/florea.jpg"
   }
 }

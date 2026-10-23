@@ -46,5 +46,8 @@
     "accent-foreground": "#16140f",
     "border": "#33302a",
     "ring": "#f97a3d"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/foxglove.jpg"
   }
 }

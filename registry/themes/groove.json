@@ -50,5 +50,8 @@
     "accent-foreground": "#2a1a10",
     "border": "#fbe9cf",
     "ring": "#f4a259"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/groove.jpg"
   }
 }

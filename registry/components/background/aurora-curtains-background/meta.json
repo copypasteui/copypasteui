@@ -13,5 +13,9 @@
   },
   "createdAt": "2026-10-22",
   "featured": true,
-  "theme": "forest"
+  "theme": "forest",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/aurora-curtains-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/aurora-curtains-background.webm#t=1.1"
+  }
 }

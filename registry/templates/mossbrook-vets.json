@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["mossbrook-hero", "mossbrook-services", "mossbrook-plans", "mossbrook-team", "mossbrook-booking", "mossbrook-footer"]
+  "sections": ["mossbrook-hero", "mossbrook-services", "mossbrook-plans", "mossbrook-team", "mossbrook-booking", "mossbrook-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/mossbrook-vets.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/mossbrook-vets-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/mossbrook-vets.webm#t=1"
+  }
 }

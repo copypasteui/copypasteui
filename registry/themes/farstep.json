@@ -46,5 +46,8 @@
     "accent-foreground": "#0f1c29",
     "border": "#22323f",
     "ring": "#6cc0f0"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/farstep.jpg"
   }
 }

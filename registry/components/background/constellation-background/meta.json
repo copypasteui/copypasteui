@@ -10,5 +10,9 @@
   },
   "dependencies": {},
   "createdAt": "2026-10-21",
-  "theme": "ocean"
+  "theme": "ocean",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/constellation-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/constellation-background.webm#t=1.1"
+  }
 }

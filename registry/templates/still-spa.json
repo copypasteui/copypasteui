@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["still-hero", "still-treatments", "still-facilities", "still-memberships", "still-booking", "still-footer"]
+  "sections": ["still-hero", "still-treatments", "still-facilities", "still-memberships", "still-booking", "still-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/still-spa.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/still-spa-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/still-spa.webm#t=0.9"
+  }
 }

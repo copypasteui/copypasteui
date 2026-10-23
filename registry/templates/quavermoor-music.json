@@ -15,5 +15,10 @@
     "quavermoor-students",
     "quavermoor-trial",
     "quavermoor-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/quavermoor-music.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/quavermoor-music-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/quavermoor-music.webm#t=1"
+  }
 }

@@ -46,5 +46,8 @@
     "accent-foreground": "#140a05",
     "border": "#2e2e2e",
     "ring": "#ecebe7"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/nord.jpg"
   }
 }

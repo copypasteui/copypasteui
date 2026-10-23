@@ -17,7 +17,6 @@
     "dev": "npm run registry:build && npm run dev -w apps/web",
     "build": "npm run registry:build && npm run build -w packages/mcp && npm run build -w apps/web",
     "screenshots": "npm run screenshots -w apps/web --",
-    "prune": "npm run prune -w apps/web",
     "check:mobile": "npm run check:mobile -w apps/web",
     "test:smoke": "npm run test:smoke -w apps/web",
     "check:photos": "node scripts/check-photos.mjs",
@@ -34,7 +33,9 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "previews": "npm run previews -w apps/web --",
-    "check:matrix": "npm run check:matrix -w apps/web --"
+    "check:matrix": "npm run check:matrix -w apps/web --",
+    "check:render": "npm run check:render -w apps/web",
+    "check:images": "node scripts/check-images.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",

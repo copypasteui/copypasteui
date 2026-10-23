@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import ComponentBrowser from "@/components/ComponentBrowser";
-import { categories, components, defaultTheme, summarize } from "@/lib/registry";
+import { categories, components, defaultTheme, getComponent, summarize } from "@/lib/registry";
 import { canonical } from "@/lib/seo";
 
 export const metadata = {
@@ -29,7 +29,7 @@ export default function ComponentsPage() {
         <span className="flex shrink-0 gap-2" aria-hidden>
           {SHOWCASE.map((slug) => (
             // eslint-disable-next-line @next/next/no-img-element
-            <img key={slug} src={`/thumbs/components/${slug}.jpg`} alt="" className="h-16 w-24 rounded-md object-cover" />
+            <img key={slug} src={getComponent(slug)?.thumbnailUrl} alt="" className="h-16 w-24 rounded-md object-cover" />
           ))}
         </span>
         <span className="flex-1">

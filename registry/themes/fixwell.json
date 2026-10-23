@@ -46,5 +46,8 @@
     "accent-foreground": "#0d1b33",
     "border": "#22314d",
     "ring": "#8db0ff"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/fixwell.jpg"
   }
 }

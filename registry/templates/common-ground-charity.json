@@ -15,5 +15,10 @@
     "common-ground-volunteer",
     "common-ground-donate",
     "common-ground-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/common-ground-charity.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/common-ground-charity-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/common-ground-charity.webm#t=0.9"
+  }
 }

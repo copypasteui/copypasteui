@@ -46,5 +46,8 @@
     "accent-foreground": "#121518",
     "border": "#2a2f34",
     "ring": "#ff5a4f"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/gearwright.jpg"
   }
 }

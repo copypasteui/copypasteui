@@ -173,6 +173,30 @@ function checkLicense(file, license) {
 const isOpen = (license) => OPEN_LICENSES.includes(license);
 const authorName = (a) => (a.github ? `${a.name} (@${a.github})` : a.name);
 
+// Preview images are links, never files in the repo: maintainers upload theirs to cdn.copypasteui.dev and contributors
+// may link their own host. These checks are offline; scripts/check-images.mjs fetches each link and checks the file.
+// A preview video's link may end in #t=<seconds> to start the loop after the page has painted.
+const IMAGE_FIELDS = {
+  component: { thumbnail: "image", preview: "video" },
+  template: { thumbnail: "image", fullPage: "image", preview: "video" },
+  theme: { thumbnail: "image" },
+};
+const LINK_EXT = { image: /\.(jpe?g|png|webp)$/i, video: /\.(webm|mp4)(#t=\d+(\.\d+)?)?$/i };
+function checkImages(file, images, kind) {
+  if (!images || typeof images !== "object") return fail(file, `images.thumbnail is required: an https link to a 16:10 screenshot`);
+  for (const [field, value] of Object.entries(images)) {
+    const type = IMAGE_FIELDS[kind][field];
+    if (!type) fail(file, `images.${field} is not an image field (use ${Object.keys(IMAGE_FIELDS[kind]).join(", ")})`);
+    else if (typeof value !== "string" || !/^https:\/\/[^/?#]+\/\S+$/.test(value)) fail(file, `images.${field} must be an https link`);
+    else if (!LINK_EXT[type].test(value.replace(/\?[^#]*/, "")))
+      fail(
+        file,
+        `images.${field} must link to ${type === "image" ? "a .jpg, .png or .webp file" : "a .webm or .mp4 file (optionally ending in #t=<seconds>)"}`,
+      );
+  }
+  if (!images.thumbnail) fail(file, "images.thumbnail is required: an https link to a 16:10 screenshot");
+}
+
 function checkText(file, value, field, max) {
   if (typeof value !== "string" || !value.trim()) fail(file, `${field} is required`);
   else if (value.length > max) fail(file, `${field} must be at most ${max} characters`);
@@ -280,6 +304,7 @@ function loadThemes() {
           fail(file, "style: glass draws its own page background, so it can't be combined with the dots or grid texture");
       }
       checkLicense(file, t.license);
+      checkImages(file, t.images, "theme");
       return { ...t, slug, license: t.license ?? DEFAULT_LICENSE };
     })
     .filter(Boolean);
@@ -615,6 +640,7 @@ function loadComponents() {
         fail(codeFile, `looks machine-made — ${t.rule}: ${t.message} (found ${t.detail})`);
       if (meta.collection !== undefined && !SLUG_RE.test(meta.collection)) fail(metaFile, "collection must be a template slug");
       if (meta.usage !== undefined) checkText(metaFile, meta.usage, "usage", 900);
+      checkImages(metaFile, meta.images, "component");
 
       const used = new Set();
       for (const m of code.matchAll(IMPORT_RE)) {
@@ -648,6 +674,7 @@ function loadComponents() {
         ...(meta.usage ? { usage: meta.usage } : {}),
         collection: meta.collection ?? null,
         previewTheme: meta.theme ?? null,
+        images: meta.images ?? {},
         usesPhotos: code.includes(IMAGE_HOST),
         dependencies: meta.dependencies ?? {},
         exportName,
@@ -896,6 +923,7 @@ function loadTemplates(components, themes) {
       if (!themes.some((th) => th.slug === t.theme)) fail(file, `theme "${t.theme}" does not exist`);
       if (!Array.isArray(t.sections) || t.sections.length < 2) fail(file, "sections must list at least two component slugs");
       for (const s of t.sections ?? []) if (!bySlug.has(s)) fail(file, `section "${s}" is not a component slug`);
+      checkImages(file, t.images, "template");
       return { ...t, slug };
     })
     .filter(Boolean);
@@ -1086,8 +1114,9 @@ function main() {
       theme: (c.collection && themeOfTemplate.get(c.collection)) || c.previewTheme || defaultTheme,
       url: `${SITE_URL}/components/${c.category}/${c.slug}`,
       previewUrl: `${SITE_URL}/preview/${c.slug}`,
-      thumbnailUrl: `${SITE_URL}/thumbs/components/${c.slug}.jpg`,
-      ogImageUrl: `${SITE_URL}/og/components/${c.slug}.jpg`,
+      thumbnailUrl: c.images.thumbnail,
+      ogImageUrl: c.images.thumbnail,
+      previewVideoUrl: c.images.preview ?? null,
       installPath: installPath(c),
       installCommand: installCommand(c.dependencies),
       shadcnUrl: `${SITE_URL}/r/shadcn/${c.slug}.json`,
@@ -1105,8 +1134,8 @@ function main() {
     tailwindV3: themeTailwindV3(t),
     promptBlock: themePromptBlock(t),
     shadcnUrl: `${SITE_URL}/r/shadcn/theme-${t.slug}.json`,
-    thumbnailUrl: `${SITE_URL}/thumbs/themes/${t.slug}.jpg`,
-    ogImageUrl: `${SITE_URL}/og/themes/${t.slug}.jpg`,
+    thumbnailUrl: t.images.thumbnail,
+    ogImageUrl: t.images.thumbnail,
   }));
   const fullTemplates = templates
     .map((t) => ({ ...t, isCollection: components.some((c) => c.collection === t.slug) }))
@@ -1114,9 +1143,10 @@ function main() {
     .map((t) => ({
       ...t,
       url: `${SITE_URL}/templates/${t.slug}`,
-      thumbnailUrl: `${SITE_URL}/thumbs/templates/${t.slug}.jpg`,
-      fullPageImageUrl: `${SITE_URL}/thumbs/templates/${t.slug}-full.jpg`,
-      ogImageUrl: `${SITE_URL}/og/templates/${t.slug}.jpg`,
+      thumbnailUrl: t.images.thumbnail,
+      fullPageImageUrl: t.images.fullPage ?? t.images.thumbnail,
+      ogImageUrl: t.images.thumbnail,
+      previewVideoUrl: t.images.preview ?? null,
       prompt: templatePrompt(t, fullBySlug),
     }));
 

@@ -13,5 +13,9 @@
     "lucide-react": ">=0.400.0",
     "motion": ">=12.0.0"
   },
-  "createdAt": "2026-10-21"
+  "createdAt": "2026-10-21",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/pulse-footer.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/pulse-footer.webm#t=0.9"
+  }
 }

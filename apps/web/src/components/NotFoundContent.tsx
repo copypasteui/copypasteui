@@ -31,7 +31,12 @@ export default function NotFoundContent() {
           {popular.map((t) => (
             <Link key={t.slug} href={`/templates/${t.slug}`} className="group block min-w-0">
               <span className="relative block aspect-[16/10] overflow-hidden rounded border border-border bg-muted">
-                <Thumb src={`/thumbs/templates/${t.slug}.jpg`} previewSrc={`/preview/template/${t.slug}`} alt={`${t.name} preview`} />
+                <Thumb
+                  src={t.thumbnailUrl}
+                  video={t.previewVideoUrl}
+                  previewSrc={`/preview/template/${t.slug}`}
+                  alt={`${t.name} preview`}
+                />
               </span>
               <span className="mt-2 block truncate font-semibold">{t.name.split(" — ")[0]}</span>
               <span className="block truncate text-sm text-muted-foreground">{t.name.split(" — ")[1]}</span>

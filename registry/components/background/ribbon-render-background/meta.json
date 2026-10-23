@@ -13,5 +13,9 @@
   },
   "createdAt": "2026-10-22",
   "featured": true,
-  "theme": "midnight"
+  "theme": "midnight",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/ribbon-render-background.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/ribbon-render-background.webm#t=0.9"
+  }
 }

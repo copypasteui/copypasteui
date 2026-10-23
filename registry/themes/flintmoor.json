@@ -46,5 +46,8 @@
     "accent-foreground": "#1a1816",
     "border": "#35312c",
     "ring": "#d98a6a"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/flintmoor.jpg"
   }
 }

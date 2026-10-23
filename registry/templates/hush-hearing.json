@@ -15,5 +15,10 @@
     "hush-hearing-aids",
     "hush-hearing-faq",
     "hush-hearing-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/hush-hearing.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/hush-hearing-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/hush-hearing.webm#t=0.9"
+  }
 }

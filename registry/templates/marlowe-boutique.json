@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["marlowe-hero", "marlowe-shop", "marlowe-lookbook", "marlowe-reviews", "marlowe-styling", "marlowe-footer"]
+  "sections": ["marlowe-hero", "marlowe-shop", "marlowe-lookbook", "marlowe-reviews", "marlowe-styling", "marlowe-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/marlowe-boutique.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/marlowe-boutique-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/marlowe-boutique.webm#t=0.9"
+  }
 }

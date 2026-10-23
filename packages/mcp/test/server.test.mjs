@@ -148,7 +148,7 @@ test("works over stdio exactly as an editor launches it", async () => {
     const themes = JSON.parse(text);
     const expected = JSON.parse(fs.readFileSync(path.join(LOCAL_REGISTRY, "index.json"), "utf8")).themes.map((t) => t.slug);
     assert.deepEqual(themes.map((t) => t.slug).sort(), [...expected].sort());
-    assert.ok(themes.every((t) => t.image.endsWith(`/thumbs/themes/${t.slug}.jpg`)));
+    assert.ok(themes.every((t) => /^https:\/\/\S+\.(jpe?g|png|webp)$/.test(t.image)));
   } finally {
     await client.close();
   }

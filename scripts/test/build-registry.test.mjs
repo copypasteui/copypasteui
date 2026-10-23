@@ -46,6 +46,7 @@ const META = {
   author: { name: "Test", github: "test" },
   dependencies: {},
   createdAt: "2026-10-22",
+  images: { thumbnail: "https://cdn.example/test-section.jpg" },
 };
 
 /** Adds cta/test-section with the given code and meta overrides. */
@@ -157,6 +158,19 @@ describe("sections: meta rules", () => {
   rejects("createdAt is a date", { createdAt: "yesterday" }, /createdAt must be YYYY-MM-DD/);
   rejects("author is required", { author: { name: "" } }, /author\.name is required/);
   rejects("licence must be known", { license: "GPL-3.0" }, /license must be one of PolyForm-Shield-1\.0\.0, MIT/);
+  rejects("a thumbnail link is required", { images: undefined }, /images\.thumbnail is required/);
+  rejects("image links are https", { images: { thumbnail: "http://cdn.example/a.jpg" } }, /images\.thumbnail must be an https link/);
+  rejects("thumbnails are pictures", { images: { thumbnail: "https://cdn.example/a.gif" } }, /must link to a \.jpg, \.png or \.webp file/);
+  rejects(
+    "previews are videos",
+    { images: { thumbnail: "https://cdn.example/a.jpg", preview: "https://cdn.example/a.jpg" } },
+    /must link to a \.webm or \.mp4 file/,
+  );
+  rejects(
+    "only known image fields",
+    { images: { thumbnail: "https://cdn.example/a.jpg", fullPage: "https://cdn.example/b.jpg" } },
+    /images\.fullPage is not an image field/,
+  );
 });
 
 test("a design-ok comment allows a flagged pattern on purpose", () => {

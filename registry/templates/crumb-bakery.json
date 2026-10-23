@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["crumb-hero", "crumb-bakes", "crumb-process", "crumb-reviews", "crumb-orders", "crumb-footer"]
+  "sections": ["crumb-hero", "crumb-bakes", "crumb-process", "crumb-reviews", "crumb-orders", "crumb-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/crumb-bakery.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/crumb-bakery-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/crumb-bakery.webm#t=1"
+  }
 }

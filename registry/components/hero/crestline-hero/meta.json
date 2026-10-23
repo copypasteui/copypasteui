@@ -13,5 +13,9 @@
     "motion": ">=12.0.0"
   },
   "createdAt": "2026-10-22",
-  "collection": "crestline-guiding"
+  "collection": "crestline-guiding",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/crestline-hero.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/crestline-hero.webm#t=0.9"
+  }
 }

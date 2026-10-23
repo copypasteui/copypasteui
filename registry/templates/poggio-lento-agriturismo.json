@@ -15,5 +15,10 @@
     "poggio-lento-wines",
     "poggio-lento-enquire",
     "poggio-lento-footer"
-  ]
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/poggio-lento-agriturismo.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/poggio-lento-agriturismo-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/poggio-lento-agriturismo.webm#t=1"
+  }
 }

@@ -13,5 +13,9 @@
     "motion": ">=12.0.0"
   },
   "usage": "Show <MaintenancePage /> in place of the home page while the site or the business is closed (in Next.js, render it from app/page.tsx temporarily, or behind an environment flag). Change the reason, the return time and the contact details.",
-  "createdAt": "2026-10-21"
+  "createdAt": "2026-10-21",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/maintenance-page.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/maintenance-page.webm#t=0.9"
+  }
 }

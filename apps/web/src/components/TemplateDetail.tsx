@@ -10,6 +10,7 @@ import { useThemeParam } from "@/lib/useThemeParam";
 export default function TemplateDetail({
   slug,
   name,
+  fullPageImage,
   sections,
   dependencies,
   themeOptions,
@@ -17,6 +18,7 @@ export default function TemplateDetail({
 }: {
   slug: string;
   name: string;
+  fullPageImage: string;
   sections: string[];
   dependencies: string[];
   themeOptions: ThemeOption[];
@@ -61,7 +63,7 @@ export default function TemplateDetail({
         ) : (
           <div className="h-[760px] overflow-y-auto rounded-xl border border-border bg-muted">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={`/thumbs/templates/${slug}-full.jpg`} alt={`The whole ${name} page, top to bottom`} className="block w-full" />
+            <img src={fullPageImage} alt={`The whole ${name} page, top to bottom`} className="block w-full" />
           </div>
         )}
         {view === "whole" && (

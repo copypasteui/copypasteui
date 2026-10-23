@@ -49,5 +49,8 @@
     "accent-foreground": "#efe9dc",
     "border": "#efe9dc",
     "ring": "#e8a0a0"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/folio.jpg"
   }
 }

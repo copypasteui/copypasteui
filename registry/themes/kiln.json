@@ -46,5 +46,8 @@
     "accent-foreground": "#111111",
     "border": "#2c2c2c",
     "ring": "#ff5b2e"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/kiln.jpg"
   }
 }

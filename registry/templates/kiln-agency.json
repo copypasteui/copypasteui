@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["kiln-hero", "kiln-work", "kiln-services", "kiln-team", "kiln-brief", "kiln-footer"]
+  "sections": ["kiln-hero", "kiln-work", "kiln-services", "kiln-team", "kiln-brief", "kiln-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/kiln-agency.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/kiln-agency-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/kiln-agency.webm#t=0.9"
+  }
 }

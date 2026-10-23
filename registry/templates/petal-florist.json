@@ -8,5 +8,10 @@
     "name": "CopyPasteUI",
     "github": "copypasteui"
   },
-  "sections": ["petal-hero", "petal-shop", "petal-subscription", "petal-weddings", "petal-visit", "petal-footer"]
+  "sections": ["petal-hero", "petal-shop", "petal-subscription", "petal-weddings", "petal-visit", "petal-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/petal-florist.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/petal-florist-full.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/templates/petal-florist.webm#t=0.9"
+  }
 }

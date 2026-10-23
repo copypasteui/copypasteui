@@ -13,5 +13,9 @@
     "motion": ">=12.0.0"
   },
   "usage": "Use it as the site's 404 page: in Next.js App Router render <NotFoundPage /> from app/not-found.tsx; in Vite or React Router render it on the \"*\" route. Fill in the business details and the four most useful links.",
-  "createdAt": "2026-10-21"
+  "createdAt": "2026-10-21",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/not-found-page.jpg",
+    "preview": "https://cdn.copypasteui.dev/thumbs/components/not-found-page.webm#t=0.9"
+  }
 }

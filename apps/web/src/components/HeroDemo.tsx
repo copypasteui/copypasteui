@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-export type DemoSite = { slug: string; business: string; brand: string; ask: string };
+export type DemoSite = { slug: string; business: string; brand: string; ask: string; fullPage: string };
 
 /**
  * Homepage hero demo: a real template's full-page screenshot scrolling inside a browser frame,
@@ -60,7 +60,7 @@ export default function HeroDemo({ sites }: { sites: DemoSite[] }) {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             key={site.slug}
-            src={`/thumbs/templates/${site.slug}-full.jpg`}
+            src={site.fullPage}
             alt={`The full ${site.brand} page`}
             className="motion-safe-scroll block w-full"
             style={{ animation: `page-scroll 11s ease-in-out ${pinned ? "infinite alternate" : "1 forwards"}` }}
