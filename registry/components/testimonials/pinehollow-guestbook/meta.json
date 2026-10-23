@@ -1,0 +1,17 @@
+{
+  "slug": "pinehollow-guestbook",
+  "name": "Pinehollow Guestbook",
+  "description": "Horizontally scrolling lined-paper guestbook entries with dates and cabin names.",
+  "category": "testimonials",
+  "tags": ["cabins", "reviews", "scroll", "bnb"],
+  "collection": "pinehollow-cabins",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

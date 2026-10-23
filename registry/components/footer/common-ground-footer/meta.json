@@ -1,0 +1,17 @@
+{
+  "slug": "common-ground-footer",
+  "name": "Common Ground Footer",
+  "description": "Charity footer with thank-you line, link columns and registration details.",
+  "category": "footer",
+  "tags": ["nonprofit", "footer"],
+  "collection": "common-ground-charity",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

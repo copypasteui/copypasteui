@@ -1,0 +1,17 @@
+{
+  "slug": "canopy-experiences",
+  "name": "Canopy Experiences Accordion",
+  "description": "Expanding photo-panel accordion of resort experiences with vertical labels.",
+  "category": "features",
+  "tags": ["resort", "experiences", "accordion", "photography"],
+  "collection": "canopy-resort",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

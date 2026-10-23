@@ -1,0 +1,17 @@
+{
+  "slug": "foxglove-taproom",
+  "name": "Foxglove Taproom Bento",
+  "description": "Bento photo grid of the taproom with label captions, rating card and venue perk chips.",
+  "category": "gallery",
+  "tags": ["brewery", "gallery", "bento", "bar"],
+  "collection": "foxglove-brewery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

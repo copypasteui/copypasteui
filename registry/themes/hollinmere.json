@@ -1,0 +1,50 @@
+{
+  "slug": "hollinmere",
+  "name": "Hollinmere Estate",
+  "description": "Claret, limestone and vine leaf with Newsreader and Schibsted Grotesk. Wineries, vineyards, cellar doors.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.25rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Newsreader', ui-serif, Georgia, serif",
+    "googleFonts": ["Schibsted+Grotesk:wght@400;500;600;700", "Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400"]
+  },
+  "light": {
+    "background": "#f3efe8",
+    "foreground": "#22161a",
+    "card": "#faf8f3",
+    "card-foreground": "#22161a",
+    "primary": "#6b1f33",
+    "primary-foreground": "#f8ede9",
+    "secondary": "#e6ded0",
+    "secondary-foreground": "#22161a",
+    "muted": "#ebe5da",
+    "muted-foreground": "#5f5458",
+    "accent": "#a8b07c",
+    "accent-foreground": "#22161a",
+    "border": "#d8cfbf",
+    "ring": "#6b1f33"
+  },
+  "dark": {
+    "background": "#140d10",
+    "foreground": "#efe7e2",
+    "card": "#1d1418",
+    "card-foreground": "#efe7e2",
+    "primary": "#e08ba0",
+    "primary-foreground": "#2e0814",
+    "secondary": "#2e2226",
+    "secondary-foreground": "#efe7e2",
+    "muted": "#231a1d",
+    "muted-foreground": "#b2a3a7",
+    "accent": "#a8b07c",
+    "accent-foreground": "#1a1d0c",
+    "border": "#382a2f",
+    "ring": "#e08ba0"
+  }
+}

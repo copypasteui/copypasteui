@@ -1,0 +1,15 @@
+{
+  "slug": "chrome-blobs-background",
+  "name": "Chrome Blobs Background",
+  "description": "Liquid metal blobs merging and splitting in real-time WebGL, reflecting your primary and accent colours. Follows the cursor.",
+  "category": "background",
+  "tags": ["webgl", "shader", "metaballs", "chrome", "3d"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "midnight"
+}

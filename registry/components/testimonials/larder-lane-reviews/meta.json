@@ -1,0 +1,16 @@
+{
+  "slug": "larder-lane-reviews",
+  "name": "Larder Lane Fanned Reviews",
+  "description": "Customer reviews on rounded cards that fan out from a stack as the section scrolls into view.",
+  "category": "testimonials",
+  "tags": ["bakery", "reviews", "scroll", "retro"],
+  "collection": "larder-lane-bakery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

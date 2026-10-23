@@ -1,0 +1,15 @@
+{
+  "slug": "founder-note",
+  "name": "Founder Note",
+  "description": "A personal letter card with a self-drawing signature. Adds warmth to about pages.",
+  "category": "team",
+  "tags": ["about", "founder", "story", "signature"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

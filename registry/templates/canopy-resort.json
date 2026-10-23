@@ -1,0 +1,12 @@
+{
+  "slug": "canopy-resort",
+  "name": "Canopy — Resort & Eco-Lodge",
+  "description": "A rainforest eco-resort: full-screen aerial hero with availability search, villa selector, expanding experiences, sustainability stats, stay packages and a pool CTA footer.",
+  "brief": "a resort, eco-lodge, retreat or villa rental",
+  "theme": "canopy",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["canopy-hero", "canopy-villas", "canopy-experiences", "canopy-impact", "canopy-packages", "canopy-footer"]
+}

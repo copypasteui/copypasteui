@@ -1,0 +1,18 @@
+{
+  "slug": "gearwright-tracker",
+  "name": "Gearwright Repair Tracker",
+  "description": "Repair stages that auto-advance beside a phone mockup of live text updates and a video health check.",
+  "category": "how-it-works",
+  "tags": ["garage", "process", "tracker", "animated"],
+  "collection": "gearwright-garage",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "gearwright-hero",
+  "name": "Gearwright Garage Hero",
+  "description": "Italic garage hero with a UK number-plate reg lookup, vehicle result and four promise tiles.",
+  "category": "hero",
+  "tags": ["garage", "auto-repair", "mot", "photography", "bold"],
+  "collection": "gearwright-garage",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

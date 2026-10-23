@@ -1,0 +1,17 @@
+{
+  "slug": "sola-passes",
+  "name": "Sola Pricing Passes",
+  "description": "Intro offer, class-pack selector with per-class price, and unlimited plan with annual toggle.",
+  "category": "pricing",
+  "tags": ["yoga", "pricing", "passes"],
+  "collection": "sola-yoga",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

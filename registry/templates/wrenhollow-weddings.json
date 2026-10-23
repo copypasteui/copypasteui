@@ -1,0 +1,12 @@
+{
+  "slug": "wrenhollow-weddings",
+  "name": "Wrenhollow — Wedding & Event Venue",
+  "description": "A country-house wedding venue: arched-photo hero, hover list of spaces, hour-by-hour day timeline, couple stories, a guide-price builder and photo-strip footer.",
+  "brief": "a wedding venue, event space, country house or wedding planner",
+  "theme": "wrenhollow",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["wrenhollow-hero", "wrenhollow-spaces", "wrenhollow-day", "wrenhollow-couples", "wrenhollow-pricing", "wrenhollow-footer"]
+}

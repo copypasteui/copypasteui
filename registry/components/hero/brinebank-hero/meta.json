@@ -1,0 +1,16 @@
+{
+  "slug": "brinebank-hero",
+  "name": "Brinebank Masthead Hero",
+  "description": "Editorial restaurant hero set like a newspaper front page: masthead, dateline with today's catch, columns of text and a photo that wipes open.",
+  "category": "hero",
+  "tags": ["restaurant", "seafood", "editorial", "newspaper", "clip-path"],
+  "collection": "brinebank-kitchen",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

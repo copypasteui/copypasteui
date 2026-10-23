@@ -1,0 +1,50 @@
+{
+  "slug": "quavermoor",
+  "name": "Quavermoor",
+  "description": "Plum, ivory and brass with Prata and Inter. Music schools, tutors, dance and drama academies.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Inter', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Prata', ui-serif, Georgia, serif",
+    "googleFonts": ["Inter:wght@400;500;600;700", "Prata"]
+  },
+  "light": {
+    "background": "#f8f4ee",
+    "foreground": "#241628",
+    "card": "#fffdf9",
+    "card-foreground": "#241628",
+    "primary": "#4b1d52",
+    "primary-foreground": "#fbf4ee",
+    "secondary": "#eadff0",
+    "secondary-foreground": "#241628",
+    "muted": "#efe8e2",
+    "muted-foreground": "#655a68",
+    "accent": "#d9a441",
+    "accent-foreground": "#241628",
+    "border": "#ddd2d8",
+    "ring": "#4b1d52"
+  },
+  "dark": {
+    "background": "#150d18",
+    "foreground": "#f3ece6",
+    "card": "#1d1421",
+    "card-foreground": "#f3ece6",
+    "primary": "#d8a8e0",
+    "primary-foreground": "#2a0b30",
+    "secondary": "#2e2033",
+    "secondary-foreground": "#f3ece6",
+    "muted": "#221827",
+    "muted-foreground": "#b0a3b2",
+    "accent": "#d9a441",
+    "accent-foreground": "#241628",
+    "border": "#36283b",
+    "ring": "#d8a8e0"
+  }
+}

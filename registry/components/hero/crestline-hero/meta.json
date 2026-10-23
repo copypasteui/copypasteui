@@ -1,0 +1,17 @@
+{
+  "slug": "crestline-hero",
+  "name": "Crestline Ken Burns Hero",
+  "description": "Full-screen photo slideshow where each mountain photo slowly pans and zooms, then cross-fades to the next, with a caption, dots and a pause button.",
+  "category": "hero",
+  "tags": ["walking", "travel", "slideshow", "ken-burns", "photography", "motion"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "collection": "crestline-guiding"
+}

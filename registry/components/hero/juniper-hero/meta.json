@@ -1,0 +1,18 @@
+{
+  "slug": "juniper-hero",
+  "name": "Juniper Photographer Hero",
+  "description": "Split photographer hero with big italic serif headline and a crossfading slideshow with progress line.",
+  "category": "hero",
+  "tags": ["photography", "portfolio", "creative", "slideshow"],
+  "collection": "juniper-photography",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

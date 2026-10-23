@@ -1,0 +1,17 @@
+{
+  "slug": "event-countdown-hero",
+  "name": "Event Countdown Hero",
+  "description": "Conference hero with a live countdown, date and venue chips, ticket CTA and topic ticker.",
+  "category": "hero",
+  "tags": ["event", "conference", "countdown", "tickets"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

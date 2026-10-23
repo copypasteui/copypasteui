@@ -1,0 +1,261 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Site chrome tokens. Component previews run in an iframe and get the theme the visitor picks. */
+/* Site chrome tokens: ink on paper with a highlighter. Component previews run in an iframe and get the theme the visitor picks. */
+:root {
+  --background: #f5f3ec;
+  --foreground: #141412;
+  --card: #fffdf7;
+  --card-foreground: #141412;
+  --primary: #141412;
+  --primary-foreground: #fffdf7;
+  --secondary: #ebe8dd;
+  --secondary-foreground: #141412;
+  --muted: #edeadf;
+  --muted-foreground: #5f5d55;
+  --accent: #ffe14d;
+  --accent-foreground: #241f00;
+  --border: #dcd8cb;
+  --ring: #141412;
+  --radius: 0.5rem;
+  --font-sans: var(--site-font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--site-font-display), ui-sans-serif, system-ui, sans-serif;
+  --highlight: #ffe14d;
+  --font-mono: var(--site-font-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  /* Theme style (see themeStyle in scripts/build-registry.mjs): Tailwind's defaults until a theme changes them. */
+  --border-width: 1px;
+  --shadow-2xs: 0 1px rgb(0 0 0 / 0.05);
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+/* Light or dark site chrome: the visitor's choice (data-theme on <html>, set before paint by the script in
+   app/layout.tsx), otherwise the system setting. Previews keep their own theme. The two dark blocks hold
+   the same values: one for "dark" chosen, one for the system default when nothing is chosen. */
+:root:not(.preview-root) {
+  color-scheme: light;
+}
+:root:not(.preview-root)[data-theme="dark"] {
+  --background: #121210;
+  --foreground: #f2efe4;
+  --card: #1a1a17;
+  --card-foreground: #f2efe4;
+  --primary: #ffe14d;
+  --primary-foreground: #241f00;
+  --secondary: #22221e;
+  --secondary-foreground: #f2efe4;
+  --muted: #1d1d1a;
+  --muted-foreground: #a3a093;
+  --accent: #ffe14d;
+  --accent-foreground: #241f00;
+  --border: #302f2a;
+  --ring: #ffe14d;
+  /* A dimmer marker so light text stays readable over it. */
+  --highlight: rgb(255 225 77 / 0.38);
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not(.preview-root):not([data-theme="light"]) {
+    --background: #121210;
+    --foreground: #f2efe4;
+    --card: #1a1a17;
+    --card-foreground: #f2efe4;
+    --primary: #ffe14d;
+    --primary-foreground: #241f00;
+    --secondary: #22221e;
+    --secondary-foreground: #f2efe4;
+    --muted: #1d1d1a;
+    --muted-foreground: #a3a093;
+    --accent: #ffe14d;
+    --accent-foreground: #241f00;
+    --border: #302f2a;
+    --ring: #ffe14d;
+    /* A dimmer marker so light text stays readable over it. */
+    --highlight: rgb(255 225 77 / 0.38);
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --default-border-width: var(--border-width);
+  --shadow: var(--shadow-sm);
+  --shadow-2xs: var(--shadow-2xs);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+}
+
+/* Make sure registry components (copied into src/generated) get their classes generated. */
+@source "../generated";
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-foreground);
+}
+
+/* Site dropdowns (components/Select.tsx). Where the browser supports customisable <select>, the open list
+   matches the site too: a rounded panel, highlighted options and quiet group headings. Elsewhere it's native. */
+@supports (appearance: base-select) {
+  .ui-select,
+  .ui-select::picker(select) {
+    appearance: base-select;
+  }
+  .ui-select::picker-icon {
+    display: none;
+  }
+  .ui-select::picker(select) {
+    margin-top: 0.375rem;
+    max-height: min(24rem, 70vh);
+    padding: 0.25rem;
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    background: var(--card);
+    color: var(--card-foreground);
+    box-shadow: 0 16px 40px -12px rgb(0 0 0 / 0.3);
+  }
+  .ui-select option {
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+  }
+  .ui-select option::checkmark {
+    order: 1;
+    margin-left: auto;
+  }
+  .ui-select option:hover,
+  .ui-select option:focus-visible {
+    background: var(--muted);
+  }
+  .ui-select option:checked {
+    font-weight: 600;
+  }
+  /* The group label inherits from the optgroup, so style the group and reset its options. */
+  .ui-select optgroup {
+    padding-top: 0.4rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted-foreground);
+  }
+  .ui-select optgroup option {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: none;
+    color: var(--card-foreground);
+  }
+  .ui-select optgroup option:checked {
+    font-weight: 600;
+  }
+}
+
+@keyframes showcase-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [style*="showcase-scroll"] {
+    animation: none !important;
+  }
+}
+
+/* Brand pieces: keycaps (⌘ V), a hand-drawn highlighter stroke and a dashed "clipboard slip". */
+@utility keycap {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.9em;
+  height: 1.9em;
+  padding: 0 0.45em;
+  border: 1px solid var(--foreground);
+  border-radius: 0.35em;
+  background: var(--card);
+  color: var(--card-foreground);
+  box-shadow: 0 0.18em 0 var(--foreground);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  line-height: 1;
+}
+
+@utility highlight {
+  background-image: linear-gradient(
+    100deg,
+    transparent 0.2em,
+    var(--highlight) 0.2em,
+    var(--highlight) calc(100% - 0.15em),
+    transparent calc(100% - 0.15em)
+  );
+  background-size: 100% 0.42em;
+  background-position: 0 88%;
+  background-repeat: no-repeat;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: inherit;
+}
+
+@utility slip {
+  border: 1.5px dashed var(--border);
+  background: var(--card);
+  border-radius: var(--radius);
+}
+
+@keyframes page-scroll {
+  0%,
+  12% {
+    transform: translateY(0);
+  }
+  88%,
+  100% {
+    transform: translateY(calc(-100% + var(--frame-h, 400px)));
+  }
+}
+
+@keyframes caret {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-safe-scroll {
+    animation: none !important;
+  }
+}

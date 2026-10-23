@@ -1,0 +1,15 @@
+{
+  "slug": "vertical-timeline",
+  "name": "Vertical Timeline",
+  "description": "Alternating timeline whose progress line fills as you scroll. Great for experience or history.",
+  "category": "how-it-works",
+  "tags": ["timeline", "resume", "history", "scroll"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

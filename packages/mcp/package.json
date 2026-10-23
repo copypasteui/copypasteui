@@ -1,0 +1,51 @@
+{
+  "name": "copypasteui",
+  "version": "0.1.0",
+  "description": "Free, local MCP server and CLI for CopyPasteUI: search and install AI-ready UI components and themes from your editor. No account, no API key, no backend.",
+  "license": "PolyForm-Shield-1.0.0",
+  "type": "module",
+  "bin": {
+    "copypasteui": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "data",
+    "skill"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ui",
+    "components",
+    "tailwind",
+    "react",
+    "shadcn",
+    "ai",
+    "vibe-coding"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/copypasteui/copypasteui.git",
+    "directory": "packages/mcp"
+  },
+  "homepage": "https://copypasteui.dev/developers",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && chmod +x dist/cli.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "test:coverage": "npm run build && node --test --experimental-test-coverage --test-coverage-include='dist/**' --test-coverage-lines=90 --test-coverage-functions=90 --test-coverage-branches=75 test/*.test.mjs",
+    "prepack": "cp ../../LICENSE LICENSE",
+    "prepublishOnly": "node ../../scripts/build-registry.mjs && cp ../../LICENSE LICENSE && npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "5.9.3"
+  }
+}

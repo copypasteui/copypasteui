@@ -1,0 +1,17 @@
+{
+  "slug": "editorial-split-hero",
+  "name": "Editorial Split Hero",
+  "description": "Magazine-style two-column hero with serif headline, social proof avatars and an animated case-study card.",
+  "category": "hero",
+  "tags": ["agency", "studio", "serif", "split", "social-proof"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-20",
+  "featured": true
+}

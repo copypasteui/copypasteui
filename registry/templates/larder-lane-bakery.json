@@ -1,0 +1,19 @@
+{
+  "slug": "larder-lane-bakery",
+  "name": "Larder Lane — Sourdough Bakery",
+  "description": "A 70s-retro neighbourhood bakery: turning sunburst hero, a sticky photo that changes with each bake step, specials by day, a Saturday pre-order with a rolling total, fanned reviews and a wavy footer.",
+  "brief": "a bakery, café, doughnut shop, deli, ice-cream parlour or retro diner",
+  "theme": "groove",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "larder-lane-hero",
+    "larder-lane-steps",
+    "larder-lane-bakes",
+    "larder-lane-orders",
+    "larder-lane-reviews",
+    "larder-lane-footer"
+  ]
+}

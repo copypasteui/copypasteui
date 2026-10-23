@@ -1,0 +1,53 @@
+{
+  "slug": "noir",
+  "name": "Noir",
+  "description": "Dark luxury: near-black, warm ivory and antique bronze, Cormorant Garamond headlines, square corners and a fine grain. Jewellers, bars, hotels, tailors.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0rem",
+  "style": {
+    "label": "Luxury",
+    "shadow": "none",
+    "texture": "grain",
+    "motion": "lively"
+  },
+  "fonts": {
+    "sans": "'Jost', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Cormorant Garamond', ui-serif, Georgia, serif",
+    "googleFonts": ["Jost:wght@300;400;500;600", "Cormorant+Garamond:wght@500;600;700"]
+  },
+  "light": {
+    "background": "#f5f2ec",
+    "foreground": "#14120f",
+    "card": "#fbf9f5",
+    "card-foreground": "#14120f",
+    "primary": "#6b5428",
+    "primary-foreground": "#ffffff",
+    "secondary": "#ebe5d8",
+    "secondary-foreground": "#14120f",
+    "muted": "#ede8de",
+    "muted-foreground": "#5a5347",
+    "accent": "#d4b26a",
+    "accent-foreground": "#14120f",
+    "border": "#d8d0c0",
+    "ring": "#6b5428"
+  },
+  "dark": {
+    "background": "#0d0c0a",
+    "foreground": "#ede6d8",
+    "card": "#15130f",
+    "card-foreground": "#ede6d8",
+    "primary": "#d4b26a",
+    "primary-foreground": "#14100a",
+    "secondary": "#1c1a15",
+    "secondary-foreground": "#ede6d8",
+    "muted": "#18160f",
+    "muted-foreground": "#a59c8a",
+    "accent": "#d4b26a",
+    "accent-foreground": "#14100a",
+    "border": "#2e2a22",
+    "ring": "#d4b26a"
+  }
+}

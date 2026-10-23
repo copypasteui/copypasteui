@@ -1,0 +1,17 @@
+{
+  "slug": "pinehollow-cabins",
+  "name": "Pinehollow Cabin Cards",
+  "description": "Cabin cards with dog-friendly, hot-tub and group filters, nightly prices and amenity chips.",
+  "category": "products",
+  "tags": ["cabins", "rooms", "filter", "bnb"],
+  "collection": "pinehollow-cabins",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

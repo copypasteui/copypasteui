@@ -1,0 +1,16 @@
+{
+  "slug": "still-footer",
+  "name": "Still Footer",
+  "description": "Minimal centred spa footer with a breathing circle, links and quiet newsletter.",
+  "category": "footer",
+  "tags": ["spa", "footer", "minimal"],
+  "collection": "still-spa",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

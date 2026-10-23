@@ -1,0 +1,16 @@
+{
+  "slug": "larder-lane-bakes",
+  "name": "Larder Lane Bakes by Day",
+  "description": "Pick a day of the week to see what comes out of the oven and when; the cards swap with a springy pop and the everyday loaves stay put.",
+  "category": "products",
+  "tags": ["bakery", "products", "schedule", "tabs", "retro"],
+  "collection": "larder-lane-bakery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

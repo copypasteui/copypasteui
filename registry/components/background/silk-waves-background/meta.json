@@ -1,0 +1,15 @@
+{
+  "slug": "silk-waves-background",
+  "name": "Silk Waves Background",
+  "description": "Live WebGL silk folds with specular ridges in your primary and accent over a deep base. Cursor drifts the fabric.",
+  "category": "background",
+  "tags": ["webgl", "shader", "silk", "dark", "wrapper"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-21",
+  "featured": true,
+  "theme": "lavender"
+}

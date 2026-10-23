@@ -1,0 +1,16 @@
+{
+  "slug": "glaze-days-pieces",
+  "name": "Glaze Days Piece and Glaze Picker",
+  "description": "Pick a piece and a glaze; the drawing switches shape, the glaze colour blends in and the price updates, with the studio fee shown.",
+  "category": "products",
+  "tags": ["pottery", "cafe", "configurator", "svg", "picker"],
+  "collection": "glaze-days-pottery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

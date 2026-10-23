@@ -1,0 +1,17 @@
+{
+  "slug": "hush-hearing-aids",
+  "name": "Hush Hearing Aid Price Table",
+  "description": "Hearing aid price bands in a comparison table; the column you hover or pick lifts out, with what every band includes listed below.",
+  "category": "pricing",
+  "tags": ["hearing", "clinic", "pricing", "comparison", "table"],
+  "collection": "hush-hearing",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

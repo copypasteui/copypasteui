@@ -1,0 +1,15 @@
+{
+  "slug": "fluid-gradient-background",
+  "name": "Fluid Gradient Background",
+  "description": "Real-time WebGL mesh gradient from your theme colours with domain-warped noise, grain and cursor drift. No video.",
+  "category": "background",
+  "tags": ["webgl", "shader", "gradient", "animated", "wrapper"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-21",
+  "featured": true,
+  "theme": "sunset"
+}

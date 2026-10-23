@@ -1,0 +1,18 @@
+{
+  "slug": "crumb-hero",
+  "name": "Crumb Bakery Hero",
+  "description": "Playful bakery hero with tilted photo stack, spinning price sticker, oven-times card and an open-now pill.",
+  "category": "hero",
+  "tags": ["bakery", "cafe", "food", "photography", "playful"],
+  "collection": "crumb-bakery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

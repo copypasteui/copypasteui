@@ -1,0 +1,18 @@
+{
+  "slug": "ironbark-quote",
+  "name": "Ironbark Cost Estimator",
+  "description": "Build cost estimator with project type, floor-area slider and finish level, plus a survey request form.",
+  "category": "contact",
+  "tags": ["builder", "calculator", "quote", "form"],
+  "collection": "ironbark-builders",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,19 @@
+# Generated or vendored
+node_modules/
+.next/
+out/
+dist/
+coverage/
+package-lock.json
+apps/web/src/generated/
+apps/web/public/
+packages/mcp/data/
+tests/recipes/harness/components/
+next-env.d.ts
+
+# Prose is hand-written and the recipe Markdown is published as-is inside prompts
+*.md
+
+# Not in git
+docs/
+* [0-9].*

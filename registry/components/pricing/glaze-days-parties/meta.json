@@ -1,0 +1,17 @@
+{
+  "slug": "glaze-days-parties",
+  "name": "Glaze Days Party Packages",
+  "description": "Party packages for kids, grown-ups and celebrations; switching tabs slides the new package in and keeps the price and inclusions side by side.",
+  "category": "pricing",
+  "tags": ["pottery", "parties", "tabs", "pricing"],
+  "collection": "glaze-days-pottery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "keystone-contact",
+  "name": "Keystone Branch Contact",
+  "description": "Branch details and agent cards beside an illustrated map with a dropping pin.",
+  "category": "contact",
+  "tags": ["real-estate", "contact", "map", "team"],
+  "collection": "keystone-estate-agents",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

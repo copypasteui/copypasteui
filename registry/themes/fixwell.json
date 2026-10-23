@@ -1,0 +1,50 @@
+{
+  "slug": "fixwell",
+  "name": "Fixwell",
+  "description": "Navy, safety yellow and white with Lexend. Plumbers, electricians, heating engineers, handymen.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.75rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Lexend', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Lexend', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Lexend:wght@400;500;600;700;800"]
+  },
+  "light": {
+    "background": "#f6f7fa",
+    "foreground": "#0d1b33",
+    "card": "#ffffff",
+    "card-foreground": "#0d1b33",
+    "primary": "#12306b",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e3e9f5",
+    "secondary-foreground": "#0d1b33",
+    "muted": "#ebeef4",
+    "muted-foreground": "#4f5a6e",
+    "accent": "#ffd23f",
+    "accent-foreground": "#0d1b33",
+    "border": "#d8dee9",
+    "ring": "#12306b"
+  },
+  "dark": {
+    "background": "#0a1222",
+    "foreground": "#eef2f8",
+    "card": "#111c30",
+    "card-foreground": "#eef2f8",
+    "primary": "#8db0ff",
+    "primary-foreground": "#071a40",
+    "secondary": "#1a2840",
+    "secondary-foreground": "#eef2f8",
+    "muted": "#14213a",
+    "muted-foreground": "#a1abbd",
+    "accent": "#ffd23f",
+    "accent-foreground": "#0d1b33",
+    "border": "#22314d",
+    "ring": "#8db0ff"
+  }
+}

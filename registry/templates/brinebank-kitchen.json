@@ -1,0 +1,12 @@
+{
+  "slug": "brinebank-kitchen",
+  "name": "Brinebank — Seafood Restaurant",
+  "description": "An editorial seafood restaurant: newspaper masthead hero with a photo wipe, a story that lights up word by word, a menu that strikes through sold-out dishes, the two boats, booking and a back-page footer.",
+  "brief": "a seafood restaurant, bistro, wine bar, bookshop café, food magazine or independent shop with a story to tell",
+  "theme": "folio",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["brinebank-hero", "brinebank-story", "brinebank-menu", "brinebank-boats", "brinebank-book", "brinebank-footer"]
+}

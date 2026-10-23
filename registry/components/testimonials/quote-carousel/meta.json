@@ -1,0 +1,16 @@
+{
+  "slug": "quote-carousel",
+  "name": "Quote Carousel",
+  "description": "Single large quote with directional slide transitions, autoplay, arrows and dots.",
+  "category": "testimonials",
+  "tags": ["carousel", "quotes", "autoplay", "restaurant"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

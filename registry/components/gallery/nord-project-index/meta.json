@@ -1,0 +1,18 @@
+{
+  "slug": "nord-project-index",
+  "name": "Nord Project Index",
+  "description": "Editorial project list with a spring-follow cursor image preview on desktop and inline photos on mobile.",
+  "category": "gallery",
+  "tags": ["architecture", "portfolio", "index", "cursor", "hover-preview"],
+  "collection": "nord-architecture",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

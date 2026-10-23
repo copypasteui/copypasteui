@@ -1,0 +1,50 @@
+{
+  "slug": "lumen",
+  "name": "Lumen",
+  "description": "Off-white with bottle green and a lime highlight, set in Archivo. For data and analytics products that want to feel grounded.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.875rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Archivo', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["IBM+Plex+Sans:wght@400;500;600", "Archivo:wght@500;600;700;800"]
+  },
+  "light": {
+    "background": "#f7f7fb",
+    "foreground": "#0c0c1d",
+    "card": "#ffffff",
+    "card-foreground": "#0c0c1d",
+    "primary": "#0f5c46",
+    "primary-foreground": "#ffffff",
+    "secondary": "#ececf7",
+    "secondary-foreground": "#0c0c1d",
+    "muted": "#efeff7",
+    "muted-foreground": "#5a5a75",
+    "accent": "#e2f7b0",
+    "accent-foreground": "#2c4300",
+    "border": "#dedef0",
+    "ring": "#0f5c46"
+  },
+  "dark": {
+    "background": "#07071a",
+    "foreground": "#ececff",
+    "card": "#0e0e26",
+    "card-foreground": "#ececff",
+    "primary": "#7fd8a8",
+    "primary-foreground": "#04261a",
+    "secondary": "#17173a",
+    "secondary-foreground": "#ececff",
+    "muted": "#121231",
+    "muted-foreground": "#9a9ac2",
+    "accent": "#203a10",
+    "accent-foreground": "#e2f7b0",
+    "border": "#22224a",
+    "ring": "#7fd8a8"
+  }
+}

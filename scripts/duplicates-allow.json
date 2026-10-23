@@ -1,0 +1,7 @@
+[
+  {
+    "a": "fluid-gradient-background",
+    "b": "silk-waves-background",
+    "reason": "Both are WebGL backgrounds and share the shader set-up (canvas, context, resize, theme colours, reduced motion); the effects themselves differ."
+  }
+]

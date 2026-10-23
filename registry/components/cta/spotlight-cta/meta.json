@@ -1,0 +1,17 @@
+{
+  "slug": "spotlight-cta",
+  "name": "Spotlight CTA",
+  "description": "Call-to-action card with a cursor-following spotlight, written for a climbing gym's free taster.",
+  "category": "cta",
+  "tags": ["spotlight", "cursor", "grid", "interactive"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-20",
+  "featured": true
+}

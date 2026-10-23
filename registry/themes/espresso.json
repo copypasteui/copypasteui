@@ -1,0 +1,50 @@
+{
+  "slug": "espresso",
+  "name": "Espresso",
+  "description": "Roasted browns, crema and a terracotta accent with a classic serif. Made for restaurants, cafés and craft brands.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.375rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Lora', ui-serif, Georgia, serif",
+    "display": "'Playfair Display', ui-serif, Georgia, serif",
+    "googleFonts": ["Lora:wght@400;500;600", "Playfair+Display:wght@600;700;800"]
+  },
+  "light": {
+    "background": "#f7f1e8",
+    "foreground": "#2b1d14",
+    "card": "#fffaf3",
+    "card-foreground": "#2b1d14",
+    "primary": "#9a4f2d",
+    "primary-foreground": "#fffaf3",
+    "secondary": "#ecdfcc",
+    "secondary-foreground": "#3d2a1d",
+    "muted": "#efe5d6",
+    "muted-foreground": "#6e5a4a",
+    "accent": "#d9b88f",
+    "accent-foreground": "#3b2410",
+    "border": "#e0d2bd",
+    "ring": "#9a4f2d"
+  },
+  "dark": {
+    "background": "#1a120d",
+    "foreground": "#f3e8da",
+    "card": "#241912",
+    "card-foreground": "#f3e8da",
+    "primary": "#d9824f",
+    "primary-foreground": "#1a0d05",
+    "secondary": "#33241a",
+    "secondary-foreground": "#f3e8da",
+    "muted": "#2b1f17",
+    "muted-foreground": "#b4a08d",
+    "accent": "#5a3d22",
+    "accent-foreground": "#f2d4ad",
+    "border": "#3d2c20",
+    "ring": "#d9824f"
+  }
+}

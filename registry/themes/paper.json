@@ -1,0 +1,51 @@
+{
+  "slug": "paper",
+  "name": "Paper",
+  "description": "Warm off-white paper with ink-black type and a vermilion accent. Calm, editorial, readable.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "default": true,
+  "radius": "0.75rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Public Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Fraunces', ui-serif, Georgia, serif",
+    "googleFonts": ["Public+Sans:wght@400;500;600;700", "Fraunces:wght@400;600;700;900"]
+  },
+  "light": {
+    "background": "#faf7f2",
+    "foreground": "#1c1917",
+    "card": "#ffffff",
+    "card-foreground": "#1c1917",
+    "primary": "#c53822",
+    "primary-foreground": "#ffffff",
+    "secondary": "#f1ece4",
+    "secondary-foreground": "#292524",
+    "muted": "#f1ece4",
+    "muted-foreground": "#6b625a",
+    "accent": "#fde7dc",
+    "accent-foreground": "#7a2414",
+    "border": "#e6dfd4",
+    "ring": "#c53822"
+  },
+  "dark": {
+    "background": "#151311",
+    "foreground": "#f5f0e8",
+    "card": "#1d1a17",
+    "card-foreground": "#f5f0e8",
+    "primary": "#ff6a4d",
+    "primary-foreground": "#1a0a06",
+    "secondary": "#26221e",
+    "secondary-foreground": "#f5f0e8",
+    "muted": "#26221e",
+    "muted-foreground": "#a69d92",
+    "accent": "#3a1d15",
+    "accent-foreground": "#ffd9cc",
+    "border": "#34302b",
+    "ring": "#ff6a4d"
+  }
+}

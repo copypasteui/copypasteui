@@ -1,0 +1,16 @@
+{
+  "slug": "terminal-banner-cta",
+  "name": "Terminal Banner CTA",
+  "description": "Developer CTA with a terminal that types out a deploy, line by line.",
+  "category": "cta",
+  "tags": ["developer-tools", "terminal", "cli", "typing"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

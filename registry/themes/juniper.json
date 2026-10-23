@@ -1,0 +1,50 @@
+{
+  "slug": "juniper",
+  "name": "Juniper",
+  "description": "Warm paper, espresso and dusk rose with Cardo and Manrope. Photographers, videographers, artists.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Manrope', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Cardo', ui-serif, Georgia, serif",
+    "googleFonts": ["Manrope:wght@400;500;600", "Cardo:ital,wght@0,400;0,700;1,400"]
+  },
+  "light": {
+    "background": "#f5f1eb",
+    "foreground": "#221c18",
+    "card": "#fbf8f3",
+    "card-foreground": "#221c18",
+    "primary": "#221c18",
+    "primary-foreground": "#f5f1eb",
+    "secondary": "#e8dfd3",
+    "secondary-foreground": "#221c18",
+    "muted": "#ece5db",
+    "muted-foreground": "#625850",
+    "accent": "#d9a593",
+    "accent-foreground": "#221c18",
+    "border": "#dbd1c4",
+    "ring": "#221c18"
+  },
+  "dark": {
+    "background": "#121010",
+    "foreground": "#efe9e1",
+    "card": "#1a1716",
+    "card-foreground": "#efe9e1",
+    "primary": "#efe9e1",
+    "primary-foreground": "#221c18",
+    "secondary": "#29231f",
+    "secondary-foreground": "#efe9e1",
+    "muted": "#1f1b19",
+    "muted-foreground": "#aca197",
+    "accent": "#d9a593",
+    "accent-foreground": "#221c18",
+    "border": "#322b27",
+    "ring": "#efe9e1"
+  }
+}

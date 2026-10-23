@@ -1,0 +1,16 @@
+{
+  "slug": "cinderwick-farm-to-cup",
+  "name": "Cinderwick Farm to Cup",
+  "description": "Four numbered photo steps from farm to cup on a dark roast background with staggered layout.",
+  "category": "how-it-works",
+  "tags": ["coffee", "process", "story", "photography"],
+  "collection": "cinderwick-coffee",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

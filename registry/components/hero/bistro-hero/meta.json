@@ -1,0 +1,17 @@
+{
+  "slug": "bistro-hero",
+  "name": "Bistro Hero",
+  "description": "Restaurant hero with a big serif headline, opening hours, address and a round food photo ringed by a scrolling list of tonight's dishes.",
+  "category": "hero",
+  "tags": ["restaurant", "food", "serif", "local-business"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

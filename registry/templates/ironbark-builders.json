@@ -1,0 +1,12 @@
+{
+  "slug": "ironbark-builders",
+  "name": "Ironbark — Builder & Renovations",
+  "description": "A building contractor: bold hero with project stats, hover services list, filterable project gallery, five-step process, cost estimator with survey form and wordmark footer.",
+  "brief": "a builder, contractor, roofer, carpenter, decorator or renovation company",
+  "theme": "ironbark",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["ironbark-hero", "ironbark-services", "ironbark-projects", "ironbark-process", "ironbark-quote", "ironbark-footer"]
+}

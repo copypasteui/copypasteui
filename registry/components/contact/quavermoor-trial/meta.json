@@ -1,0 +1,18 @@
+{
+  "slug": "quavermoor-trial",
+  "name": "Quavermoor Free Trial Form",
+  "description": "Free trial-lesson form with me/my-child toggle and instrument, level and time chips.",
+  "category": "contact",
+  "tags": ["music", "form", "booking"],
+  "collection": "quavermoor-music",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

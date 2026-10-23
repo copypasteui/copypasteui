@@ -1,0 +1,50 @@
+{
+  "slug": "sunset",
+  "name": "Sunset",
+  "description": "Bold peach-to-magenta energy with chunky radius. Playful, loud, perfect for consumer apps and creators.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Plus+Jakarta+Sans:wght@400;500;700", "Bricolage+Grotesque:wght@600;800"]
+  },
+  "light": {
+    "background": "#fff6f0",
+    "foreground": "#2a0f1f",
+    "card": "#ffffff",
+    "card-foreground": "#2a0f1f",
+    "primary": "#c81e5b",
+    "primary-foreground": "#ffffff",
+    "secondary": "#ffe4d4",
+    "secondary-foreground": "#4a1530",
+    "muted": "#ffeadf",
+    "muted-foreground": "#7d5466",
+    "accent": "#ffd166",
+    "accent-foreground": "#4a3300",
+    "border": "#f6d6c8",
+    "ring": "#c81e5b"
+  },
+  "dark": {
+    "background": "#1a0912",
+    "foreground": "#ffe9f0",
+    "card": "#24101b",
+    "card-foreground": "#ffe9f0",
+    "primary": "#ff5c93",
+    "primary-foreground": "#2a0614",
+    "secondary": "#331624",
+    "secondary-foreground": "#ffe9f0",
+    "muted": "#2e1421",
+    "muted-foreground": "#c39aab",
+    "accent": "#ffcf5c",
+    "accent-foreground": "#2a1d00",
+    "border": "#432033",
+    "ring": "#ff5c93"
+  }
+}

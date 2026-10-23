@@ -1,0 +1,16 @@
+{
+  "slug": "wax-cellar-sell",
+  "name": "Wax Cellar Sell Your Records",
+  "description": "Price guide for selling records: pick a condition and a genre, and a bar slides to the price range we pay per LP.",
+  "category": "how-it-works",
+  "tags": ["records", "music", "pricing", "calculator", "interactive"],
+  "collection": "wax-cellar-records",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

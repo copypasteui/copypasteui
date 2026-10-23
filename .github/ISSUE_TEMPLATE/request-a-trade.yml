@@ -1,0 +1,27 @@
+name: Request a trade
+description: Ask for a template for a kind of business we don't cover yet.
+title: "Template request: "
+labels: ["template request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Requests with the most 👍 get built first, so add one to an existing request rather than opening a new one.
+  - type: input
+    id: trade
+    attributes:
+      label: Kind of business
+      description: In plain words, e.g. "driving school", "tattoo studio", "dog groomer".
+    validations:
+      required: true
+  - type: textarea
+    id: needs
+    attributes:
+      label: What the website must do
+      description: The main thing visitors should do (book, call, order, get a quote…), and anything that's special to this trade.
+      placeholder: e.g. book a lesson, show prices per package, pass rates, areas covered
+  - type: input
+    id: example
+    attributes:
+      label: A site you like (optional)
+      description: A link to a website in this trade that does it well. We won't copy it; it helps us understand what matters.

@@ -1,0 +1,16 @@
+{
+  "slug": "harbour-float-first-visit",
+  "name": "Harbour Float First Visit Clock",
+  "description": "Your first 90 minutes as timed steps beside a clock ring that fills as you scroll.",
+  "category": "how-it-works",
+  "tags": ["spa", "wellness", "steps", "scroll", "svg"],
+  "collection": "harbour-float-spa",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

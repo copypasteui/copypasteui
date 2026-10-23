@@ -1,0 +1,18 @@
+{
+  "slug": "keystone-listings",
+  "name": "Keystone Property Listings",
+  "description": "For-sale / to-rent listing cards with price tags, status badges, save hearts and room stats.",
+  "category": "products",
+  "tags": ["real-estate", "listings", "products", "filter"],
+  "collection": "keystone-estate-agents",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

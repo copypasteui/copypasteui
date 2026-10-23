@@ -1,0 +1,17 @@
+{
+  "slug": "sola-footer",
+  "name": "Sola Footer",
+  "description": "Studio footer with rising sun shape, links and first-class CTA.",
+  "category": "footer",
+  "tags": ["yoga", "footer"],
+  "collection": "sola-yoga",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

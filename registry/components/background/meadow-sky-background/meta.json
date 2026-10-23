@@ -1,0 +1,17 @@
+{
+  "slug": "meadow-sky-background",
+  "name": "Meadow Sky Background",
+  "description": "Rolling green hills under heavy cloud, slowly zooming, with cloud shadows sweeping across and a gentle parallax that follows the cursor.",
+  "category": "background",
+  "tags": ["photo", "landscape", "parallax", "ken-burns", "nature"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "spruce"
+}

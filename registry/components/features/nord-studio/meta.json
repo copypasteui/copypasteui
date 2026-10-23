@@ -1,0 +1,16 @@
+{
+  "slug": "nord-studio",
+  "name": "Nord Studio",
+  "description": "Photo collage with stat block beside a studio statement and numbered principles.",
+  "category": "features",
+  "tags": ["architecture", "about", "principles", "photography"],
+  "collection": "nord-architecture",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

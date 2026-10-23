@@ -1,0 +1,50 @@
+{
+  "slug": "nord",
+  "name": "Nord",
+  "description": "Gallery-white, graphite and a single oxide accent with Inter Tight. Quiet, precise, architectural.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Inter Tight', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Inter Tight', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Inter+Tight:wght@300;400;500;600;700;800"]
+  },
+  "light": {
+    "background": "#f3f2ef",
+    "foreground": "#141414",
+    "card": "#ffffff",
+    "card-foreground": "#141414",
+    "primary": "#141414",
+    "primary-foreground": "#f3f2ef",
+    "secondary": "#e6e4df",
+    "secondary-foreground": "#141414",
+    "muted": "#e9e7e2",
+    "muted-foreground": "#5f5e5a",
+    "accent": "#b4532a",
+    "accent-foreground": "#ffffff",
+    "border": "#d6d3cc",
+    "ring": "#141414"
+  },
+  "dark": {
+    "background": "#121212",
+    "foreground": "#ecebe7",
+    "card": "#1a1a1a",
+    "card-foreground": "#ecebe7",
+    "primary": "#ecebe7",
+    "primary-foreground": "#121212",
+    "secondary": "#242424",
+    "secondary-foreground": "#ecebe7",
+    "muted": "#1f1f1f",
+    "muted-foreground": "#9d9b96",
+    "accent": "#d9774b",
+    "accent-foreground": "#140a05",
+    "border": "#2e2e2e",
+    "ring": "#ecebe7"
+  }
+}

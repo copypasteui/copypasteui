@@ -1,0 +1,50 @@
+{
+  "slug": "ironbark",
+  "name": "Ironbark",
+  "description": "Concrete, charcoal and hi-vis amber with Big Shoulders Display and Instrument Sans. Builders, contractors, renovators.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.125rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Instrument Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Big Shoulders Display', Impact, ui-sans-serif, sans-serif",
+    "googleFonts": ["Instrument+Sans:wght@400;500;600;700", "Big+Shoulders+Display:wght@700;800;900"]
+  },
+  "light": {
+    "background": "#efeeea",
+    "foreground": "#17181a",
+    "card": "#f8f7f4",
+    "card-foreground": "#17181a",
+    "primary": "#17181a",
+    "primary-foreground": "#f5f4f0",
+    "secondary": "#e0ded8",
+    "secondary-foreground": "#17181a",
+    "muted": "#e5e3dd",
+    "muted-foreground": "#55575b",
+    "accent": "#f5a524",
+    "accent-foreground": "#17181a",
+    "border": "#cfccc4",
+    "ring": "#17181a"
+  },
+  "dark": {
+    "background": "#111214",
+    "foreground": "#ecebe7",
+    "card": "#1a1b1e",
+    "card-foreground": "#ecebe7",
+    "primary": "#ecebe7",
+    "primary-foreground": "#17181a",
+    "secondary": "#26272b",
+    "secondary-foreground": "#ecebe7",
+    "muted": "#1f2023",
+    "muted-foreground": "#a3a4a8",
+    "accent": "#f5a524",
+    "accent-foreground": "#17181a",
+    "border": "#2f3034",
+    "ring": "#f5a524"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "kiln-brief",
+  "name": "Studio Kiln Project Brief",
+  "description": "Project-brief builder with needs chips, live timeline and budget estimate, and send form.",
+  "category": "cta",
+  "tags": ["agency", "cta", "form", "calculator"],
+  "collection": "kiln-agency",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

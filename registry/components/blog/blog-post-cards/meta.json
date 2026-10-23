@@ -1,0 +1,16 @@
+{
+  "slug": "blog-post-cards",
+  "name": "Blog Post Cards",
+  "description": "Blog index with a large lead story, photo covers, category filters and reading times.",
+  "category": "blog",
+  "tags": ["blog", "articles", "magazine", "filter"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

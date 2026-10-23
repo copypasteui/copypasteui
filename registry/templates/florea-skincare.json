@@ -1,0 +1,20 @@
+{
+  "slug": "florea-skincare",
+  "name": "Florea \u2014 Botanical Skincare Store",
+  "description": "A soft botanical e-commerce site: arched product hero, bestsellers, ingredient spotlight, morning/evening ritual, filterable reviews, skin quiz and footer.",
+  "brief": "a skincare, beauty or wellness brand",
+  "theme": "florea",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "florea-hero",
+    "florea-bestsellers",
+    "florea-ingredients",
+    "florea-ritual",
+    "florea-reviews",
+    "florea-skin-quiz",
+    "florea-footer"
+  ]
+}

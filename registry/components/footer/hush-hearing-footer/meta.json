@@ -1,0 +1,16 @@
+{
+  "slug": "hush-hearing-footer",
+  "name": "Hush Hearing Footer",
+  "description": "Calm clinic footer with address, hours, home visits, the HCPC registration and accessibility notes.",
+  "category": "footer",
+  "tags": ["hearing", "clinic", "footer", "neumorphic"],
+  "collection": "hush-hearing",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-22"
+}

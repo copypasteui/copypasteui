@@ -1,0 +1,12 @@
+{
+  "slug": "marlowe-boutique",
+  "name": "Marlowe — Fashion Boutique",
+  "description": "An independent fashion boutique: editorial hero, quick-add product grid, scroll-driven lookbook, reviews with service promises, personal-styling booking and wordmark footer.",
+  "brief": "a clothing boutique, concept store, tailor or accessories shop",
+  "theme": "marlowe",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["marlowe-hero", "marlowe-shop", "marlowe-lookbook", "marlowe-reviews", "marlowe-styling", "marlowe-footer"]
+}

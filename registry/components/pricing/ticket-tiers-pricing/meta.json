@@ -1,0 +1,16 @@
+{
+  "slug": "ticket-tiers-pricing",
+  "name": "Ticket Tiers Pricing",
+  "description": "Event tickets with notched card shapes, scarcity labels, quantity steppers and a live total.",
+  "category": "pricing",
+  "tags": ["tickets", "event", "checkout", "stepper"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

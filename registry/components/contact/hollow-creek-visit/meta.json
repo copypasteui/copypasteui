@@ -1,0 +1,17 @@
+{
+  "slug": "hollow-creek-visit",
+  "name": "Hollow Creek Visit",
+  "description": "Farm visit block with shop, caf\u00e9 and PYO hours, facilities, barn photo and review.",
+  "category": "contact",
+  "tags": ["farm", "contact", "hours", "reviews"],
+  "collection": "hollow-creek-farm",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

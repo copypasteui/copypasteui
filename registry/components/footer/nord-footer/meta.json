@@ -1,0 +1,14 @@
+{
+  "slug": "nord-footer",
+  "name": "Nord Footer",
+  "description": "Minimal footer with live office clocks, addresses, links and a giant edge-to-edge wordmark.",
+  "category": "footer",
+  "tags": ["architecture", "footer", "clock", "wordmark"],
+  "collection": "nord-architecture",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-21"
+}

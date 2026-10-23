@@ -1,0 +1,50 @@
+{
+  "slug": "pinehollow",
+  "name": "Pinehollow",
+  "description": "Pine, rust and oatmeal wool with Zilla Slab and Karla. Cabins, B&Bs, guesthouses, campsites.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Karla', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Zilla Slab', ui-serif, Georgia, serif",
+    "googleFonts": ["Karla:wght@400;500;600;700", "Zilla+Slab:wght@500;600;700"]
+  },
+  "light": {
+    "background": "#f1ece2",
+    "foreground": "#1d221c",
+    "card": "#f9f6ef",
+    "card-foreground": "#1d221c",
+    "primary": "#2e3d2b",
+    "primary-foreground": "#f4efe4",
+    "secondary": "#e2dacb",
+    "secondary-foreground": "#1d221c",
+    "muted": "#e8e1d3",
+    "muted-foreground": "#56594f",
+    "accent": "#a64b28",
+    "accent-foreground": "#fff7ec",
+    "border": "#d4cab7",
+    "ring": "#2e3d2b"
+  },
+  "dark": {
+    "background": "#121510",
+    "foreground": "#ece5d8",
+    "card": "#1a1e17",
+    "card-foreground": "#ece5d8",
+    "primary": "#b9cfa4",
+    "primary-foreground": "#162011",
+    "secondary": "#262b22",
+    "secondary-foreground": "#ece5d8",
+    "muted": "#1e221a",
+    "muted-foreground": "#a6a796",
+    "accent": "#d0703f",
+    "accent-foreground": "#1a0b04",
+    "border": "#2f352a",
+    "ring": "#b9cfa4"
+  }
+}

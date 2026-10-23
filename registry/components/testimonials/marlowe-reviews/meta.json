@@ -1,0 +1,17 @@
+{
+  "slug": "marlowe-reviews",
+  "name": "Marlowe Reviews & Promises",
+  "description": "Hairline-grid customer quotes with a rating line and service promises for alterations, returns and delivery.",
+  "category": "testimonials",
+  "tags": ["fashion", "reviews", "trust"],
+  "collection": "marlowe-boutique",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "common-ground-hero",
+  "name": "Common Ground Charity Hero",
+  "description": "Appeal hero with animated fundraising progress bar, donor stats, volunteer photo and beneficiary quote.",
+  "category": "hero",
+  "tags": ["nonprofit", "charity", "fundraising", "photography"],
+  "collection": "common-ground-charity",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

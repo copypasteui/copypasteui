@@ -1,0 +1,17 @@
+{
+  "slug": "gearwright-booking",
+  "name": "Gearwright Booking",
+  "description": "Service, drop-off day and time, courtesy car or collection, with a live booking summary.",
+  "category": "contact",
+  "tags": ["garage", "booking", "form"],
+  "collection": "gearwright-garage",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

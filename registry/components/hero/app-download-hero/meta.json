@@ -1,0 +1,17 @@
+{
+  "slug": "app-download-hero",
+  "name": "App Download Hero",
+  "description": "Mobile-app hero with a CSS phone mockup, floating notification cards and store buttons.",
+  "category": "hero",
+  "tags": ["mobile-app", "phone-mockup", "download", "consumer"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

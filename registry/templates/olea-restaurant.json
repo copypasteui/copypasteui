@@ -1,0 +1,9 @@
+{
+  "slug": "olea-restaurant",
+  "name": "Olea — Restaurant & Bistro",
+  "description": "A coastal Mediterranean restaurant: full-bleed dining-room hero, tabbed menus with dietary badges, chef story, guest and press reviews, a table-booking widget and a wordmark footer.",
+  "brief": "a restaurant, bistro, trattoria or wine bar",
+  "theme": "olea",
+  "author": { "name": "CopyPasteUI", "github": "copypasteui" },
+  "sections": ["olea-hero", "olea-menu", "olea-story", "olea-reviews", "olea-reservations", "olea-footer"]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "petal-footer",
+  "name": "Petal & Stem Footer",
+  "description": "Florist footer with falling-petal animation, discount signup and link lists.",
+  "category": "footer",
+  "tags": ["florist", "footer", "newsletter", "animated"],
+  "collection": "petal-florist",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "gearwright-services",
+  "name": "Gearwright Service Menu",
+  "description": "Service comparison table for MOT, interim, full and major with hover-highlighted columns.",
+  "category": "pricing",
+  "tags": ["garage", "pricing", "comparison", "table"],
+  "collection": "gearwright-garage",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

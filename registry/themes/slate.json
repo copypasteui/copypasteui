@@ -1,0 +1,50 @@
+{
+  "slug": "slate",
+  "name": "Slate",
+  "description": "Petrol blue on cool grey with a no-nonsense grotesk. For firms, councils and anything that needs to read as trustworthy.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Source Sans 3', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Libre Franklin', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Source+Sans+3:wght@400;600;700", "Libre+Franklin:wght@600;700;800"]
+  },
+  "light": {
+    "background": "#f8fafc",
+    "foreground": "#0f172a",
+    "card": "#ffffff",
+    "card-foreground": "#0f172a",
+    "primary": "#1d5070",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e8edf5",
+    "secondary-foreground": "#1e293b",
+    "muted": "#f1f5f9",
+    "muted-foreground": "#526077",
+    "accent": "#dcebf2",
+    "accent-foreground": "#123448",
+    "border": "#dbe2ec",
+    "ring": "#1d5070"
+  },
+  "dark": {
+    "background": "#0b1120",
+    "foreground": "#e6edf7",
+    "card": "#111a2e",
+    "card-foreground": "#e6edf7",
+    "primary": "#7fb7d6",
+    "primary-foreground": "#08202e",
+    "secondary": "#1a2440",
+    "secondary-foreground": "#e6edf7",
+    "muted": "#162038",
+    "muted-foreground": "#94a3bd",
+    "accent": "#1e2f5c",
+    "accent-foreground": "#c3d6ff",
+    "border": "#24304d",
+    "ring": "#7fb7d6"
+  }
+}

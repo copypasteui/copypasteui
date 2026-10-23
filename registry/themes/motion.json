@@ -1,0 +1,50 @@
+{
+  "slug": "motion",
+  "name": "Motion",
+  "description": "Cobalt, chalk and electric lime with Archivo. Physiotherapy, sports clinics, personal trainers.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.75rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Archivo', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Archivo', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Archivo:wght@400;500;600;700;800;900"]
+  },
+  "light": {
+    "background": "#f4f5f7",
+    "foreground": "#0c1424",
+    "card": "#ffffff",
+    "card-foreground": "#0c1424",
+    "primary": "#1f45d6",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e2e8fb",
+    "secondary-foreground": "#0c1424",
+    "muted": "#e9ebf0",
+    "muted-foreground": "#525b6c",
+    "accent": "#c6f24e",
+    "accent-foreground": "#0c1424",
+    "border": "#d7dbe4",
+    "ring": "#1f45d6"
+  },
+  "dark": {
+    "background": "#080c16",
+    "foreground": "#eef1f7",
+    "card": "#0f1524",
+    "card-foreground": "#eef1f7",
+    "primary": "#7d97ff",
+    "primary-foreground": "#08123a",
+    "secondary": "#18213a",
+    "secondary-foreground": "#eef1f7",
+    "muted": "#131a2b",
+    "muted-foreground": "#a0a8b9",
+    "accent": "#c6f24e",
+    "accent-foreground": "#0c1424",
+    "border": "#222b40",
+    "ring": "#7d97ff"
+  }
+}

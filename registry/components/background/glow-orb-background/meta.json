@@ -1,0 +1,17 @@
+{
+  "slug": "glow-orb-background",
+  "name": "Glow Orb Background",
+  "description": "A glowing sphere hovering over a reflective floor: a slowly turning inner gradient, a bright rim and a soft reflection, in your theme's colours.",
+  "category": "background",
+  "tags": ["orb", "glow", "3d", "dark", "css"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "aether"
+}

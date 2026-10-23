@@ -1,0 +1,17 @@
+{
+  "slug": "floating-pill-navbar",
+  "name": "Floating Pill Navbar",
+  "description": "Sticky pill-shaped navbar that turns frosted glass on scroll, with an animated mobile sheet.",
+  "category": "navbar",
+  "tags": ["sticky", "glass", "mobile-menu", "saas"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-20",
+  "featured": true
+}

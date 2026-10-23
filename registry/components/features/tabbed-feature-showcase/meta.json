@@ -1,0 +1,17 @@
+{
+  "slug": "tabbed-feature-showcase",
+  "name": "Tabbed Feature Showcase",
+  "description": "Feature tabs with a sliding highlight that swap animated product panels: previews, budgets, errors.",
+  "category": "features",
+  "tags": ["tabs", "developer-tools", "saas", "interactive"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

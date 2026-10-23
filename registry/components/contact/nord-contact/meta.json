@@ -1,0 +1,17 @@
+{
+  "slug": "nord-contact",
+  "name": "Nord Contact",
+  "description": "Enquiry section with oversized heading, email link, project-type and budget chips and underline inputs.",
+  "category": "contact",
+  "tags": ["architecture", "contact", "form", "chips"],
+  "collection": "nord-architecture",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

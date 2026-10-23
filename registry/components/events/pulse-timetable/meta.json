@@ -1,0 +1,17 @@
+{
+  "slug": "pulse-timetable",
+  "name": "Pulse Timetable",
+  "description": "Weekly class timetable with day switcher, coach avatars, capacity bars and book / waitlist states.",
+  "category": "events",
+  "tags": ["gym", "schedule", "booking", "timetable"],
+  "collection": "pulse-gym",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

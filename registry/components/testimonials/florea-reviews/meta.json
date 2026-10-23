@@ -1,0 +1,17 @@
+{
+  "slug": "florea-reviews",
+  "name": "Florea Reviews",
+  "description": "Review summary with rating bars and photo, filterable by skin type with verified badges.",
+  "category": "testimonials",
+  "tags": ["skincare", "reviews", "filter", "ratings"],
+  "collection": "florea-skincare",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

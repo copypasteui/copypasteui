@@ -1,0 +1,12 @@
+{
+  "slug": "brightline-dental",
+  "name": "Brightline — Dental Clinic",
+  "description": "A family dental practice: reassuring hero with next appointment, treatments and fees, team with nervous-patient note, care-plan calculator, appointment request and footer.",
+  "brief": "a dentist, orthodontist, optician, GP or private clinic",
+  "theme": "brightline",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["brightline-hero", "brightline-treatments", "brightline-team", "brightline-plans", "brightline-booking", "brightline-footer"]
+}

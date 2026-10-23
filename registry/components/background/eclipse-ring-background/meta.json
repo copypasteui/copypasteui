@@ -1,0 +1,16 @@
+{
+  "slug": "eclipse-ring-background",
+  "name": "Eclipse Ring Background",
+  "description": "Rotating conic-gradient corona around a black disc with bloom, tilting toward the cursor.",
+  "category": "background",
+  "tags": ["eclipse", "ring", "glow", "dark", "interactive"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "theme": "midnight"
+}

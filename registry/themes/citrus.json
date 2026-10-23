@@ -1,0 +1,50 @@
+{
+  "slug": "citrus",
+  "name": "Citrus",
+  "description": "Sunny tangerine and lemon on warm white. Cheerful and appetising — food, e-commerce and kids' brands.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Rubik', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Syne', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Rubik:wght@400;500;700", "Syne:wght@700;800"]
+  },
+  "light": {
+    "background": "#fffbf2",
+    "foreground": "#2a1a05",
+    "card": "#ffffff",
+    "card-foreground": "#2a1a05",
+    "primary": "#c0400c",
+    "primary-foreground": "#ffffff",
+    "secondary": "#fff0d1",
+    "secondary-foreground": "#3d2606",
+    "muted": "#fff3dc",
+    "muted-foreground": "#7a6142",
+    "accent": "#ffe066",
+    "accent-foreground": "#3d2f00",
+    "border": "#f5e2bd",
+    "ring": "#c0400c"
+  },
+  "dark": {
+    "background": "#170f05",
+    "foreground": "#fff2dd",
+    "card": "#21160a",
+    "card-foreground": "#fff2dd",
+    "primary": "#ff8a3d",
+    "primary-foreground": "#2a1000",
+    "secondary": "#2f2110",
+    "secondary-foreground": "#fff2dd",
+    "muted": "#2a1d0e",
+    "muted-foreground": "#c2a785",
+    "accent": "#5c4a00",
+    "accent-foreground": "#ffe680",
+    "border": "#3d2c15",
+    "ring": "#ff8a3d"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "maintenance-page",
+  "name": "Maintenance Page",
+  "description": "A calm full-page notice for planned downtime or a temporary closure, with a return time and big call and email buttons.",
+  "category": "pages",
+  "tags": ["maintenance", "closed", "downtime", "page"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "usage": "Show <MaintenancePage /> in place of the home page while the site or the business is closed (in Next.js, render it from app/page.tsx temporarily, or behind an environment flag). Change the reason, the return time and the contact details.",
+  "createdAt": "2026-10-21"
+}

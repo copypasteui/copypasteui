@@ -1,0 +1,16 @@
+{
+  "slug": "harbour-float-footer",
+  "name": "Harbour Float Footer",
+  "description": "Glass footer with today's next free float, opening hours, the harbour address and contact details.",
+  "category": "footer",
+  "tags": ["spa", "wellness", "footer", "glass"],
+  "collection": "harbour-float-spa",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-22"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "brightline",
+  "name": "Brightline",
+  "description": "Clinical white, teal and mint with Red Hat Display and Red Hat Text. Dentists, clinics, opticians.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Red Hat Text', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Red Hat Display', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Red+Hat+Text:wght@400;500;600;700", "Red+Hat+Display:wght@500;700;900"]
+  },
+  "light": {
+    "background": "#f5f9f9",
+    "foreground": "#0e2a2e",
+    "card": "#ffffff",
+    "card-foreground": "#0e2a2e",
+    "primary": "#0b6e74",
+    "primary-foreground": "#ffffff",
+    "secondary": "#dff2ef",
+    "secondary-foreground": "#0e2a2e",
+    "muted": "#e9f1f1",
+    "muted-foreground": "#4f6668",
+    "accent": "#9ee6d0",
+    "accent-foreground": "#0e2a2e",
+    "border": "#d5e3e3",
+    "ring": "#0b6e74"
+  },
+  "dark": {
+    "background": "#081719",
+    "foreground": "#e6f3f3",
+    "card": "#0e2124",
+    "card-foreground": "#e6f3f3",
+    "primary": "#5fd3d1",
+    "primary-foreground": "#03282a",
+    "secondary": "#16302f",
+    "secondary-foreground": "#e6f3f3",
+    "muted": "#11262a",
+    "muted-foreground": "#9bb7b9",
+    "accent": "#9ee6d0",
+    "accent-foreground": "#0e2a2e",
+    "border": "#1d3639",
+    "ring": "#5fd3d1"
+  }
+}

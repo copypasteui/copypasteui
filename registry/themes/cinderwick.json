@@ -1,0 +1,50 @@
+{
+  "slug": "cinderwick",
+  "name": "Cinderwick",
+  "description": "Dark roast, crema and steamed-milk cream with Fraunces and DM Sans. Cafés, roasteries, bakeries.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'DM Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Fraunces', ui-serif, Georgia, serif",
+    "googleFonts": ["DM+Sans:wght@400;500;600;700", "Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800"]
+  },
+  "light": {
+    "background": "#f4ece1",
+    "foreground": "#24170f",
+    "card": "#fbf6ef",
+    "card-foreground": "#24170f",
+    "primary": "#3b2417",
+    "primary-foreground": "#f8efe2",
+    "secondary": "#e8d9c4",
+    "secondary-foreground": "#24170f",
+    "muted": "#ece1d1",
+    "muted-foreground": "#6b5747",
+    "accent": "#c8894f",
+    "accent-foreground": "#24170f",
+    "border": "#dccbb4",
+    "ring": "#3b2417"
+  },
+  "dark": {
+    "background": "#16100b",
+    "foreground": "#f2e7d8",
+    "card": "#1f1610",
+    "card-foreground": "#f2e7d8",
+    "primary": "#e0a66b",
+    "primary-foreground": "#1d1007",
+    "secondary": "#2c2018",
+    "secondary-foreground": "#f2e7d8",
+    "muted": "#261c15",
+    "muted-foreground": "#b3a08d",
+    "accent": "#c8894f",
+    "accent-foreground": "#1a0f06",
+    "border": "#382a20",
+    "ring": "#e0a66b"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "juniper-photography",
+  "name": "Juniper — Photographer",
+  "description": "A portrait and family photographer: split slideshow hero, filterable portfolio with lightbox, session packages, kind words, enquiry form and Instagram footer.",
+  "brief": "a photographer, videographer, artist, illustrator or tattoo artist",
+  "theme": "juniper",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["juniper-hero", "juniper-portfolio", "juniper-sessions", "juniper-kind-words", "juniper-enquiry", "juniper-footer"]
+}

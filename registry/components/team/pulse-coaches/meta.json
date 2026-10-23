@@ -1,0 +1,17 @@
+{
+  "slug": "pulse-coaches",
+  "name": "Pulse Coaches",
+  "description": "Staggered coach portraits that go from mono to colour on hover, with quotes and certifications.",
+  "category": "team",
+  "tags": ["gym", "team", "coaches", "photography"],
+  "collection": "pulse-gym",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

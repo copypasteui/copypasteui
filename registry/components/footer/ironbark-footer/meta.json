@@ -1,0 +1,17 @@
+{
+  "slug": "ironbark-footer",
+  "name": "Ironbark Footer",
+  "description": "Hazard-stripe footer with services, contact and giant condensed wordmark.",
+  "category": "footer",
+  "tags": ["builder", "footer", "wordmark"],
+  "collection": "ironbark-builders",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

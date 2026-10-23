@@ -1,0 +1,19 @@
+{
+  "slug": "quavermoor-music",
+  "name": "Quavermoor — Music School",
+  "description": "A music school for all ages: sound-wave hero, instrument picker, concerts and events, student stories, free trial-lesson form and stave footer.",
+  "brief": "a music school, tutor, dance or drama academy, language school or driving instructor",
+  "theme": "quavermoor",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "quavermoor-hero",
+    "quavermoor-instruments",
+    "quavermoor-concerts",
+    "quavermoor-students",
+    "quavermoor-trial",
+    "quavermoor-footer"
+  ]
+}

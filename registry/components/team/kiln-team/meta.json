@@ -1,0 +1,16 @@
+{
+  "slug": "kiln-team",
+  "name": "Studio Kiln Team",
+  "description": "Tilted polaroid-style team cards that straighten on hover and reveal a fun fact.",
+  "category": "team",
+  "tags": ["agency", "team", "playful"],
+  "collection": "kiln-agency",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

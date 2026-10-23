@@ -1,0 +1,17 @@
+{
+  "slug": "canopy-packages",
+  "name": "Canopy Stay Packages",
+  "description": "Package cards with a nights switch, live totals and long-stay discounts.",
+  "category": "pricing",
+  "tags": ["resort", "pricing", "packages", "hotel"],
+  "collection": "canopy-resort",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

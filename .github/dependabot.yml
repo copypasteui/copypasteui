@@ -1,0 +1,27 @@
+# Weekly dependency updates, grouped so they arrive as a few pull requests rather than dozens.
+# CI (lint, typecheck, tests, build, smoke tests) has to pass before one is merged.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule: { interval: weekly, day: monday }
+    open-pull-requests-limit: 5
+    groups:
+      next-react:
+        patterns: ["next", "react", "react-dom", "@types/react", "@types/react-dom", "eslint-config-next"]
+      tooling:
+        patterns: ["eslint*", "@eslint/*", "typescript-eslint", "prettier*", "typescript", "@types/node", "globals", "playwright-core"]
+      everything-else:
+        patterns: ["*"]
+  - package-ecosystem: npm
+    directory: /tests/recipes
+    schedule: { interval: monthly }
+    groups:
+      recipe-tests:
+        patterns: ["*"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: { interval: weekly, day: monday }
+    groups:
+      actions:
+        patterns: ["*"]

@@ -1,0 +1,16 @@
+{
+  "slug": "article-reader",
+  "name": "Article Reader",
+  "description": "Long-form article page with a reading progress bar, photo with caption, sticky contents, save and share, drop cap and pull quote.",
+  "category": "blog",
+  "tags": ["article", "reading", "typography", "blog"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

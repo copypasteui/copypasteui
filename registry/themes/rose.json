@@ -1,0 +1,50 @@
+{
+  "slug": "rose",
+  "name": "Rose",
+  "description": "Blush pink, rosewood and soft cream with an elegant serif. Weddings, beauty, wellness and boutiques.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Jost', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Cormorant Garamond', ui-serif, Georgia, serif",
+    "googleFonts": ["Jost:wght@400;500;600", "Cormorant+Garamond:wght@500;600;700"]
+  },
+  "light": {
+    "background": "#fff7f6",
+    "foreground": "#3a1a20",
+    "card": "#ffffff",
+    "card-foreground": "#3a1a20",
+    "primary": "#b23a5b",
+    "primary-foreground": "#ffffff",
+    "secondary": "#fbe5e6",
+    "secondary-foreground": "#4a2229",
+    "muted": "#fbecec",
+    "muted-foreground": "#7f5a61",
+    "accent": "#f3e3cf",
+    "accent-foreground": "#5a3a14",
+    "border": "#f0d8da",
+    "ring": "#b23a5b"
+  },
+  "dark": {
+    "background": "#1c0d10",
+    "foreground": "#fbe9eb",
+    "card": "#261317",
+    "card-foreground": "#fbe9eb",
+    "primary": "#f07a9a",
+    "primary-foreground": "#2a0610",
+    "secondary": "#351b20",
+    "secondary-foreground": "#fbe9eb",
+    "muted": "#2e181c",
+    "muted-foreground": "#c29ca3",
+    "accent": "#4a3720",
+    "accent-foreground": "#f5dcbc",
+    "border": "#432228",
+    "ring": "#f07a9a"
+  }
+}

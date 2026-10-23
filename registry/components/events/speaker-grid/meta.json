@@ -1,0 +1,15 @@
+{
+  "slug": "speaker-grid",
+  "name": "Speaker Grid",
+  "description": "Speaker line-up with a large opening-talk portrait, black-and-white photos that colour on hover, and talk titles.",
+  "category": "events",
+  "tags": ["speakers", "event", "conference", "people"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "hedgerow-gallery",
+  "name": "Hedgerow Parallax Gallery",
+  "description": "Three columns of florist photos that drift at different speeds as you scroll, each with a short caption naming the event, place and month.",
+  "category": "gallery",
+  "tags": ["florist", "weddings", "parallax", "masonry", "photography", "motion"],
+  "theme": "frost",
+  "author": { "name": "CopyPasteUI", "github": "copypasteui" },
+  "dependencies": { "lucide-react": ">=0.400.0", "motion": ">=12.0.0" },
+  "createdAt": "2026-10-22"
+}

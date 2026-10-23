@@ -1,0 +1,50 @@
+{
+  "slug": "prism",
+  "name": "Prism",
+  "description": "Warm white with vermilion and butter yellow, Familjen Grotesk headings. For creative tools and studios.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.25rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Figtree', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Familjen Grotesk', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Figtree:wght@400;500;600;700", "Familjen+Grotesk:wght@500;600;700"]
+  },
+  "light": {
+    "background": "#fbfaff",
+    "foreground": "#15122b",
+    "card": "#ffffff",
+    "card-foreground": "#15122b",
+    "primary": "#b8351f",
+    "primary-foreground": "#ffffff",
+    "secondary": "#ffd6ec",
+    "secondary-foreground": "#3b0d26",
+    "muted": "#f1effa",
+    "muted-foreground": "#5d5878",
+    "accent": "#ffe08a",
+    "accent-foreground": "#5a3b00",
+    "border": "#e4e0f3",
+    "ring": "#b8351f"
+  },
+  "dark": {
+    "background": "#0d0b1a",
+    "foreground": "#f2efff",
+    "card": "#151229",
+    "card-foreground": "#f2efff",
+    "primary": "#ff7a5c",
+    "primary-foreground": "#2a0a03",
+    "secondary": "#3d1a33",
+    "secondary-foreground": "#ffe0f0",
+    "muted": "#1a1730",
+    "muted-foreground": "#a8a3c7",
+    "accent": "#ffbf80",
+    "accent-foreground": "#2a1500",
+    "border": "#2a2645",
+    "ring": "#ff7a5c"
+  }
+}

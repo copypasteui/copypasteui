@@ -1,0 +1,50 @@
+{
+  "slug": "crumb",
+  "name": "Crumb",
+  "description": "Butter cream, strawberry and crust brown with Young Serif and Outfit. Bakeries, patisseries, dessert shops.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.25rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Outfit', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Young Serif', ui-serif, Georgia, serif",
+    "googleFonts": ["Outfit:wght@400;500;600;700", "Young+Serif"]
+  },
+  "light": {
+    "background": "#fdf6ea",
+    "foreground": "#2f1d13",
+    "card": "#fffbf4",
+    "card-foreground": "#2f1d13",
+    "primary": "#7b3a1f",
+    "primary-foreground": "#fff6ea",
+    "secondary": "#f8e3cf",
+    "secondary-foreground": "#2f1d13",
+    "muted": "#f6ecdd",
+    "muted-foreground": "#6f5646",
+    "accent": "#f4b9a6",
+    "accent-foreground": "#2f1d13",
+    "border": "#ecdcc6",
+    "ring": "#7b3a1f"
+  },
+  "dark": {
+    "background": "#1a110c",
+    "foreground": "#f6eadb",
+    "card": "#231811",
+    "card-foreground": "#f6eadb",
+    "primary": "#f0a98f",
+    "primary-foreground": "#2a1309",
+    "secondary": "#33241a",
+    "secondary-foreground": "#f6eadb",
+    "muted": "#2a1d15",
+    "muted-foreground": "#bfa894",
+    "accent": "#f4b9a6",
+    "accent-foreground": "#2f1d13",
+    "border": "#3c2b20",
+    "ring": "#f0a98f"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "mossbrook-vets",
+  "name": "Mossbrook — Vet & Pet Care",
+  "description": "A vet and grooming practice: pet-switcher hero, services bento, health-plan calculator, flip cards of vets and their pets, appointment booking and paw footer.",
+  "brief": "a vet, groomer, dog walker, pet sitter, kennels or pet shop",
+  "theme": "mossbrook",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["mossbrook-hero", "mossbrook-services", "mossbrook-plans", "mossbrook-team", "mossbrook-booking", "mossbrook-footer"]
+}

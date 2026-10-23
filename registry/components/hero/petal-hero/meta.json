@@ -1,0 +1,18 @@
+{
+  "slug": "petal-hero",
+  "name": "Petal & Stem Florist Hero",
+  "description": "Florist hero with postcode delivery checker, morphing blob photo, floating bouquet card and spinning badge.",
+  "category": "hero",
+  "tags": ["florist", "flowers", "ecommerce", "delivery", "photography"],
+  "collection": "petal-florist",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

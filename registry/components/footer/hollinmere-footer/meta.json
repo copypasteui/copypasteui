@@ -1,0 +1,17 @@
+{
+  "slug": "hollinmere-footer",
+  "name": "Hollinmere Estate Footer",
+  "description": "Winery footer with wordmark, link columns, cellar-door details and responsible-drinking line.",
+  "category": "footer",
+  "tags": ["winery", "footer"],
+  "collection": "hollinmere-winery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

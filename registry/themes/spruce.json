@@ -1,0 +1,50 @@
+{
+  "slug": "spruce",
+  "name": "Spruce",
+  "description": "Fresh aqua, mint and white with Fredoka and Poppins. Cleaning services, laundrettes, home care.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Poppins', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Fredoka', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Poppins:wght@400;500;600", "Fredoka:wght@500;600;700"]
+  },
+  "light": {
+    "background": "#f3fbfa",
+    "foreground": "#0f2e2c",
+    "card": "#ffffff",
+    "card-foreground": "#0f2e2c",
+    "primary": "#0b7871",
+    "primary-foreground": "#ffffff",
+    "secondary": "#d7f3ee",
+    "secondary-foreground": "#0f2e2c",
+    "muted": "#e6f5f3",
+    "muted-foreground": "#4a6664",
+    "accent": "#ffcf5c",
+    "accent-foreground": "#0f2e2c",
+    "border": "#cfe7e4",
+    "ring": "#0b7871"
+  },
+  "dark": {
+    "background": "#081a19",
+    "foreground": "#e8f7f5",
+    "card": "#0e2524",
+    "card-foreground": "#e8f7f5",
+    "primary": "#5fd8cd",
+    "primary-foreground": "#032421",
+    "secondary": "#163533",
+    "secondary-foreground": "#e8f7f5",
+    "muted": "#112c2a",
+    "muted-foreground": "#9fbfbc",
+    "accent": "#ffcf5c",
+    "accent-foreground": "#0f2e2c",
+    "border": "#1e3d3b",
+    "ring": "#5fd8cd"
+  }
+}

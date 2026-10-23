@@ -1,0 +1,17 @@
+{
+  "slug": "farstep-faq",
+  "name": "Farstep FAQ & Planner",
+  "description": "Accordion FAQ beside a sticky talk-to-a-planner card with call and chat.",
+  "category": "faq",
+  "tags": ["travel", "faq", "contact", "accordion"],
+  "collection": "farstep-tours",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

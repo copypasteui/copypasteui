@@ -1,0 +1,50 @@
+{
+  "slug": "florea",
+  "name": "Florea",
+  "description": "Blush, sage and soft clay with Cormorant Garamond and Jost. Botanical beauty, skincare and wellness shops.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Jost', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Cormorant Garamond', ui-serif, Georgia, serif",
+    "googleFonts": ["Jost:wght@300;400;500;600", "Cormorant+Garamond:ital,wght@0,500;0,600;1,500"]
+  },
+  "light": {
+    "background": "#faf4f1",
+    "foreground": "#2f2624",
+    "card": "#ffffff",
+    "card-foreground": "#2f2624",
+    "primary": "#7c5248",
+    "primary-foreground": "#fffaf7",
+    "secondary": "#f1e3dd",
+    "secondary-foreground": "#2f2624",
+    "muted": "#f3e9e4",
+    "muted-foreground": "#73625e",
+    "accent": "#c9d6c3",
+    "accent-foreground": "#22331d",
+    "border": "#ead9d2",
+    "ring": "#7c5248"
+  },
+  "dark": {
+    "background": "#1b1514",
+    "foreground": "#f6ebe7",
+    "card": "#241c1a",
+    "card-foreground": "#f6ebe7",
+    "primary": "#e3a99c",
+    "primary-foreground": "#2a120d",
+    "secondary": "#332825",
+    "secondary-foreground": "#f6ebe7",
+    "muted": "#2c2321",
+    "muted-foreground": "#bba9a4",
+    "accent": "#4c6346",
+    "accent-foreground": "#e7f3e1",
+    "border": "#3d302d",
+    "ring": "#e3a99c"
+  }
+}

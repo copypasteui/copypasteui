@@ -1,0 +1,17 @@
+{
+  "slug": "fixwell-services",
+  "name": "Fixwell Trade Services",
+  "description": "Plumbing, electrical and heating tabs with icon service tiles and a matching photo.",
+  "category": "features",
+  "tags": ["trades", "services", "tabs"],
+  "collection": "fixwell-trades",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

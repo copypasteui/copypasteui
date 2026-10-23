@@ -1,0 +1,50 @@
+{
+  "slug": "mossbrook",
+  "name": "Mossbrook",
+  "description": "Navy, warm orange and biscuit with Gabarito and DM Sans. Vets, groomers, dog walkers, pet shops.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.25rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'DM Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Gabarito', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["DM+Sans:wght@400;500;600;700", "Gabarito:wght@600;700;800"]
+  },
+  "light": {
+    "background": "#fbf7f1",
+    "foreground": "#16213a",
+    "card": "#ffffff",
+    "card-foreground": "#16213a",
+    "primary": "#1d2f5c",
+    "primary-foreground": "#ffffff",
+    "secondary": "#fde3cc",
+    "secondary-foreground": "#16213a",
+    "muted": "#f3ece2",
+    "muted-foreground": "#5a6072",
+    "accent": "#f2843a",
+    "accent-foreground": "#16213a",
+    "border": "#e8ddce",
+    "ring": "#1d2f5c"
+  },
+  "dark": {
+    "background": "#0d1324",
+    "foreground": "#f1ede6",
+    "card": "#141c33",
+    "card-foreground": "#f1ede6",
+    "primary": "#9fb4ff",
+    "primary-foreground": "#0b1636",
+    "secondary": "#2a2a3a",
+    "secondary-foreground": "#f1ede6",
+    "muted": "#192240",
+    "muted-foreground": "#a7adbf",
+    "accent": "#f2843a",
+    "accent-foreground": "#16213a",
+    "border": "#26304d",
+    "ring": "#9fb4ff"
+  }
+}

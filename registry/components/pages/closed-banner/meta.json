@@ -1,0 +1,17 @@
+{
+  "slug": "closed-banner",
+  "name": "Closed Notice Banner",
+  "description": "A slim notice above the navigation for holidays, refits or changed hours, with one link and a close button.",
+  "category": "pages",
+  "tags": ["banner", "closed", "holiday", "notice"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "usage": "Render <ClosedBanner /> at the very top of the layout, above the navigation, so it shows on every page. Edit the notice text and link for each closure, and remove it when you reopen.",
+  "createdAt": "2026-10-21"
+}

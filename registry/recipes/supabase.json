@@ -1,0 +1,20 @@
+{
+  "slug": "supabase",
+  "name": "Supabase",
+  "summary": "Postgres database, sign-in and row-level security in one hosted service. The default for Lovable, Bolt and v0 projects, and what Lovable Cloud runs on.",
+  "audience": ["builders", "developers"],
+  "bestFor": "Most sites: bookings, orders, enquiries and an editable menu, with a generous free tier.",
+  "cost": "Free tier for small sites; paid from about $25 a month per project.",
+  "rank": 2,
+  "docs": [
+    {
+      "label": "Supabase Auth",
+      "href": "https://supabase.com/docs/guides/auth"
+    },
+    {
+      "label": "Row level security",
+      "href": "https://supabase.com/docs/guides/database/postgres/row-level-security"
+    }
+  ],
+  "tested": "Tested 21 October 2026 on the local Supabase stack: 64 access checks across public, stranger, staff, manager and owner, plus the sign-in and bookings screens end to end with middleware.ts and proxy.ts."
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "pebble",
+  "name": "Pebble",
+  "description": "Neumorphic: cool grey panels pressed out of the page with paired light and dark shadows, no borders, DM Sans. Calm apps, studios, wellness.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.25rem",
+  "style": {
+    "label": "Neumorphic",
+    "shadow": "neu",
+    "border": "0px",
+    "motion": "lively"
+  },
+  "fonts": {
+    "sans": "'DM Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'DM Sans', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["DM+Sans:wght@400;500;600;700"]
+  },
+  "light": {
+    "background": "#e6e9ef",
+    "foreground": "#1f2633",
+    "card": "#e6e9ef",
+    "card-foreground": "#1f2633",
+    "primary": "#2f5d8a",
+    "primary-foreground": "#ffffff",
+    "secondary": "#dde1e8",
+    "secondary-foreground": "#1f2633",
+    "muted": "#dde1e8",
+    "muted-foreground": "#4a5262",
+    "accent": "#ffd9a8",
+    "accent-foreground": "#1f2633",
+    "border": "#d0d5de",
+    "ring": "#2f5d8a"
+  },
+  "dark": {
+    "background": "#23272f",
+    "foreground": "#e4e8ef",
+    "card": "#23272f",
+    "card-foreground": "#e4e8ef",
+    "primary": "#8cb8e8",
+    "primary-foreground": "#10161f",
+    "secondary": "#2a2f38",
+    "secondary-foreground": "#e4e8ef",
+    "muted": "#2a2f38",
+    "muted-foreground": "#a9b1bf",
+    "accent": "#f5c27a",
+    "accent-foreground": "#1a1408",
+    "border": "#323844",
+    "ring": "#8cb8e8"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "gearwright",
+  "name": "Gearwright",
+  "description": "Gunmetal, signal red and white with Saira Condensed and Saira. Garages, MOT centres, tyre shops, detailers.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.25rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Saira', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Saira Condensed', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Saira:wght@400;500;600;700", "Saira+Condensed:wght@600;700;800"]
+  },
+  "light": {
+    "background": "#f2f3f4",
+    "foreground": "#121518",
+    "card": "#ffffff",
+    "card-foreground": "#121518",
+    "primary": "#c8201b",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e3e6e9",
+    "secondary-foreground": "#121518",
+    "muted": "#e8eaec",
+    "muted-foreground": "#535a61",
+    "accent": "#121518",
+    "accent-foreground": "#f2f3f4",
+    "border": "#d3d7db",
+    "ring": "#c8201b"
+  },
+  "dark": {
+    "background": "#0d0f11",
+    "foreground": "#eef0f2",
+    "card": "#15181b",
+    "card-foreground": "#eef0f2",
+    "primary": "#ff5a4f",
+    "primary-foreground": "#2a0503",
+    "secondary": "#22262a",
+    "secondary-foreground": "#eef0f2",
+    "muted": "#1a1d21",
+    "muted-foreground": "#a5abb1",
+    "accent": "#eef0f2",
+    "accent-foreground": "#121518",
+    "border": "#2a2f34",
+    "ring": "#ff5a4f"
+  }
+}

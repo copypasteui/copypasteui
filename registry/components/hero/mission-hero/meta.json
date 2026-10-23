@@ -1,0 +1,17 @@
+{
+  "slug": "mission-hero",
+  "name": "Mission Hero",
+  "description": "Nonprofit hero with impact stats and a donation card: progress bar, monthly toggle and amounts.",
+  "category": "hero",
+  "tags": ["nonprofit", "donation", "charity", "impact"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

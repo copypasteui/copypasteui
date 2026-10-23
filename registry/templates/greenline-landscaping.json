@@ -1,0 +1,19 @@
+{
+  "slug": "greenline-landscaping",
+  "name": "Greenline — Landscaping & Gardening",
+  "description": "A landscaping firm: garden panorama hero, service cards, plan-to-garden drag slider, client stories, garden enquiry form and footer.",
+  "brief": "a landscaper, gardener, tree surgeon, fencing or pool company",
+  "theme": "greenline",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "greenline-hero",
+    "greenline-services",
+    "greenline-plan-to-garden",
+    "greenline-reviews",
+    "greenline-quote",
+    "greenline-footer"
+  ]
+}

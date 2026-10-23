@@ -1,0 +1,16 @@
+{
+  "slug": "lockfast-beers",
+  "name": "Lockfast Tap List",
+  "description": "Tap list as chunky cards with style filters that reshuffle with a layout animation, ABV, pint and half prices and a keg level bar.",
+  "category": "products",
+  "tags": ["brewery", "bar", "menu", "filter", "layout-animation"],
+  "collection": "lockfast-brewery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

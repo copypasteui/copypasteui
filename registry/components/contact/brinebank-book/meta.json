@@ -1,0 +1,17 @@
+{
+  "slug": "brinebank-book",
+  "name": "Brinebank Table Booking",
+  "description": "Editorial booking form for tables of two to six, with the walk-in policy and a confirmation that replaces the form when sent.",
+  "category": "contact",
+  "tags": ["restaurant", "booking", "form", "editorial"],
+  "collection": "brinebank-kitchen",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

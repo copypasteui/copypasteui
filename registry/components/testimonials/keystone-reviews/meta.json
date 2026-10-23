@@ -1,0 +1,17 @@
+{
+  "slug": "keystone-reviews",
+  "name": "Keystone Reviews",
+  "description": "Auto-rotating seller and buyer quotes with timed progress bars.",
+  "category": "testimonials",
+  "tags": ["real-estate", "reviews", "carousel"],
+  "collection": "keystone-estate-agents",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

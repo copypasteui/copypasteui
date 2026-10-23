@@ -1,0 +1,18 @@
+{
+  "slug": "aether-beam-cta",
+  "name": "Aether Beam CTA",
+  "description": "Headline CTA lit by a live canvas light beam pooling on the floor with drifting sparks.",
+  "category": "cta",
+  "tags": ["ai", "cta", "beam", "canvas", "cinematic"],
+  "collection": "aether-ai",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

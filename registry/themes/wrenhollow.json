@@ -1,0 +1,50 @@
+{
+  "slug": "wrenhollow",
+  "name": "Wrenhollow",
+  "description": "Sage, blush and ivory with Cormorant and Mulish. Wedding venues, event spaces, planners.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.125rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Mulish', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Cormorant', ui-serif, Georgia, serif",
+    "googleFonts": ["Mulish:wght@400;500;600;700", "Cormorant:ital,wght@0,500;0,600;1,500"]
+  },
+  "light": {
+    "background": "#f8f5ef",
+    "foreground": "#25302a",
+    "card": "#fdfbf7",
+    "card-foreground": "#25302a",
+    "primary": "#4c5f4f",
+    "primary-foreground": "#fbf9f4",
+    "secondary": "#efe3dc",
+    "secondary-foreground": "#25302a",
+    "muted": "#efebe2",
+    "muted-foreground": "#5b655e",
+    "accent": "#e7c6b8",
+    "accent-foreground": "#25302a",
+    "border": "#e0dbcf",
+    "ring": "#4c5f4f"
+  },
+  "dark": {
+    "background": "#141814",
+    "foreground": "#efebe2",
+    "card": "#1b201c",
+    "card-foreground": "#efebe2",
+    "primary": "#b9cbb7",
+    "primary-foreground": "#18241a",
+    "secondary": "#2a2a26",
+    "secondary-foreground": "#efebe2",
+    "muted": "#1f241f",
+    "muted-foreground": "#a7aea6",
+    "accent": "#e7c6b8",
+    "accent-foreground": "#25302a",
+    "border": "#2d332d",
+    "ring": "#b9cbb7"
+  }
+}

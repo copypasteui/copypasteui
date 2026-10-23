@@ -1,0 +1,17 @@
+{
+  "slug": "lone-tree-background",
+  "name": "Lone Tree Background",
+  "description": "A single tree in a bright valley that shifts with the cursor while pollen drifts through the light, tinted towards your theme at the top.",
+  "category": "background",
+  "tags": ["photo", "landscape", "parallax", "canvas", "light"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "paper"
+}

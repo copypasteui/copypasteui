@@ -1,0 +1,50 @@
+{
+  "slug": "midnight",
+  "name": "Midnight",
+  "description": "Ink-navy surfaces, a brass accent and a sturdy grotesk. For software and tools that want to look serious, not shiny.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Public Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Public+Sans:wght@400;500;600;700", "Schibsted+Grotesk:wght@500;700;800"]
+  },
+  "light": {
+    "background": "#f7f8fc",
+    "foreground": "#0b1020",
+    "card": "#ffffff",
+    "card-foreground": "#0b1020",
+    "primary": "#1f3b73",
+    "primary-foreground": "#ffffff",
+    "secondary": "#eceef3",
+    "secondary-foreground": "#1a2140",
+    "muted": "#eceef3",
+    "muted-foreground": "#5b6380",
+    "accent": "#f4dfae",
+    "accent-foreground": "#5a4108",
+    "border": "#d9dde6",
+    "ring": "#1f3b73"
+  },
+  "dark": {
+    "background": "#070a16",
+    "foreground": "#e8ebff",
+    "card": "#0e1328",
+    "card-foreground": "#e8ebff",
+    "primary": "#e3b65b",
+    "primary-foreground": "#1a1405",
+    "secondary": "#161c38",
+    "secondary-foreground": "#e8ebff",
+    "muted": "#131a33",
+    "muted-foreground": "#8d95b8",
+    "accent": "#2a2f45",
+    "accent-foreground": "#f4dfae",
+    "border": "#222a4a",
+    "ring": "#e3b65b"
+  }
+}

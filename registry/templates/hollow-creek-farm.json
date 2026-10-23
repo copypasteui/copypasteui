@@ -1,0 +1,19 @@
+{
+  "slug": "hollow-creek-farm",
+  "name": "Hollow Creek — Farm & Farm Shop",
+  "description": "A family farm: sunrise hero with pick-your-own board, veg-box builder, farm story, seasonal events and PYO calendar, visit info and hills footer.",
+  "brief": "a farm, farm shop, orchard, CSA, market garden or dairy",
+  "theme": "hollow-creek",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "hollow-creek-hero",
+    "hollow-creek-box",
+    "hollow-creek-farm",
+    "hollow-creek-seasons",
+    "hollow-creek-visit",
+    "hollow-creek-footer"
+  ]
+}

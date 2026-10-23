@@ -1,0 +1,20 @@
+{
+  "slug": "cinderwick-coffee",
+  "name": "Cinderwick \u2014 Coffee Roastery & Caf\u00e9",
+  "description": "A warm roastery site: serif hero, coffee shop with subscription toggle, caf\u00e9 menu, farm-to-cup story, polaroid reviews, subscription CTA and caf\u00e9 footer.",
+  "brief": "a coffee roaster, caf\u00e9 or bakery",
+  "theme": "cinderwick",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "cinderwick-hero",
+    "cinderwick-coffee-shop",
+    "cinderwick-cafe-menu",
+    "cinderwick-farm-to-cup",
+    "cinderwick-polaroid-reviews",
+    "cinderwick-subscribe-cta",
+    "cinderwick-footer"
+  ]
+}

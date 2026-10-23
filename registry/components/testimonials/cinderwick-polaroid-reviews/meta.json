@@ -1,0 +1,17 @@
+{
+  "slug": "cinderwick-polaroid-reviews",
+  "name": "Cinderwick Polaroid Reviews",
+  "description": "Taped polaroid review cards that tilt into place and straighten on hover.",
+  "category": "testimonials",
+  "tags": ["coffee", "reviews", "polaroid", "playful"],
+  "collection": "cinderwick-coffee",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "crumb-bakery",
+  "name": "Crumb — Bakery & Patisserie",
+  "description": "A neighbourhood bakery: playful hero with photo stack, today’s-bake shop with basket, sourdough process timeline, taped-note reviews, celebration-cake order form and hours footer.",
+  "brief": "a bakery, patisserie, cake shop or dessert café",
+  "theme": "crumb",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["crumb-hero", "crumb-bakes", "crumb-process", "crumb-reviews", "crumb-orders", "crumb-footer"]
+}

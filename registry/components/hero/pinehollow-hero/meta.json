@@ -1,0 +1,18 @@
+{
+  "slug": "pinehollow-hero",
+  "name": "Pinehollow Cabins Hero",
+  "description": "Split cabin hero with slab-serif headline panel, A-frame photo, tonight\u2019s-weather card and availability badge.",
+  "category": "hero",
+  "tags": ["cabins", "bnb", "hospitality", "photography"],
+  "collection": "pinehollow-cabins",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

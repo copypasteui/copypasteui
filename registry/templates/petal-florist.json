@@ -1,0 +1,12 @@
+{
+  "slug": "petal-florist",
+  "name": "Petal & Stem — Florist",
+  "description": "A local florist: postcode delivery-check hero, bouquet shop with sizes, flower subscription, wedding gallery, visit and delivery zones, petal footer.",
+  "brief": "a florist, flower farm, plant shop or gift shop",
+  "theme": "petal",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["petal-hero", "petal-shop", "petal-subscription", "petal-weddings", "petal-visit", "petal-footer"]
+}

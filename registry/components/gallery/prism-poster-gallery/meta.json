@@ -1,0 +1,17 @@
+{
+  "slug": "prism-poster-gallery",
+  "name": "Prism Poster Gallery",
+  "description": "Masonry community gallery of posters generated with CSS mesh gradients \u2014 no images needed.",
+  "category": "gallery",
+  "tags": ["gallery", "gradient", "css-art", "community"],
+  "collection": "prism-design",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "acorns-fees",
+  "name": "Little Acorns Fee Calculator",
+  "description": "Childcare fee calculator with age group, day picker and funded-hours switch giving a weekly estimate.",
+  "category": "pricing",
+  "tags": ["nursery", "pricing", "calculator"],
+  "collection": "acorns-nursery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}
