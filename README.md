@@ -1,138 +1,140 @@
 # CopyPasteUI
 
-**Free, source-available UI sections, themes and templates for AI builders — with a local MCP server.**
+Website templates, sections and themes for small businesses, free to use in any site you build. Copy a template's prompt into Lovable, Bolt, v0 or ChatGPT, or let Claude Code, Cursor or VS Code install the sections through a local MCP server.
 
-Browse animated React + Tailwind sections, preview them in any theme, and copy one AI-ready prompt into Lovable, Bolt, v0, Replit, Cursor or Claude. Or let your editor pull them directly through the `copypasteui` MCP server, which runs on your own machine: no account, no API key, no limits.
+Site: https://copypasteui.dev · MCP: `npx copypasteui setup` · Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
 
-- 🌐 Site: https://copypasteui.dev
-- 🔌 MCP: `npx copypasteui setup`
-- 🧩 Contribute: one folder, two files — see [CONTRIBUTING.md](CONTRIBUTING.md)
+## What's in it
 
-## How it fits together
+<!-- count:sections -->396<!-- /count --> sections in <!-- count:categories -->23<!-- /count --> categories, <!-- count:themes -->61<!-- /count --> themes and <!-- count:templates -->48<!-- /count --> templates, all React and Tailwind CSS.
 
-```
-registry/                      ← the source of truth, edited through pull requests
-  components/<category>/<slug>/component.tsx + meta.json
-  themes/<slug>.json
-  templates/<slug>.json
-        │  scripts/build-registry.mjs (validates + publishes)
-        ▼
-apps/web/public/r/             ← static JSON "API" deployed with the site
-  index.json  components/*.json  themes/*.json  templates/*.json  shadcn/*.json
-        │                                   │
-        ▼                                   ▼
-apps/web  (static Next.js site)     packages/mcp  (npm: copypasteui)
-browse, preview, copy prompt        local stdio MCP + CLI, caches the JSON,
-                                    falls back to a bundled snapshot offline
-```
+A template is a fictional business with its own theme, photos and 6 or 7 sections written for its trade: a café, a barber, an MOT garage, a vet, a wedding venue. They're grouped as food and drink, hospitality, shops and farms, health and beauty, home and trades, professional services, family and community, and tech. Each template's `brief` names the other trades it suits.
 
-There is no backend. The website is a static export, and the MCP reads the same static files the website publishes.
-
-**What's in the library:** <!-- count:sections -->396<!-- /count --> sections across <!-- count:categories -->23<!-- /count --> categories, <!-- count:themes -->61<!-- /count --> themes and <!-- count:templates -->48<!-- /count --> full-site templates. Every template is a **brand collection**: real photography, its own theme and 6–7 sections designed together for one kind of business. They cover the small businesses that most often need a website — food & drink (café, restaurant, bakery, brewery, winery), hospitality (hotel, resort, cabins, tour operator, wedding venue), shops & farms (boutique, florist, skincare, farm shop), health & beauty (salon, barber, spa, yoga, gym, dentist, physio), home & trades (builder, plumber/electrician, cleaner, landscaper, garage, architect), professional services (law firm, accountant, estate agent, photographer, creative agency), family & community (nursery, vet, music school, charity) and tech (AI and creative SaaS). Each template’s `brief` lists the neighbouring trades it also fits.
-
-**Live backgrounds:** <!-- count:backgrounds -->29<!-- /count --> animated backgrounds. <!-- count:codebackgrounds -->21<!-- /count --> are generated in code: WebGL shaders (fluid gradient, silk), canvas (light beam, retro grid, warp stars, constellation, dot field) and CSS/SVG (planet horizon, eclipse, neon rings, light rays, flowing lines, grain gradient …). Unlike video loops, those weigh nothing, stay sharp at any size, take their colours from the theme, react to the cursor, pause off-screen and respect reduced motion. The other <!-- count:photobackgrounds -->8<!-- /count --> animate an Unsplash photo: mist drifting over mountain ridges, heat shimmer on desert dunes, bokeh over a night city. Two collections, **Aether** (AI launch) and **Prism** (creative tool), are built on them.
-
-Photos are free Unsplash images hotlinked from `images.unsplash.com` (Unsplash License). The validator rejects any other image host and Unsplash+.
-
-## Images
-
-Card thumbnails, full-page template shots, theme previews and preview videos are links in each item's `images` (see [CONTRIBUTING.md](CONTRIBUTING.md#preview-images)). No image is committed and CI never makes or uploads one: the maintainers upload theirs to `cdn.copypasteui.dev` (Cloudflare R2) by hand, and contributors may link their own host. CI checks every link with `npm run check:images` (it works, and it's the right type, size and shape) and renders every page with `npm run check:render` to catch runtime errors. Link previews use the item's thumbnail; the site's own share image is `brand/social/og-default-1200x630.png`, uploaded as `cdn.copypasteui.dev/og/site.png`.
-
-To make images to upload (they go to `apps/web/public/thumbs/`, ignored by git, at the same paths as on the CDN):
-
-```bash
-npm run build
-npx playwright@1.54.1 install chromium
-npm run screenshots              # or: --missing, --only <slug>
-npm run previews                 # videos; prints each one's #t= start for its link
-```
-
-To upload them to `cdn.copypasteui.dev`, with a Cloudflare token that can edit R2 set in your own shell (`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`): `npm run images:upload -- --dry-run` lists what's missing, then `npm run images:upload` uploads it, skipping links that already work.
+There are <!-- count:backgrounds -->29<!-- /count --> animated backgrounds. <!-- count:codebackgrounds -->21<!-- /count --> are drawn in code (WebGL, canvas, CSS and SVG), so they take the theme's colours, follow the cursor and pause off-screen. The other <!-- count:photobackgrounds -->8<!-- /count --> move an Unsplash photo, such as mist over mountain ridges. The Aether and Prism templates use them.
 
 ## Use it
 
-**In an AI builder** — open a component, pick a theme, click *Copy AI prompt*, paste.
+**In an AI builder:** open a template or section on the site, pick a theme, fill in your business details and copy the prompt.
 
-**In your editor (MCP)**
+**In your editor (MCP):**
 
 ```bash
-npx copypasteui setup                    # detects editors, prints what it would change
+npx copypasteui setup                    # finds your editors and shows what it would change
 npx copypasteui setup --client cursor --dry-run
 npx copypasteui setup --client claude_code
 ```
 
-Supported: `claude_code`, `claude_desktop`, `cursor`, `vscode`, `windsurf`, `codex`, `gemini_cli`. Any other MCP client: run `npx -y copypasteui@latest mcp` over stdio.
+It sets up `claude_code`, `claude_desktop`, `cursor`, `vscode`, `windsurf`, `codex` and `gemini_cli`. For any other MCP client, run `npx -y copypasteui@latest mcp` over stdio. The server runs on your machine and needs no account or API key.
 
 Tools: `plan_website`, `get_plan`, `suggest_sections`, `list_recipes`, `get_recipe`, `search_components`, `get_component`, `add_component`, `fill_business_details`, `list_categories`, `list_themes`, `get_theme`, `list_templates`, `get_template`. Prompts: `plan-my-website`, `build-business-website`, `add-online-booking`, `build-back-office`, `prepare-for-launch`.
 
-**shadcn/ui users:** CopyPasteUI is also a shadcn registry. Add `"registries": { "@copypasteui": "https://copypasteui.dev/r/shadcn/{name}.json" }` to your `components.json`, then run `npx shadcn@latest add @copypasteui/olea-hero` or `@copypasteui/theme-olea` (themes install their Google Fonts via `next/font` in Next.js, or Fontsource elsewhere). `npx shadcn@latest search @copypasteui -q pricing` and shadcn's own MCP server work too.
-
-Agents without the MCP can read [`/llms.txt`](https://copypasteui.dev/llms.txt) (a Markdown map of templates, themes and categories, following [llmstxt.org](https://llmstxt.org)) or [`/llms-full.txt`](https://copypasteui.dev/llms-full.txt) (every component with tags, dependencies and install commands). Both are generated from the registry on every build.
-
-**From the terminal**
+**From the terminal:**
 
 ```bash
 npx copypasteui search pricing
 npx copypasteui add toggle-tier-pricing --theme midnight
 ```
 
-**With the shadcn CLI**
+**With the shadcn CLI:** add `"registries": { "@copypasteui": "https://copypasteui.dev/r/shadcn/{name}.json" }` to `components.json`, then:
 
 ```bash
-npx shadcn@latest add https://copypasteui.dev/r/shadcn/toggle-tier-pricing.json
+npx shadcn@latest add @copypasteui/olea-hero @copypasteui/theme-olea
+npx shadcn@latest search @copypasteui -q pricing
 ```
+
+Themes install their Google Fonts with `next/font` in Next.js and Fontsource elsewhere.
+
+**For agents without the MCP:** [`/llms.txt`](https://copypasteui.dev/llms.txt) lists the templates, themes and categories ([llmstxt.org](https://llmstxt.org) format), and [`/llms-full.txt`](https://copypasteui.dev/llms-full.txt) lists every section with its tags, dependencies and install command.
+
+## How it's built
+
+```
+registry/                      sections, themes and templates, changed through pull requests
+  components/<category>/<slug>/component.tsx + meta.json
+  themes/<slug>.json
+  templates/<slug>.json
+        │  scripts/build-registry.mjs checks everything and writes:
+        ▼
+apps/web/public/r/             static JSON files, published with the site
+  index.json  components/*.json  themes/*.json  templates/*.json  shadcn/*.json
+        │                                   │
+        ▼                                   ▼
+apps/web (static Next.js site)      packages/mcp (npm: copypasteui)
+browse, preview, copy prompts       MCP server and CLI; caches the JSON and
+                                    falls back to a bundled copy offline
+```
+
+There's no server. The site is a static export, and the MCP reads the same JSON files the site publishes.
 
 ## Develop
 
 ```bash
 npm install
-npm run dev            # builds the registry, starts the site on http://localhost:3000
-npm test               # validates the registry + MCP tests (in-memory and real stdio)
-npm run build          # registry + MCP package + static site in apps/web/out
-npm run screenshots    # thumbnails, template shots and OG banners (after build)
+npm run dev            # builds the registry and starts the site on http://localhost:3000
+npm test               # registry validator, prompt and MCP tests
+npm run build          # registry, MCP package and the static site in apps/web/out
 ```
 
-Point the MCP at your local checkout while developing:
+To point the MCP at your local checkout:
 
 ```bash
 COPYPASTEUI_REGISTRY=$PWD/apps/web/public/r node packages/mcp/dist/cli.js search hero
 ```
 
-## Configuration (site)
+The checks CI runs are listed in [AGENTS.md](AGENTS.md#checks-to-run).
 
-All optional — see [apps/web/.env.example](apps/web/.env.example).
+## Images
 
-| Variable | Purpose |
+Card thumbnails, full-page template shots, theme previews and preview videos are links in each item's `images` field ([rules](CONTRIBUTING.md#preview-images)). None are committed, and CI doesn't make or upload them. Maintainers upload theirs to `cdn.copypasteui.dev` (Cloudflare R2); contributors can link their own host. CI checks each link with `npm run check:images` (it loads, and the file has the right type, size and shape) and opens every page once with `npm run check:render` to catch errors.
+
+Photos inside sections are free Unsplash images, hotlinked from `images.unsplash.com`. The validator rejects other hosts and Unsplash+.
+
+To make images, then upload the ones the CDN doesn't have yet (with your own `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` set in your shell):
+
+```bash
+npm run build
+npx playwright@1.54.1 install chromium
+npm run screenshots              # apps/web/public/thumbs/ (git ignores it); --missing, --only <slug>
+npm run previews                 # videos; prints each one's #t= start for its link
+npm run images:upload -- --dry-run
+npm run images:upload
+```
+
+Link previews use each item's thumbnail. The site's own share image is `brand/social/og-default-1200x630.png`, uploaded as `cdn.copypasteui.dev/og/site.png`.
+
+## Configuration
+
+All optional; see [apps/web/.env.example](apps/web/.env.example).
+
+| Variable | What it sets |
 | --- | --- |
-| `COPYPASTEUI_SITE_URL` | Public URL used in prompts and registry links |
+| `COPYPASTEUI_SITE_URL` | The site address used in prompts and registry links |
 | `NEXT_PUBLIC_GITHUB_REPO` | `owner/name` for GitHub links |
-| `NEXT_PUBLIC_CF_BEACON_TOKEN` | Cloudflare Web Analytics site token; empty means no analytics. The deploy workflow reads it from the `CF_BEACON_TOKEN` repository variable |
+| `NEXT_PUBLIC_CF_BEACON_TOKEN` | Cloudflare Web Analytics site token; empty means no analytics. The deploy reads it from the `CF_BEACON_TOKEN` repository variable |
 
 ## Deploy
 
-Every push to `main` runs CI, then CodeQL, then `.github/workflows/deploy.yml`, which publishes the site CI built and checked to Cloudflare (Workers static assets, configured in [wrangler.jsonc](wrangler.jsonc)) at copypasteui.dev. It needs two repository secrets: `CLOUDFLARE_API_TOKEN` (the "Edit Cloudflare Workers" token template) and `CLOUDFLARE_ACCOUNT_ID`. You can also run Deploy site by hand from the Actions tab; it then builds the site itself.
+A push to `main` runs CI, then CodeQL, then `.github/workflows/deploy.yml`, which publishes the site CI built to Cloudflare (Workers static assets, set up in [wrangler.jsonc](wrangler.jsonc)). It needs two repository secrets: `CLOUDFLARE_API_TOKEN` (from the "Edit Cloudflare Workers" token template) and `CLOUDFLARE_ACCOUNT_ID`. Running Deploy site by hand from the Actions tab builds the site first.
 
-Any static host works (Netlify, GitHub Pages): build command `npm run build`, output `apps/web/out`. Keep the `_headers` rule or its equivalent, because the sandboxed previews load the site's fonts cross-origin.
+Other static hosts work too (build with `npm run build`, publish `apps/web/out`). Keep the rule in `_headers` that lets any origin load the files, or the sandboxed previews can't load the site's fonts.
 
-`.github/workflows/release.yml` publishes the `copypasteui` npm package when you push a tag like `mcp-v0.1.0` (needs an `NPM_TOKEN` secret).
+`.github/workflows/release.yml` publishes the `copypasteui` npm package when you push a tag such as `mcp-v0.1.0`. It needs an `NPM_TOKEN` secret.
 
-## Security model for community code
+## Community code
 
-Contributed components run in visitors' browsers, so:
+Contributed sections run in visitors' browsers, so:
 
-1. `scripts/build-registry.mjs` rejects network calls, storage/cookie access, `eval`, `dangerouslySetInnerHTML`, relative imports and any package outside the allowlist (`react`, `motion`, `lucide-react`).
-2. Every preview runs in a `sandbox="allow-scripts"` iframe with an opaque origin, so a component cannot read the site, its cookies or the parent page.
-3. A maintainer still reviews every pull request — the checks are pattern-based and are a first line of defence, not a guarantee.
+1. `scripts/build-registry.mjs` rejects network calls, storage and cookie access, `eval`, `dangerouslySetInnerHTML`, relative imports and any package other than `react`, `motion` and `lucide-react`.
+2. Previews run in a `sandbox="allow-scripts"` iframe with an opaque origin, so a section can't read the site, its cookies or the page around it.
+3. A maintainer reviews every pull request. The checks match patterns; they catch mistakes, not every attack.
 
-## License
+## Licence
 
-[PolyForm Shield License 1.0.0](LICENSE) — source-available, not OSI open source.
+[PolyForm Shield 1.0.0](LICENSE). The source is public, but it isn't an OSI open-source licence.
 
-- **You can:** use, copy and modify any component, theme or template in websites, apps and products for yourself, your employer or your clients, including commercial and paid client work. You can use the site, MCP and CLI to build them.
-- **You can't:** use CopyPasteUI to provide a product that competes with it — a component library, UI kit, template or theme collection, site generator, registry or MCP/API service — whether free or paid.
-- **Keep the notice:** every component file starts with two comment lines (the licence link and the Required Notice). Leave them in.
-
-Using the site and the npm package is also covered by the [terms of use](https://copypasteui.dev/terms) (sample content is fictional, no warranty, updates aren't promised), the [privacy policy](https://copypasteui.dev/privacy) and the [cookie policy](https://copypasteui.dev/cookies).
+- **You can** use, copy and change any section, theme or template in websites, apps and products for yourself, your employer or your clients, paid work included.
+- **You can't** use CopyPasteUI to offer something that competes with it: a component library, UI kit, template or theme collection, site generator, registry, or MCP or API service, free or paid.
+- **Keep the notice:** every section file starts with two comment lines, the licence link and the Required Notice. Leave them in.
 - Items a contributor marked MIT, Apache-2.0 or CC0-1.0 are under that licence instead.
 
-The CopyPasteUI name and logo are not licensed for use by forks.
+The site and the npm package are also covered by the [terms of use](https://copypasteui.dev/terms), the [privacy policy](https://copypasteui.dev/privacy) and the [cookie policy](https://copypasteui.dev/cookies). The CopyPasteUI name and logo aren't licensed for forks.
