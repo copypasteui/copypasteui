@@ -1,0 +1,17 @@
+{
+  "slug": "brinebank-story",
+  "name": "Brinebank Word-by-Word Story",
+  "description": "Restaurant story in large type that lights up word by word as you scroll, followed by opening hours, address and two kitchen photos.",
+  "category": "gallery",
+  "tags": ["restaurant", "seafood", "about", "story", "text-reveal", "motion"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "collection": "brinebank-kitchen"
+}

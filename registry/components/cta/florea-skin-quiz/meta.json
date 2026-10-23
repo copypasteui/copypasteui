@@ -1,0 +1,17 @@
+{
+  "slug": "florea-skin-quiz",
+  "name": "Florea Skin Quiz",
+  "description": "Two-step skin quiz with progress, back, and a personalised product result with photo.",
+  "category": "cta",
+  "tags": ["skincare", "quiz", "interactive", "cta"],
+  "collection": "florea-skincare",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "aether",
+  "name": "Aether",
+  "description": "Black space with a burnt-orange horizon and a technical grotesk. For deep-tech products that want drama without the purple glow.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Instrument Sans', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["IBM+Plex+Sans:wght@400;500;600", "Instrument+Sans:wght@500;600;700"]
+  },
+  "light": {
+    "background": "#06070e",
+    "foreground": "#eef0ff",
+    "card": "#0d0f1c",
+    "card-foreground": "#eef0ff",
+    "primary": "#ff7a3d",
+    "primary-foreground": "#0b0720",
+    "secondary": "#161a2e",
+    "secondary-foreground": "#eef0ff",
+    "muted": "#12152a",
+    "muted-foreground": "#9aa0c3",
+    "accent": "#ffd9a8",
+    "accent-foreground": "#021a22",
+    "border": "#22263f",
+    "ring": "#ff7a3d"
+  },
+  "dark": {
+    "background": "#04050a",
+    "foreground": "#f2f3ff",
+    "card": "#0a0c18",
+    "card-foreground": "#f2f3ff",
+    "primary": "#ff8a50",
+    "primary-foreground": "#0b0720",
+    "secondary": "#141729",
+    "secondary-foreground": "#f2f3ff",
+    "muted": "#0f1224",
+    "muted-foreground": "#a3a9cc",
+    "accent": "#ffd9a8",
+    "accent-foreground": "#021a22",
+    "border": "#1d2138",
+    "ring": "#ff8a50"
+  }
+}

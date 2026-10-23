@@ -1,0 +1,18 @@
+{
+  "slug": "kiln-work",
+  "name": "Studio Kiln Selected Work",
+  "description": "Case-study grid of CSS typographic posters with result chips and hover wobble.",
+  "category": "gallery",
+  "tags": ["agency", "portfolio", "gallery", "typography"],
+  "collection": "kiln-agency",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

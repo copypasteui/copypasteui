@@ -1,0 +1,50 @@
+{
+  "slug": "ledger",
+  "name": "Ledger",
+  "description": "Emerald, mint and paper white with Geologica. Accountants, bookkeepers, financial planners.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.75rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Geologica', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Geologica', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Geologica:wght@300;400;500;600;700;800"]
+  },
+  "light": {
+    "background": "#f7f8f5",
+    "foreground": "#0f1f17",
+    "card": "#ffffff",
+    "card-foreground": "#0f1f17",
+    "primary": "#0d5c3a",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e4efe7",
+    "secondary-foreground": "#0f1f17",
+    "muted": "#ecefea",
+    "muted-foreground": "#4f5d55",
+    "accent": "#b6f0c8",
+    "accent-foreground": "#0f1f17",
+    "border": "#d9e0da",
+    "ring": "#0d5c3a"
+  },
+  "dark": {
+    "background": "#09130e",
+    "foreground": "#e9f1ec",
+    "card": "#0f1c15",
+    "card-foreground": "#e9f1ec",
+    "primary": "#6fdba0",
+    "primary-foreground": "#04210f",
+    "secondary": "#172a20",
+    "secondary-foreground": "#e9f1ec",
+    "muted": "#12231a",
+    "muted-foreground": "#9db4a6",
+    "accent": "#b6f0c8",
+    "accent-foreground": "#0f1f17",
+    "border": "#1f3328",
+    "ring": "#6fdba0"
+  }
+}

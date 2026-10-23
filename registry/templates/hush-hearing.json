@@ -1,0 +1,19 @@
+{
+  "slug": "hush-hearing",
+  "name": "Hush Hearing — Audiologist",
+  "description": "A neumorphic audiologist: soft sound-wave hero, services that press into the page, a pitch slider with a live wave, a lifting hearing aid price table, a calm FAQ and footer.",
+  "brief": "an audiologist, hearing centre, optician, speech therapist or tinnitus service",
+  "theme": "pebble",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "hush-hearing-hero",
+    "hush-hearing-services",
+    "hush-hearing-frequencies",
+    "hush-hearing-aids",
+    "hush-hearing-faq",
+    "hush-hearing-footer"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "pulse-hero",
+  "name": "Pulse Gym Hero",
+  "description": "Dark gym hero with stacked condensed headline reveal, angled photo wipe, rotating free-week badge, stats and next-class card.",
+  "category": "hero",
+  "tags": ["gym", "fitness", "bold", "photography", "condensed"],
+  "collection": "pulse-gym",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

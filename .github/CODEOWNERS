@@ -1,0 +1,12 @@
+# Every pull request asks the maintainers for a review (create the "maintainers" team in the copypasteui
+# organisation and give it write access). Review rubric: REVIEWING.md.
+*                         @copypasteui/maintainers
+
+# Changes here affect what every user installs or agrees to: always a maintainer, never auto-merged.
+/registry/                @copypasteui/maintainers
+/LICENSE                  @copypasteui/maintainers
+/CONTRIBUTING.md          @copypasteui/maintainers
+/.github/                 @copypasteui/maintainers
+/packages/mcp/            @copypasteui/maintainers
+/apps/web/scripts/a11y-baseline.json @copypasteui/maintainers
+/scripts/duplicates-allow.json     @copypasteui/maintainers

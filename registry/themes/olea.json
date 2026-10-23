@@ -1,0 +1,50 @@
+{
+  "slug": "olea",
+  "name": "Olea",
+  "description": "Olive, terracotta and linen with Gilda Display and Manrope. Restaurants, trattorias, wine bars.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.375rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Manrope', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Gilda Display', ui-serif, Georgia, serif",
+    "googleFonts": ["Manrope:wght@400;500;600;700", "Gilda+Display"]
+  },
+  "light": {
+    "background": "#f5f0e6",
+    "foreground": "#1f2118",
+    "card": "#fbf8f1",
+    "card-foreground": "#1f2118",
+    "primary": "#3d4a2b",
+    "primary-foreground": "#f7f2e8",
+    "secondary": "#e7dfcd",
+    "secondary-foreground": "#1f2118",
+    "muted": "#ece5d6",
+    "muted-foreground": "#5d5f4f",
+    "accent": "#a9492a",
+    "accent-foreground": "#fff8f0",
+    "border": "#d9d0bc",
+    "ring": "#3d4a2b"
+  },
+  "dark": {
+    "background": "#13150f",
+    "foreground": "#efe9dc",
+    "card": "#1b1e16",
+    "card-foreground": "#efe9dc",
+    "primary": "#c9d29a",
+    "primary-foreground": "#1a1f10",
+    "secondary": "#262a1f",
+    "secondary-foreground": "#efe9dc",
+    "muted": "#20241a",
+    "muted-foreground": "#a9ab98",
+    "accent": "#d4714c",
+    "accent-foreground": "#1a0d07",
+    "border": "#30352a",
+    "ring": "#c9d29a"
+  }
+}

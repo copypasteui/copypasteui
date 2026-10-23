@@ -1,0 +1,52 @@
+{
+  "slug": "putty",
+  "name": "Putty",
+  "description": "Clay: puffy peach and mint panels with soft coloured shadows and inner highlights, big round corners, Fredoka headings. Kids, pets, cafés, friendly apps.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.75rem",
+  "style": {
+    "label": "Clay",
+    "shadow": "clay",
+    "motion": "lively"
+  },
+  "fonts": {
+    "sans": "'Nunito', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Fredoka', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Nunito:wght@400;500;600;700;800", "Fredoka:wght@400;500;600;700"]
+  },
+  "light": {
+    "background": "#fdf3ea",
+    "foreground": "#2b2118",
+    "card": "#fffaf5",
+    "card-foreground": "#2b2118",
+    "primary": "#b93d0c",
+    "primary-foreground": "#ffffff",
+    "secondary": "#ffe4cc",
+    "secondary-foreground": "#2b2118",
+    "muted": "#f6e9dc",
+    "muted-foreground": "#6b5644",
+    "accent": "#b9f0d9",
+    "accent-foreground": "#1d2b24",
+    "border": "#f0dccb",
+    "ring": "#b93d0c"
+  },
+  "dark": {
+    "background": "#1f1a17",
+    "foreground": "#f7ede4",
+    "card": "#2a231f",
+    "card-foreground": "#f7ede4",
+    "primary": "#fdba74",
+    "primary-foreground": "#2b1606",
+    "secondary": "#3a2e26",
+    "secondary-foreground": "#f7ede4",
+    "muted": "#2a231f",
+    "muted-foreground": "#c9b8a8",
+    "accent": "#6ee7b7",
+    "accent-foreground": "#0f2a1f",
+    "border": "#3a302a",
+    "ring": "#fdba74"
+  }
+}

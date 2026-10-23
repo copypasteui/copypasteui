@@ -1,0 +1,50 @@
+{
+  "slug": "acorns",
+  "name": "Little Acorns",
+  "description": "Cream, tomato, sunshine and leaf green with Baloo 2 and Nunito. Nurseries, preschools, childminders, kids’ clubs.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.75rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Nunito', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Baloo 2', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Nunito:wght@400;600;700;800", "Baloo+2:wght@600;700;800"]
+  },
+  "light": {
+    "background": "#fff9ef",
+    "foreground": "#2b2118",
+    "card": "#ffffff",
+    "card-foreground": "#2b2118",
+    "primary": "#be3b24",
+    "primary-foreground": "#ffffff",
+    "secondary": "#ffe9b8",
+    "secondary-foreground": "#2b2118",
+    "muted": "#fbf0dc",
+    "muted-foreground": "#6b5b4c",
+    "accent": "#3f7a30",
+    "accent-foreground": "#ffffff",
+    "border": "#f0e1c6",
+    "ring": "#be3b24"
+  },
+  "dark": {
+    "background": "#1a140e",
+    "foreground": "#fbf1e2",
+    "card": "#231b14",
+    "card-foreground": "#fbf1e2",
+    "primary": "#ff8a6b",
+    "primary-foreground": "#3a0e04",
+    "secondary": "#3a2e1c",
+    "secondary-foreground": "#fbf1e2",
+    "muted": "#2a2018",
+    "muted-foreground": "#c2b09c",
+    "accent": "#8fcf7a",
+    "accent-foreground": "#132a0c",
+    "border": "#3d3024",
+    "ring": "#ff8a6b"
+  }
+}

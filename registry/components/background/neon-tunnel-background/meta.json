@@ -1,0 +1,15 @@
+{
+  "slug": "neon-tunnel-background",
+  "name": "Neon Tunnel Background",
+  "description": "A grid corridor rushing towards you on all four walls, with a scanning band of light in your primary colour. True 3D projection on canvas.",
+  "category": "background",
+  "tags": ["tunnel", "grid", "neon", "canvas", "3d"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "terminal"
+}

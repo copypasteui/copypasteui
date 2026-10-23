@@ -1,0 +1,17 @@
+{
+  "slug": "hush-hearing-hero",
+  "name": "Hush Hearing Sound Wave Hero",
+  "description": "Neumorphic clinic hero with a soft raised panel of moving sound-wave bars, a photo set into the page and a free hearing test booking button.",
+  "category": "hero",
+  "tags": ["hearing", "clinic", "health", "neumorphic", "waveform"],
+  "collection": "hush-hearing",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

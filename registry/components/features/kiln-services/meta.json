@@ -1,0 +1,17 @@
+{
+  "slug": "kiln-services",
+  "name": "Studio Kiln Services",
+  "description": "Service accordion whose titles stretch on hover, revealing pricing and deliverable chips.",
+  "category": "features",
+  "tags": ["agency", "services", "accordion"],
+  "collection": "kiln-agency",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

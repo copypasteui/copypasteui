@@ -1,0 +1,16 @@
+{
+  "slug": "flintmoor-reviews",
+  "name": "Flintmoor Review Marquee",
+  "description": "Two opposing marquees of short review cards with a big rating.",
+  "category": "testimonials",
+  "tags": ["barber", "reviews", "marquee"],
+  "collection": "flintmoor-barbers",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-21"
+}

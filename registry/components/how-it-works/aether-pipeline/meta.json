@@ -1,0 +1,17 @@
+{
+  "slug": "aether-pipeline",
+  "name": "Aether Pipeline",
+  "description": "Animated SVG workflow \u2014 trigger, agent, tools, approval, done \u2014 with signal dots travelling the line.",
+  "category": "how-it-works",
+  "tags": ["ai", "workflow", "svg", "how-it-works"],
+  "collection": "aether-ai",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "project-showcase-grid",
+  "name": "Project Showcase Grid",
+  "description": "Studio portfolio grid with real project photos, the result of each job, wide feature tiles and animated filters.",
+  "category": "gallery",
+  "tags": ["portfolio", "filter", "case-studies", "grid"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

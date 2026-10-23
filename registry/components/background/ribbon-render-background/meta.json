@@ -1,0 +1,17 @@
+{
+  "slug": "ribbon-render-background",
+  "name": "Ribbon Render Background",
+  "description": "A glossy 3D ribbon render that tilts in perspective towards the cursor, with a specular sheen that follows it.",
+  "category": "background",
+  "tags": ["photo", "3d", "tilt", "dark", "render"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "midnight"
+}

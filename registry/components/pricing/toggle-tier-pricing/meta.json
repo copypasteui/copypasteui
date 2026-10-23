@@ -1,0 +1,17 @@
+{
+  "slug": "toggle-tier-pricing",
+  "name": "Toggle Tier Pricing",
+  "description": "Three pricing tiers with a sliding monthly/yearly switch, rolling price animation and a lifted popular plan.",
+  "category": "pricing",
+  "tags": ["pricing", "toggle", "saas", "tiers"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-20",
+  "featured": true
+}

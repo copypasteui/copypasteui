@@ -1,0 +1,17 @@
+{
+  "slug": "solenne-guest-reviews",
+  "name": "Solenne Guest Reviews",
+  "description": "Large serif guest quote with selectable reviewer chips, crossfading room photo and review-site scores.",
+  "category": "testimonials",
+  "tags": ["hotel", "reviews", "testimonials", "photography"],
+  "collection": "solenne-hotel",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

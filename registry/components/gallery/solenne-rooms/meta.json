@@ -1,0 +1,17 @@
+{
+  "slug": "solenne-rooms",
+  "name": "Solenne Rooms Carousel",
+  "description": "Snap-scrolling room cards with tall photos, hover reserve bar, size, guests and nightly price.",
+  "category": "gallery",
+  "tags": ["hotel", "rooms", "carousel", "photography"],
+  "collection": "solenne-hotel",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

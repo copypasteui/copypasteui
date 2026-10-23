@@ -1,0 +1,12 @@
+{
+  "slug": "kiln-agency",
+  "name": "Studio Kiln — Creative Agency",
+  "description": "A small design studio: variable-font hero with rolling words, typographic case studies, services accordion, team polaroids, project-brief builder and marquee footer.",
+  "brief": "a design studio, creative or marketing agency, web designer or freelancer",
+  "theme": "kiln",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["kiln-hero", "kiln-work", "kiln-services", "kiln-team", "kiln-brief", "kiln-footer"]
+}

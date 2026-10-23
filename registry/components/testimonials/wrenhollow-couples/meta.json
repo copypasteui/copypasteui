@@ -1,0 +1,17 @@
+{
+  "slug": "wrenhollow-couples",
+  "name": "Wrenhollow Couple Stories",
+  "description": "Couple testimonial slider with sliding photos, italic quotes and awards line.",
+  "category": "testimonials",
+  "tags": ["wedding", "reviews", "slider"],
+  "collection": "wrenhollow-weddings",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "wax-cellar-hero",
+  "name": "Wax Cellar Spinning Record Hero",
+  "description": "Risograph-style record shop hero: a drawn vinyl record that turns as you scroll and a two-ink headline printed slightly out of register.",
+  "category": "hero",
+  "tags": ["records", "music", "shop", "riso", "scroll", "rotate"],
+  "collection": "wax-cellar-records",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

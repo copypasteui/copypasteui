@@ -1,0 +1,16 @@
+{
+  "slug": "tilt-cards",
+  "name": "Tilt Cards",
+  "description": "3D cards that tilt toward the cursor with a moving glare and layered depth.",
+  "category": "cards",
+  "tags": ["3d", "tilt", "glare", "interactive"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

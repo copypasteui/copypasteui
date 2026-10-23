@@ -1,0 +1,50 @@
+{
+  "slug": "mono",
+  "name": "Mono",
+  "description": "Brutalist black and white with a single signal-yellow accent and square corners. Confident and editorial.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Archivo Black', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["IBM+Plex+Sans:wght@400;500;600;700", "Archivo+Black"]
+  },
+  "light": {
+    "background": "#ffffff",
+    "foreground": "#0a0a0a",
+    "card": "#ffffff",
+    "card-foreground": "#0a0a0a",
+    "primary": "#0a0a0a",
+    "primary-foreground": "#ffffff",
+    "secondary": "#f2f2f2",
+    "secondary-foreground": "#0a0a0a",
+    "muted": "#f2f2f2",
+    "muted-foreground": "#5c5c5c",
+    "accent": "#ffe600",
+    "accent-foreground": "#0a0a0a",
+    "border": "#0a0a0a",
+    "ring": "#0a0a0a"
+  },
+  "dark": {
+    "background": "#0a0a0a",
+    "foreground": "#fafafa",
+    "card": "#111111",
+    "card-foreground": "#fafafa",
+    "primary": "#fafafa",
+    "primary-foreground": "#0a0a0a",
+    "secondary": "#1c1c1c",
+    "secondary-foreground": "#fafafa",
+    "muted": "#1a1a1a",
+    "muted-foreground": "#a3a3a3",
+    "accent": "#ffe600",
+    "accent-foreground": "#0a0a0a",
+    "border": "#fafafa",
+    "ring": "#fafafa"
+  }
+}

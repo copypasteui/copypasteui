@@ -1,0 +1,17 @@
+{
+  "slug": "pulse-classes",
+  "name": "Pulse Class Grid",
+  "description": "Filterable class cards with full-bleed photos, intensity meters, duration and hover descriptions.",
+  "category": "features",
+  "tags": ["gym", "classes", "filter", "photography"],
+  "collection": "pulse-gym",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "pulse-footer",
+  "name": "Pulse Footer",
+  "description": "Volt footer with marquee, free-week CTA, hours, links and a full-width condensed wordmark.",
+  "category": "footer",
+  "tags": ["gym", "footer", "marquee", "wordmark"],
+  "collection": "pulse-gym",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "fixwell-footer",
+  "name": "Fixwell Footer",
+  "description": "Dark footer with 24/7 emergency phone banner, area chips and links.",
+  "category": "footer",
+  "tags": ["trades", "footer", "cta"],
+  "collection": "fixwell-trades",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

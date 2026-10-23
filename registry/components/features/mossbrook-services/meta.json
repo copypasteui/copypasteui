@@ -1,0 +1,17 @@
+{
+  "slug": "mossbrook-services",
+  "name": "Mossbrook Services Bento",
+  "description": "Bento of vet, grooming, surgery, dental and emergency services with photos and from-prices.",
+  "category": "features",
+  "tags": ["vet", "services", "bento"],
+  "collection": "mossbrook-vets",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

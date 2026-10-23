@@ -1,0 +1,16 @@
+{
+  "slug": "harbour-float-rooms",
+  "name": "Harbour Float Expanding Rooms",
+  "description": "Float room, sauna and cold plunge as tall photo panels; the one you hover or focus widens to show its details and price.",
+  "category": "features",
+  "tags": ["spa", "wellness", "accordion", "glass", "hover"],
+  "collection": "harbour-float-spa",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "crestline-footer",
+  "name": "Crestline Swiss Footer",
+  "description": "Footer on a strict four-column grid with the office address, a package-travel protection note, links and a large wordmark.",
+  "category": "footer",
+  "tags": ["walking", "travel", "footer", "swiss"],
+  "collection": "crestline-guiding",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-22"
+}

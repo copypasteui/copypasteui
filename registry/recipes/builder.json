@@ -1,0 +1,13 @@
+{
+  "slug": "builder",
+  "name": "Your AI builder's own backend",
+  "summary": "Use the database and sign-in built into the tool you're already in: Lovable Cloud, Bolt's database, Replit's database and auth, or v0 with a Vercel-connected database.",
+  "audience": ["builders"],
+  "bestFor": "People building in Lovable, Bolt, Replit or v0 who don't want another account.",
+  "cost": "Included in the builder's plan, usually with a small monthly allowance.",
+  "rank": 1,
+  "docs": [
+    { "label": "Lovable Cloud", "href": "https://docs.lovable.dev/features/cloud" },
+    { "label": "Lovable + Supabase", "href": "https://docs.lovable.dev/integrations/supabase" }
+  ]
+}

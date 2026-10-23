@@ -1,0 +1,12 @@
+{
+  "slug": "hale-law",
+  "name": "Hale & Partners — Law Firm",
+  "description": "A family law firm: classic serif hero with area links, practice areas with published fixed fees, results, partner cards, free-consultation callback and regulatory footer.",
+  "brief": "a law firm, solicitor, notary, consultancy or financial adviser",
+  "theme": "hale",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["hale-hero", "hale-practice-areas", "hale-results", "hale-partners", "hale-consultation", "hale-footer"]
+}

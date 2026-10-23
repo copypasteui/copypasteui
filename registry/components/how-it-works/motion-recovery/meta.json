@@ -1,0 +1,17 @@
+{
+  "slug": "motion-recovery",
+  "name": "Motion Recovery Plan",
+  "description": "Four-stage recovery timeline with a scroll-filled progress bar and photos.",
+  "category": "how-it-works",
+  "tags": ["physio", "process", "timeline", "scroll"],
+  "collection": "motion-physio",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

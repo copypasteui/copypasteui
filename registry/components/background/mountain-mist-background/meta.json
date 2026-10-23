@@ -1,0 +1,17 @@
+{
+  "slug": "mountain-mist-background",
+  "name": "Mountain Mist Background",
+  "description": "Layered blue ridges with bands of mist drifting at different speeds and a scroll parallax that lifts the range.",
+  "category": "background",
+  "tags": ["photo", "landscape", "mist", "parallax", "scroll"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "ocean"
+}

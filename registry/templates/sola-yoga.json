@@ -1,0 +1,12 @@
+{
+  "slug": "sola-yoga",
+  "name": "Sola — Yoga & Pilates Studio",
+  "description": "A yoga and pilates studio: sunny hero with intro offer, bookable timetable, class types, passes and pricing, community stories and footer.",
+  "brief": "a yoga studio, pilates studio, dance school or small gym",
+  "theme": "sola",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["sola-hero", "sola-timetable", "sola-classes", "sola-passes", "sola-community", "sola-footer"]
+}

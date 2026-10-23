@@ -1,0 +1,9 @@
+{
+  "slug": "prism-design",
+  "name": "Prism — Creative Tool Launch",
+  "description": "A vivid product page on live backgrounds: WebGL fluid-gradient hero with multiplayer canvas, ribbon features, CSS-art poster gallery, grain-gradient testimonials and light-ray CTA.",
+  "brief": "a design, creative or collaboration tool",
+  "theme": "prism",
+  "author": { "name": "CopyPasteUI", "github": "copypasteui" },
+  "sections": ["prism-hero", "prism-features", "prism-poster-gallery", "prism-love-wall", "prism-rays-cta", "prism-footer"]
+}

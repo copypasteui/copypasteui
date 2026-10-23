@@ -1,0 +1,19 @@
+{
+  "slug": "gearwright-garage",
+  "name": "Gearwright — Auto Repair Garage",
+  "description": "An independent garage: reg-plate lookup hero, service comparison table, live repair tracker, driver reviews, booking with courtesy car and footer.",
+  "brief": "a car garage, MOT centre, tyre shop, body shop or car detailer",
+  "theme": "gearwright",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "gearwright-hero",
+    "gearwright-services",
+    "gearwright-tracker",
+    "gearwright-reviews",
+    "gearwright-booking",
+    "gearwright-footer"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "spruce-quote",
+  "name": "Spruce Cleaning Prices",
+  "description": "Frequency switch that reprices regular cleans alongside fixed-price deep and end-of-tenancy cleans.",
+  "category": "pricing",
+  "tags": ["cleaning", "pricing", "toggle"],
+  "collection": "spruce-cleaning",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "kiln-footer",
+  "name": "Studio Kiln Footer",
+  "description": "Giant \u2018Let\u2019s talk\u2019 marquee footer with studio details.",
+  "category": "footer",
+  "tags": ["agency", "footer", "marquee"],
+  "collection": "kiln-agency",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

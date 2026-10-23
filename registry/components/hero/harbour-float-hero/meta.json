@@ -1,0 +1,17 @@
+{
+  "slug": "harbour-float-hero",
+  "name": "Harbour Float Glass Tilt Hero",
+  "description": "Spa hero over a full-bleed pool photo with a stack of frosted price cards that tilt in 3D as the pointer moves, plus the next free float time.",
+  "category": "hero",
+  "tags": ["spa", "wellness", "glass", "tilt", "3d", "motion"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "collection": "harbour-float-spa"
+}

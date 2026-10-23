@@ -1,0 +1,17 @@
+{
+  "slug": "solenne-sunset-cta",
+  "name": "Solenne Sunset CTA",
+  "description": "Parallax sunset photo call-to-action with oversized serif headline and booking buttons.",
+  "category": "cta",
+  "tags": ["hotel", "parallax", "cta", "photography"],
+  "collection": "solenne-hotel",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

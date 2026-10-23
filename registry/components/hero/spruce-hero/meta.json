@@ -1,0 +1,18 @@
+{
+  "slug": "spruce-hero",
+  "name": "Spruce Cleaning Hero",
+  "description": "Bubbly cleaning hero with bedroom and bathroom steppers that give an instant price, plus twinkling sparkles.",
+  "category": "hero",
+  "tags": ["cleaning", "home-services", "calculator", "photography"],
+  "collection": "spruce-cleaning",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

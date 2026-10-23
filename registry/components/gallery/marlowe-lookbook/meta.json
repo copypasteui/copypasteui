@@ -1,0 +1,17 @@
+{
+  "slug": "marlowe-lookbook",
+  "name": "Marlowe Lookbook",
+  "description": "Scroll-driven horizontal lookbook with staggered looks, numbered captions and shop-the-look item lists.",
+  "category": "gallery",
+  "tags": ["fashion", "lookbook", "gallery", "scroll"],
+  "collection": "marlowe-boutique",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

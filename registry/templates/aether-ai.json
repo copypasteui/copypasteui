@@ -1,0 +1,9 @@
+{
+  "slug": "aether-ai",
+  "name": "Aether — AI Agents Launch",
+  "description": "A cinematic dark launch page with live code-generated backgrounds: planet-horizon hero, constellation agent grid, animated pipeline, neon-ring pricing, light-beam CTA and eclipse footer.",
+  "brief": "an AI product launch or waitlist",
+  "theme": "aether",
+  "author": { "name": "CopyPasteUI", "github": "copypasteui" },
+  "sections": ["aether-hero", "aether-agents", "aether-pipeline", "aether-pricing", "aether-beam-cta", "aether-footer"]
+}

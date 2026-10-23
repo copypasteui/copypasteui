@@ -1,0 +1,17 @@
+{
+  "slug": "pulse-results",
+  "name": "Pulse Member Results",
+  "description": "Member transformation stories with sliding photos, condensed quotes and before/after stat tiles.",
+  "category": "testimonials",
+  "tags": ["gym", "testimonials", "results", "carousel"],
+  "collection": "pulse-gym",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

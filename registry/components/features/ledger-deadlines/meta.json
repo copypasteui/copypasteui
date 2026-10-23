@@ -1,0 +1,17 @@
+{
+  "slug": "ledger-deadlines",
+  "name": "Ledger Tax Deadlines",
+  "description": "Tax-deadline timeline per business type with countdown chips and reminders.",
+  "category": "features",
+  "tags": ["accountant", "timeline", "features", "tabs"],
+  "collection": "ledger-accountants",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

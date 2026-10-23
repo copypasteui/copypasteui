@@ -1,0 +1,19 @@
+{
+  "slug": "common-ground-charity",
+  "name": "Common Ground — Charity & Nonprofit",
+  "description": "A community charity: appeal hero with live progress bar, impact counters, programmes, volunteer shift sign-up, donation widget with Gift Aid and footer.",
+  "brief": "a charity, nonprofit, community group, church, food bank or club",
+  "theme": "common-ground",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "common-ground-hero",
+    "common-ground-impact",
+    "common-ground-programmes",
+    "common-ground-volunteer",
+    "common-ground-donate",
+    "common-ground-footer"
+  ]
+}

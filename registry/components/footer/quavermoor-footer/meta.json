@@ -1,0 +1,17 @@
+{
+  "slug": "quavermoor-footer",
+  "name": "Quavermoor Footer",
+  "description": "Footer with an animated musical stave of notes and link lists.",
+  "category": "footer",
+  "tags": ["music", "footer"],
+  "collection": "quavermoor-music",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

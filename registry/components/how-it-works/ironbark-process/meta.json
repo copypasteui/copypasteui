@@ -1,0 +1,17 @@
+{
+  "slug": "ironbark-process",
+  "name": "Ironbark Build Process",
+  "description": "Five-step build process timeline with icons beside a sticky headline and site photo.",
+  "category": "how-it-works",
+  "tags": ["builder", "process", "timeline"],
+  "collection": "ironbark-builders",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

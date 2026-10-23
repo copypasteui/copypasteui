@@ -1,0 +1,17 @@
+{
+  "slug": "aurora-curtains-background",
+  "name": "Aurora Curtains Background",
+  "description": "Curtains of light waving over a dark ridge under the stars, in your primary and accent, with a slow shimmer along each fold.",
+  "category": "background",
+  "tags": ["aurora", "night", "glow", "css", "stars"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "forest"
+}

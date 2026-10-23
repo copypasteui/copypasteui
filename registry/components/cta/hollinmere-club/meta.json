@@ -1,0 +1,17 @@
+{
+  "slug": "hollinmere-club",
+  "name": "Hollinmere Estate Wine Club",
+  "description": "Wine-club CTA over a vineyard photo with case-size toggle, price and perks.",
+  "category": "cta",
+  "tags": ["winery", "cta", "subscription", "pricing"],
+  "collection": "hollinmere-winery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "pulse-gym",
+  "name": "Pulse \u2014 Performance Gym",
+  "description": "A loud, high-contrast gym site: condensed hero with free-week badge, filterable classes, bookable timetable, coaches, membership, member results and a volt footer.",
+  "brief": "a gym, fitness or boxing studio",
+  "theme": "pulse",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["pulse-hero", "pulse-classes", "pulse-timetable", "pulse-coaches", "pulse-membership", "pulse-results", "pulse-footer"]
+}

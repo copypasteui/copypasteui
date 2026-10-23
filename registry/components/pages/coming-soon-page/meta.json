@@ -1,0 +1,17 @@
+{
+  "slug": "coming-soon-page",
+  "name": "Coming Soon Page",
+  "description": "Pre-launch page with the opening date, a days-to-go line, an email signup and the address, beside a full-height photo.",
+  "category": "pages",
+  "tags": ["coming-soon", "launch", "signup", "page"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "usage": "Use it as the whole home page until launch: in Next.js render <ComingSoonPage /> from app/page.tsx, then swap the real site in. Set OPENING and the business details, and connect the email form to your list provider.",
+  "createdAt": "2026-10-21"
+}

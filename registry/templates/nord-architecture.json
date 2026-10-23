@@ -1,0 +1,12 @@
+{
+  "slug": "nord-architecture",
+  "name": "Nord \u2014 Architecture Studio",
+  "description": "A quiet, Swiss-style studio site: wordmark hero, cursor-preview project index, studio principles, scroll-driven process, client quote, enquiry form and clock footer.",
+  "brief": "an architecture, interior or design studio",
+  "theme": "nord",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["nord-hero", "nord-project-index", "nord-studio", "nord-process", "nord-client-quote", "nord-contact", "nord-footer"]
+}

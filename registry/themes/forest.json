@@ -1,0 +1,50 @@
+{
+  "slug": "forest",
+  "name": "Forest",
+  "description": "Sage and moss greens with cream highlights. Natural, trustworthy, great for wellness and climate.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'DM Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'DM Serif Display', ui-serif, Georgia, serif",
+    "googleFonts": ["DM+Sans:wght@400;500;700", "DM+Serif+Display"]
+  },
+  "light": {
+    "background": "#f6f7f1",
+    "foreground": "#14201a",
+    "card": "#ffffff",
+    "card-foreground": "#14201a",
+    "primary": "#2f6b4f",
+    "primary-foreground": "#f6f7f1",
+    "secondary": "#e7ecdf",
+    "secondary-foreground": "#1f3328",
+    "muted": "#e7ecdf",
+    "muted-foreground": "#5c6b61",
+    "accent": "#f3e7c9",
+    "accent-foreground": "#5b4413",
+    "border": "#d9e0d0",
+    "ring": "#2f6b4f"
+  },
+  "dark": {
+    "background": "#0d1511",
+    "foreground": "#e9efe6",
+    "card": "#131e18",
+    "card-foreground": "#e9efe6",
+    "primary": "#7cc49a",
+    "primary-foreground": "#0b1a12",
+    "secondary": "#1b2a21",
+    "secondary-foreground": "#e9efe6",
+    "muted": "#1b2a21",
+    "muted-foreground": "#93a399",
+    "accent": "#3b3218",
+    "accent-foreground": "#f3dfa4",
+    "border": "#26362c",
+    "ring": "#7cc49a"
+  }
+}

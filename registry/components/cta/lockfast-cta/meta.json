@@ -1,0 +1,17 @@
+{
+  "slug": "lockfast-cta",
+  "name": "Lockfast Velocity Marquee CTA",
+  "description": "Brewery taproom call-to-action: two huge marquee lines run in opposite directions and speed up while you scroll, above opening hours, a beer photo and booking buttons.",
+  "category": "cta",
+  "tags": ["brewery", "bar", "marquee", "scroll", "motion"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "collection": "lockfast-brewery"
+}

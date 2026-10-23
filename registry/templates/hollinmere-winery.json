@@ -1,0 +1,12 @@
+{
+  "slug": "hollinmere-winery",
+  "name": "Hollinmere Estate — Winery & Vineyard",
+  "description": "A family vineyard: parallax hero, wine list with tasting profiles, a year in the vineyard, tasting bookings, wine club and footer.",
+  "brief": "a winery, vineyard, cidery, distillery or cellar door",
+  "theme": "hollinmere",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["hollinmere-hero", "hollinmere-wines", "hollinmere-estate", "hollinmere-tastings", "hollinmere-club", "hollinmere-footer"]
+}

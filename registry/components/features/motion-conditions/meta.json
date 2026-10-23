@@ -1,0 +1,18 @@
+{
+  "slug": "motion-conditions",
+  "name": "Motion Body Map",
+  "description": "Clickable body map that shows conditions treated, typical sessions and a tip for each area.",
+  "category": "features",
+  "tags": ["physio", "interactive", "features", "healthcare"],
+  "collection": "motion-physio",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,11 @@
+{
+  "//": "The same check against React 18 types, for projects that haven't moved to React 19.",
+  "extends": "./tsconfig.react19.json",
+  "compilerOptions": {
+    "baseUrl": "../..",
+    "paths": {
+      "react": ["node_modules/@types/react-18"],
+      "react/*": ["node_modules/@types/react-18/*"]
+    }
+  }
+}

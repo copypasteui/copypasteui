@@ -1,0 +1,17 @@
+{
+  "slug": "wax-cellar-visit",
+  "name": "Wax Cellar Visit and Now Playing",
+  "description": "Visit section with the shop photo, hours and listening booths, and a now-playing bar with a moving equaliser.",
+  "category": "contact",
+  "tags": ["records", "music", "visit", "equaliser", "riso"],
+  "collection": "wax-cellar-records",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

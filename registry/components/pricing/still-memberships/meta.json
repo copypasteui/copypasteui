@@ -1,0 +1,17 @@
+{
+  "slug": "still-memberships",
+  "name": "Still Ways to Visit",
+  "description": "Three-tier spa pricing: thermal pass, spa day and membership with a raised featured card.",
+  "category": "pricing",
+  "tags": ["spa", "pricing", "membership"],
+  "collection": "still-spa",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "light-beam-background",
+  "name": "Light Beam Background",
+  "description": "A falling column of light pooling on a reflective floor with flicker and drifting sparks, drawn live on canvas.",
+  "category": "background",
+  "tags": ["canvas", "beam", "glow", "dark", "cinematic"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-21",
+  "featured": true,
+  "theme": "ocean"
+}

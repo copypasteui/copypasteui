@@ -1,0 +1,19 @@
+{
+  "slug": "harbour-float-spa",
+  "name": "Harbour Float — Float Tanks & Sauna",
+  "description": "A glass-style wellness site: tilting price cards over a pool photo, expanding room panels, a scroll-filled first-visit clock, counting prices, drifting reviews and a frosted footer.",
+  "brief": "a float centre, sauna, spa, bathhouse, cold-water club or wellness studio",
+  "theme": "frost",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "harbour-float-hero",
+    "harbour-float-rooms",
+    "harbour-float-first-visit",
+    "harbour-float-prices",
+    "harbour-float-reviews",
+    "harbour-float-footer"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "verelle",
+  "name": "Maison Verelle",
+  "description": "Champagne, blush and soft black with Italiana and Urbanist. Hair salons, colourists, beauty studios.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Urbanist', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Italiana', ui-serif, Georgia, serif",
+    "googleFonts": ["Urbanist:wght@400;500;600;700", "Italiana"]
+  },
+  "light": {
+    "background": "#f7f1ea",
+    "foreground": "#1c1714",
+    "card": "#fffaf5",
+    "card-foreground": "#1c1714",
+    "primary": "#1c1714",
+    "primary-foreground": "#f7f1ea",
+    "secondary": "#efdfd3",
+    "secondary-foreground": "#1c1714",
+    "muted": "#f0e6dc",
+    "muted-foreground": "#6a5c54",
+    "accent": "#d9a88f",
+    "accent-foreground": "#1c1714",
+    "border": "#e2d4c7",
+    "ring": "#1c1714"
+  },
+  "dark": {
+    "background": "#121010",
+    "foreground": "#f3ebe3",
+    "card": "#1b1817",
+    "card-foreground": "#f3ebe3",
+    "primary": "#f3ebe3",
+    "primary-foreground": "#1c1714",
+    "secondary": "#2b2421",
+    "secondary-foreground": "#f3ebe3",
+    "muted": "#211c1a",
+    "muted-foreground": "#ad9f96",
+    "accent": "#d9a88f",
+    "accent-foreground": "#1c1714",
+    "border": "#332b28",
+    "ring": "#f3ebe3"
+  }
+}

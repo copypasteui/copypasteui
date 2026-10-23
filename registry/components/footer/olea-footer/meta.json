@@ -1,0 +1,17 @@
+{
+  "slug": "olea-footer",
+  "name": "Olea Footer",
+  "description": "Restaurant footer with supper-club signup, link columns, address, a reserve bar and an oversized wordmark.",
+  "category": "footer",
+  "tags": ["restaurant", "footer", "newsletter", "wordmark"],
+  "collection": "olea-restaurant",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

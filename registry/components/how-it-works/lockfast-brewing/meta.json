@@ -1,0 +1,16 @@
+{
+  "slug": "lockfast-brewing",
+  "name": "Lockfast Brewing Steps",
+  "description": "Four brewing steps joined by a pipe that draws itself as you scroll, with tank temperatures and days for each.",
+  "category": "how-it-works",
+  "tags": ["brewery", "steps", "svg", "scroll", "line-drawing"],
+  "collection": "lockfast-brewery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "foxglove-events",
+  "name": "Foxglove What\u2019s On",
+  "description": "Weekly events list with big dates, tags and RSVP toggles with live counts.",
+  "category": "events",
+  "tags": ["brewery", "events", "bar", "rsvp"],
+  "collection": "foxglove-brewery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

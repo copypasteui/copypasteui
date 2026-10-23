@@ -1,0 +1,17 @@
+{
+  "slug": "ironbark-projects",
+  "name": "Ironbark Project Gallery",
+  "description": "Filterable project gallery with type tags, location, budget, duration and hover-up client quotes.",
+  "category": "gallery",
+  "tags": ["builder", "portfolio", "gallery", "filter"],
+  "collection": "ironbark-builders",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "portfolio-intro-hero",
+  "name": "Portfolio Intro Hero",
+  "description": "Huge-name personal hero with rotating role words, availability pulse and a skills marquee.",
+  "category": "hero",
+  "tags": ["portfolio", "personal", "typography", "marquee"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "flintmoor-walkin",
+  "name": "Flintmoor Book or Walk In",
+  "description": "Booking vs walk-in-queue toggle with services, today\u2019s slots, queue join flow, map and hours.",
+  "category": "contact",
+  "tags": ["barber", "booking", "queue", "hours"],
+  "collection": "flintmoor-barbers",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

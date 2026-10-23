@@ -1,0 +1,17 @@
+{
+  "slug": "chrome-liquid-background",
+  "name": "Chrome Liquid Background",
+  "description": "Liquid chrome whose iridescent colours slowly cycle through the spectrum while it breathes in and out.",
+  "category": "background",
+  "tags": ["photo", "3d", "iridescent", "chrome", "dark"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "noir"
+}

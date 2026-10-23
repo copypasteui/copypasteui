@@ -1,0 +1,17 @@
+{
+  "slug": "common-ground-programmes",
+  "name": "Common Ground Programmes",
+  "description": "Programme cards for pantry, warm hubs, youth club and befriending with schedules.",
+  "category": "features",
+  "tags": ["nonprofit", "features", "services"],
+  "collection": "common-ground-charity",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

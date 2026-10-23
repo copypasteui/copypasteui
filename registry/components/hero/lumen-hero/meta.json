@@ -1,0 +1,18 @@
+{
+  "slug": "lumen-hero",
+  "name": "Lumen AI Hero",
+  "description": "Dark analytics hero with a faint grid, a typed question-and-answer demo and a dashboard rising in perspective.",
+  "category": "hero",
+  "tags": ["ai", "saas", "dark", "dashboard", "typing"],
+  "collection": "lumen-ai",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

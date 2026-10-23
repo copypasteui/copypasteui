@@ -1,0 +1,17 @@
+{
+  "slug": "ledger-call",
+  "name": "Ledger Book a Call",
+  "description": "Free-call booking card with week picker, time slots and confirmation.",
+  "category": "contact",
+  "tags": ["accountant", "booking", "calendar"],
+  "collection": "ledger-accountants",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

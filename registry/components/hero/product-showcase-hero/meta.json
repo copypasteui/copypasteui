@@ -1,0 +1,17 @@
+{
+  "slug": "product-showcase-hero",
+  "name": "Product Showcase Hero",
+  "description": "Single-product hero where each colour swaps the product photo, with reviews, price and add to bag.",
+  "category": "hero",
+  "tags": ["ecommerce", "product", "dtc", "shop"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

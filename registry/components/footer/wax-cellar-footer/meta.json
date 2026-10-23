@@ -1,0 +1,16 @@
+{
+  "slug": "wax-cellar-footer",
+  "name": "Wax Cellar Footer",
+  "description": "Zine-style footer with a two-ink wordmark, opening hours, the basement address and a mailing list.",
+  "category": "footer",
+  "tags": ["records", "music", "footer", "riso"],
+  "collection": "wax-cellar-records",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-22"
+}

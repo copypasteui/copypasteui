@@ -1,0 +1,17 @@
+{
+  "slug": "canopy-footer",
+  "name": "Canopy Footer",
+  "description": "Photo call-to-action band over the pool, then contact, links and a newsletter.",
+  "category": "footer",
+  "tags": ["resort", "footer", "cta", "newsletter"],
+  "collection": "canopy-resort",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

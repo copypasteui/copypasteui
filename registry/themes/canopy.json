@@ -1,0 +1,50 @@
+{
+  "slug": "canopy",
+  "name": "Canopy",
+  "description": "Rainforest green, sand and brass with Marcellus and Work Sans. Resorts, eco-lodges, retreats.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.75rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Work Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Marcellus', ui-serif, Georgia, serif",
+    "googleFonts": ["Work+Sans:wght@300;400;500;600", "Marcellus"]
+  },
+  "light": {
+    "background": "#f3eee3",
+    "foreground": "#13261c",
+    "card": "#faf7f0",
+    "card-foreground": "#13261c",
+    "primary": "#1d4a34",
+    "primary-foreground": "#f3eee3",
+    "secondary": "#e3dccb",
+    "secondary-foreground": "#13261c",
+    "muted": "#e9e3d4",
+    "muted-foreground": "#4e5d52",
+    "accent": "#d6a25a",
+    "accent-foreground": "#13261c",
+    "border": "#d6ceba",
+    "ring": "#1d4a34"
+  },
+  "dark": {
+    "background": "#0d1712",
+    "foreground": "#ece6d7",
+    "card": "#13211a",
+    "card-foreground": "#ece6d7",
+    "primary": "#9fd1b0",
+    "primary-foreground": "#0b2016",
+    "secondary": "#1c2c23",
+    "secondary-foreground": "#ece6d7",
+    "muted": "#16241d",
+    "muted-foreground": "#a0ada3",
+    "accent": "#d6a25a",
+    "accent-foreground": "#13261c",
+    "border": "#26362d",
+    "ring": "#9fd1b0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "cinderwick-footer",
+  "name": "Cinderwick Footer",
+  "description": "Caf\u00e9 footer with address/hours over a photo, roast-day signup, link columns and serif wordmark.",
+  "category": "footer",
+  "tags": ["coffee", "footer", "newsletter", "wordmark"],
+  "collection": "cinderwick-coffee",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-21"
+}

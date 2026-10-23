@@ -1,0 +1,16 @@
+{
+  "slug": "brinebank-boats",
+  "name": "Brinebank Two Boats",
+  "description": "The two boats that supply the kitchen as large editorial photos that zoom slowly on hover, with the skipper, the catch and a pull quote.",
+  "category": "gallery",
+  "tags": ["restaurant", "seafood", "editorial", "photography", "hover"],
+  "collection": "brinebank-kitchen",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

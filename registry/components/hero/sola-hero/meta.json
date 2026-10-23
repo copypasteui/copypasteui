@@ -1,0 +1,18 @@
+{
+  "slug": "sola-hero",
+  "name": "Sola Yoga Hero",
+  "description": "Warm studio hero with glowing sun gradient, pill-shaped photos and an intro-offer card.",
+  "category": "hero",
+  "tags": ["yoga", "pilates", "fitness", "wellness", "photography"],
+  "collection": "sola-yoga",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "prism-love-wall",
+  "name": "Prism Love Wall",
+  "description": "Masonry testimonial wall with portraits on a drifting grain-gradient background.",
+  "category": "testimonials",
+  "tags": ["testimonials", "grain", "gradient", "masonry"],
+  "collection": "prism-design",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

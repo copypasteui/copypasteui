@@ -1,0 +1,53 @@
+{
+  "slug": "riso",
+  "name": "Riso",
+  "description": "Risograph print: off-white paper, navy ink, fluorescent pink and blue, misregistered pink offset shadows and grain, Bricolage Grotesque. Zines, record shops, events.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.5rem",
+  "style": {
+    "label": "Risograph",
+    "shadow": "hard",
+    "texture": "grain",
+    "motion": "lively"
+  },
+  "fonts": {
+    "sans": "'Work Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Work+Sans:wght@400;500;600;700", "Bricolage+Grotesque:wght@500;600;700;800"]
+  },
+  "light": {
+    "background": "#f6f1e7",
+    "foreground": "#1d1d3a",
+    "card": "#fbf8f1",
+    "card-foreground": "#1d1d3a",
+    "primary": "#c2006b",
+    "primary-foreground": "#ffffff",
+    "secondary": "#ffd6ea",
+    "secondary-foreground": "#1d1d3a",
+    "muted": "#ece5d6",
+    "muted-foreground": "#524d66",
+    "accent": "#00609c",
+    "accent-foreground": "#ffffff",
+    "border": "#1d1d3a",
+    "ring": "#ff48b0"
+  },
+  "dark": {
+    "background": "#16152b",
+    "foreground": "#f6f1e7",
+    "card": "#1f1d38",
+    "card-foreground": "#f6f1e7",
+    "primary": "#ff6fbf",
+    "primary-foreground": "#16152b",
+    "secondary": "#2a2748",
+    "secondary-foreground": "#f6f1e7",
+    "muted": "#1f1d38",
+    "muted-foreground": "#b3aec8",
+    "accent": "#4db3ff",
+    "accent-foreground": "#16152b",
+    "border": "#f6f1e7",
+    "ring": "#ff6fbf"
+  }
+}

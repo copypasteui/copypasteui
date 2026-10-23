@@ -1,0 +1,14 @@
+{
+  "slug": "warp-starfield-background",
+  "name": "Warp Starfield Background",
+  "description": "Hyperspace star streaks from a cursor-steered vanishing point. Hold the pointer to jump.",
+  "category": "background",
+  "tags": ["space", "stars", "canvas", "interactive", "dark"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-21",
+  "theme": "ocean"
+}

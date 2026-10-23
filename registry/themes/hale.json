@@ -1,0 +1,50 @@
+{
+  "slug": "hale",
+  "name": "Hale & Partners",
+  "description": "Ink navy, parchment and brass with EB Garamond and IBM Plex Sans. Law firms, notaries, consultancies.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.125rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'EB Garamond', ui-serif, Georgia, serif",
+    "googleFonts": ["IBM+Plex+Sans:wght@400;500;600", "EB+Garamond:ital,wght@0,500;0,600;1,500"]
+  },
+  "light": {
+    "background": "#f6f3ec",
+    "foreground": "#15192a",
+    "card": "#fcfaf5",
+    "card-foreground": "#15192a",
+    "primary": "#1b2440",
+    "primary-foreground": "#f6f3ec",
+    "secondary": "#e9e3d4",
+    "secondary-foreground": "#15192a",
+    "muted": "#ece7dc",
+    "muted-foreground": "#565a68",
+    "accent": "#b08a45",
+    "accent-foreground": "#15192a",
+    "border": "#d9d2c0",
+    "ring": "#1b2440"
+  },
+  "dark": {
+    "background": "#0e111c",
+    "foreground": "#ece8de",
+    "card": "#151a29",
+    "card-foreground": "#ece8de",
+    "primary": "#d6b97a",
+    "primary-foreground": "#1b1405",
+    "secondary": "#232a3d",
+    "secondary-foreground": "#ece8de",
+    "muted": "#1a2031",
+    "muted-foreground": "#a2a6b4",
+    "accent": "#b08a45",
+    "accent-foreground": "#15192a",
+    "border": "#2a3146",
+    "ring": "#d6b97a"
+  }
+}

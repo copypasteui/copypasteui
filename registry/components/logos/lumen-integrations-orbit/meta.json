@@ -1,0 +1,17 @@
+{
+  "slug": "lumen-integrations-orbit",
+  "name": "Lumen Integrations Orbit",
+  "description": "Two counter-rotating rings of integration pills orbiting the product mark.",
+  "category": "logos",
+  "tags": ["ai", "integrations", "orbit", "animated"],
+  "collection": "lumen-ai",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

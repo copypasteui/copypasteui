@@ -1,0 +1,18 @@
+{
+  "slug": "brightline-hero",
+  "name": "Brightline Dental Hero",
+  "description": "Friendly clinic hero with emergency bar, highlighted headline, checklist and floating availability and rating cards.",
+  "category": "hero",
+  "tags": ["dental", "clinic", "healthcare", "photography"],
+  "collection": "brightline-dental",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

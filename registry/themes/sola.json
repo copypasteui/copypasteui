@@ -1,0 +1,50 @@
+{
+  "slug": "sola",
+  "name": "Sola",
+  "description": "Terracotta, sunrise peach and oat with Epilogue and Onest. Yoga, pilates and movement studios.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Onest', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Epilogue', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Onest:wght@400;500;600;700", "Epilogue:wght@500;700;800"]
+  },
+  "light": {
+    "background": "#f8f1e8",
+    "foreground": "#2a1d17",
+    "card": "#fffaf4",
+    "card-foreground": "#2a1d17",
+    "primary": "#a84628",
+    "primary-foreground": "#fff6ee",
+    "secondary": "#f6ddc9",
+    "secondary-foreground": "#2a1d17",
+    "muted": "#f1e6d8",
+    "muted-foreground": "#6b5a4f",
+    "accent": "#f2b48b",
+    "accent-foreground": "#2a1d17",
+    "border": "#e8d8c5",
+    "ring": "#a84628"
+  },
+  "dark": {
+    "background": "#17110e",
+    "foreground": "#f6ebe0",
+    "card": "#201813",
+    "card-foreground": "#f6ebe0",
+    "primary": "#f08a62",
+    "primary-foreground": "#2b0c02",
+    "secondary": "#33251d",
+    "secondary-foreground": "#f6ebe0",
+    "muted": "#271d18",
+    "muted-foreground": "#bba899",
+    "accent": "#f2b48b",
+    "accent-foreground": "#2a1d17",
+    "border": "#3b2c23",
+    "ring": "#f08a62"
+  }
+}

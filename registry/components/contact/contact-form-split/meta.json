@@ -1,0 +1,16 @@
+{
+  "slug": "contact-form-split",
+  "name": "Contact Form Split",
+  "description": "Contact details beside a validated form with topic chips and a success state.",
+  "category": "contact",
+  "tags": ["contact", "form", "validation", "agency"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

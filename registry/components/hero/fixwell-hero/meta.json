@@ -1,0 +1,18 @@
+{
+  "slug": "fixwell-hero",
+  "name": "Fixwell Plumber Hero",
+  "description": "Emergency trades hero with live engineer availability, postcode ETA check, live job card and call-out badge.",
+  "category": "hero",
+  "tags": ["plumber", "electrician", "trades", "emergency", "photography"],
+  "collection": "fixwell-trades",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

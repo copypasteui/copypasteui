@@ -1,0 +1,50 @@
+{
+  "slug": "neon",
+  "name": "Neon",
+  "description": "Cyber-night with acid lime and hot magenta glow. Loud, high-energy — events, gaming and Web3 launches.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.625rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Inter', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Unbounded', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Inter:wght@400;500;600;700", "Unbounded:wght@600;800"]
+  },
+  "light": {
+    "background": "#f6f7f2",
+    "foreground": "#0d0f0a",
+    "card": "#ffffff",
+    "card-foreground": "#0d0f0a",
+    "primary": "#3f7300",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e8eddd",
+    "secondary-foreground": "#1a2010",
+    "muted": "#eef1e6",
+    "muted-foreground": "#5a6150",
+    "accent": "#ffd6f5",
+    "accent-foreground": "#7a0062",
+    "border": "#d8ddcd",
+    "ring": "#3f7300"
+  },
+  "dark": {
+    "background": "#07080a",
+    "foreground": "#effff0",
+    "card": "#0f1114",
+    "card-foreground": "#effff0",
+    "primary": "#b6ff3b",
+    "primary-foreground": "#0b1200",
+    "secondary": "#171a1f",
+    "secondary-foreground": "#effff0",
+    "muted": "#14171b",
+    "muted-foreground": "#8d968a",
+    "accent": "#ff3dcf",
+    "accent-foreground": "#22001b",
+    "border": "#262a31",
+    "ring": "#b6ff3b"
+  }
+}

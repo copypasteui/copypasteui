@@ -1,0 +1,18 @@
+{
+  "slug": "ironbark-hero",
+  "name": "Ironbark Builder Hero",
+  "description": "Condensed-type builder hero with highlighted word, clip-reveal extension photo and overlapping stat strip.",
+  "category": "hero",
+  "tags": ["builder", "construction", "trades", "photography", "bold"],
+  "collection": "ironbark-builders",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

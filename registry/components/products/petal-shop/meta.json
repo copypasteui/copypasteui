@@ -1,0 +1,17 @@
+{
+  "slug": "petal-shop",
+  "name": "Petal & Stem Bouquets",
+  "description": "Bouquet cards with animated Petite/Classic/Grand size switch, live prices and add-to-basket tick.",
+  "category": "products",
+  "tags": ["florist", "products", "ecommerce"],
+  "collection": "petal-florist",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "lumen-customer-stories",
+  "name": "Lumen Customer Stories",
+  "description": "Metric-led customer stories with one large gradient hero stat and portraits.",
+  "category": "testimonials",
+  "tags": ["ai", "saas", "testimonials", "metrics"],
+  "collection": "lumen-ai",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

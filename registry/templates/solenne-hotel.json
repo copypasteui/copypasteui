@@ -1,0 +1,17 @@
+{
+  "slug": "solenne-hotel",
+  "name": "Solenne — Boutique Hotel",
+  "description": "A sun-drenched boutique hotel site: full-bleed hero with booking bar, rooms carousel, experiences bento, guest reviews, seasonal packages, parallax sunset CTA and footer.",
+  "brief": "a boutique hotel, villa or resort",
+  "theme": "solenne",
+  "author": { "name": "CopyPasteUI", "github": "copypasteui" },
+  "sections": [
+    "solenne-hero",
+    "solenne-rooms",
+    "solenne-experiences",
+    "solenne-guest-reviews",
+    "solenne-packages",
+    "solenne-sunset-cta",
+    "solenne-footer"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "copypasteui-monorepo",
+  "private": true,
+  "description": "Free, source-available library of AI-ready UI components, themes and templates, with a local MCP server.",
+  "license": "PolyForm-Shield-1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "prepare": "simple-git-hooks",
+    "registry:build": "node scripts/build-registry.mjs",
+    "registry:validate": "node scripts/build-registry.mjs --check",
+    "dev": "npm run registry:build && npm run dev -w apps/web",
+    "build": "npm run registry:build && npm run build -w packages/mcp && npm run build -w apps/web",
+    "screenshots": "npm run screenshots -w apps/web --",
+    "prune": "npm run prune -w apps/web",
+    "check:mobile": "npm run check:mobile -w apps/web",
+    "test:smoke": "npm run test:smoke -w apps/web",
+    "check:photos": "node scripts/check-photos.mjs",
+    "test": "npm run registry:build && npm run build -w packages/mcp && npm run test:prompts && npm test -w packages/mcp",
+    "check:a11y": "npm run check:a11y -w apps/web --",
+    "check:components": "node scripts/check-components.mjs",
+    "check:interactions": "npm run check:interactions -w apps/web --",
+    "check:design": "node scripts/check-design.mjs",
+    "check:duplicates": "node scripts/check-duplicates.mjs",
+    "check:size": "node scripts/check-size.mjs",
+    "test:prompts": "node --test scripts/test/*.test.mjs",
+    "lint": "eslint . --max-warnings 0",
+    "typecheck": "npm run registry:build && npm run typecheck -w packages/mcp && npm run typecheck -w apps/web",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "previews": "npm run previews -w apps/web --",
+    "check:matrix": "npm run check:matrix -w apps/web --"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/react-18": "npm:@types/react@^18.3.31",
+    "axe-core": "^4.14.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.2",
+    "globals": "^16.4.0",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "simple-git-hooks": "^2.14.0",
+    "typescript-eslint": "^8.72.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "lavender",
+  "name": "Lavender",
+  "description": "Dusty lavender with apricot, a soft serif and rounded corners. Calm without the electric purple.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.25rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Figtree', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Young Serif', ui-serif, Georgia, serif",
+    "googleFonts": ["Figtree:wght@400;500;600;700", "Young+Serif:wght@400"]
+  },
+  "light": {
+    "background": "#faf8ff",
+    "foreground": "#1f1638",
+    "card": "#ffffff",
+    "card-foreground": "#1f1638",
+    "primary": "#5e4b8b",
+    "primary-foreground": "#ffffff",
+    "secondary": "#efe9ff",
+    "secondary-foreground": "#2e2152",
+    "muted": "#f2eefc",
+    "muted-foreground": "#6b6285",
+    "accent": "#fbe0c4",
+    "accent-foreground": "#6b3a0c",
+    "border": "#e6defa",
+    "ring": "#5e4b8b"
+  },
+  "dark": {
+    "background": "#120d22",
+    "foreground": "#efeaff",
+    "card": "#1a1430",
+    "card-foreground": "#efeaff",
+    "primary": "#bca8e6",
+    "primary-foreground": "#1d1430",
+    "secondary": "#251c42",
+    "secondary-foreground": "#efeaff",
+    "muted": "#1f1838",
+    "muted-foreground": "#a29bbd",
+    "accent": "#4a1d36",
+    "accent-foreground": "#ffc6e3",
+    "border": "#2f2650",
+    "ring": "#bca8e6"
+  }
+}

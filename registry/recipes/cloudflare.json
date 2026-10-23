@@ -1,0 +1,20 @@
+{
+  "slug": "cloudflare",
+  "name": "Cloudflare D1 + Access",
+  "summary": "Cloudflare's D1 database for the data, and Cloudflare Access in front of /admin so staff sign in with an emailed code — no sign-in code to write.",
+  "audience": ["developers"],
+  "bestFor": "Sites already hosted on Cloudflare that want the simplest secure admin for a small team.",
+  "cost": "Access is free for up to 50 people; D1 has a free tier.",
+  "rank": 7,
+  "docs": [
+    {
+      "label": "Cloudflare Access applications",
+      "href": "https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/self-hosted-apps/"
+    },
+    {
+      "label": "Validate the Access JWT",
+      "href": "https://developers.cloudflare.com/cloudflare-one/identity/authorization-cookie/validating-json/"
+    },
+    { "label": "D1", "href": "https://developers.cloudflare.com/d1/" }
+  ]
+}

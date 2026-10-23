@@ -1,0 +1,14 @@
+{
+  "slug": "retro-grid-background",
+  "name": "Retro Grid Background",
+  "description": "Perspective grid floor racing toward you under a striped setting sun, with true 3D projection on canvas.",
+  "category": "background",
+  "tags": ["synthwave", "grid", "retro", "canvas", "dark"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-21",
+  "theme": "sunset"
+}

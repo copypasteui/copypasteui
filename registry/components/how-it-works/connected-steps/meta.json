@@ -1,0 +1,16 @@
+{
+  "slug": "connected-steps",
+  "name": "Connected Steps",
+  "description": "Three numbered steps joined by a dashed line that draws itself on scroll, written for a bike workshop.",
+  "category": "how-it-works",
+  "tags": ["steps", "process", "onboarding"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-20"
+}

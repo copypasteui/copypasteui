@@ -1,0 +1,15 @@
+{
+  "slug": "count-up-stats",
+  "name": "Count-Up Stats",
+  "description": "Four headline metrics in a hairline grid that count up when scrolled into view.",
+  "category": "stats",
+  "tags": ["metrics", "numbers", "count-up"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-20"
+}

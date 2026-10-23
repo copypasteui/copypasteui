@@ -1,0 +1,15 @@
+{
+  "slug": "marquee-logo-cloud",
+  "name": "Marquee Logo Cloud",
+  "description": "Infinite, edge-faded marquee of customer wordmarks. Swap in your own logos.",
+  "category": "logos",
+  "tags": ["marquee", "social-proof", "infinite-scroll"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-20"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "wax-cellar-records",
+  "name": "Wax Cellar — Record Shop",
+  "description": "A risograph-printed record shop: a record that turns as you scroll, a crate of sleeves to flick through, out-of-register gig listings, a price guide for selling records, a now-playing bar and a two-ink footer.",
+  "brief": "a record shop, music venue, zine shop, comic shop, gig promoter or independent label",
+  "theme": "riso",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["wax-cellar-hero", "wax-cellar-new-in", "wax-cellar-gigs", "wax-cellar-sell", "wax-cellar-visit", "wax-cellar-footer"]
+}

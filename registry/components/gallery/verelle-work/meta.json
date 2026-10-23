@@ -1,0 +1,17 @@
+{
+  "slug": "verelle-work",
+  "name": "Maison Verelle Our Work",
+  "description": "Masonry portfolio with tagged looks, sticky client quote and a lightbox.",
+  "category": "gallery",
+  "tags": ["salon", "gallery", "masonry", "lightbox"],
+  "collection": "verelle-salon",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

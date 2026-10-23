@@ -1,0 +1,50 @@
+{
+  "slug": "kiln",
+  "name": "Studio Kiln",
+  "description": "Off-white, ink, kiln orange and lilac with Anybody and Inter. Creative agencies, design studios, marketing consultancies.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.25rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Inter', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Anybody', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Inter:wght@400;500;600;700", "Anybody:wdth,wght@75..150,700;75..150,900"]
+  },
+  "light": {
+    "background": "#f4f2ee",
+    "foreground": "#111111",
+    "card": "#ffffff",
+    "card-foreground": "#111111",
+    "primary": "#111111",
+    "primary-foreground": "#f4f2ee",
+    "secondary": "#e3defb",
+    "secondary-foreground": "#111111",
+    "muted": "#e9e6e0",
+    "muted-foreground": "#5b5853",
+    "accent": "#ff5b2e",
+    "accent-foreground": "#111111",
+    "border": "#d8d4cc",
+    "ring": "#111111"
+  },
+  "dark": {
+    "background": "#0e0e0e",
+    "foreground": "#f1efea",
+    "card": "#171717",
+    "card-foreground": "#f1efea",
+    "primary": "#f1efea",
+    "primary-foreground": "#111111",
+    "secondary": "#272333",
+    "secondary-foreground": "#f1efea",
+    "muted": "#1c1c1c",
+    "muted-foreground": "#a5a29c",
+    "accent": "#ff5b2e",
+    "accent-foreground": "#111111",
+    "border": "#2c2c2c",
+    "ring": "#ff5b2e"
+  }
+}

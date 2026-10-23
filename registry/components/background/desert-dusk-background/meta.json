@@ -1,0 +1,17 @@
+{
+  "slug": "desert-dusk-background",
+  "name": "Desert Dusk Background",
+  "description": "Dunes under a pink dusk sky panning slowly sideways, with heat shimmer rippling the sand.",
+  "category": "background",
+  "tags": ["photo", "desert", "pan", "svg", "shimmer"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22",
+  "featured": true,
+  "theme": "sunset"
+}

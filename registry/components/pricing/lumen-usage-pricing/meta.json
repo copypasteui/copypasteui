@@ -1,0 +1,17 @@
+{
+  "slug": "lumen-usage-pricing",
+  "name": "Lumen Usage Pricing",
+  "description": "Usage-based pricing with a stepped slider, live price, enterprise threshold and feature list.",
+  "category": "pricing",
+  "tags": ["ai", "saas", "pricing", "slider"],
+  "collection": "lumen-ai",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

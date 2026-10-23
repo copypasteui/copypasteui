@@ -1,0 +1,11 @@
+{
+  "slug": "google-sheets",
+  "name": "Google Sheets (content only)",
+  "summary": "No back office at all: the owner edits the menu, prices, hours and closures in a Google Sheet, and the website reads it.",
+  "audience": ["builders"],
+  "bestFor": "Owners who only need to change the menu, prices and opening hours, and take bookings through a booking service.",
+  "cost": "Free.",
+  "rank": 8,
+  "covers": "content",
+  "docs": [{ "label": "Publish a sheet to the web", "href": "https://support.google.com/docs/answer/183965" }]
+}

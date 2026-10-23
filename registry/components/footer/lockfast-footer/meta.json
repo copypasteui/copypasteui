@@ -1,0 +1,16 @@
+{
+  "slug": "lockfast-footer",
+  "name": "Lockfast Footer",
+  "description": "Footer with a giant outlined wordmark, opening hours, the address and a sign-up for the Thursday tap list email.",
+  "category": "footer",
+  "tags": ["brewery", "footer", "newsletter", "neo-brutalist"],
+  "collection": "lockfast-brewery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-22"
+}

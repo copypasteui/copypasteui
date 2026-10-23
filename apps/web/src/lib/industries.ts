@@ -1,0 +1,73 @@
+// Industry groups for the homepage and template index. Templates not listed here fall into "More".
+export const industries: { id: string; name: string; blurb: string; slugs: string[] }[] = [
+  {
+    id: "food",
+    name: "Food & drink",
+    blurb: "Cafés, restaurants, bakeries, breweries and wineries.",
+    slugs: [
+      "cinderwick-coffee",
+      "olea-restaurant",
+      "crumb-bakery",
+      "foxglove-brewery",
+      "hollinmere-winery",
+      "lockfast-brewery",
+      "brinebank-kitchen",
+      "larder-lane-bakery",
+    ],
+  },
+  {
+    id: "stay",
+    name: "Hospitality & travel",
+    blurb: "Hotels, resorts, cabins, tours and venues.",
+    slugs: [
+      "solenne-hotel",
+      "canopy-resort",
+      "pinehollow-cabins",
+      "farstep-tours",
+      "wrenhollow-weddings",
+      "poggio-lento-agriturismo",
+      "crestline-guiding",
+    ],
+  },
+  {
+    id: "shops",
+    name: "Shops & farms",
+    blurb: "Boutiques, florists, record shops, beauty brands and farm shops.",
+    slugs: ["marlowe-boutique", "petal-florist", "florea-skincare", "hollow-creek-farm", "wax-cellar-records"],
+  },
+  {
+    id: "health",
+    name: "Health & beauty",
+    blurb: "Salons, barbers, spas, saunas, studios, gyms and clinics.",
+    slugs: [
+      "verelle-salon",
+      "flintmoor-barbers",
+      "still-spa",
+      "sola-yoga",
+      "pulse-gym",
+      "brightline-dental",
+      "motion-physio",
+      "harbour-float-spa",
+      "hush-hearing",
+    ],
+  },
+  {
+    id: "trades",
+    name: "Home & trades",
+    blurb: "Builders, plumbers, cleaners, gardeners and garages.",
+    slugs: ["ironbark-builders", "fixwell-trades", "spruce-cleaning", "greenline-landscaping", "gearwright-garage", "nord-architecture"],
+  },
+  {
+    id: "pro",
+    name: "Professional services",
+    blurb: "Law, accounting, property, photography and agencies.",
+    slugs: ["hale-law", "ledger-accountants", "keystone-estate-agents", "juniper-photography", "kiln-agency"],
+  },
+  {
+    id: "community",
+    name: "Family & community",
+    blurb: "Nurseries, vets, music schools, craft cafés and charities.",
+    slugs: ["acorns-nursery", "mossbrook-vets", "quavermoor-music", "common-ground-charity", "glaze-days-pottery"],
+  },
+  { id: "tech", name: "Tech & startups", blurb: "AI products, SaaS and creative tools.", slugs: ["lumen-ai", "aether-ai", "prism-design"] },
+];

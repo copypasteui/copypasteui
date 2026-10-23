@@ -1,0 +1,12 @@
+{
+  "slug": "glaze-days-pottery",
+  "name": "Glaze Days — Pottery Painting Café",
+  "description": "A clay-style paint-your-own pottery café: draggable price tags, a piece-and-glaze picker, flip-card steps, sliding party packages, a table booker and a puffy footer.",
+  "brief": "a pottery painting café, craft workshop, kids' activity centre, play café or art class",
+  "theme": "putty",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["glaze-days-hero", "glaze-days-pieces", "glaze-days-how", "glaze-days-parties", "glaze-days-book", "glaze-days-footer"]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "motion-booking",
+  "name": "Motion Booking",
+  "description": "Appointment type, clinic or video, day and slot picker with a live summary panel.",
+  "category": "contact",
+  "tags": ["physio", "booking", "appointment"],
+  "collection": "motion-physio",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "admin-settings",
+  "name": "Back Office Settings",
+  "description": "Business details the whole site reads (name, phone, email, address, Instagram, booking link) and notification switches, saved as one record.",
+  "category": "admin",
+  "tags": ["admin", "settings", "business-details", "notifications"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "usage": "Give it the /admin/settings route, owner only. Load and save the settings as one record in onSave, and make the public site's header, footer and contact section read from it so one edit updates everywhere. Security: put every back-office screen behind sign-in (for example Supabase Auth or Clerk), let only the owner's account read or write this data (in Supabase, with row-level security on every table), and keep admin pages out of the public navigation and sitemap.",
+  "createdAt": "2026-10-21"
+}

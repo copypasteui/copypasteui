@@ -1,0 +1,17 @@
+{
+  "slug": "harbour-float-prices",
+  "name": "Harbour Float Prices",
+  "description": "Glass price cards with a single, five-pack and monthly toggle; prices count to the new figure when you switch.",
+  "category": "pricing",
+  "tags": ["spa", "wellness", "pricing", "toggle", "glass", "counter"],
+  "collection": "harbour-float-spa",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

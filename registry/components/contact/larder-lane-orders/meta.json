@@ -1,0 +1,17 @@
+{
+  "slug": "larder-lane-orders",
+  "name": "Larder Lane Saturday Pre-order",
+  "description": "Pre-order for Saturday collection with plus and minus buttons per bake and a running total that rolls to each new figure.",
+  "category": "contact",
+  "tags": ["bakery", "pre-order", "form", "stepper", "counter"],
+  "collection": "larder-lane-bakery",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-22"
+}

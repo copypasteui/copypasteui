@@ -1,0 +1,18 @@
+{
+  "slug": "greenline-hero",
+  "name": "Greenline Landscaping Hero",
+  "description": "Serif landscaping hero with scroll-zoom garden panorama, service tags and award badge.",
+  "category": "hero",
+  "tags": ["landscaping", "gardening", "trades", "photography"],
+  "collection": "greenline-landscaping",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

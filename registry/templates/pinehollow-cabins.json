@@ -1,0 +1,19 @@
+{
+  "slug": "pinehollow-cabins",
+  "name": "Pinehollow — Cabins & B&B",
+  "description": "Woodland cabins: split hero with weather card, filterable cabin cards, seasonal tabs, lined-paper guestbook, availability calendar with live pricing and pine footer.",
+  "brief": "holiday cabins, a B&B, guesthouse, glamping site or campsite",
+  "theme": "pinehollow",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "pinehollow-hero",
+    "pinehollow-cabins",
+    "pinehollow-seasons",
+    "pinehollow-guestbook",
+    "pinehollow-booking",
+    "pinehollow-footer"
+  ]
+}

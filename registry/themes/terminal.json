@@ -1,0 +1,50 @@
+{
+  "slug": "terminal",
+  "name": "Terminal",
+  "description": "Phosphor green on deep charcoal with a monospace voice. Built for developer tools, CLIs and infra.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.25rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'JetBrains Mono', ui-monospace, SFMono-Regular, monospace",
+    "display": "'JetBrains Mono', ui-monospace, SFMono-Regular, monospace",
+    "googleFonts": ["JetBrains+Mono:wght@400;500;700;800"]
+  },
+  "light": {
+    "background": "#f5f7f4",
+    "foreground": "#0f1a12",
+    "card": "#ffffff",
+    "card-foreground": "#0f1a12",
+    "primary": "#147a39",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e6eee6",
+    "secondary-foreground": "#14251a",
+    "muted": "#edf2ec",
+    "muted-foreground": "#566a5b",
+    "accent": "#d8f5e0",
+    "accent-foreground": "#0b4a22",
+    "border": "#d3ddd3",
+    "ring": "#147a39"
+  },
+  "dark": {
+    "background": "#0a0d0b",
+    "foreground": "#d6f5dc",
+    "card": "#101511",
+    "card-foreground": "#d6f5dc",
+    "primary": "#3ddc84",
+    "primary-foreground": "#03140a",
+    "secondary": "#18201a",
+    "secondary-foreground": "#d6f5dc",
+    "muted": "#141a16",
+    "muted-foreground": "#7f9a86",
+    "accent": "#1d3a26",
+    "accent-foreground": "#9cf0b9",
+    "border": "#223027",
+    "ring": "#3ddc84"
+  }
+}

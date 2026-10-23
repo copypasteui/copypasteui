@@ -1,0 +1,50 @@
+{
+  "slug": "petal",
+  "name": "Petal & Stem",
+  "description": "Blush, peony and stem green with Gloock and Albert Sans. Florists, flower farms, gift shops.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.5rem",
+  "style": {
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Albert Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Gloock', ui-serif, Georgia, serif",
+    "googleFonts": ["Albert+Sans:wght@400;500;600;700", "Gloock"]
+  },
+  "light": {
+    "background": "#fbf3f1",
+    "foreground": "#2a1f22",
+    "card": "#fffaf8",
+    "card-foreground": "#2a1f22",
+    "primary": "#b0365a",
+    "primary-foreground": "#ffffff",
+    "secondary": "#f6dfe0",
+    "secondary-foreground": "#2a1f22",
+    "muted": "#f4e8e6",
+    "muted-foreground": "#6c5a5e",
+    "accent": "#5e7d4f",
+    "accent-foreground": "#ffffff",
+    "border": "#ecd6d6",
+    "ring": "#b0365a"
+  },
+  "dark": {
+    "background": "#171012",
+    "foreground": "#f5e9ea",
+    "card": "#20171a",
+    "card-foreground": "#f5e9ea",
+    "primary": "#f08aa8",
+    "primary-foreground": "#3a0c1c",
+    "secondary": "#33232a",
+    "secondary-foreground": "#f5e9ea",
+    "muted": "#271c20",
+    "muted-foreground": "#bba6ab",
+    "accent": "#9cc08a",
+    "accent-foreground": "#14200e",
+    "border": "#3a2a30",
+    "ring": "#f08aa8"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "fixwell-reviews",
+  "name": "Fixwell Reviews",
+  "description": "Big rating with service stats beside masonry review cards tagged by job.",
+  "category": "testimonials",
+  "tags": ["trades", "reviews", "masonry"],
+  "collection": "fixwell-trades",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

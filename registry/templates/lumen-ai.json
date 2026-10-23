@@ -1,0 +1,20 @@
+{
+  "slug": "lumen-ai",
+  "name": "Lumen \u2014 AI Analytics SaaS",
+  "description": "A dark, product-led AI SaaS site: typed AI demo hero with dashboard, product bento, integrations orbit, usage pricing slider, customer stories and command CTA.",
+  "brief": "an AI or data SaaS product",
+  "theme": "lumen",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "lumen-hero",
+    "lumen-feature-bento",
+    "lumen-integrations-orbit",
+    "lumen-usage-pricing",
+    "lumen-customer-stories",
+    "lumen-command-cta",
+    "lumen-footer"
+  ]
+}

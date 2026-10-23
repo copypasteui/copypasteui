@@ -1,0 +1,17 @@
+{
+  "slug": "spruce-faq",
+  "name": "Spruce FAQ & Guarantee",
+  "description": "Bordered accordion FAQ with a sticky re-clean guarantee card.",
+  "category": "faq",
+  "tags": ["cleaning", "faq", "accordion"],
+  "collection": "spruce-cleaning",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

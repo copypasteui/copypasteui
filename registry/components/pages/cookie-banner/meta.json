@@ -1,0 +1,17 @@
+{
+  "slug": "cookie-banner",
+  "name": "Cookie Banner",
+  "description": "Consent banner with equal Accept all and Reject all buttons and a Choose panel for analytics and marketing, as UK and EU rules expect.",
+  "category": "pages",
+  "tags": ["cookies", "consent", "gdpr", "banner"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "usage": "Render <CookieBanner /> once in the root layout, only if the site uses non-essential cookies (analytics that set cookies, ads, some embeds). Save the choice from onChoice in a first-party cookie or browser storage, pass open={false} once a choice exists, load analytics or ad scripts only when allowed, and add a footer link that clears the saved choice so people can change their mind.",
+  "createdAt": "2026-10-21"
+}

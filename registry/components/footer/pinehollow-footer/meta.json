@@ -1,0 +1,17 @@
+{
+  "slug": "pinehollow-footer",
+  "name": "Pinehollow Footer",
+  "description": "Pine-silhouette footer with getting-here details and a plan-your-stay link grid.",
+  "category": "footer",
+  "tags": ["cabins", "footer", "bnb"],
+  "collection": "pinehollow-cabins",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

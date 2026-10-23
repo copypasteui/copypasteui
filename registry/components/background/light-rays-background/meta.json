@@ -1,0 +1,16 @@
+{
+  "slug": "light-rays-background",
+  "name": "Light Rays Background",
+  "description": "Soft volumetric rays from the top edge with floating dust. Works on light and dark themes.",
+  "category": "background",
+  "tags": ["rays", "volumetric", "soft", "css", "wrapper"],
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "theme": "citrus"
+}

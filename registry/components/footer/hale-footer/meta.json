@@ -1,0 +1,17 @@
+{
+  "slug": "hale-footer",
+  "name": "Hale Footer",
+  "description": "Navy law-firm footer with link columns and regulatory small print.",
+  "category": "footer",
+  "tags": ["law", "footer", "legal"],
+  "collection": "hale-law",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

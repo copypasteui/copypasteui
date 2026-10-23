@@ -1,0 +1,17 @@
+{
+  "slug": "hollow-creek-farm",
+  "name": "Hollow Creek Our Farm",
+  "description": "Family-farm story with a mosaic photo grid, years badge and four farming-values cards.",
+  "category": "features",
+  "tags": ["farm", "about", "story", "features"],
+  "collection": "hollow-creek-farm",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

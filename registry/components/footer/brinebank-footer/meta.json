@@ -1,0 +1,14 @@
+{
+  "slug": "brinebank-footer",
+  "name": "Brinebank Newspaper Footer",
+  "description": "Footer laid out like the back page of a paper: hours, address, a note on allergies and the small print in columns.",
+  "category": "footer",
+  "tags": ["restaurant", "footer", "editorial", "newspaper"],
+  "collection": "brinebank-kitchen",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-22"
+}

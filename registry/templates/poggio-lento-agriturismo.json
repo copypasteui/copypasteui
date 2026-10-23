@@ -1,0 +1,19 @@
+{
+  "slug": "poggio-lento-agriturismo",
+  "name": "Poggio Lento — Vineyard Farm Stay",
+  "description": "A dark-luxury farm stay and winery: a photo frame that opens on scroll, rooms on a sideways-scrolling track, a dinner menu that rises line by line, a spotlit wine list, an enquiry form and a quiet footer.",
+  "brief": "a boutique hotel, agriturismo, winery, guesthouse, private dining venue or luxury rental",
+  "theme": "noir",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "poggio-lento-hero",
+    "poggio-lento-rooms",
+    "poggio-lento-table",
+    "poggio-lento-wines",
+    "poggio-lento-enquire",
+    "poggio-lento-footer"
+  ]
+}

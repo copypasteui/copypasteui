@@ -1,0 +1,16 @@
+{
+  "slug": "cinderwick-cafe-menu",
+  "name": "Cinderwick Caf\u00e9 Menu",
+  "description": "Tabbed caf\u00e9 menu with crossfading photo, dashed rows and serif prices.",
+  "category": "menu",
+  "tags": ["coffee", "cafe", "menu", "tabs", "photography"],
+  "collection": "cinderwick-coffee",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "motion-physio",
+  "name": "Motion — Physiotherapy Clinic",
+  "description": "A physio and sports-rehab clinic: bold hero with outcomes, interactive body map, recovery timeline, patient results, booking flow and marquee footer.",
+  "brief": "a physiotherapist, chiropractor, osteopath, sports clinic or personal trainer",
+  "theme": "motion",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["motion-hero", "motion-conditions", "motion-recovery", "motion-results", "motion-booking", "motion-footer"]
+}

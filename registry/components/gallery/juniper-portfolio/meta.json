@@ -1,0 +1,18 @@
+{
+  "slug": "juniper-portfolio",
+  "name": "Juniper Portfolio",
+  "description": "Filterable masonry portfolio with a keyboard-friendly full-screen lightbox and arrows.",
+  "category": "gallery",
+  "tags": ["photography", "gallery", "masonry", "lightbox"],
+  "collection": "juniper-photography",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}

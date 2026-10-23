@@ -1,0 +1,14 @@
+{
+  "slug": "lumen-footer",
+  "name": "Lumen Footer",
+  "description": "SaaS footer with live status pill, link columns and a fading gradient wordmark.",
+  "category": "footer",
+  "tags": ["ai", "saas", "footer", "status"],
+  "collection": "lumen-ai",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-21"
+}

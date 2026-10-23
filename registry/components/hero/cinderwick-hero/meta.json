@@ -1,0 +1,18 @@
+{
+  "slug": "cinderwick-hero",
+  "name": "Cinderwick Coffee Hero",
+  "description": "Roastery hero with serif headline, arch-framed roasting photo, rotating badge and origin tasting-notes card.",
+  "category": "hero",
+  "tags": ["coffee", "cafe", "ecommerce", "serif", "photography"],
+  "collection": "cinderwick-coffee",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-21",
+  "featured": true
+}
