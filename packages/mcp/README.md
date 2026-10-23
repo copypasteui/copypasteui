@@ -7,12 +7,12 @@ No account. No API key. No limits. It runs on your machine and reads the static 
 ## Connect your editor
 
 ```bash
-npx copypasteui setup                         # list detected editors
-npx copypasteui setup --client cursor --dry-run
-npx copypasteui setup --client claude_code
+npx copypasteui.dev setup                         # list detected editors
+npx copypasteui.dev setup --client cursor --dry-run
+npx copypasteui.dev setup --client claude_code
 ```
 
-Clients: `claude_code`, `claude_desktop`, `cursor`, `vscode`, `windsurf`, `codex`, `gemini_cli`. Existing configs are backed up to `*.copypasteui.backup`. Anything else: register the stdio command `npx -y copypasteui@latest mcp`.
+Clients: `claude_code`, `claude_desktop`, `cursor`, `vscode`, `windsurf`, `codex`, `gemini_cli`. Existing configs are backed up to `*.copypasteui.backup`. Anything else: register the stdio command `npx -y copypasteui.dev@latest mcp`.
 
 ## Tools
 
@@ -44,9 +44,9 @@ Clients that support MCP prompts show these as ready-made requests (often as sla
 ## CLI
 
 ```bash
-npx copypasteui search pricing
-npx copypasteui add toggle-tier-pricing --theme midnight
-npx copypasteui themes
+npx copypasteui.dev search pricing
+npx copypasteui.dev add toggle-tier-pricing --theme midnight
+npx copypasteui.dev themes
 ```
 
 `COPYPASTEUI_REGISTRY` points the server at another registry URL or a local folder (e.g. a fork).

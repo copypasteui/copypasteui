@@ -225,7 +225,7 @@ function CodeDoor({ target, theme }: { target: UseTarget; theme: string }) {
   const [showCode, setShowCode] = useState(false);
   const slugs = target.kind === "template" ? target.sections : [target.slug];
   const shadcn = `npx shadcn@latest add @copypasteui/theme-${theme} ${slugs.map((s) => `@copypasteui/${s}`).join(" ")}`;
-  const cli = slugs.map((s, i) => `npx copypasteui add ${s}${i === 0 ? ` --theme ${theme}` : ""}`).join(" && \\\n  ");
+  const cli = slugs.map((s, i) => `npx copypasteui.dev add ${s}${i === 0 ? ` --theme ${theme}` : ""}`).join(" && \\\n  ");
   const ask =
     target.kind === "template"
       ? `Build the ${target.slug} template from copypasteui with the ${theme} theme`

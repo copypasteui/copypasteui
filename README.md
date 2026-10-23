@@ -2,7 +2,7 @@
 
 Website templates, sections and themes for small businesses, free to use in any site you build. Copy a template's prompt into Lovable, Bolt, v0 or ChatGPT, or let Claude Code, Cursor or VS Code install the sections through a local MCP server.
 
-Site: https://copypasteui.dev · MCP: `npx copypasteui setup` · Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
+Site: https://copypasteui.dev · MCP: `npx copypasteui.dev setup` · Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## What's in it
 
@@ -19,20 +19,20 @@ There are <!-- count:backgrounds -->29<!-- /count --> animated backgrounds. <!--
 **In your editor (MCP):**
 
 ```bash
-npx copypasteui setup                    # finds your editors and shows what it would change
-npx copypasteui setup --client cursor --dry-run
-npx copypasteui setup --client claude_code
+npx copypasteui.dev setup                    # finds your editors and shows what it would change
+npx copypasteui.dev setup --client cursor --dry-run
+npx copypasteui.dev setup --client claude_code
 ```
 
-It sets up `claude_code`, `claude_desktop`, `cursor`, `vscode`, `windsurf`, `codex` and `gemini_cli`. For any other MCP client, run `npx -y copypasteui@latest mcp` over stdio. The server runs on your machine and needs no account or API key.
+It sets up `claude_code`, `claude_desktop`, `cursor`, `vscode`, `windsurf`, `codex` and `gemini_cli`. For any other MCP client, run `npx -y copypasteui.dev@latest mcp` over stdio. The server runs on your machine and needs no account or API key.
 
 Tools: `plan_website`, `get_plan`, `suggest_sections`, `list_recipes`, `get_recipe`, `search_components`, `get_component`, `add_component`, `fill_business_details`, `list_categories`, `list_themes`, `get_theme`, `list_templates`, `get_template`. Prompts: `plan-my-website`, `build-business-website`, `add-online-booking`, `build-back-office`, `prepare-for-launch`.
 
 **From the terminal:**
 
 ```bash
-npx copypasteui search pricing
-npx copypasteui add toggle-tier-pricing --theme midnight
+npx copypasteui.dev search pricing
+npx copypasteui.dev add toggle-tier-pricing --theme midnight
 ```
 
 **With the shadcn CLI:** add `"registries": { "@copypasteui": "https://copypasteui.dev/r/shadcn/{name}.json" }` to `components.json`, then:
@@ -118,7 +118,7 @@ A push to `main` runs CI, then CodeQL, then `.github/workflows/deploy.yml`, whic
 
 Other static hosts work too (build with `npm run build`, publish `apps/web/out`). Keep the rule in `_headers` that lets any origin load the files, or the sandboxed previews can't load the site's fonts.
 
-`.github/workflows/release.yml` publishes the `copypasteui` npm package when you push a tag such as `mcp-v0.1.0`. It needs an `NPM_TOKEN` secret.
+`.github/workflows/release.yml` publishes the `copypasteui.dev` npm package when you push a tag such as `mcp-v0.1.0`. It needs an `NPM_TOKEN` secret.
 
 ## Community code
 

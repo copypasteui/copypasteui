@@ -7,14 +7,14 @@ export const metadata = {
   ...canonical("/terms"),
   title: "Terms of use",
   description:
-    "The terms for using copypasteui.dev, the copypasteui npm package and the code they give you: the licence, sample content, updates and liability.",
+    "The terms for using copypasteui.dev, the copypasteui.dev npm package and the code they give you: the licence, sample content, updates and liability.",
 };
 
 export default function TermsPage() {
   return (
     <LegalPage
       title="Terms of use"
-      intro="These terms cover copypasteui.dev, the copypasteui npm package (the MCP server and CLI) and the code you get from them. By using them you agree to these terms."
+      intro="These terms cover copypasteui.dev, the copypasteui.dev npm package (the MCP server and CLI) and the code you get from them. By using them you agree to these terms."
     >
       <section>
         <h2>Who runs CopyPasteUI</h2>

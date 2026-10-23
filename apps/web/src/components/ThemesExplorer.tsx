@@ -226,7 +226,7 @@ export default function ThemesExplorer({
             <div className="mt-3 space-y-2">
               <CopyAction label="Copy CSS (Tailwind v4)" get={() => themeCss(t)} />
               <CopyAction label="Copy shadcn command" get={() => `npx shadcn@latest add @copypasteui/theme-${t.slug}`} />
-              <CopyAction label="Copy CLI command" get={() => `npx copypasteui add <section> --theme ${t.slug}`} />
+              <CopyAction label="Copy CLI command" get={() => `npx copypasteui.dev add <section> --theme ${t.slug}`} />
             </div>
           </details>
         </aside>

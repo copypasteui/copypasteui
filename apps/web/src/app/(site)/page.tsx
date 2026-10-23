@@ -137,7 +137,7 @@ export default function Home() {
                 Install sections by name. They follow your theme.
               </h3>
               <div className="mt-5 space-y-2.5">
-                <CommandChip command="npx copypasteui setup" />
+                <CommandChip command="npx copypasteui.dev setup" />
                 <CommandChip command="npx shadcn@latest add @copypasteui/olea-hero" />
               </div>
               <p className="mt-5 text-sm text-muted-foreground">

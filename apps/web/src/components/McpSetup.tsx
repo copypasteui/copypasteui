@@ -3,7 +3,7 @@
 import { useState } from "react";
 import CopyButton from "@/components/CopyButton";
 
-const server = { command: "npx", args: ["-y", "copypasteui@latest", "mcp"] };
+const server = { command: "npx", args: ["-y", "copypasteui.dev@latest", "mcp"] };
 const json = (key: string, extra: Record<string, unknown> = {}) =>
   JSON.stringify({ [key]: { copypasteui: { ...extra, ...server } } }, null, 2);
 
@@ -13,26 +13,26 @@ const clients = [
     id: "claude_code",
     name: "Claude Code",
     file: "Terminal",
-    snippet: "claude mcp add --scope user copypasteui -- npx -y copypasteui@latest mcp",
+    snippet: "claude mcp add --scope user copypasteui -- npx -y copypasteui.dev@latest mcp",
   },
   { id: "vscode", name: "VS Code", file: "User mcp.json (MCP: Open User Configuration)", snippet: json("servers", { type: "stdio" }) },
   {
     id: "codex",
     name: "Codex",
     file: "~/.codex/config.toml",
-    snippet: `[mcp_servers.copypasteui]\ncommand = "npx"\nargs = ["-y", "copypasteui@latest", "mcp"]`,
+    snippet: `[mcp_servers.copypasteui]\ncommand = "npx"\nargs = ["-y", "copypasteui.dev@latest", "mcp"]`,
   },
   { id: "cursor", name: "Cursor", file: "~/.cursor/mcp.json", snippet: json("mcpServers") },
   { id: "windsurf", name: "Windsurf", file: "~/.codeium/windsurf/mcp_config.json", snippet: json("mcpServers") },
   { id: "gemini_cli", name: "Gemini CLI", file: "~/.gemini/settings.json", snippet: json("mcpServers") },
   { id: "claude_desktop", name: "Claude Desktop", file: "claude_desktop_config.json", snippet: json("mcpServers") },
-  { id: "other", name: "Any MCP client", file: "stdio command", snippet: "npx -y copypasteui@latest mcp" },
+  { id: "other", name: "Any MCP client", file: "stdio command", snippet: "npx -y copypasteui.dev@latest mcp" },
 ];
 
 export default function McpSetup() {
   const [active, setActive] = useState(clients[0]!.id);
   const c = clients.find((x) => x.id === active)!;
-  const auto = c.id === "other" ? null : `npx copypasteui setup --client ${c.id}`;
+  const auto = c.id === "other" ? null : `npx copypasteui.dev setup --client ${c.id}`;
 
   return (
     <div className="overflow-hidden rounded-xl border border-border bg-card">

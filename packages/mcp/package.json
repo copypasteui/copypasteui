@@ -1,7 +1,7 @@
 {
-  "name": "copypasteui",
+  "name": "copypasteui.dev",
   "version": "0.1.0",
-  "description": "Free, local MCP server and CLI for CopyPasteUI: search and install AI-ready UI components and themes from your editor. No account, no API key, no backend.",
+  "description": "Local MCP server and CLI for CopyPasteUI: search and add free small-business website templates, sections and themes from Claude Code, Cursor, VS Code and other editors. No account or API key.",
   "license": "PolyForm-Shield-1.0.0",
   "type": "module",
   "bin": {
@@ -32,6 +32,7 @@
     "directory": "packages/mcp"
   },
   "homepage": "https://copypasteui.dev/developers",
+  "bugs": "https://github.com/copypasteui/copypasteui/issues",
   "scripts": {
     "build": "tsc -p tsconfig.json && chmod +x dist/cli.js",
     "typecheck": "tsc -p tsconfig.json --noEmit",

@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 import { VERSION } from "./version.js";
 
 const SERVER_NAME = "copypasteui";
-export const SERVER_COMMAND = { command: "npx", args: ["-y", `copypasteui@${VERSION}`, "mcp"] };
+export const SERVER_COMMAND = { command: "npx", args: ["-y", `copypasteui.dev@${VERSION}`, "mcp"] };
 
 type Action = { kind: "json" | "toml" | "command" | "skill"; target: string; detail: string; apply: () => void };
 type Client = { id: string; name: string; detect: () => boolean; plan: () => Action[] };
@@ -161,9 +161,9 @@ export function runSetup(opts: { clients: string[]; all: boolean; dryRun: boolea
     const detected = CLIENTS.filter((c) => c.detect());
     console.log(`CopyPasteUI MCP ${VERSION} — local server, no account or API key.\n`);
     console.log(`Detected clients: ${detected.length ? detected.map((c) => c.id).join(", ") : "none"}`);
-    console.log(`\nPreview changes:   npx copypasteui setup --client <id> --dry-run`);
-    console.log(`Apply:             npx copypasteui setup --client <id>`);
-    console.log(`All detected:      npx copypasteui setup --all`);
+    console.log(`\nPreview changes:   npx copypasteui.dev setup --client <id> --dry-run`);
+    console.log(`Apply:             npx copypasteui.dev setup --client <id>`);
+    console.log(`All detected:      npx copypasteui.dev setup --all`);
     console.log(`\nOr register manually with any MCP client: ${SERVER_COMMAND.command} ${SERVER_COMMAND.args.join(" ")}`);
     return;
   }

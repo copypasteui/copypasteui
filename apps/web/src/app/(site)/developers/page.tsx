@@ -104,7 +104,7 @@ export default function DevelopersPage() {
               <code className="font-mono text-base text-foreground">copypasteui</code> MCP server in Claude Code, VS Code, Codex or Cursor,
               the shadcn CLI, our CLI, or the static JSON the site is built from.
             </p>
-            <CommandChip command="npx copypasteui setup" className="mt-8 max-w-md" />
+            <CommandChip command="npx copypasteui.dev setup" className="mt-8 max-w-md" />
             <p className="mt-3 text-sm text-muted-foreground">Detects your editors and shows what it will change before it does.</p>
             <ul className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
               {facts.map((f) => (
@@ -245,10 +245,10 @@ npx shadcn@latest search @copypasteui -q pricing`}</Code>
         <section id="cli" className="scroll-mt-32 border-t border-foreground py-16">
           <h2 className="font-display text-3xl font-extrabold tracking-tight md:text-4xl">The CopyPasteUI CLI</h2>
           <p className="mt-4 max-w-2xl text-muted-foreground">The same package works from a terminal, without an AI editor:</p>
-          <Code>{`npx copypasteui search "pricing toggle"
-npx copypasteui add toggle-tier-pricing --theme olea   # writes components/copypasteui/…
-npx copypasteui themes
-npx copypasteui setup --dry-run                         # register the MCP with your editors`}</Code>
+          <Code>{`npx copypasteui.dev search "pricing toggle"
+npx copypasteui.dev add toggle-tier-pricing --theme olea   # writes components/copypasteui/…
+npx copypasteui.dev themes
+npx copypasteui.dev setup --dry-run                         # register the MCP with your editors`}</Code>
           <p className="mt-4 max-w-2xl text-muted-foreground">
             It never overwrites a file unless you pass <code className="font-mono text-sm text-foreground">--overwrite</code>, and never
             runs npm for you; it prints the install command instead.
@@ -311,7 +311,7 @@ npx copypasteui setup --dry-run                         # register the MCP with 
             sections pick them up. Otherwise apply one theme once:
           </p>
           <Code>{`npx shadcn@latest add @copypasteui/theme-olea      # or
-npx copypasteui add olea-hero --theme olea          # writes theme-olea.css next to it`}</Code>
+npx copypasteui.dev add olea-hero --theme olea          # writes theme-olea.css next to it`}</Code>
           <p className="mt-4 max-w-2xl text-muted-foreground">
             Every theme has light and dark values, a radius and two fonts.{" "}
             <a href="/themes" className="text-foreground underline decoration-accent decoration-2 underline-offset-2">

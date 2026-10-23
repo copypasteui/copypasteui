@@ -105,7 +105,7 @@ export default function PrivacyPage() {
       <section>
         <h2>The MCP server and CLI</h2>
         <p>
-          The <code>copypasteui</code> npm package runs on your own computer. It downloads the public library files from copypasteui.dev
+          The <code>copypasteui.dev</code> npm package runs on your own computer. It downloads the public library files from copypasteui.dev
           (which appear in our host&apos;s logs like any page visit), keeps a cache in your home folder, and only reads or writes files in
           the folders you point it at. It sends no telemetry or usage data anywhere.
         </p>
