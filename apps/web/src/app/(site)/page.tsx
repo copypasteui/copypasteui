@@ -170,7 +170,8 @@ export default function Home() {
                 <h3 className="font-display text-xl font-bold">{g.name}</h3>
                 <span className="font-mono text-xs text-muted-foreground">{String(g.items.length).padStart(2, "0")}</span>
               </div>
-              <p className="mt-1 text-sm text-muted-foreground">{g.blurb}</p>
+              {/* Takes the spare height, so every card's thumbnail sits at the same level whatever the blurb's length. */}
+              <p className="mt-1 flex-1 text-sm text-muted-foreground">{g.blurb}</p>
               <div className="relative mt-5 aspect-[16/10] overflow-hidden rounded border border-border bg-muted">
                 {g.items[0] && (
                   <Thumb
