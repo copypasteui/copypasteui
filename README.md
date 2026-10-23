@@ -47,6 +47,8 @@ npm run screenshots              # or: --missing, --only <slug>
 npm run previews                 # videos; prints each one's #t= start for its link
 ```
 
+To upload them to `cdn.copypasteui.dev`, with a Cloudflare token that can edit R2 set in your own shell (`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`): `npm run images:upload -- --dry-run` lists what's missing, then `npm run images:upload` uploads it, skipping links that already work.
+
 ## Use it
 
 **In an AI builder** — open a component, pick a theme, click *Copy AI prompt*, paste.
