@@ -4,6 +4,8 @@ name: CI
 # check passed. The slow section matrix runs on pull requests, weekly and on demand, not on every push.
 on:
   pull_request:
+  # The merge queue on main runs the required checks (check, codeql) on each queued merge before it lands.
+  merge_group:
   push:
     branches: [main]
   schedule:
@@ -79,7 +81,7 @@ jobs:
   # Every section in the browser: three themes × light/dark with axe, and every interactive control exercised.
   # About 25 minutes, so it runs on pull requests, weekly and on demand rather than on every push to main.
   sections:
-    if: github.event_name != 'push'
+    if: github.event_name != 'push' && github.event_name != 'merge_group'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -114,7 +116,7 @@ jobs:
   # Every template and section at phone, tablet and desktop width: content that never appears, short labels that
   # wrap, controls covered by other controls. About half an hour, so it runs alongside the section checks.
   layout:
-    if: github.event_name != 'push'
+    if: github.event_name != 'push' && github.event_name != 'merge_group'
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -131,7 +133,7 @@ jobs:
         run: npm run check:layout
 
   codeql:
-    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    if: github.event_name == 'push' || github.event_name == 'pull_request' || github.event_name == 'merge_group'
     uses: ./.github/workflows/codeql.yml
     permissions:
       contents: read
