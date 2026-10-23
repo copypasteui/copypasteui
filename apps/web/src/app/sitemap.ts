@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { changelog } from "@/lib/changelog";
 import { config } from "@/lib/config";
 import { categories, components, templates } from "@/lib/registry";
 
@@ -7,7 +8,8 @@ export const dynamic = "force-static";
 
 const url = (path: string) => `${config.siteUrl}${path}`;
 
-// Real dates only: a section's createdAt, or the newest section in a template or category. Pages with nothing to date get no lastModified rather than the build time, which
+// Real dates only: a section's createdAt, the newest section in a template or category, the newest
+// changelog entry. Pages with nothing to date get no lastModified rather than the build time, which
 // search engines learn to ignore.
 const newest = (dates: (string | undefined)[]) => {
   const d = dates
@@ -25,9 +27,10 @@ const dated = (path: string, lastModified: Date | undefined, rest: Omit<Metadata
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const library = newest(components.map((c) => c.createdAt));
+  const news = newest(changelog().map((e) => e.date));
 
   const pages: MetadataRoute.Sitemap = [
-    dated("/", library, { changeFrequency: "weekly", priority: 1 }),
+    dated("/", newest([library?.toISOString(), news?.toISOString()]), { changeFrequency: "weekly", priority: 1 }),
     dated("/templates", library, { changeFrequency: "weekly", priority: 0.9 }),
     dated("/components", library, { changeFrequency: "weekly", priority: 0.9 }),
     dated("/backgrounds", newest(components.filter((c) => c.category === "background").map((c) => c.createdAt)), {
@@ -39,6 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     dated("/plan", undefined, { changeFrequency: "monthly", priority: 0.8 }),
     dated("/developers", undefined, { changeFrequency: "monthly", priority: 0.7 }),
     dated("/about", undefined, { changeFrequency: "yearly", priority: 0.4 }),
+    dated("/changelog", news, { changeFrequency: "weekly", priority: 0.5 }),
     dated("/contribute", undefined, { changeFrequency: "monthly", priority: 0.4 }),
     dated("/terms", undefined, { changeFrequency: "yearly", priority: 0.2 }),
     dated("/privacy", undefined, { changeFrequency: "yearly", priority: 0.2 }),

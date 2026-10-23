@@ -5,7 +5,7 @@ description: >-
   Use automatically, without being asked, whenever you write or change copy: pages and components in
   apps/web (headings, intros, buttons, labels, empty states, errors, aria-labels, metadata titles and
   descriptions), registry sections and templates (the sample business copy inside component.tsx, meta.json
-  descriptions, template briefs), release notes, README, CONTRIBUTING, REVIEWING and the MCP
+  descriptions, template briefs), registry/changelog.json, README, CONTRIBUTING, REVIEWING and the MCP
   README. Covers creating new copy and refactoring existing copy in place. Also use on requests like
   "unslop", "de-slop", "sounds like AI", "sounds like ChatGPT", "make this sound human", "too generic",
   "rewrite the copy", "check the copy". Skip code, class names, slugs, URLs and test fixtures.
@@ -18,7 +18,7 @@ decide which one you are touching:
 
 | | **Site copy** | **Sample copy** |
 |---|---|---|
-| Where | `apps/web/src/**`, README/CONTRIBUTING/REVIEWING, release notes, `packages/mcp/README.md`, prompt text in `scripts/build-registry.mjs` | text inside `registry/components/**/component.tsx`, template `brief`s, sample data in `registry/recipes` |
+| Where | `apps/web/src/**`, README/CONTRIBUTING/REVIEWING, `registry/changelog.json`, `packages/mcp/README.md`, prompt text in `scripts/build-registry.mjs` | text inside `registry/components/**/component.tsx`, template `brief`s, sample data in `registry/recipes` |
 | Who it's about | CopyPasteUI itself | a fictional small business (Olea, Crumb, Brightline…) |
 | Facts | **never invented.** Counts come from the registry (`templates.length`, not "39"), claims from the code. No users, testimonials, ratings, "trusted by", logos or press that don't exist | **invent them, specifically and consistently**: a street, a phone number, opening hours, prices in £, a named reviewer with a concrete detail. Same brand name, address and phone across every section of one template |
 | Voice | plain, direct, second person ("you"), the word you'd say out loud | the business talking to its customers, in its trade's language: a plumber says "call-out", a bakery says "sourdough", not "artisanal solutions" |
@@ -93,7 +93,7 @@ Copy lives inside code here, so edit only the text:
 - Change JSX text, string literals that are visible copy, `alt`, `aria-label`, `title`, `placeholder`, metadata `title`/`description`, and `meta.json` `description`/`name`/`brief`. Never change class names, `id`s, `href`s, slugs, keys, data shapes, export names or code samples.
 - Keep sample copy internally consistent: if you change a brand's phone number or street in one section, change it in every section of that template (`grep -r` the old value).
 - Some copy is asserted by tests (the prompt contract, smoke tests, MCP tests). If a test pins a string you changed on purpose, update the test in the same change.
-- Limits that CI enforces: `meta.json` `description` ≤ 240 chars, template `name` ≤ 60.
+- Limits that CI enforces: `meta.json` `description` ≤ 240 chars, template `name` ≤ 60, changelog title 3–90 and body 20–900 chars.
 - After editing, run what covers the change:
   - registry sections: `npm run registry:validate && npm run check:design` (buzzwords, emoji, 5.0 ratings, and advice on accent-as-text and faded text), then `npm test`
   - site pages: `npm run lint && npm run build -w apps/web && npm run test:smoke`

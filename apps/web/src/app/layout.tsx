@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     "Complete websites for restaurants, salons, trades, clinics and more. Paste one prompt into ChatGPT, Lovable, Bolt or v0, or install the sections from Claude Code, VS Code or Cursor. Free, no account.",
   openGraph: { siteName: "CopyPasteUI", type: "website", images: [{ url: siteImage, width: 1200, height: 630 }] },
   twitter: { card: "summary_large_image", images: [siteImage] },
+  alternates: { types: { "application/rss+xml": [{ url: "/feed.xml", title: "CopyPasteUI release notes" }] } },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

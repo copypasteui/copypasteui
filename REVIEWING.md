@@ -47,4 +47,5 @@ Score each line 0–2. Merge at 9 or more out of 12 with no 0s; otherwise ask fo
 ## 4. Merging
 
 - Squash-merge with a title like `Add olea-hero (restaurant hero with booking bar)`.
+- The changelog picks up new sections by date; add an entry to `registry/changelog.json` only for something bigger.
 - Thank the contributor and credit them; their GitHub handle is on the section page automatically.

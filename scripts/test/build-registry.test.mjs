@@ -211,6 +211,12 @@ test("templates: every section must exist", () => {
   assert.match(r.out, /section "no-such-section" is not a component slug/);
 });
 
+test("changelog: newest entries first", () => {
+  const r = check((dir) => editJson(dir, "changelog.json", (entries) => [...entries, { ...entries[0], date: "2030-01-01" }]));
+  assert.equal(r.ok, false);
+  assert.match(r.out, /entries must be newest first/);
+});
+
 test("recipes: a full backend must explain the first owner", () => {
   const r = check((dir) => {
     const file = path.join(dir, "recipes/supabase.md");

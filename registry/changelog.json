@@ -1,0 +1,194 @@
+[
+  {
+    "date": "2026-10-23",
+    "title": "CopyPasteUI is live: free website templates for small businesses",
+    "body": "48 complete websites, each written for one kind of business: a bakery, a barber, an MOT garage, a vet, a wedding venue, a law firm and more. Every template is a fictional business with its own theme, photos and six or seven sections. Pick one, add your business name, trade, town and contact details, and copy a single prompt into Lovable, Bolt, v0, ChatGPT, Replit, Claude or Gemini. The prompt carries the code, the theme and your details, so the builder starts from a finished design instead of a blank page. Use it for your own site or for paid client work. There's no account, no ads and no cookies.",
+    "links": [
+      {
+        "label": "Browse templates",
+        "href": "/templates"
+      },
+      {
+        "label": "Step-by-step guide",
+        "href": "/get-started"
+      }
+    ],
+    "templates": [
+      "olea-restaurant",
+      "crumb-bakery",
+      "flintmoor-barbers",
+      "gearwright-garage",
+      "mossbrook-vets",
+      "wrenhollow-weddings",
+      "verelle-salon",
+      "fixwell-trades",
+      "acorns-nursery",
+      "aether-ai",
+      "brightline-dental",
+      "brinebank-kitchen",
+      "canopy-resort",
+      "cinderwick-coffee",
+      "common-ground-charity",
+      "crestline-guiding",
+      "farstep-tours",
+      "florea-skincare",
+      "foxglove-brewery",
+      "glaze-days-pottery",
+      "greenline-landscaping",
+      "hale-law",
+      "harbour-float-spa",
+      "hollinmere-winery",
+      "hollow-creek-farm",
+      "hush-hearing",
+      "ironbark-builders",
+      "juniper-photography",
+      "keystone-estate-agents",
+      "kiln-agency",
+      "larder-lane-bakery",
+      "ledger-accountants",
+      "lockfast-brewery",
+      "lumen-ai",
+      "marlowe-boutique",
+      "motion-physio",
+      "nord-architecture",
+      "petal-florist",
+      "pinehollow-cabins",
+      "poggio-lento-agriturismo",
+      "prism-design",
+      "pulse-gym",
+      "quavermoor-music",
+      "sola-yoga",
+      "solenne-hotel",
+      "spruce-cleaning",
+      "still-spa",
+      "wax-cellar-records"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "396 sections in 23 categories",
+    "body": "Every template is built from sections you can also use on their own: heroes, menus, price lists, booking and quote forms, galleries, team pages, reviews, opening hours, FAQs and footers, plus utility pages like a 404, a cookie banner and a coming-soon page. They're React and Tailwind CSS, preview live in any theme, light or dark, and fit a 360px phone without sideways scrolling. Photos are free Unsplash images. Most cards play a short clip of the section moving, unless you've asked your device for less motion.",
+    "links": [
+      {
+        "label": "Browse sections",
+        "href": "/components"
+      }
+    ],
+    "components": [
+      "olea-menu",
+      "crumb-orders",
+      "gearwright-tracker",
+      "mossbrook-booking",
+      "verelle-services",
+      "hollow-creek-box",
+      "fixwell-callout",
+      "spruce-quote"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "61 themes, nine with a look of their own",
+    "body": "A theme sets the colours, fonts and corner radius for light and dark mode, and every section follows it. Nine go further and change how surfaces look: neo-brutalist offset shadows, frosted glass, puffy clay, neumorphic relief, a Swiss grid, editorial, retro, risograph and a dark luxury finish. Those nine also bring scroll motion, which stays still for visitors who turn motion off. On the Themes page you can try any theme on any template before you copy it, and take its CSS or a shadcn theme with you.",
+    "links": [
+      {
+        "label": "Browse themes",
+        "href": "/themes"
+      }
+    ],
+    "themes": ["poster", "frost", "putty", "pebble", "grid", "folio", "groove", "noir", "riso"]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "29 animated backgrounds",
+    "body": "21 backgrounds are drawn in code with WebGL, canvas, CSS and SVG: fluid gradients, silk, a retro grid, warp stars, aurora curtains, a planet horizon and more. They take the theme's colours, follow the cursor, pause when they're off-screen and stay still for reduced motion. The other 8 move an Unsplash photo, such as mist drifting over mountain ridges or heat shimmer on desert dunes. The Aether and Prism templates are built on them.",
+    "links": [
+      {
+        "label": "Browse backgrounds",
+        "href": "/backgrounds"
+      }
+    ],
+    "components": [
+      "fluid-gradient-background",
+      "silk-waves-background",
+      "aurora-curtains-background",
+      "planet-horizon-background",
+      "retro-grid-background",
+      "warp-starfield-background",
+      "mountain-mist-background",
+      "desert-dusk-background"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Plan your website in a few questions",
+    "body": "The Plan page asks what your business does, where it is and what visitors should do first: book, order, call, visit, buy or donate. Then it asks about the tools you use, such as Cal.com, Calendly, OpenTable, Fresha, Formspree, Mailchimp or Cloudflare Web Analytics, and where you'll host. It picks a template and theme for your trade and gives you one prompt for your AI builder, or a plan file for Claude Code and Cursor. Your answers stay in your browser until you copy or download them.",
+    "links": [
+      {
+        "label": "Plan your site",
+        "href": "/plan"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Install sections from your editor with the copypasteui.dev MCP server",
+    "body": "Run npx copypasteui.dev setup and it registers a local MCP server in Claude Code, Claude Desktop, Cursor, VS Code, Windsurf, Codex or Gemini CLI. Then ask for a section by name or describe the business: the server has 14 tools, including plan_website, search_components and add_component, and five prompts, from planning a site to preparing it for launch. It runs on your computer with no account or API key, caches the library and keeps working offline from a bundled copy. The same package is a CLI: copypasteui.dev search, add and themes.",
+    "links": [
+      {
+        "label": "Set up your editor",
+        "href": "/developers"
+      },
+      {
+        "label": "npm package",
+        "href": "https://www.npmjs.com/package/copypasteui.dev"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "A back office, with recipes for seven backends",
+    "body": "Twelve admin screens cover the work behind a small business site: sign-in, an overview, bookings, orders, enquiries, a menu editor, customers, reviews, opening hours, staff, reports and settings. Recipes connect them to Supabase, Firebase, Convex, Postgres with Better Auth or Clerk, PocketBase, Cloudflare D1 with Access, or your AI builder's own backend, and a Google Sheet can hold the menu, prices and opening hours instead. Every recipe uses the same data model and the same rules for who may read and change what, checked on the server.",
+    "links": [
+      {
+        "label": "Back-office sections",
+        "href": "/components/admin"
+      }
+    ],
+    "components": [
+      "admin-overview",
+      "admin-bookings",
+      "admin-orders",
+      "admin-menu-editor",
+      "admin-enquiries",
+      "admin-hours",
+      "admin-staff",
+      "admin-settings"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "A shadcn registry, llms.txt and a JSON API",
+    "body": "CopyPasteUI is also a shadcn registry: add it to components.json and install sections and themes with npx shadcn add @copypasteui/olea-hero. Agents without the MCP can read /llms.txt, a map of the templates, themes and categories, or /llms-full.txt with every section's tags, dependencies and install command. Everything the site and the MCP use is published as static JSON under /r.",
+    "links": [
+      {
+        "label": "Developer docs",
+        "href": "/developers"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Open to contributions",
+    "body": "Every section, theme and template is a folder in the public GitHub repository, and you can add one with a pull request. The checks run on every pull request: code rules, a render test, accessibility in three themes in light and dark, phone layouts, and a layout sweep for hidden, wrapped or overlapping content at three widths. Contributors are credited on their work. The licence is PolyForm Shield 1.0.0: use anything in websites and apps you build, including client work, but not to run a rival library.",
+    "links": [
+      {
+        "label": "How to contribute",
+        "href": "/contribute"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/copypasteui/copypasteui"
+      }
+    ]
+  }
+]

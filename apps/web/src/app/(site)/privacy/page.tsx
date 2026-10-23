@@ -146,7 +146,8 @@ export default function PrivacyPage() {
         <h2>Transfers, children and changes</h2>
         <p>
           The services above may process data outside your country (for example in the US); they rely on their own safeguards for this. The
-          site isn&apos;t aimed at children under 13. If this policy changes, the date at the top changes too.
+          site isn&apos;t aimed at children under 13. If this policy changes, the date at the top changes too, and anything significant will
+          be noted in the <Link href="/changelog">release notes</Link>.
         </p>
         <p>
           More about storage in your browser: see the <Link href="/cookies">cookie policy</Link>. The rules for using the site and the code

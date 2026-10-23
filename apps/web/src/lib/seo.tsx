@@ -2,8 +2,10 @@
 // and know what each page is (a free template, a section, where it sits in the site).
 import { config, license } from "@/lib/config";
 
-/** Page metadata `alternates`: the canonical address (relative to metadataBase). */
-export const canonical = (path: string) => ({ alternates: { canonical: path } });
+const RSS = { "application/rss+xml": [{ url: "/feed.xml", title: "CopyPasteUI release notes" }] };
+
+/** Page metadata `alternates`: the canonical address (relative to metadataBase) plus the RSS link every page shares. */
+export const canonical = (path: string) => ({ alternates: { canonical: path, types: RSS } });
 
 export const abs = (path: string) => `${config.siteUrl}${path}`;
 

@@ -127,6 +127,9 @@ export function MobileMenu({ githubUrl }: { githubUrl: string }) {
               })}
             </nav>
             <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
+              <Link href="/changelog" onClick={() => setOpen(false)} className="text-muted-foreground">
+                What&apos;s new
+              </Link>
               <Link href="/contribute" onClick={() => setOpen(false)} className="text-muted-foreground">
                 Contribute
               </Link>

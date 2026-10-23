@@ -113,7 +113,7 @@ export default function ThemesExplorer({
   })();
   const templateName = (templates.find((x) => x.slug === template)?.name ?? "this template").split(" — ")[0];
 
-  // /themes#slug (from ⌘K and template pages) opens that theme in the preview,
+  // /themes#slug (from ⌘K, the changelog and template pages) opens that theme in the preview,
   // rather than leaving the browser at the theme's card further down.
   useEffect(() => {
     const pick = () => {

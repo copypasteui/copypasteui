@@ -115,6 +115,10 @@ Add `registry/templates/<slug>.json` with `name` (`"Brand — Kind of business"`
 
 CI checks the rules; a maintainer then scores fit, design, copy, code, accessibility and originality. The rubric is in [REVIEWING.md](REVIEWING.md), so you can check your work against it first.
 
+## Changelog
+
+`registry/changelog.json` holds the release notes behind `/changelog` and `/feed.xml`, newest first: `date` (YYYY-MM-DD), a `title`, a one-paragraph `body`, optional `links` (`{ "label", "href" }`) and optional `templates`, `components` or `themes` slugs to show as thumbnails. You don't need to add an entry for a new component — anything not mentioned is listed automatically under "new sections" for its `createdAt` date. Maintainers add a note for bigger releases. CI checks dates, order and slugs.
+
 ## Improve the site or MCP
 
 - Site: `apps/web` (Next.js static export, Tailwind v4)

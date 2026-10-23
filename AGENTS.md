@@ -5,7 +5,7 @@ local MCP server (`packages/mcp`). `CONTRIBUTING.md` explains the registry forma
 
 ## Writing or editing copy
 
-Any visible text (site pages, section and template sample copy, metadata, release notes, READMEs) follows
+Any visible text (site pages, section and template sample copy, metadata, changelog, READMEs) follows
 [.claude/skills/website-copy/SKILL.md](.claude/skills/website-copy/SKILL.md). Read it before writing copy. The short
 version: be specific; on CopyPasteUI's own pages never invent facts, in sample copy invent plausible ones and keep them
 consistent across a template; headings name content and buttons say what happens; no "Welcome to", "Elevate your",

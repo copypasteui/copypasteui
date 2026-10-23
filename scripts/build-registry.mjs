@@ -973,6 +973,38 @@ ${sections.map((c) => `### ${installPath(c)}\n\`\`\`tsx\n${c.code.trimEnd()}\n\`
 {{THEME}}`;
 }
 
+// ---------- changelog ----------
+
+// registry/changelog.json: hand-written release notes, newest first. Items are referenced by slug.
+function loadChangelog(components, themes, templates) {
+  const file = path.join(REGISTRY, "changelog.json");
+  if (!fs.existsSync(file)) return [];
+  const entries = readJson(file);
+  if (!Array.isArray(entries)) {
+    fail(file, "must be an array of entries");
+    return [];
+  }
+  const known = {
+    components: new Set(components.map((c) => c.slug)),
+    themes: new Set(themes.map((t) => t.slug)),
+    templates: new Set(templates.map((t) => t.slug)),
+  };
+  entries.forEach((e, i) => {
+    const at = `entry ${i + 1} (${e.title ?? "untitled"})`;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(e.date ?? "")) fail(file, `${at}: date must be YYYY-MM-DD`);
+    if (i > 0 && e.date > entries[i - 1].date) fail(file, `${at}: entries must be newest first`);
+    if (typeof e.title !== "string" || e.title.length < 3 || e.title.length > 90) fail(file, `${at}: title must be 3–90 characters`);
+    if (typeof e.body !== "string" || e.body.length < 20 || e.body.length > 900) fail(file, `${at}: body must be 20–900 characters`);
+    for (const kind of ["components", "themes", "templates"]) {
+      for (const slug of e[kind] ?? []) if (!known[kind].has(slug)) fail(file, `${at}: unknown ${kind.slice(0, -1)} "${slug}"`);
+    }
+    for (const l of e.links ?? [])
+      if (!l.label || !/^(\/|https:\/\/)/.test(l.href ?? ""))
+        fail(file, `${at}: links need a label and an href starting with / or https://`);
+  });
+  return entries;
+}
+
 // ---------- backend recipes ----------
 
 // registry/recipes/<slug>.json (meta) + <slug>.md (steps), plus _data-model.md shared by all of them.
@@ -1078,6 +1110,7 @@ function main() {
   const themes = loadThemes();
   const components = loadComponents();
   const templates = loadTemplates(components, themes);
+  const changelog = loadChangelog(components, themes, templates);
   const { recipes, model: recipeModel } = loadRecipes();
   for (const c of components) {
     if (c.previewTheme && !themes.some((t) => t.slug === c.previewTheme)) {
@@ -1202,6 +1235,7 @@ function main() {
       .join("\n")}\n};\n`,
   );
   writeJson(path.join(gen, "registry.json"), { ...index, components: fullComponents, themes: fullThemes, templates: fullTemplates });
+  writeJson(path.join(gen, "changelog.json"), changelog);
   writeJson(
     path.join(gen, "recipes.json"),
     fullRecipes.map(({ body, ...r }) => r),

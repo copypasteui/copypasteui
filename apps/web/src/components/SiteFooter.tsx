@@ -27,6 +27,8 @@ const groups = [
     title: "Project",
     links: [
       { href: "/about", label: "About" },
+      { href: "/changelog", label: "Release notes" },
+      { href: "/feed.xml", label: "RSS feed" },
       { href: "/contribute", label: "Contribute" },
       { href: requestTradeUrl(), label: "Request a trade" },
       { href: githubUrl, label: "GitHub" },

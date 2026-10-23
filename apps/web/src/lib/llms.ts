@@ -66,6 +66,7 @@ ${themeLines().join("\n")}
 ## Optional
 
 - [llms-full.txt](${abs("/llms-full.txt")}): every component with description, tags, dependencies and install links
+- [Changelog](${abs("/changelog")}): what's new, newest first ([RSS](${abs("/feed.xml")}))
 - [Contribute](${abs("/contribute")}): how to add components, themes and templates
 - [Sitemap](${abs("/sitemap.xml")})
 `;

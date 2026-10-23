@@ -94,6 +94,14 @@ const pages: SearchItem[] = [
   },
   {
     kind: "page",
+    slug: "changelog",
+    name: "Release notes",
+    hint: "What's new, with an RSS feed",
+    href: "/changelog",
+    terms: "new whats news updates rss feed releases changelog release notes",
+  },
+  {
+    kind: "page",
     slug: "privacy",
     name: "Privacy policy",
     hint: "What we collect and your rights",
