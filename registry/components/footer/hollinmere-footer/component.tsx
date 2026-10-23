@@ -12,10 +12,10 @@ export default function HollinmereFooter() {
   return (
     <footer className="bg-background font-sans text-foreground">
       <div className="mx-auto max-w-7xl px-6 py-20">
-        <div className="grid gap-12 md:grid-cols-[1.5fr_1fr_1fr_1.3fr]">
+        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1.3fr]">
           <div>
             <motion.p
-              initial={{ clipPath: "inset(0 0 100% 0)" }}
+              initial={{ clipPath: "inset(0% 0% 99.5% 0%)" }}
               whileInView={{ clipPath: "inset(-100% -100% -100% -100%)" }}
               viewport={{ once: true }}
               className="font-display text-5xl"

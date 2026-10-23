@@ -45,7 +45,7 @@ export default function HollinmereEstate() {
           {chapters.map((c, i) => (
             <motion.article
               key={c.season}
-              initial={{ clipPath: "inset(0 0 100% 0)" }}
+              initial={{ clipPath: "inset(0% 0% 99.5% 0%)" }}
               whileInView={{ clipPath: "inset(-100% -100% -100% -100%)" }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.8 }}

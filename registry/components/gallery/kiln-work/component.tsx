@@ -82,7 +82,7 @@ export default function KilnWork() {
             <motion.a
               key={w.client}
               href="#"
-              initial={{ clipPath: "inset(0 0 100% 0)" }}
+              initial={{ clipPath: "inset(0% 0% 99.5% 0%)" }}
               whileInView={{ clipPath: "inset(-100% -100% -100% -100%)" }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ delay: (i % 3) * 0.08, duration: 0.7 }}

@@ -23,19 +23,21 @@ export default function HollinmereHero() {
         <a href="#" className="font-display text-2xl">
           Hollinmere <em>Estate</em>
         </a>
-        <nav className="hidden gap-8 text-sm md:flex">
+        <nav className="hidden gap-8 text-sm lg:flex">
           {["Our wines", "Visit & taste", "The estate", "Wine club", "Weddings"].map((l) => (
             <a key={l} href="#" className="opacity-85 hover:opacity-100">
               {l}
             </a>
           ))}
         </nav>
-        <a href="#wines" className="hidden rounded-[var(--radius)] bg-white px-5 py-2.5 text-sm font-semibold text-black sm:inline-block">
-          Shop wines
-        </a>
-        <button type="button" aria-label="Open menu" className="md:hidden">
-          <Menu className="size-6" />
-        </button>
+        <div className="flex items-center gap-4">
+          <a href="#wines" className="hidden rounded-[var(--radius)] bg-white px-5 py-2.5 text-sm font-semibold text-black sm:inline-block">
+            Shop wines
+          </a>
+          <button type="button" aria-label="Open menu" className="lg:hidden">
+            <Menu className="size-6" />
+          </button>
+        </div>
       </header>
 
       <div className="mx-auto mt-auto w-full max-w-7xl px-6 pb-14">
@@ -80,7 +82,7 @@ export default function HollinmereHero() {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.8 }}
-        className="absolute top-28 right-6 hidden size-32 place-items-center rounded-full border border-white/40 text-center backdrop-blur md:grid"
+        className="absolute top-28 right-6 hidden size-32 place-items-center rounded-full border border-white/40 text-center backdrop-blur lg:grid"
       >
         <span>
           <span className="block text-[10px] tracking-[0.25em] uppercase">Gold medal</span>

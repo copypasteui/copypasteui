@@ -31,7 +31,7 @@ export default function VerelleStylists() {
           {team.map((t, i) => (
             <motion.article
               key={t.name}
-              initial={{ clipPath: "inset(0 0 100% 0)" }}
+              initial={{ clipPath: "inset(0% 0% 99.5% 0%)" }}
               whileInView={{ clipPath: "inset(-100% -100% -100% -100%)" }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.7 }}

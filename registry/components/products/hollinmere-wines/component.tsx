@@ -108,7 +108,7 @@ export default function HollinmereWines() {
               transition={{ duration: 0.35 }}
               className="rounded-[var(--radius)] bg-secondary p-8 text-secondary-foreground md:p-10"
             >
-              <div className="flex items-start justify-between gap-6">
+              <div className="flex items-start justify-between gap-4 md:gap-6">
                 <div>
                   <p className="text-xs font-semibold tracking-[0.25em] text-muted-foreground uppercase">
                     {w.style} · {w.vintage}
@@ -117,7 +117,7 @@ export default function HollinmereWines() {
                   <p className="mt-4 font-display text-xl italic">“{w.notes}”</p>
                 </div>
                 <span
-                  className="size-20 shrink-0 rounded-full shadow-inner ring-8 ring-background"
+                  className="size-12 shrink-0 rounded-full shadow-inner ring-4 ring-background md:size-20 md:ring-8"
                   style={{ background: w.tone }}
                   aria-hidden
                 />

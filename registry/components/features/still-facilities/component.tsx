@@ -52,7 +52,7 @@ export default function StillFacilities() {
           {spaces.map((s, i) => (
             <motion.article
               key={s.name}
-              initial={{ clipPath: "inset(0 0 100% 0)" }}
+              initial={{ clipPath: "inset(0% 0% 99.5% 0%)" }}
               whileInView={{ clipPath: "inset(-100% -100% -100% -100%)" }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.8 }}

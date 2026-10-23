@@ -635,6 +635,11 @@ function loadComponents() {
         fail(codeFile, "must have a named default export: export default function MyComponent()");
       for (const [re, msg] of FORBIDDEN_CODE) if (re.test(code)) fail(codeFile, msg);
       checkMedia(codeFile, code);
+      // An element clipped to nothing has no visible area, so the browser never reports it in view and a whileInView
+      // reveal on that same element never runs: the content stays hidden. Leave a sliver, e.g. inset(0% 0% 99.5% 0%).
+      for (const tag of code.match(/<motion\.\w+\s[^>]*?>/gs) ?? [])
+        if (tag.includes("whileInView") && /initial=\{\{[^}]*clipPath:\s*["'`]inset\([^)]*\b100%/.test(tag))
+          fail(codeFile, 'a whileInView reveal starts fully clipped (clip-path 100%), so it never fires; start at "inset(0% 0% 99.5% 0%)"');
       // Design tells (glow blobs, gradient text, buzzwords…). See scripts/design-lint.mjs; "// design-ok: <rule> — why" allows one.
       for (const t of designTells(code).filter((t) => !ADVICE.has(t.rule)))
         fail(codeFile, `looks machine-made — ${t.rule}: ${t.message} (found ${t.detail})`);

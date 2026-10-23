@@ -173,6 +173,19 @@ describe("sections: meta rules", () => {
   );
 });
 
+test("a scroll reveal can't start fully clipped", () => {
+  const reveal = (from) =>
+    withBody(`<motion.div initial={{ clipPath: "${from}" }} whileInView={{ clipPath: "inset(0% 0% 0% 0%)" }}>Hi</motion.div>`).replace(
+      '"use client";',
+      '"use client";\nimport { motion } from "motion/react";',
+    );
+  const meta = { dependencies: { motion: ">=12.0.0" } };
+  const stuck = check(addSection(reveal("inset(0 0 100% 0)"), meta));
+  assert.equal(stuck.ok, false);
+  assert.match(stuck.out, /starts fully clipped/);
+  assert.equal(check(addSection(reveal("inset(0% 0% 99.5% 0%)"), meta)).ok, true);
+});
+
 test("a design-ok comment allows a flagged pattern on purpose", () => {
   const code = withBody(
     '{/* design-ok: gradient-text — the effect is the point */}\n      <p className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Hi</p>',

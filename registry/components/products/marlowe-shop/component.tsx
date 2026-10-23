@@ -79,7 +79,7 @@ export default function MarloweShop() {
             return (
               <motion.article
                 key={p.id}
-                initial={{ clipPath: "inset(0 0 100% 0)" }}
+                initial={{ clipPath: "inset(0% 0% 99.5% 0%)" }}
                 whileInView={{ clipPath: "inset(-100% -100% -100% -100%)" }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.08 }}
