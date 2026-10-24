@@ -1,0 +1,12 @@
+{
+  "slug": "whatsapp-chat-button",
+  "name": "WhatsApp Chat Button",
+  "description": "Round button in the corner that opens a card with who replies and how soon, then WhatsApp with a first message filled in, a text or an email. No widget script or account.",
+  "category": "pages",
+  "tags": ["whatsapp", "chat", "contact", "floating", "messages"],
+  "author": { "name": "CopyPasteUI", "github": "copypasteui" },
+  "dependencies": { "lucide-react": ">=0.400.0", "motion": ">=12.0.0" },
+  "usage": "Render <WhatsAppChatButton /> once in the root layout. whatsapp is the number in international format without the plus or spaces (447700900461 for 07700 900461 in the UK). Put the real reply hours in replyTime. If the page also uses the mobile action bar, pass aboveActionBar.",
+  "createdAt": "2026-10-23",
+  "images": { "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/whatsapp-chat-button.jpg" }
+}

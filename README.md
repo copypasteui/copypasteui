@@ -6,7 +6,7 @@ Site: https://copypasteui.dev · MCP: `npx copypasteui.dev setup` · Contributin
 
 ## What's in it
 
-<!-- count:sections -->396<!-- /count --> sections in <!-- count:categories -->23<!-- /count --> categories, <!-- count:themes -->65<!-- /count --> themes and <!-- count:templates -->48<!-- /count --> templates, all React and Tailwind CSS.
+<!-- count:sections -->399<!-- /count --> sections in <!-- count:categories -->23<!-- /count --> categories, <!-- count:themes -->65<!-- /count --> themes and <!-- count:templates -->48<!-- /count --> templates, all React and Tailwind CSS.
 
 A template is a fictional business with its own theme, photos and 6 or 7 sections written for its trade: a café, a barber, an MOT garage, a vet, a wedding venue. They're grouped as food and drink, hospitality, shops and farms, health and beauty, home and trades, professional services, family and community, and tech. Each template's `brief` names the other trades it suits.
 

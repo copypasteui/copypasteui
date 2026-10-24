@@ -1,0 +1,12 @@
+{
+  "slug": "order-delivery-cta",
+  "name": "Order Delivery CTA",
+  "description": "Order section for a takeaway: a collection button with its discount first, then a row per delivery app with its delivery time. App names are text, with no logos.",
+  "category": "cta",
+  "tags": ["takeaway", "delivery", "order", "restaurant", "collection"],
+  "author": { "name": "CopyPasteUI", "github": "copypasteui" },
+  "dependencies": { "lucide-react": ">=0.400.0", "motion": ">=12.0.0" },
+  "usage": "Pass apps as { name, href, eta, note? }, with href set to your restaurant's own page on each app, not the app's home page. Remove the apps you aren't on. If you don't take collection orders online, point directHref at a tel: link and change directLabel to \"Call to order\".",
+  "createdAt": "2026-10-23",
+  "images": { "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/order-delivery-cta.jpg" }
+}

@@ -36,7 +36,7 @@ if (!fs.existsSync(path.join(OUT, "r", "index.json"))) {
 const index = JSON.parse(fs.readFileSync(path.join(OUT, "r", "index.json"), "utf8"));
 const showcaseTemplate = index.templates.find((t) => t.slug === "ledger-accountants") ?? index.templates[0];
 
-/** @type {{ file: string, url: string, width: number, height: number, scale?: number, full?: boolean, wait?: number }[]} */
+/** @type {{ file: string, url: string, width: number, height: number, scale?: number, full?: boolean, wait?: number, click?: string }[]} */
 const jobs = [];
 const add = (job) => {
   if (only && !job.file.includes(only)) return;
@@ -48,7 +48,14 @@ const add = (job) => {
 // Small components (buttons, logo strips) render in a smaller viewport so they fill the card.
 const thumbViewport = { buttons: [720, 450], logos: [960, 600] };
 // Banners are a thin strip on an empty page; a small viewport makes them readable on the card.
-const thumbViewportBySlug = { "closed-banner": [640, 400], "cookie-banner": [640, 400] };
+const thumbViewportBySlug = {
+  "closed-banner": [640, 400],
+  "cookie-banner": [640, 400],
+  "mobile-action-bar": [480, 300],
+  "whatsapp-chat-button": [640, 400],
+};
+// Widgets that start closed are shot open, by clicking this element first.
+const thumbClickBySlug = { "whatsapp-chat-button": "button[aria-expanded]" };
 for (const c of index.components) {
   const [width, height] = thumbViewportBySlug[c.slug] ?? thumbViewport[c.category] ?? [1280, 800];
   add({
@@ -57,6 +64,7 @@ for (const c of index.components) {
     width,
     height,
     scale: 1280 / width,
+    click: thumbClickBySlug[c.slug],
   });
 }
 for (const t of index.templates) {
@@ -115,6 +123,7 @@ async function shoot(browser, job) {
       return null;
     }
     await waitForImages(page);
+    if (job.click) await page.click(job.click);
     await page.waitForTimeout(job.wait ?? 2600);
     if (errors.length) throw new Error(`runtime error: ${errors[0]}`);
     const buffer = await page.screenshot({ type: "jpeg", quality: 82, fullPage: Boolean(job.full) });

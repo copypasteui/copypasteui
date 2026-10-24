@@ -66,8 +66,8 @@
   },
   {
     "date": "2026-10-23",
-    "title": "396 sections in 23 categories",
-    "body": "Every template is built from sections you can also use on their own: heroes, menus, price lists, booking and quote forms, galleries, team pages, reviews, opening hours, FAQs and footers, plus utility pages like a 404, a cookie banner and a coming-soon page. They're React and Tailwind CSS, preview live in any theme, light or dark, and fit a 360px phone without sideways scrolling. Photos are free Unsplash images. Most cards play a short clip of the section moving, unless you've asked your device for less motion.",
+    "title": "399 sections in 23 categories",
+    "body": "Every template is built from sections you can also use on their own: heroes, menus, price lists, booking and quote forms, galleries, team pages, reviews, opening hours, FAQs and footers, plus utility pages like a 404, a cookie banner and a coming-soon page. For phones there's a bar of Call, Book and Directions buttons fixed to the bottom of the screen, a WhatsApp button that opens with a first message filled in, and order buttons for Deliveroo, Uber Eats and Just Eat. They're React and Tailwind CSS, preview live in any theme, light or dark, and fit a 360px phone without sideways scrolling. Photos are free Unsplash images. Most cards play a short clip of the section moving, unless you've asked your device for less motion.",
     "links": [
       {
         "label": "Browse sections",

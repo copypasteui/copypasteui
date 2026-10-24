@@ -1,0 +1,12 @@
+{
+  "slug": "mobile-action-bar",
+  "name": "Mobile Action Bar",
+  "description": "Bar fixed to the bottom of phone screens with Call, Book and Directions. It slides in after the first screen and stays out of the way on larger screens.",
+  "category": "pages",
+  "tags": ["mobile", "sticky", "call", "booking", "directions"],
+  "author": { "name": "CopyPasteUI", "github": "copypasteui" },
+  "dependencies": { "lucide-react": ">=0.400.0", "motion": ">=12.0.0" },
+  "usage": "Render <MobileActionBar /> once, at the end of the page (after the footer), with the business's phone, booking link and address. It leaves room for itself below the footer. If you also use the floating chat button, give that button aboveActionBar so the two don't overlap on phones.",
+  "createdAt": "2026-10-23",
+  "images": { "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/mobile-action-bar.jpg" }
+}
