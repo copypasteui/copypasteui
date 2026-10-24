@@ -37,6 +37,12 @@ if (!dryRun && (!process.env.CLOUDFLARE_API_TOKEN || !process.env.CLOUDFLARE_ACC
   console.error("Set CLOUDFLARE_API_TOKEN (with Workers R2 Storage: Edit) and CLOUDFLARE_ACCOUNT_ID in your shell first.");
   process.exit(1);
 }
+if (!dryRun && !/^[0-9a-f]{32}$/.test(process.env.CLOUDFLARE_ACCOUNT_ID)) {
+  console.error(
+    `CLOUDFLARE_ACCOUNT_ID should be 32 hexadecimal characters; this one has ${process.env.CLOUDFLARE_ACCOUNT_ID.length}. Copy it from Workers & Pages in the Cloudflare dashboard.`,
+  );
+  process.exit(1);
+}
 
 const urls = new Set();
 const readImages = (file) => Object.values(JSON.parse(fs.readFileSync(file, "utf8")).images ?? {});
@@ -81,7 +87,14 @@ const run = (cmd, argv) =>
     const child = spawn(cmd, argv, { stdio: ["ignore", "ignore", "pipe"], env: { ...process.env, WRANGLER_SEND_METRICS: "false" } });
     let err = "";
     child.stderr.on("data", (d) => (err += d));
-    child.on("close", (code) => resolve(code === 0 ? null : err.trim().split("\n").pop()));
+    // Wrangler ends with where its log went; the useful line is the error before it.
+    const reason = () =>
+      err
+        .split("\n")
+        .map((l) => l.trim())
+        .filter((l) => l && !l.includes("Logs were written"))
+        .pop();
+    child.on("close", (code) => resolve(code === 0 ? null : (reason() ?? `wrangler exited with ${code}`)));
   });
 
 const todo = [];
