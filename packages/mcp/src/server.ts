@@ -364,7 +364,7 @@ export function createServer(registry = new Registry()) {
           .catchall(z.string())
           .describe("The real details. Extra keys are saved to copypasteui.business.json for later."),
         replace: z
-          .record(z.string())
+          .record(z.string(), z.string())
           .optional()
           .describe('Extra exact replacements, e.g. {"14 Harbour Row": "3 Quay Street", "Old Port, Brighton": "Falmouth"}'),
         dir: z.string().optional().describe('Folder to update, relative to projectDir (default "components/copypasteui")'),
