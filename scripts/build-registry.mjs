@@ -313,15 +313,28 @@ function loadThemes() {
 // A theme's style: how its surfaces look, on top of colour, type and radius. Every plain `border` and every
 // `shadow-*` in a section reads these through the Tailwind theme, so a theme restyles sections without
 // touching them. Themes without a `style` keep Tailwind's defaults and their CSS stays as it was.
-// `style.label` names the look ("Neo-brutalist", "Glass") for the Themes page filter.
+// `style.label` names the look ("Neo-brutalist", "Glass") for the Themes page filter. `headingWeight` and
+// `headingTracking` set every section's headings, e.g. medium and tightly spaced for a clean, modern grotesk.
 const STYLE_OPTIONS = {
   shadow: ["soft", "hard", "clay", "neu", "none"],
   border: ["0px", "1px", "2px", "3px"],
   surface: ["solid", "glass"],
   texture: ["none", "grain", "dots", "grid"],
   motion: ["none", "subtle", "lively"],
+  headingWeight: ["default", "400", "500", "600", "700"],
+  headingTracking: ["default", "tight", "tighter"],
 };
-const STYLE_DEFAULTS = { shadow: "soft", border: "1px", surface: "solid", texture: "none", motion: "none" };
+const STYLE_DEFAULTS = {
+  shadow: "soft",
+  border: "1px",
+  surface: "solid",
+  texture: "none",
+  motion: "none",
+  headingWeight: "default",
+  headingTracking: "default",
+};
+// Letter-spacing for big headings (h1, h2); smaller display text (h3, .font-display) gets half, so card titles stay readable.
+const HEADING_TRACKING = { tight: -0.03, tighter: -0.05 };
 const SHADOW_SIZES = ["2xs", "xs", "sm", "md", "lg", "xl", "2xl"];
 const SOFT_SHADOWS = {
   "2xs": "0 1px rgb(0 0 0 / 0.05)",
@@ -438,6 +451,27 @@ function motionRules(level) {
 export function styleRules(t) {
   const s = themeStyle(t);
   const rules = [];
+  // Headings: weight and letter-spacing for every section. :not([data-keep-heading]) lifts these above a section's own
+  // font-weight and tracking classes, and gives a section a way to opt one heading out.
+  if (s.headingWeight !== "default" || s.headingTracking !== "default") {
+    const big = [];
+    const small = [];
+    if (s.headingWeight !== "default") {
+      big.push(`font-weight: ${s.headingWeight};`);
+      small.push(`font-weight: ${s.headingWeight};`);
+    }
+    if (s.headingTracking !== "default") {
+      big.push(`letter-spacing: ${HEADING_TRACKING[s.headingTracking]}em;`);
+      small.push(`letter-spacing: ${HEADING_TRACKING[s.headingTracking] / 2}em;`);
+    }
+    rules.push(`/* Headings: ${[s.headingWeight !== "default" && `weight ${s.headingWeight}`, s.headingTracking !== "default" && `${s.headingTracking} letter-spacing`].filter(Boolean).join(", ")}. */
+:is(h3, .font-display):not([data-keep-heading]) {
+  ${small.join("\n  ")}
+}
+:is(h1, h2):not([data-keep-heading]) {
+  ${big.join("\n  ")}
+}`);
+  }
   if (s.shadow === "clay" || s.shadow === "neu")
     rules.push(`/* ${s.shadow === "clay" ? "Clay" : "Neumorphic"} light: a highlight and a lowlight that suit each mode. */
 :root {

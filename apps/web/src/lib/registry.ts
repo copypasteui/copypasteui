@@ -59,6 +59,8 @@ export type ThemeItem = {
     surface: "solid" | "glass";
     texture: "none" | "grain" | "dots" | "grid";
     motion: "none" | "subtle" | "lively";
+    headingWeight: "default" | "400" | "500" | "600" | "700";
+    headingTracking: "default" | "tight" | "tighter";
   };
   styleVars: Record<string, string>;
   styleRules: string;

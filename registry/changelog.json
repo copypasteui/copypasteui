@@ -87,15 +87,15 @@
   },
   {
     "date": "2026-10-23",
-    "title": "61 themes, nine with a look of their own",
-    "body": "A theme sets the colours, fonts and corner radius for light and dark mode, and every section follows it. Nine go further and change how surfaces look: neo-brutalist offset shadows, frosted glass, puffy clay, neumorphic relief, a Swiss grid, editorial, retro, risograph and a dark luxury finish. Those nine also bring scroll motion, which stays still for visitors who turn motion off. On the Themes page you can try any theme on any template before you copy it, and take its CSS or a shadcn theme with you.",
+    "title": "65 themes, thirteen with a look of their own",
+    "body": "A theme sets the colours, fonts and corner radius for light and dark mode, and every section follows it. Thirteen go further. Nine change how surfaces look: neo-brutalist offset shadows, frosted glass, puffy clay, neumorphic relief, a Swiss grid, editorial, retro, risograph and a dark luxury finish. Four are minimal: Chalk, Linen, Obsidian and Cobalt set every heading in a medium, tightly spaced grotesk over a near-monochrome palette. All thirteen add scroll motion, which stays still for visitors who turn motion off. On the Themes page you can try any theme on any template before you copy it, and take its CSS or a shadcn theme with you.",
     "links": [
       {
         "label": "Browse themes",
         "href": "/themes"
       }
     ],
-    "themes": ["poster", "frost", "putty", "pebble", "grid", "folio", "groove", "noir", "riso"]
+    "themes": ["chalk", "linen", "obsidian", "cobalt", "poster", "frost", "putty", "pebble", "grid", "folio", "groove", "noir", "riso"]
   },
   {
     "date": "2026-10-23",

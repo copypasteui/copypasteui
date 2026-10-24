@@ -56,6 +56,8 @@ const STYLE = [
   { name: "surface", values: ["solid", "glass"] },
   { name: "texture", values: ["none", "grain", "dots", "grid"] },
   { name: "motion", values: ["none", "subtle", "lively"] },
+  { name: "headingWeight", values: ["default", "400", "700"] },
+  { name: "headingTracking", values: ["default", "tighter"] },
 ];
 const ENV = [
   { name: "mode", values: ["light", "dark"] },
@@ -109,7 +111,15 @@ if (!fs.existsSync(path.join(OUT, "index.html"))) {
 
 /** The probe theme: a real palette with the case's style laid over it. */
 const probe = (c) => {
-  const style = { shadow: c.shadow, border: c.border, surface: c.surface, texture: c.texture, motion: c.motion };
+  const style = {
+    shadow: c.shadow,
+    border: c.border,
+    surface: c.surface,
+    texture: c.texture,
+    motion: c.motion,
+    headingWeight: c.headingWeight,
+    headingTracking: c.headingTracking,
+  };
   const theme = { style };
   return { vars: styleVars(theme), rules: styleRules(theme) };
 };

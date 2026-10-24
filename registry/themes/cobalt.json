@@ -1,0 +1,56 @@
+{
+  "slug": "cobalt",
+  "name": "Cobalt",
+  "description": "Crisp white and an electric blue that turn deep navy-black in dark mode, with Plus Jakarta Sans headings set medium and tight. For SaaS, fintech and B2B services.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.25rem",
+  "style": {
+    "label": "Minimal",
+    "headingWeight": "500",
+    "headingTracking": "tighter",
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Plus+Jakarta+Sans:wght@400;500;600;700"]
+  },
+  "light": {
+    "background": "#f8fafc",
+    "foreground": "#0b1220",
+    "card": "#ffffff",
+    "card-foreground": "#0b1220",
+    "primary": "#1d4ed8",
+    "primary-foreground": "#ffffff",
+    "secondary": "#eef2f7",
+    "secondary-foreground": "#0f172a",
+    "muted": "#eef2f7",
+    "muted-foreground": "#475569",
+    "accent": "#dbeafe",
+    "accent-foreground": "#1e3a8a",
+    "border": "#e2e8f0",
+    "ring": "#1d4ed8"
+  },
+  "dark": {
+    "background": "#04060c",
+    "foreground": "#e6ebf5",
+    "card": "#0a0f1c",
+    "card-foreground": "#e6ebf5",
+    "primary": "#60a5fa",
+    "primary-foreground": "#04101f",
+    "secondary": "#0f1626",
+    "secondary-foreground": "#e6ebf5",
+    "muted": "#0d1322",
+    "muted-foreground": "#8b97b0",
+    "accent": "#13213d",
+    "accent-foreground": "#bfdbfe",
+    "border": "#182033",
+    "ring": "#60a5fa"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/cobalt.jpg"
+  }
+}
