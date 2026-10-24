@@ -1,6 +1,6 @@
 {
   "name": "copypasteui.dev",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Local MCP server and CLI for CopyPasteUI: search and add free small-business website templates, sections and themes from Claude Code, Cursor, VS Code and other editors. No account or API key.",
   "license": "PolyForm-Shield-1.0.0",
   "type": "module",
