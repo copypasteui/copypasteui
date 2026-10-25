@@ -1,0 +1,16 @@
+{
+  "slug": "margin-books",
+  "name": "Margin — Independent Bookshop",
+  "description": "An independent bookshop set like a magazine: cover-style hero, numbered staff picks by shelf, readings and events, book-of-the-month subscriptions with a gift option, visit details and footer.",
+  "brief": "a bookshop, record shop, deli, wine shop, gallery or any independent shop with picks and events",
+  "theme": "masthead",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["margin-hero", "margin-picks", "margin-events", "margin-subscription", "margin-visit", "margin-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/margin-books.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/margin-books-full.jpg"
+  }
+}

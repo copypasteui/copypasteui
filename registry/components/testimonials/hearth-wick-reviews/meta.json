@@ -1,0 +1,19 @@
+{
+  "slug": "hearth-wick-reviews",
+  "name": "Hearth & Wick Reviews",
+  "description": "Three customer reviews on raised cards with the overall rating.",
+  "category": "testimonials",
+  "tags": ["candles", "reviews"],
+  "collection": "hearth-wick-candles",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/hearth-wick-reviews.jpg"
+  }
+}

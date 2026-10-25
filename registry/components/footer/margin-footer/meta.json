@@ -1,0 +1,17 @@
+{
+  "slug": "margin-footer",
+  "name": "Margin Footer",
+  "description": "Editorial footer with a large italic wordmark, a Sunday letter signup on an underline, links and the address.",
+  "category": "footer",
+  "tags": ["bookshop", "footer", "newsletter"],
+  "collection": "margin-books",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/margin-footer.jpg"
+  }
+}

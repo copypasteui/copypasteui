@@ -1,0 +1,19 @@
+{
+  "slug": "silverline-lessons",
+  "name": "Silverline Learn to Skate",
+  "description": "Four-week beginner course as numbered cards, one per Wednesday, with price, ages and a booking button.",
+  "category": "how-it-works",
+  "tags": ["roller-rink", "lessons", "steps", "course"],
+  "collection": "silverline-roller-rink",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/silverline-lessons.jpg"
+  }
+}

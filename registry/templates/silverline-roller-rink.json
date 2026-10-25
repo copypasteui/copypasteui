@@ -1,0 +1,23 @@
+{
+  "slug": "silverline-roller-rink",
+  "name": "Silverline — Roller Rink",
+  "description": "A roller disco in Y2K chrome: mirror-ball hero with the next sessions, timetable filtered by session type, prices, birthday party calculator, beginner course and footer.",
+  "brief": "a roller rink, bowling alley, trampoline park, climbing wall, arcade or other leisure venue",
+  "theme": "chrome",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "silverline-hero",
+    "silverline-sessions",
+    "silverline-prices",
+    "silverline-parties",
+    "silverline-lessons",
+    "silverline-footer"
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/silverline-roller-rink.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/silverline-roller-rink-full.jpg"
+  }
+}

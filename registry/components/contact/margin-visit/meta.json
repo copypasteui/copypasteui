@@ -1,0 +1,17 @@
+{
+  "slug": "margin-visit",
+  "name": "Margin Visit the Shop",
+  "description": "Café photo beside the address, phone, a ruled table of opening hours and access notes.",
+  "category": "contact",
+  "tags": ["bookshop", "contact", "hours"],
+  "collection": "margin-books",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/margin-visit.jpg"
+  }
+}

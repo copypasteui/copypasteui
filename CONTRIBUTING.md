@@ -92,12 +92,14 @@ Add `registry/themes/<slug>.json` (copy an existing one). Every token needs a li
 
 A theme can also set a `style`, which changes every section without touching it (see `poster.json` and `frost.json`):
 
-- `"shadow"`: `"soft"` (default), `"hard"` (solid offset blocks in the ring colour; padded panels and buttons also get an outline), `"clay"`, `"neu"` or `"none"`
+- `"shadow"`: `"soft"` (default), `"hard"` (solid offset blocks in the ring colour; padded panels and buttons also get an outline), `"clay"`, `"neu"`, `"tactile"` (a lit top edge and a short soft drop, like something you could press) or `"none"`
 - `"border"`: `"0px"`, `"1px"` (default), `"2px"` or `"3px"`, the width of every plain `border`
-- `"surface"`: `"solid"` (default) or `"glass"` (frosted `bg-card` panels over a wash of the theme's primary and accent)
+- `"surface"`: `"solid"` (default), `"glass"` (frosted `bg-card` panels over a wash of the theme's primary and accent) or `"liquid"` (clearer, more strongly blurred panels with a lit edge over a brighter wash, like iOS 26)
 - `"texture"`: `"none"` (default), `"grain"`, `"dots"` or `"grid"`
 - `"motion"`: `"none"` (default), `"subtle"` (headings and panels rise in as they scroll into view) or `"lively"` (also text, list items one after another, and photos that zoom out inside their frames). Pure CSS scroll timelines: nothing moves for visitors who reduce motion, or in browsers without scroll timelines
 - `"headingWeight"`: `"400"`, `"500"`, `"600"` or `"700"`, and `"headingTracking"`: `"tight"` or `"tighter"`. They set every section's headings, for example medium and tightly spaced for a clean grotesk look (see `chalk.json`). Big headings get the full letter-spacing and smaller display text half. Leave them out to keep each section's own weights; add `data-keep-heading` to a heading that must keep its own
+- `"headingSize"`: `"large"` or `"xl"` makes page and section headings (h1, h2) bigger, growing with the screen; headings inside cards, dialogs, navigation and footers keep their size. `"xl"` suits condensed faces; wide ones wrap too much
+- `"buttons"`: `"pill"` gives padded, rounded links and buttons fully round ends while cards keep the theme radius
 - `"label"`: the style's name for the Themes page filter, such as `"Glass"`
 
 Check a styled theme with `npm run check:matrix -- --theme <slug>`: it pairs your palette and style with every kind of section (photos, inverted panels, faded text, cards, forms, canvas) in light and dark, from phone to desktop. For the full sweep, `npm run check:a11y -- --themes <slug>` renders every section.

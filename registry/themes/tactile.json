@@ -1,0 +1,57 @@
+{
+  "slug": "tactile",
+  "name": "Tactile",
+  "description": "Warm paper, deep green and mustard, a fine grain and soft pressable panels with a lit top edge, under round Caprasimo headings. Light skeuomorphism for makers, shops and wellness.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1rem",
+  "style": {
+    "label": "Tactile",
+    "shadow": "tactile",
+    "texture": "grain",
+    "headingWeight": "400",
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Figtree', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Caprasimo', ui-serif, Georgia, serif",
+    "googleFonts": ["Caprasimo", "Figtree:wght@400;500;600;700"]
+  },
+  "light": {
+    "background": "#efe9df",
+    "foreground": "#22201c",
+    "card": "#f8f4ec",
+    "card-foreground": "#22201c",
+    "primary": "#2f5d50",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e4dccd",
+    "secondary-foreground": "#22201c",
+    "muted": "#e7e0d3",
+    "muted-foreground": "#5c564c",
+    "accent": "#e8b86b",
+    "accent-foreground": "#22201c",
+    "border": "#d8cfbf",
+    "ring": "#2f5d50"
+  },
+  "dark": {
+    "background": "#191814",
+    "foreground": "#efe9df",
+    "card": "#23211c",
+    "card-foreground": "#efe9df",
+    "primary": "#8fc2ad",
+    "primary-foreground": "#10201a",
+    "secondary": "#2a2822",
+    "secondary-foreground": "#efe9df",
+    "muted": "#26241f",
+    "muted-foreground": "#aaa293",
+    "accent": "#6b5532",
+    "accent-foreground": "#efe9df",
+    "border": "#36332b",
+    "ring": "#8fc2ad"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/tactile.jpg"
+  }
+}

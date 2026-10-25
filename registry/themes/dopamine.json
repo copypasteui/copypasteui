@@ -1,0 +1,58 @@
+{
+  "slug": "dopamine",
+  "name": "Dopamine",
+  "description": "Hot pink, sunshine yellow and mint on cream, chunky Dela Gothic headings set large and pill buttons. Loud and happy, for cafés, kids' activities, fitness and gift shops.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.75rem",
+  "style": {
+    "label": "Dopamine",
+    "buttons": "pill",
+    "headingSize": "large",
+    "headingWeight": "400",
+    "border": "2px",
+    "motion": "lively"
+  },
+  "fonts": {
+    "sans": "'Outfit', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Dela Gothic One', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Dela+Gothic+One", "Outfit:wght@400;500;600;700"]
+  },
+  "light": {
+    "background": "#fff4e0",
+    "foreground": "#1d0b3f",
+    "card": "#ffffff",
+    "card-foreground": "#1d0b3f",
+    "primary": "#b30d4a",
+    "primary-foreground": "#ffffff",
+    "secondary": "#7ef0c8",
+    "secondary-foreground": "#1d0b3f",
+    "muted": "#ffe9c2",
+    "muted-foreground": "#5a4778",
+    "accent": "#ffd23f",
+    "accent-foreground": "#1d0b3f",
+    "border": "#1d0b3f",
+    "ring": "#b30d4a"
+  },
+  "dark": {
+    "background": "#1a0b33",
+    "foreground": "#fff4e0",
+    "card": "#26124a",
+    "card-foreground": "#fff4e0",
+    "primary": "#ff5c93",
+    "primary-foreground": "#1a0b33",
+    "secondary": "#0f2a24",
+    "secondary-foreground": "#fff4e0",
+    "muted": "#2a1652",
+    "muted-foreground": "#c9b8e8",
+    "accent": "#ffd23f",
+    "accent-foreground": "#1a0b33",
+    "border": "#4a3380",
+    "ring": "#ff5c93"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/dopamine.jpg"
+  }
+}

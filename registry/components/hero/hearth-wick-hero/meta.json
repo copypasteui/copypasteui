@@ -1,0 +1,20 @@
+{
+  "slug": "hearth-wick-hero",
+  "name": "Hearth & Wick Candle Hero",
+  "description": "Warm maker hero with a candle-lighting photo, a scent-of-the-month card and buttons to shop or book a workshop.",
+  "category": "hero",
+  "tags": ["candles", "maker", "shop", "handmade"],
+  "collection": "hearth-wick-candles",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/hearth-wick-hero.jpg"
+  }
+}

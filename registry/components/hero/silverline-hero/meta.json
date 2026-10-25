@@ -1,0 +1,20 @@
+{
+  "slug": "silverline-hero",
+  "name": "Silverline Roller Rink Hero",
+  "description": "Y2K roller rink hero with wide uppercase headline, a tall skating photo and a card of the next three sessions.",
+  "category": "hero",
+  "tags": ["roller-rink", "leisure", "y2k", "booking"],
+  "collection": "silverline-roller-rink",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/silverline-hero.jpg"
+  }
+}

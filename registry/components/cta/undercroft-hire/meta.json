@@ -1,0 +1,19 @@
+{
+  "slug": "undercroft-hire",
+  "name": "Undercroft Private Hire",
+  "description": "Inverted private-hire panel with a projector photo, seats, price, formats and bar in a ruled grid, and an enquiry button.",
+  "category": "cta",
+  "tags": ["cinema", "hire", "venue", "events"],
+  "collection": "undercroft-cinema",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/undercroft-hire.jpg"
+  }
+}

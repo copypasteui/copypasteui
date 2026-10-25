@@ -1,0 +1,20 @@
+{
+  "slug": "hearth-wick-workshops",
+  "name": "Hearth & Wick Workshops",
+  "description": "Candle-making workshop dates with places left, full dates disabled, and a booking button that names the date you picked.",
+  "category": "events",
+  "tags": ["candles", "workshops", "booking", "events"],
+  "collection": "hearth-wick-candles",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/hearth-wick-workshops.jpg"
+  }
+}

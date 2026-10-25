@@ -1,0 +1,16 @@
+{
+  "slug": "clearwell-opticians",
+  "name": "Clearwell — Opticians",
+  "description": "An independent opticians: portrait hero with next free slots, bento of services and prices, frames by shape, patient reviews, appointment booking and footer.",
+  "brief": "an optician, optometrist, audiologist, dentist, skin clinic or any appointment-led clinic",
+  "theme": "liquid",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["clearwell-hero", "clearwell-services", "clearwell-frames", "clearwell-reviews", "clearwell-book", "clearwell-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/clearwell-opticians.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/clearwell-opticians-full.jpg"
+  }
+}

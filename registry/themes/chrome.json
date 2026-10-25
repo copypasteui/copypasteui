@@ -1,0 +1,59 @@
+{
+  "slug": "chrome",
+  "name": "Chrome",
+  "description": "Silver, lilac and electric violet, wide Michroma headings, glossy pressable buttons with round ends. Y2K retro-futurism for music, nightlife, fashion and tech launches.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.25rem",
+  "style": {
+    "label": "Y2K chrome",
+    "shadow": "tactile",
+    "buttons": "pill",
+    "headingSize": "large",
+    "headingWeight": "400",
+    "headingTracking": "tight",
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Manrope', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Michroma', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Michroma", "Manrope:wght@400;500;600;700"]
+  },
+  "light": {
+    "background": "#e4e6ee",
+    "foreground": "#0e0f1a",
+    "card": "#f6f7fb",
+    "card-foreground": "#0e0f1a",
+    "primary": "#3b2bff",
+    "primary-foreground": "#ffffff",
+    "secondary": "#d9dcea",
+    "secondary-foreground": "#0e0f1a",
+    "muted": "#dcdfea",
+    "muted-foreground": "#4b4f66",
+    "accent": "#d6c8ff",
+    "accent-foreground": "#1b1240",
+    "border": "#c3c7d8",
+    "ring": "#3b2bff"
+  },
+  "dark": {
+    "background": "#0a0b13",
+    "foreground": "#e8eaf3",
+    "card": "#151726",
+    "card-foreground": "#e8eaf3",
+    "primary": "#8f84ff",
+    "primary-foreground": "#0a0b13",
+    "secondary": "#1a1c2e",
+    "secondary-foreground": "#e8eaf3",
+    "muted": "#161829",
+    "muted-foreground": "#a2a6bf",
+    "accent": "#3a2d6b",
+    "accent-foreground": "#e8eaf3",
+    "border": "#2a2d44",
+    "ring": "#8f84ff"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/chrome.jpg"
+  }
+}

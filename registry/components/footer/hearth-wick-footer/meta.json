@@ -1,0 +1,19 @@
+{
+  "slug": "hearth-wick-footer",
+  "name": "Hearth & Wick Footer",
+  "description": "Maker footer with shop address, opening days, phone and shop and help links.",
+  "category": "footer",
+  "tags": ["candles", "footer"],
+  "collection": "hearth-wick-candles",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/hearth-wick-footer.jpg"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "liquid",
+  "name": "Liquid",
+  "description": "Clear, strongly blurred panels with a lit edge over a wash of blue and lavender, pill buttons and Hanken Grotesk headings. The iOS 26 glass look, for apps, studios and salons.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "1.5rem",
+  "style": {
+    "label": "Liquid glass",
+    "surface": "liquid",
+    "buttons": "pill",
+    "headingWeight": "600",
+    "headingTracking": "tight",
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Inter', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Hanken+Grotesk:wght@500;600;700", "Inter:wght@400;500;600"]
+  },
+  "light": {
+    "background": "#eef1f7",
+    "foreground": "#0b0d12",
+    "card": "#ffffff",
+    "card-foreground": "#0b0d12",
+    "primary": "#0757b8",
+    "primary-foreground": "#ffffff",
+    "secondary": "#e3e8f2",
+    "secondary-foreground": "#0b0d12",
+    "muted": "#e6eaf2",
+    "muted-foreground": "#3a4152",
+    "accent": "#c9bdff",
+    "accent-foreground": "#1a1240",
+    "border": "#d7dce8",
+    "ring": "#0757b8"
+  },
+  "dark": {
+    "background": "#07080d",
+    "foreground": "#eef1f7",
+    "card": "#161a24",
+    "card-foreground": "#eef1f7",
+    "primary": "#5aa8ff",
+    "primary-foreground": "#04101f",
+    "secondary": "#141822",
+    "secondary-foreground": "#eef1f7",
+    "muted": "#121620",
+    "muted-foreground": "#b8c0d0",
+    "accent": "#3d2f8f",
+    "accent-foreground": "#eef1f7",
+    "border": "#232838",
+    "ring": "#5aa8ff"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/liquid.jpg"
+  }
+}

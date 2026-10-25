@@ -1,0 +1,19 @@
+{
+  "slug": "silverline-prices",
+  "name": "Silverline Prices",
+  "description": "Four ticket cards: adult, under 16, own skates and the learn-to-skate course.",
+  "category": "pricing",
+  "tags": ["roller-rink", "pricing", "tickets"],
+  "collection": "silverline-roller-rink",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/silverline-prices.jpg"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "margin-hero",
+  "name": "Margin Bookshop Hero",
+  "description": "Magazine-cover bookshop hero: an issue line, a huge serif headline with one italic word, a short intro and a wide shop photo.",
+  "category": "hero",
+  "tags": ["bookshop", "editorial", "shop", "serif"],
+  "collection": "margin-books",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/margin-hero.jpg"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "hearth-wick-candles",
+  "name": "Hearth & Wick — Candle Maker",
+  "description": "A handmade candle studio with a tactile look: hero with scent of the month, candle shop with sizes and a basket, workshop booking, how they're made, reviews and footer.",
+  "brief": "a candle maker, soap maker, potter, ceramicist, jeweller, bookbinder or any small maker who sells online and runs workshops",
+  "theme": "tactile",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": [
+    "hearth-wick-hero",
+    "hearth-wick-candles",
+    "hearth-wick-workshops",
+    "hearth-wick-process",
+    "hearth-wick-reviews",
+    "hearth-wick-footer"
+  ],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/hearth-wick-candles.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/hearth-wick-candles-full.jpg"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "fizzwhip-parties",
+  "name": "Fizzwhip Kids' Parties",
+  "description": "Gelato-making parties for children: times, price per child, what's included and a button to check dates.",
+  "category": "events",
+  "tags": ["gelato", "parties", "kids", "events"],
+  "collection": "fizzwhip-gelato",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/fizzwhip-parties.jpg"
+  }
+}

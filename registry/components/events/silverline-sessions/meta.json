@@ -1,0 +1,19 @@
+{
+  "slug": "silverline-sessions",
+  "name": "Silverline Session Timetable",
+  "description": "Week of sessions filtered by type (family, disco 18+, lessons, adults), with spaces left, last-few warnings and sold-out states.",
+  "category": "events",
+  "tags": ["roller-rink", "timetable", "filter", "booking"],
+  "collection": "silverline-roller-rink",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/silverline-sessions.jpg"
+  }
+}

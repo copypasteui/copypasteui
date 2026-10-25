@@ -300,8 +300,8 @@ function loadThemes() {
             else if (!STYLE_OPTIONS[key]) fail(file, `style.${key} is not a style setting (use ${Object.keys(STYLE_OPTIONS).join(", ")})`);
             else if (!STYLE_OPTIONS[key].includes(value)) fail(file, `style.${key} must be one of ${STYLE_OPTIONS[key].join(", ")}`);
           }
-        if (t.style?.surface === "glass" && ["dots", "grid"].includes(t.style?.texture))
-          fail(file, "style: glass draws its own page background, so it can't be combined with the dots or grid texture");
+        if (["glass", "liquid"].includes(t.style?.surface) && ["dots", "grid"].includes(t.style?.texture))
+          fail(file, `style: ${t.style.surface} draws its own page background, so it can't be combined with the dots or grid texture`);
       }
       checkLicense(file, t.license);
       checkImages(file, t.images, "theme");
@@ -316,13 +316,15 @@ function loadThemes() {
 // `style.label` names the look ("Neo-brutalist", "Glass") for the Themes page filter. `headingWeight` and
 // `headingTracking` set every section's headings, e.g. medium and tightly spaced for a clean, modern grotesk.
 const STYLE_OPTIONS = {
-  shadow: ["soft", "hard", "clay", "neu", "none"],
+  shadow: ["soft", "hard", "clay", "neu", "tactile", "none"],
   border: ["0px", "1px", "2px", "3px"],
-  surface: ["solid", "glass"],
+  surface: ["solid", "glass", "liquid"],
   texture: ["none", "grain", "dots", "grid"],
   motion: ["none", "subtle", "lively"],
   headingWeight: ["default", "400", "500", "600", "700"],
   headingTracking: ["default", "tight", "tighter"],
+  headingSize: ["default", "large", "xl"],
+  buttons: ["default", "pill"],
 };
 const STYLE_DEFAULTS = {
   shadow: "soft",
@@ -332,9 +334,16 @@ const STYLE_DEFAULTS = {
   motion: "none",
   headingWeight: "default",
   headingTracking: "default",
+  headingSize: "default",
+  buttons: "default",
 };
 // Letter-spacing for big headings (h1, h2); smaller display text (h3, .font-display) gets half, so card titles stay readable.
 const HEADING_TRACKING = { tight: -0.03, tighter: -0.05 };
+// Oversized headings: h1 and h2 grow with the viewport, from a size that fits a 360px phone.
+const HEADING_SIZE = {
+  large: { h1: "clamp(2.5rem, 6vw, 5rem)", h2: "clamp(2rem, 4.2vw, 3.25rem)" },
+  xl: { h1: "clamp(2.75rem, 8.5vw, 7.5rem)", h2: "clamp(2.25rem, 5.5vw, 4.5rem)" },
+};
 const SHADOW_SIZES = ["2xs", "xs", "sm", "md", "lg", "xl", "2xl"];
 const SOFT_SHADOWS = {
   "2xs": "0 1px rgb(0 0 0 / 0.05)",
@@ -369,6 +378,9 @@ export function styleVars(t) {
         return `${o}px ${o}px ${o * 2}px color-mix(in srgb, var(--primary) 20%, transparent), inset -${i}px -${i}px ${i * 2}px var(--style-lowlight), inset ${i}px ${i}px ${i * 2}px var(--style-highlight)`;
       case "neu":
         return `${o}px ${o}px ${o * 2}px var(--style-lowlight), -${o}px -${o}px ${o * 2}px var(--style-highlight)`;
+      // Tactile: a lit top edge, a darker bottom edge and a short soft drop, like something you could press.
+      case "tactile":
+        return `inset 0 1px 0 var(--style-highlight), inset 0 -${Math.max(1, Math.round(o / 6))}px 0 var(--style-lowlight), 0 ${Math.max(1, Math.round(o / 3))}px ${o}px -${Math.round(o / 4)}px color-mix(in srgb, var(--foreground) 22%, transparent)`;
       case "none":
         return "0 0 #0000";
       default:
@@ -453,6 +465,23 @@ export function styleRules(t) {
   const rules = [];
   // Headings: weight and letter-spacing for every section. :not([data-keep-heading]) lifts these above a section's own
   // font-weight and tracking classes, and gives a section a way to opt one heading out.
+  if (s.headingSize !== "default")
+    rules.push(`/* Headings: ${s.headingSize === "xl" ? "extra large" : "large"}. Page and section headings only, not those inside cards, dialogs, navigation or footers. */
+:is(h1, h2):not([data-keep-heading]):not([class~="bg-card"] *, [role="dialog"] *, dialog *, nav *, header *, footer *) {
+  line-height: 1;
+  text-wrap: balance;
+}
+h1:not([data-keep-heading]):not([class~="bg-card"] *, [role="dialog"] *, dialog *, nav *, header *, footer *) {
+  font-size: ${HEADING_SIZE[s.headingSize].h1};
+}
+h2:not([data-keep-heading]):not([class~="bg-card"] *, [role="dialog"] *, dialog *, nav *, header *, footer *) {
+  font-size: ${HEADING_SIZE[s.headingSize].h2};
+}`);
+  if (s.buttons === "pill")
+    rules.push(`/* Pill buttons: padded, rounded links and buttons get fully round ends; cards keep the theme radius. */
+:is(a, button):is([class*="rounded"]):is([class^="px-"], [class*=" px-"], [class^="p-"], [class*=" p-"]):not([class*="rounded-none"]) {
+  border-radius: 999px;
+}`);
   if (s.headingWeight !== "default" || s.headingTracking !== "default") {
     const big = [];
     const small = [];
@@ -472,19 +501,21 @@ export function styleRules(t) {
   ${big.join("\n  ")}
 }`);
   }
-  if (s.shadow === "clay" || s.shadow === "neu")
-    rules.push(`/* ${s.shadow === "clay" ? "Clay" : "Neumorphic"} light: a highlight and a lowlight that suit each mode. */
+  if (s.shadow === "clay" || s.shadow === "neu" || s.shadow === "tactile") {
+    const [hi, lo, hiDark, loDark] = { clay: [0.6, 10, 0.1, 0.35], neu: [0.85, 16, 0.06, 0.5], tactile: [0.7, 12, 0.09, 0.45] }[s.shadow];
+    rules.push(`/* ${{ clay: "Clay", neu: "Neumorphic", tactile: "Tactile" }[s.shadow]} light: a highlight and a lowlight that suit each mode. */
 :root {
-  --style-highlight: rgb(255 255 255 / ${s.shadow === "clay" ? 0.6 : 0.85});
-  --style-lowlight: color-mix(in srgb, var(--foreground) ${s.shadow === "clay" ? 10 : 16}%, transparent);
+  --style-highlight: rgb(255 255 255 / ${hi});
+  --style-lowlight: color-mix(in srgb, var(--foreground) ${lo}%, transparent);
 }
 .dark {
-  --style-highlight: rgb(255 255 255 / ${s.shadow === "clay" ? 0.1 : 0.06});
-  --style-lowlight: rgb(0 0 0 / ${s.shadow === "clay" ? 0.35 : 0.5});
+  --style-highlight: rgb(255 255 255 / ${hiDark});
+  --style-lowlight: rgb(0 0 0 / ${loDark});
 }
 ${PANELS} {
   box-shadow: var(--shadow-${s.shadow === "clay" ? "lg" : "md"});
 }`);
+  }
   if (s.surface === "glass")
     rules.push(`/* Glass: page backgrounds pick up a wash of the theme colours, cards frost over it. */
 body,
@@ -503,6 +534,55 @@ body,
   background-color: color-mix(in srgb, var(--card) 76%, transparent);
   -webkit-backdrop-filter: blur(18px) saturate(1.4);
   backdrop-filter: blur(18px) saturate(1.4);
+}`);
+  if (s.surface === "liquid")
+    rules.push(`/* Liquid glass: a brighter wash of the theme colours behind clear, strongly blurred panels with a lit edge. */
+body,
+[class~="bg-background"],
+[class~="bg-secondary"],
+[class~="bg-muted"] {
+  background-image:
+    radial-gradient(60% 50% at 10% 5%, color-mix(in srgb, var(--primary) 26%, transparent), transparent 70%),
+    radial-gradient(50% 45% at 95% 25%, color-mix(in srgb, var(--accent) 45%, transparent), transparent 70%),
+    radial-gradient(55% 50% at 35% 100%, color-mix(in srgb, var(--primary) 16%, transparent), transparent 70%);
+  background-attachment: fixed;
+}
+[class~="bg-card"],
+[class^="bg-card/"],
+[class*=" bg-card/"] {
+  background-color: color-mix(in srgb, var(--card) 55%, transparent);
+  border-color: color-mix(in srgb, white 45%, transparent);
+  -webkit-backdrop-filter: blur(28px) saturate(1.8);
+  backdrop-filter: blur(28px) saturate(1.8);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, white 70%, transparent),
+    inset 0 0 0 1px color-mix(in srgb, white 22%, transparent),
+    var(--shadow-lg);
+}
+/* On a dark or coloured section, the glass is near solid: the dark showing through would turn it grey. */
+:is([class~="bg-foreground"], [class~="bg-primary"]) :is([class~="bg-card"], [class^="bg-card/"], [class*=" bg-card/"]) {
+  background-color: color-mix(in srgb, var(--card) 92%, transparent);
+}
+/* Dark mode: a fainter wash and denser glass, so muted text keeps its contrast on the panels. */
+.dark :is(body, [class~="bg-background"], [class~="bg-secondary"], [class~="bg-muted"]) {
+  background-image:
+    radial-gradient(60% 50% at 10% 5%, color-mix(in srgb, var(--primary) 12%, transparent), transparent 70%),
+    radial-gradient(50% 45% at 95% 25%, color-mix(in srgb, var(--accent) 24%, transparent), transparent 70%),
+    radial-gradient(55% 50% at 35% 100%, color-mix(in srgb, var(--primary) 8%, transparent), transparent 70%);
+}
+.dark :is([class~="bg-card"], [class^="bg-card/"], [class*=" bg-card/"]) {
+  background-color: color-mix(in srgb, var(--card) 72%, transparent);
+  border-color: color-mix(in srgb, white 12%, transparent);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, white 16%, transparent),
+    inset 0 0 0 1px color-mix(in srgb, white 6%, transparent),
+    var(--shadow-lg);
+}
+:is(a, button)[class~="bg-primary"] {
+  box-shadow: inset 0 1px 0 color-mix(in srgb, white 35%, transparent), var(--shadow-md);
+}
+.dark :is([class~="bg-foreground"], [class~="bg-primary"]) :is([class~="bg-card"], [class^="bg-card/"], [class*=" bg-card/"]) {
+  background-color: color-mix(in srgb, var(--card) 92%, transparent);
 }`);
   if (s.shadow === "hard")
     rules.push(`/* Hard shadows: padded, rounded panels and buttons get an outline and sit on an offset block. */

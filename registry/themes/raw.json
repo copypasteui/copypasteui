@@ -1,0 +1,57 @@
+{
+  "slug": "raw",
+  "name": "Raw",
+  "description": "Concrete grey, square corners, hairline rules and Space Mono text, with big Space Grotesk headings and one hit of signal orange. Anti-grid brutalism for studios, record shops and events.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0rem",
+  "style": {
+    "label": "Raw",
+    "shadow": "none",
+    "headingSize": "large",
+    "headingWeight": "500",
+    "headingTracking": "tighter"
+  },
+  "fonts": {
+    "sans": "'Space Mono', ui-monospace, monospace",
+    "display": "'Space Grotesk', ui-sans-serif, system-ui, sans-serif",
+    "googleFonts": ["Space+Grotesk:wght@500;700", "Space+Mono:wght@400;700"]
+  },
+  "light": {
+    "background": "#e6e5e0",
+    "foreground": "#111111",
+    "card": "#efeee9",
+    "card-foreground": "#111111",
+    "primary": "#111111",
+    "primary-foreground": "#e6e5e0",
+    "secondary": "#d9d8d2",
+    "secondary-foreground": "#111111",
+    "muted": "#dcdbd5",
+    "muted-foreground": "#4a4a46",
+    "accent": "#ff5a1f",
+    "accent-foreground": "#111111",
+    "border": "#111111",
+    "ring": "#ff5a1f"
+  },
+  "dark": {
+    "background": "#0d0d0d",
+    "foreground": "#e6e5e0",
+    "card": "#151515",
+    "card-foreground": "#e6e5e0",
+    "primary": "#e6e5e0",
+    "primary-foreground": "#0d0d0d",
+    "secondary": "#1c1c1c",
+    "secondary-foreground": "#e6e5e0",
+    "muted": "#181818",
+    "muted-foreground": "#a3a29c",
+    "accent": "#ff4a14",
+    "accent-foreground": "#0d0d0d",
+    "border": "#e6e5e0",
+    "ring": "#ff4a14"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/raw.jpg"
+  }
+}

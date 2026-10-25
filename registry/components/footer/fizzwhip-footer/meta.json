@@ -1,0 +1,19 @@
+{
+  "slug": "fizzwhip-footer",
+  "name": "Fizzwhip Footer",
+  "description": "Dark footer with a weekly flavour-board email signup, shop links and the address.",
+  "category": "footer",
+  "tags": ["gelato", "footer", "newsletter"],
+  "collection": "fizzwhip-gelato",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/fizzwhip-footer.jpg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "undercroft-listings",
+  "name": "Undercroft Film Listings",
+  "description": "Week of screenings in day tabs, each with time, year, running time, a tag such as 35mm or subtitled, and a booking link.",
+  "category": "events",
+  "tags": ["cinema", "listings", "tabs", "schedule"],
+  "collection": "undercroft-cinema",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/undercroft-listings.jpg"
+  }
+}

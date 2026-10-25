@@ -1,0 +1,20 @@
+{
+  "slug": "fizzwhip-hero",
+  "name": "Fizzwhip Gelato Hero",
+  "description": "Loud gelato parlour hero: a tilted flavour-count sticker, chunky headline, a round cone photo and springy price badges.",
+  "category": "hero",
+  "tags": ["gelato", "ice-cream", "cafe", "playful"],
+  "collection": "fizzwhip-gelato",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/fizzwhip-hero.jpg"
+  }
+}

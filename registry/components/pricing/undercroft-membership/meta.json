@@ -1,0 +1,17 @@
+{
+  "slug": "undercroft-membership",
+  "name": "Undercroft Tickets and Membership",
+  "description": "Ticket price and two yearly memberships in ruled columns, the middle one picked out in the accent colour.",
+  "category": "pricing",
+  "tags": ["cinema", "membership", "pricing"],
+  "collection": "undercroft-cinema",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {},
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/undercroft-membership.jpg"
+  }
+}

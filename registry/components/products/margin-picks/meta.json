@@ -1,0 +1,19 @@
+{
+  "slug": "margin-picks",
+  "name": "Margin Staff Picks",
+  "description": "Numbered staff picks in two ruled columns, each with author, price, a handwritten-style note, who picked it and a reserve link, filtered by shelf.",
+  "category": "products",
+  "tags": ["bookshop", "products", "editorial", "filter"],
+  "collection": "margin-books",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/margin-picks.jpg"
+  }
+}

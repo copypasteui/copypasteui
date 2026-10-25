@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-24",
+    "title": "Six themes in this year's styles, each with a template",
+    "body": "Six new themes go further than colours and fonts, and each comes with a full template built for it. Liquid puts clear, blurred panels with a lit edge over a wash of colour, the glass look iOS 26 brought in; Clearwell Opticians uses it. Dopamine is hot pink, yellow and mint with chunky headings, for Fizzwhip Gelato. Raw is concrete grey, square corners and monospace, for the Undercroft cinema. Chrome pairs silver and violet with wide headings, for the Silverline roller rink. Tactile adds grain and pressable panels, for Hearth & Wick candles. Masthead sets headings at magazine-cover size, for Margin Books. Any theme can now use liquid glass, a tactile shadow, pill buttons and larger headings.",
+    "links": [
+      {
+        "label": "Browse themes",
+        "href": "/themes"
+      }
+    ],
+    "themes": ["liquid", "dopamine", "raw", "chrome", "tactile", "masthead"],
+    "templates": [
+      "clearwell-opticians",
+      "fizzwhip-gelato",
+      "undercroft-cinema",
+      "silverline-roller-rink",
+      "hearth-wick-candles",
+      "margin-books"
+    ]
+  },
+  {
     "date": "2026-10-23",
     "title": "CopyPasteUI is live: free website templates for small businesses",
     "body": "48 complete websites, each written for one kind of business: a bakery, a barber, an MOT garage, a vet, a wedding venue, a law firm and more. Every template is a fictional business with its own theme, photos and six or seven sections. Pick one, add your business name, trade, town and contact details, and copy a single prompt into Lovable, Bolt, v0, ChatGPT, Replit, Claude or Gemini. The prompt carries the code, the theme and your details, so the builder starts from a finished design instead of a blank page. Use it for your own site or for paid client work. There's no account, no ads and no cookies.",

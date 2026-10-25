@@ -51,20 +51,22 @@ const themes = new Map(index.themes.map((t) => [t.slug, t]));
 const PALETTES = ["paper", "sunset", "ocean", "noir"];
 const VIEWPORTS = { phone: [360, 780], tablet: [768, 1024], desktop: [1280, 800] };
 const STYLE = [
-  { name: "shadow", values: ["soft", "hard", "clay", "neu", "none"] },
+  { name: "shadow", values: ["soft", "hard", "clay", "neu", "tactile", "none"] },
   { name: "border", values: ["0px", "1px", "2px", "3px"] },
-  { name: "surface", values: ["solid", "glass"] },
+  { name: "surface", values: ["solid", "glass", "liquid"] },
   { name: "texture", values: ["none", "grain", "dots", "grid"] },
   { name: "motion", values: ["none", "subtle", "lively"] },
   { name: "headingWeight", values: ["default", "400", "700"] },
   { name: "headingTracking", values: ["default", "tighter"] },
+  { name: "headingSize", values: ["default", "large", "xl"] },
+  { name: "buttons", values: ["default", "pill"] },
 ];
 const ENV = [
   { name: "mode", values: ["light", "dark"] },
   { name: "viewport", values: Object.keys(VIEWPORTS) },
 ];
 // The same rule the theme validator enforces.
-const allowed = (c) => !(c.surface === "glass" && (c.texture === "dots" || c.texture === "grid"));
+const allowed = (c) => !(["glass", "liquid"].includes(c.surface) && (c.texture === "dots" || c.texture === "grid"));
 
 const traits = sectionTraits();
 // Sections with the trait, richest first: one that also has other traits probes more per render.
@@ -119,8 +121,11 @@ const probe = (c) => {
     motion: c.motion,
     headingWeight: c.headingWeight,
     headingTracking: c.headingTracking,
+    headingSize: c.headingSize,
+    buttons: c.buttons,
   };
-  const theme = { style };
+  // A theme under test may leave settings out; those fall back to the defaults rather than to undefined.
+  const theme = { style: Object.fromEntries(Object.entries(style).filter(([, v]) => v !== undefined)) };
   return { vars: styleVars(theme), rules: styleRules(theme) };
 };
 
@@ -208,7 +213,7 @@ server.close();
 results.sort((a, b) => a.n - b.n);
 const failed = results.filter((r) => r.problems.length);
 const describe = (r) =>
-  `#${r.n} ${r.section} · ${r.palette} ${r.mode} · ${r.viewport} · shadow ${r.shadow}, border ${r.border}, ${r.surface}, texture ${r.texture}, motion ${r.motion}`;
+  `#${r.n} ${r.section} · ${r.palette} ${r.mode} · ${r.viewport} · shadow ${r.shadow}, border ${r.border}, ${r.surface}, texture ${r.texture}, motion ${r.motion}, headings ${r.headingSize}, buttons ${r.buttons}`;
 
 if (values.report) {
   const table = caseTable([...params, { name: "section" }], results, [

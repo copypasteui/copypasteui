@@ -15,8 +15,9 @@ const BUDGET = {
   pageJs: 215 * KB, // React + Next runtime is ~155 KB of this
   pageHtml: 90 * KB,
   // Mostly the offline registry snapshot, which grows with the library (~2 KB packed per section). Raised
-  // 2026-10-22 from 900 KB / 7 MB at 396 sections; raise again with the library, not for code.
-  mcpPacked: 1000 * KB,
+  // 2026-10-22 from 900 KB / 7 MB at 396 sections, and 2026-10-24 to 1100 KB at 435 sections and 54 templates;
+  // raise again with the library, not for code.
+  mcpPacked: 1100 * KB,
   mcpUnpacked: 8 * KB * KB,
 };
 

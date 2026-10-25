@@ -1,0 +1,20 @@
+{
+  "slug": "clearwell-book",
+  "name": "Clearwell Appointment Booking",
+  "description": "Appointment picker: choose the type, day and time, add name and mobile, and see a confirmation. Address, hours and phone beside it.",
+  "category": "contact",
+  "tags": ["optician", "booking", "form", "appointments"],
+  "collection": "clearwell-opticians",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/clearwell-book.jpg"
+  }
+}

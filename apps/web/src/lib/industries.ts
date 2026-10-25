@@ -13,12 +13,13 @@ export const industries: { id: string; name: string; blurb: string; slugs: strin
       "lockfast-brewery",
       "brinebank-kitchen",
       "larder-lane-bakery",
+      "fizzwhip-gelato",
     ],
   },
   {
     id: "stay",
     name: "Hospitality & travel",
-    blurb: "Hotels, resorts, cabins, tours and venues.",
+    blurb: "Hotels, resorts, cabins, tours, venues and cinemas.",
     slugs: [
       "solenne-hotel",
       "canopy-resort",
@@ -27,18 +28,27 @@ export const industries: { id: string; name: string; blurb: string; slugs: strin
       "wrenhollow-weddings",
       "poggio-lento-agriturismo",
       "crestline-guiding",
+      "undercroft-cinema",
     ],
   },
   {
     id: "shops",
     name: "Shops & farms",
-    blurb: "Boutiques, florists, record shops, beauty brands and farm shops.",
-    slugs: ["marlowe-boutique", "petal-florist", "florea-skincare", "hollow-creek-farm", "wax-cellar-records"],
+    blurb: "Boutiques, florists, bookshops, record shops, makers and farm shops.",
+    slugs: [
+      "marlowe-boutique",
+      "petal-florist",
+      "florea-skincare",
+      "hollow-creek-farm",
+      "wax-cellar-records",
+      "hearth-wick-candles",
+      "margin-books",
+    ],
   },
   {
     id: "health",
     name: "Health & beauty",
-    blurb: "Salons, barbers, spas, saunas, studios, gyms and clinics.",
+    blurb: "Salons, barbers, spas, studios, gyms, opticians and clinics.",
     slugs: [
       "verelle-salon",
       "flintmoor-barbers",
@@ -49,6 +59,7 @@ export const industries: { id: string; name: string; blurb: string; slugs: strin
       "motion-physio",
       "harbour-float-spa",
       "hush-hearing",
+      "clearwell-opticians",
     ],
   },
   {
@@ -66,8 +77,15 @@ export const industries: { id: string; name: string; blurb: string; slugs: strin
   {
     id: "community",
     name: "Family & community",
-    blurb: "Nurseries, vets, music schools, craft cafés and charities.",
-    slugs: ["acorns-nursery", "mossbrook-vets", "quavermoor-music", "common-ground-charity", "glaze-days-pottery"],
+    blurb: "Nurseries, vets, music schools, craft cafés, roller rinks and charities.",
+    slugs: [
+      "acorns-nursery",
+      "mossbrook-vets",
+      "quavermoor-music",
+      "common-ground-charity",
+      "glaze-days-pottery",
+      "silverline-roller-rink",
+    ],
   },
   { id: "tech", name: "Tech & startups", blurb: "AI products, SaaS and creative tools.", slugs: ["lumen-ai", "aether-ai", "prism-design"] },
 ];

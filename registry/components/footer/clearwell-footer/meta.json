@@ -1,0 +1,19 @@
+{
+  "slug": "clearwell-footer",
+  "name": "Clearwell Footer",
+  "description": "Opticians footer with address, phone and link columns for eye care, frames and the practice.",
+  "category": "footer",
+  "tags": ["optician", "footer"],
+  "collection": "clearwell-opticians",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/clearwell-footer.jpg"
+  }
+}

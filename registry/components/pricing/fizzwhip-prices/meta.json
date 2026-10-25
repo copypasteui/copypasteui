@@ -1,0 +1,20 @@
+{
+  "slug": "fizzwhip-prices",
+  "name": "Fizzwhip Cups and Tubs",
+  "description": "Scoop prices as a ruled list beside take-home tubs and a party box, each with an order-for-collection button.",
+  "category": "pricing",
+  "tags": ["gelato", "pricing", "takeaway"],
+  "collection": "fizzwhip-gelato",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/fizzwhip-prices.jpg"
+  }
+}

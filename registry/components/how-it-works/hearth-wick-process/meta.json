@@ -1,0 +1,19 @@
+{
+  "slug": "hearth-wick-process",
+  "name": "Hearth & Wick Process",
+  "description": "Four numbered steps from melting the wax to curing, beside a photo of the pour.",
+  "category": "how-it-works",
+  "tags": ["candles", "process", "steps", "maker"],
+  "collection": "hearth-wick-candles",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/hearth-wick-process.jpg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "silverline-parties",
+  "name": "Silverline Birthday Parties",
+  "description": "Party packages with a guest slider that recalculates each package's total, beside a skating photo.",
+  "category": "events",
+  "tags": ["roller-rink", "parties", "calculator", "kids"],
+  "collection": "silverline-roller-rink",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/silverline-parties.jpg"
+  }
+}

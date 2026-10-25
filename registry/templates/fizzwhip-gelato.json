@@ -1,0 +1,16 @@
+{
+  "slug": "fizzwhip-gelato",
+  "name": "Fizzwhip — Gelato Parlour",
+  "description": "A bright gelato parlour: sticker-covered hero, today's flavour board with vegan and nut-free filters, cups and tubs, kids' parties, visit details and footer.",
+  "brief": "an ice-cream or gelato shop, dessert parlour, bubble tea, sweet shop, juice bar or kids' café",
+  "theme": "dopamine",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["fizzwhip-hero", "fizzwhip-flavours", "fizzwhip-prices", "fizzwhip-parties", "fizzwhip-visit", "fizzwhip-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/fizzwhip-gelato.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/fizzwhip-gelato-full.jpg"
+  }
+}

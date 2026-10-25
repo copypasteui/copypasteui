@@ -54,13 +54,15 @@ export type ThemeItem = {
   radius: string;
   style: {
     label?: string;
-    shadow: "soft" | "hard" | "clay" | "neu" | "none";
+    shadow: "soft" | "hard" | "clay" | "neu" | "tactile" | "none";
     border: string;
-    surface: "solid" | "glass";
+    surface: "solid" | "glass" | "liquid";
     texture: "none" | "grain" | "dots" | "grid";
     motion: "none" | "subtle" | "lively";
     headingWeight: "default" | "400" | "500" | "600" | "700";
     headingTracking: "default" | "tight" | "tighter";
+    headingSize: "default" | "large" | "xl";
+    buttons: "default" | "pill";
   };
   styleVars: Record<string, string>;
   styleRules: string;

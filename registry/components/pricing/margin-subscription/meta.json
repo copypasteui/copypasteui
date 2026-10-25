@@ -1,0 +1,19 @@
+{
+  "slug": "margin-subscription",
+  "name": "Margin Book of the Month",
+  "description": "Three book subscriptions in a joined grid, with a gift toggle that switches monthly prices to six-month totals.",
+  "category": "pricing",
+  "tags": ["bookshop", "subscription", "pricing", "gift"],
+  "collection": "margin-books",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/margin-subscription.jpg"
+  }
+}

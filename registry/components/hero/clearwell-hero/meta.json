@@ -1,0 +1,20 @@
+{
+  "slug": "clearwell-hero",
+  "name": "Clearwell Opticians Hero",
+  "description": "Opticians hero with a tall portrait and a glass card of the next free eye-test slots, over the theme's colour wash.",
+  "category": "hero",
+  "tags": ["optician", "health", "booking", "glass"],
+  "collection": "clearwell-opticians",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/clearwell-hero.jpg"
+  }
+}

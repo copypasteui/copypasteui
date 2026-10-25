@@ -1,0 +1,16 @@
+{
+  "slug": "undercroft-cinema",
+  "name": "Undercroft — Independent Cinema",
+  "description": "A 62-seat basement cinema in raw brutalist style: split hero with tonight's films, weekly listings in tabs, tickets and membership, private hire, visiting FAQ and footer.",
+  "brief": "an independent cinema, comedy club, small theatre, gig venue, gallery or arts centre",
+  "theme": "raw",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "sections": ["undercroft-hero", "undercroft-listings", "undercroft-membership", "undercroft-hire", "undercroft-faq", "undercroft-footer"],
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/templates/undercroft-cinema.jpg",
+    "fullPage": "https://cdn.copypasteui.dev/thumbs/templates/undercroft-cinema-full.jpg"
+  }
+}

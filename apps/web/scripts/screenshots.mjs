@@ -96,7 +96,9 @@ async function shoot(browser, job) {
   const context = await browser.newContext({
     viewport: { width: job.width, height: job.height },
     deviceScaleFactor: job.scale ?? 1,
-    reducedMotion: "no-preference",
+    // Full-page shots ask for reduced motion: a theme's scroll motion starts below-the-fold content hidden until it
+    // scrolls into view, and the capture never scrolls it in, so those sections would come out blank.
+    reducedMotion: job.full ? "reduce" : "no-preference",
   });
   const page = await context.newPage();
   // Any uncaught error while rendering fails the job, so this doubles as a render test.

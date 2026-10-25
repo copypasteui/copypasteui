@@ -1,0 +1,20 @@
+{
+  "slug": "undercroft-hero",
+  "name": "Undercroft Cinema Hero",
+  "description": "Brutalist cinema hero split by hairlines: a huge headline, ticket prices, a black-and-white auditorium photo and tonight's three films.",
+  "category": "hero",
+  "tags": ["cinema", "brutalist", "events", "listings"],
+  "collection": "undercroft-cinema",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/undercroft-hero.jpg"
+  }
+}

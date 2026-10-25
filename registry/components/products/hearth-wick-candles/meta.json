@@ -1,0 +1,20 @@
+{
+  "slug": "hearth-wick-candles",
+  "name": "Hearth & Wick Candle Shop",
+  "description": "Four scents with notes, a size picker that reprices every card, add-to-basket buttons and a basket count.",
+  "category": "products",
+  "tags": ["candles", "shop", "products", "basket"],
+  "collection": "hearth-wick-candles",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/hearth-wick-candles.jpg"
+  }
+}

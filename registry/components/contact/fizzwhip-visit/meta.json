@@ -1,0 +1,19 @@
+{
+  "slug": "fizzwhip-visit",
+  "name": "Fizzwhip Visit",
+  "description": "Address, phone and opening hours in a card beside a photo of the shop front, with directions from the tram.",
+  "category": "contact",
+  "tags": ["gelato", "contact", "hours", "location"],
+  "collection": "fizzwhip-gelato",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/fizzwhip-visit.jpg"
+  }
+}

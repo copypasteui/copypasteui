@@ -1,0 +1,20 @@
+{
+  "slug": "undercroft-faq",
+  "name": "Undercroft Visiting FAQ",
+  "description": "Address and phone beside an accordion of visiting questions: step-free access, drinks, latecomers, subtitles and relaxed screenings.",
+  "category": "faq",
+  "tags": ["cinema", "faq", "accessibility", "accordion"],
+  "collection": "undercroft-cinema",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "dependencies": {
+    "lucide-react": ">=0.400.0",
+    "motion": ">=12.0.0"
+  },
+  "createdAt": "2026-10-24",
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/components/undercroft-faq.jpg"
+  }
+}

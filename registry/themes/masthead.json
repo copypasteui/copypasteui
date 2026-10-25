@@ -1,0 +1,58 @@
+{
+  "slug": "masthead",
+  "name": "Masthead",
+  "description": "Near-white and ink with an acid-lime highlight, and Instrument Serif headings set extra large like a magazine cover. Oversized type for restaurants, architects, galleries and portfolios.",
+  "author": {
+    "name": "CopyPasteUI",
+    "github": "copypasteui"
+  },
+  "radius": "0.5rem",
+  "style": {
+    "label": "Oversized type",
+    "headingSize": "xl",
+    "headingWeight": "400",
+    "headingTracking": "tight",
+    "shadow": "none",
+    "motion": "subtle"
+  },
+  "fonts": {
+    "sans": "'Inter Tight', ui-sans-serif, system-ui, sans-serif",
+    "display": "'Instrument Serif', ui-serif, Georgia, serif",
+    "googleFonts": ["Instrument+Serif:ital@0;1", "Inter+Tight:wght@400;500;600"]
+  },
+  "light": {
+    "background": "#fafaf7",
+    "foreground": "#0f0f0f",
+    "card": "#ffffff",
+    "card-foreground": "#0f0f0f",
+    "primary": "#0f0f0f",
+    "primary-foreground": "#fafaf7",
+    "secondary": "#efefea",
+    "secondary-foreground": "#0f0f0f",
+    "muted": "#f0f0eb",
+    "muted-foreground": "#55554f",
+    "accent": "#e4ff3a",
+    "accent-foreground": "#0f0f0f",
+    "border": "#e2e2dc",
+    "ring": "#0f0f0f"
+  },
+  "dark": {
+    "background": "#0b0b0a",
+    "foreground": "#f4f4ef",
+    "card": "#141413",
+    "card-foreground": "#f4f4ef",
+    "primary": "#f4f4ef",
+    "primary-foreground": "#0b0b0a",
+    "secondary": "#1a1a18",
+    "secondary-foreground": "#f4f4ef",
+    "muted": "#171716",
+    "muted-foreground": "#a5a59d",
+    "accent": "#d4f53c",
+    "accent-foreground": "#0b0b0a",
+    "border": "#262624",
+    "ring": "#f4f4ef"
+  },
+  "images": {
+    "thumbnail": "https://cdn.copypasteui.dev/thumbs/themes/masthead.jpg"
+  }
+}
