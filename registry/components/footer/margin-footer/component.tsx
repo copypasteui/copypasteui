@@ -8,7 +8,7 @@ export default function MarginFooter() {
     <footer className="border-t border-border bg-background font-sans text-foreground">
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid gap-10 md:grid-cols-[2fr_1fr_1fr]">
-          <div>
+          <div className="min-w-0">
             <p className="font-display text-5xl italic">Margin</p>
             <p className="mt-4 max-w-sm text-sm">
               The Sunday letter: five books we couldn&apos;t stop talking about, and the week&apos;s events.

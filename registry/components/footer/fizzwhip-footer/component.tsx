@@ -9,7 +9,7 @@ export default function FizzwhipFooter() {
     <footer className="bg-foreground font-sans text-background">
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
-          <div>
+          <div className="min-w-0">
             <p className="flex items-center gap-2 font-display text-3xl">
               <Snowflake className="size-7" aria-hidden /> fizzwhip
             </p>
