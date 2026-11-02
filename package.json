@@ -44,7 +44,7 @@
     "@types/react-18": "npm:@types/react@^18.3.31",
     "axe-core": "^4.14.0",
     "eslint": "^9.39.5",
-    "eslint-config-next": "^16.4.2",
+    "eslint-config-next": "^16.4.3",
     "globals": "^16.4.0",
     "lint-staged": "^16.4.0",
     "prettier": "^3.9.10",
